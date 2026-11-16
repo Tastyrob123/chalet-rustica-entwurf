@@ -1,0 +1,62 @@
+[
+ [
+  "01",
+  "01-anfrage",
+  "Ihre Anfrage ist da",
+  "Kommt gleich nach einer Anfrage über die Seite: welche Tage und welche Wohnung angefragt sind, was inbegriffen ist, und dass sich die Familie persönlich meldet."
+ ],
+ [
+  "02",
+  "02-frei",
+  "Ihre Wohnung ist frei",
+  "Antwort auf eine Anfrage: Die gewünschte Wohnung ist frei, mit allem, was in ihr steht, und wie es weitergeht."
+ ],
+ [
+  "03",
+  "03-andere-wohnung",
+  "Eine andere Wohnung ist frei",
+  "Antwort, wenn die gewünschte Wohnung belegt ist: welche Wohnung für dieselben Tage frei ist und was sie bietet."
+ ],
+ [
+  "04",
+  "04-anreise",
+  "Vor Ihrer Anreise",
+  "Kommt eine Woche vor der Anreise: der Weg mit Zug, Bus oder Auto, was inbegriffen ist, die Waschküche und die Hausregeln."
+ ],
+ [
+  "05",
+  "05-willkommen",
+  "Willkommen in Ihrer Wohnung",
+  "Liegt am Anreisetag im Postfach: was in der Wohnung steht und was rund ums Haus zu Fuss erreichbar ist."
+ ],
+ [
+  "06",
+  "06-massage",
+  "Eine Massage bei Heidi",
+  "Lädt die Gäste zu einer Massage bei Heidi ein: wer sie ist, wo ihre Praxis liegt und wie man einen Termin anfragt."
+ ],
+ [
+  "07",
+  "07-danke",
+  "Danke für Ihren Besuch",
+  "Kommt am Tag nach der Abreise: ein Dank aus dem Haus und die Einladung, einfach zu antworten."
+ ],
+ [
+  "08",
+  "08-winter",
+  "Wiederkommen im Winter",
+  "An frühere Gäste vor dem Winter: das Skigebiet, die Loipe und der Schlittelweg, alles nah am Haus."
+ ],
+ [
+  "09",
+  "09-sommer",
+  "Wiederkommen im Sommer",
+  "An frühere Gäste vor dem Sommer: die Wege in die Seitentäler, der Stausee Mattmark und der Lärchenwald."
+ ],
+ [
+  "10",
+  "10-familie",
+  "Ferien mit Kindern",
+  "Antwort auf eine Anfrage einer Familie: die Wohnung mit Platz für fünf, Spielplätze, Minigolf und Eisbahn in der Nähe."
+ ]
+]
