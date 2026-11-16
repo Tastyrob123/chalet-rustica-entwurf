@@ -1,0 +1,134 @@
+[
+ {
+  "name": "Putz",
+  "hex": "#F4EEE3",
+  "rgb": [
+   244,
+   238,
+   227
+  ],
+  "rolle": "Grund der hellen Seiten, warm, nie reines Weiss",
+  "gruppe": "raum",
+  "woher": "Wert der Website (rustica.css, --putz)"
+ },
+ {
+  "name": "Papier",
+  "hex": "#FBF7EF",
+  "rgb": [
+   251,
+   247,
+   239
+  ],
+  "rolle": "helle Fläche auf Putz: Blätter, Tafeln, Formulare",
+  "gruppe": "raum",
+  "woher": "Wert der Website (rustica.css, --papier)"
+ },
+ {
+  "name": "Creme",
+  "hex": "#EFE6D6",
+  "rgb": [
+   239,
+   230,
+   214
+  ],
+  "rolle": "ruhige Fläche und Schrift auf dunklem Holz",
+  "gruppe": "raum",
+  "woher": "Wert der Website (rustica.css, --creme)"
+ },
+ {
+  "name": "Holz",
+  "hex": "#5A4632",
+  "rgb": [
+   90,
+   70,
+   50
+  ],
+  "rolle": "das Balkonholz: Name, Betonung im Titel, Linie auf Hell",
+  "gruppe": "holz",
+  "woher": "Wert der Website (rustica.css, --holz)"
+ },
+ {
+  "name": "Holz 2",
+  "hex": "#4A3926",
+  "rgb": [
+   74,
+   57,
+   38
+  ],
+  "rolle": "zweite dunkle Fläche, Platte auf Holz",
+  "gruppe": "holz",
+  "woher": "Wert der Website (rustica.css, --holz2)"
+ },
+ {
+  "name": "Tief",
+  "hex": "#33261C",
+  "rgb": [
+   51,
+   38,
+   28
+  ],
+  "rolle": "dunkle Fläche: Fuss, Anfrage, Kopf der Werkzeuge",
+  "gruppe": "holz",
+  "woher": "Wert der Website (rustica.css, --tief)"
+ },
+ {
+  "name": "Nacht",
+  "hex": "#271D16",
+  "rgb": [
+   39,
+   29,
+   22
+  ],
+  "rolle": "das Dunkelste, für Winterabschnitte und unter Fotos",
+  "gruppe": "holz",
+  "woher": "Wert der Website (rustica.css, --nacht)"
+ },
+ {
+  "name": "Tinte",
+  "hex": "#3A2E22",
+  "rgb": [
+   58,
+   46,
+   34
+  ],
+  "rolle": "Titel und Lesetext auf Hell, nie reines Schwarz",
+  "gruppe": "schrift",
+  "woher": "Wert der Website (rustica.css, --tinte)"
+ },
+ {
+  "name": "Leise",
+  "hex": "#76654F",
+  "rgb": [
+   118,
+   101,
+   79
+  ],
+  "rolle": "kleine Zeilen, Pfade und Nebentext",
+  "gruppe": "schrift",
+  "woher": "Wert der Website (rustica.css, --leise)"
+ },
+ {
+  "name": "Stroh",
+  "hex": "#D9BF8F",
+  "rgb": [
+   217,
+   191,
+   143
+  ],
+  "rolle": "Akzent auf Dunkel: Linie, kleine Zeile, das Zeichen",
+  "gruppe": "akzent",
+  "woher": "Wert der Website (rustica.css, --stroh)"
+ },
+ {
+  "name": "Gold",
+  "hex": "#A9865A",
+  "rgb": [
+   169,
+   134,
+   90
+  ],
+  "rolle": "Akzent auf Hell: Linie und kleine Auszeichnung",
+  "gruppe": "akzent",
+  "woher": "Wert der Website (rustica.css, --gold)"
+ }
+]

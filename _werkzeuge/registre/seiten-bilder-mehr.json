@@ -1,0 +1,58 @@
+{
+ "wohnung-almagellerhorn.html": [
+  "assets/img/n1-sued-s.webp",
+  "assets/img/n1-nord-s.webp",
+  "assets/img/n1-kueche-s.webp",
+  "assets/img/n1-bad-s.webp"
+ ],
+ "wohnung-portjengrat.html": [
+  "assets/img/n2-wohn-s.webp",
+  "assets/img/n2-balkon-s.webp",
+  "assets/img/n2-kueche-s.webp",
+  "assets/img/n2-bad-s.webp"
+ ],
+ "wohnung-weissmies.html": [
+  "assets/img/n5-wohn2-s.webp",
+  "assets/img/n5-bett-s.webp",
+  "assets/img/n5-zimmer2-s.webp",
+  "assets/img/n5-bad-s.webp"
+ ],
+ "index.html": [
+  "assets/img/haus-berg-s.webp",
+  "assets/img/haus-sommer-s.webp",
+  "assets/img/panorama-s.webp",
+  "assets/img/weiler-s.webp",
+  "assets/img/piste-s.webp",
+  "assets/img/ziegen-s.webp",
+  "assets/img/laerchen-s.webp",
+  "assets/img/wald-s.webp",
+  "assets/img/dorf-s.webp"
+ ],
+ "haus.html": [
+  "assets/img/sommer-hoch-s.webp",
+  "assets/img/winter-quer-s.webp"
+ ],
+ "saas-almagell.html": [
+  "assets/img/hoehenweg-s.webp",
+  "assets/img/klettersteig-s.webp",
+  "assets/img/klettergarten-s.webp",
+  "assets/img/skifahren-s.webp",
+  "assets/img/schneeschuh-s.webp",
+  "assets/img/langlauf-s.webp",
+  "assets/img/schlitteln-s.webp",
+  "assets/img/gletscher-s.webp"
+ ],
+ "wohnungen.html": [
+  "assets/img/n1-kueche-s.webp",
+  "assets/img/n2-balkon-s.webp",
+  "assets/img/n5-wohn2-s.webp",
+  "assets/img/n1-sued-s.webp",
+  "assets/img/n1-nord-s.webp",
+  "assets/img/n1-bad-s.webp",
+  "assets/img/n2-wohn-s.webp",
+  "assets/img/n2-kueche-s.webp",
+  "assets/img/n2-bad-s.webp",
+  "assets/img/n5-bett-s.webp",
+  "assets/img/n5-zimmer2-s.webp"
+ ]
+}

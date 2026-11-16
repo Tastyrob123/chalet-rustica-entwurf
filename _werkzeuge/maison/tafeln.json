@@ -1,0 +1,33 @@
+{
+ "_hinweis": "Knopf-Namen der Tafeln «So geht’s» je Werkzeug des Chalets, aus dem Code der Werkzeuge gelesen (M20, 09.11.2026). bau.py prüft jeden «Namen» gegen den Code des Werkzeugs und meldet, was fehlt.",
+ "bureau": [
+  ["stift", "Text oder Foto ändern", "Den Bereich wählen, in der Vorschau auf den Text oder das Foto klicken und ändern, oder «Eigenes Foto hochladen». «Speichern» legt es in den Entwurf."],
+  ["uhr", "Wohnungen und Hinweise", "Was zu den drei Wohnungen gehört und was für alle Gäste gilt, steht je an einer Stelle. Einmal ändern, jede Seite der Website folgt."],
+  ["waage", "Erst ansehen, dann online", "«Vorher, nachher» zeigt beide Stände nebeneinander, «Veröffentlichen» stellt sie auf die Website. Unter «Frühere Fassungen» lässt sich jeder Stand mit «Zurückholen» wieder holen."]
+ ],
+ "carte": [
+  ["stift", "Ein Blatt der Mappe", "Die Wohnung wählen und die Zeilen überschreiben: Lage, Ausstattung, Zahlen. Daneben steht sofort das Blatt, wie es in der Wohnung liegt."],
+  ["pdf", "Erst ansehen", "«Probe-PDF» zeigt die Mappe genau so, wie sie in der Wohnung liegt. «Vorher, nachher» vergleicht mit dem letzten Stand."],
+  ["zurueck", "Speichern und zeigen", "«Speichern» legt den Entwurf ab, «Veröffentlichen» setzt die PDF neu. Unter «Frühere Fassungen» liegt jede frühere Mappe bereit."]
+ ],
+ "imprimerie": [
+  ["satz", "Den Anlass wählen", "Willkommen in der Wohnung, Hausregeln, Waschküche, Anreise oder eine Postkarte aus dem Tal: den Anlass wählen; mit «Neu erstellen» beginnt ein eigenes Blatt."],
+  ["fuenf", "Fünf Vorschläge", "Oben eintragen, was entstehen soll, und «Fünf Entwürfe» wählen: fünf Vorschläge in Holz, Putz und Stroh, mit dem gotischen R, den Schriften und den Fotos des Chalets."],
+  ["druck", "Drucken", "«Druckfertig speichern» legt das Blatt als PDF für die Wohnung oder die Druckerei ab, dazu Bilder für Beiträge."]
+ ],
+ "reception": [
+  ["blase", "Gäste fragen im Chat", "Auf jeder Seite der Website können Gäste fragen. Mit «Chat ausprobieren» sehen Sie, was der Chat antwortet, wenn ein Gast nach den Wohnungen, dem Inbegriffenen oder der Anreise fragt."],
+  ["eingang", "Anfragen beantworten", "Im «Eingang» steht jede Anfrage mit einem Brief im Ton von Heidi und Damian. «Text kopieren» oder «Als PDF speichern»: verschickt wird nur, was Sie selbst schicken."],
+  ["liste", "Lücken schliessen", "Wusste der Chat etwas nicht, steht die Frage offen. Mit «Antwort nachtragen» ergänzen Sie es einmal; unter «Das weiss der Chat» sehen Sie, woraus er antwortet."]
+ ],
+ "livre": [
+  ["foto", "Ein Foto holen", "Unter «Fotos» ein Foto anklicken und die Grösse wählen: für Instagram, die Website oder den Druck."],
+  ["datei", "Das Zeichen weitergeben", "Unter «Zeichen & Dateien» liegen das gotische R, die Farben und Schriften bereit; «Alle Dateien (ZIP)» gibt alles auf einmal, für Druckerei oder Agentur."],
+  ["farbe", "Einen Entwurf prüfen", "In der «Markenprüfung» einen Prospekt oder eine Anzeige hineinziehen. Sie sagt Punkt für Punkt, was zum Haus passt."]
+ ],
+ "registre": [
+  ["karte", "Woher die Gäste kommen", "Unter «Herkunft» Länder und Orte der Besuche, ohne Cookies und nie mit Namen."],
+  ["liste", "Was sie sich ansehen", "Unter «Seiten» steht, welche Wohnung und welche Seiten gefragt sind und wie lange die Gäste bleiben."],
+  ["uhr", "Weiter zur Anfrage", "Hier steht, wie oft ein Besuch weiter zur Anfrage führt, per Telefon oder E-Mail; «Als Tabelle sichern» gibt die Zahlen mit."]
+ ]
+}

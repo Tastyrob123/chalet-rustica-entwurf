@@ -1,0 +1,28 @@
+{
+ "zeit": "2026-11-09T08:40:00+01:00",
+ "art": "wohnung",
+ "name": "Ursula Bänziger",
+ "kontakt": "ursula.baenziger@example.com",
+ "datum": "26.12.2026 bis 02.01.2027",
+ "personen": 4,
+ "anliegen": "Wohnung Almagellerhorn über Neujahr, zwei Erwachsene und zwei Kinder (6 und 9 Jahre alt).",
+ "sprache": "de",
+ "gespraech": "beispiel-1",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Wohnung Almagellerhorn): Ihr Anliegen: Wohnung Almagellerhorn\nAnkunft: 26.12.2026\nAbreise: 02.01.2027\nErwachsene: 2\nKinder (bis 10 J.): 2\nWünsche: Unsere Kinder sind 6 und 9 Jahre alt und freuen sich auf den Schnee. Gibt es in der Nähe etwas für Kinder?"
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+ "abteilung": "Wohnungen",
+ "seite": "/wohnung-almagellerhorn.html",
+ "seite_name": "Wohnung Almagellerhorn",
+ "web": true,
+ "nachricht": "Ihr Anliegen: Wohnung Almagellerhorn\nAnkunft: 26.12.2026\nAbreise: 02.01.2027\nErwachsene: 2\nKinder (bis 10 J.): 2\nWünsche: Unsere Kinder sind 6 und 9 Jahre alt und freuen sich auf den Schnee. Gibt es in der Nähe etwas für Kinder?",
+ "formular": "wohnung",
+ "platz": "Wohnung Almagellerhorn",
+ "entwurf": null
+}

@@ -1,0 +1,214 @@
+/* kleid/rustica.css · Chalet Rustica Saas-Almagell, Ferienwohnungen der Familie Andenmatten-Zurbriggen · Holz, Putz, Stroh (Die Stube, 09.11.2026).
+   Werte aus der gebauten Website des Chalets (website/assets/css/rustica.css › :root), Aufbau und Bausteine wie das Kleid des Schwesterhauses:
+   Holz tief #33261C / Holz #5A4632 / Holz 2 #4A3926 / Nacht #271D16 als dunkle Fläche (Kopf, Startbild, dunkle Tafeln);
+   Putz #F4EEE3, Papier #FBF7EF, Creme #EFE6D6 als Raum; Stroh #D9BF8F (hell #E6D2A8) und Gold #A9865A als Akzent (Haarlinie, Etikett, Knauf, Hauptknopf).
+   Auf hellem Grund ist die Betonung «Gold tief» #7A5A30 (5,5:1 auf Putz), Lauftext Tinte #3A2E22, leise Zeilen #76654F (4,9:1). Kein Pink, nie Weiss auf Weiss.
+   Schrift wie die Website: Titel Fraunces Regular 400 (Betonung über die Farbe, nie fett, nie kursiv), Lauf Instrument Sans 400, kleine Zeilen DM Mono gesperrt;
+   der Hausname, wo er als Schrift steht, in Grenze Gotisch 500 (Klasse .wo-hausname, nur der Name). Zeichen: das gotische R (rustica-zeichen.svg, rustica-marke.svg#wm).
+   Tapete: das R der Website als leises Muster (website/assets/zeichen/tapete-*.svg, hier als gerechnetes Bild rustica-tapete-*.webp neben dieser Datei,
+   relativ eingebunden: so stimmt der Weg unter jedem Werkzeug-Server wie unter localhost:8978/haus/…). Form: runde Ecken wie die Website (r1 22 px, r2 14 px),
+   ruhige Platten mit Stroh-Haarlinie innen und weichem Schatten, Knöpfe rund mit Pfeil-Knauf (wie die Knöpfe der Website). Rahmen: Die Bühne. */
+@font-face{font-family:'Fraunces';font-weight:400;font-display:swap;src:url('../../fonts/Fraunces-latin-var.woff2') format('woff2')}
+@font-face{font-family:'Fraunces';font-weight:500;font-display:swap;src:url('../../fonts/Fraunces-latin-var.woff2') format('woff2')}
+@font-face{font-family:'Grenze Gotisch';font-weight:100 900;font-display:swap;src:url('../../fonts/GrenzeGotisch-latin-var.woff2') format('woff2')}
+@font-face{font-family:'Instrument Sans';font-weight:400 600;font-display:swap;src:url('../../fonts/InstrumentSans-normal-400_600.woff2') format('woff2')}
+@font-face{font-family:'DM Mono';font-weight:400;font-display:swap;src:url('../../fonts/DMMono-normal-400.woff2') format('woff2')}
+:root{
+  --wo-sans:'Instrument Sans','Helvetica Neue',Arial,system-ui,sans-serif; --wo-mono:'DM Mono',ui-monospace,Menlo,monospace;
+  --wo-etikett:'DM Mono',ui-monospace,Menlo,monospace; --wo-marke:'Grenze Gotisch',Georgia,serif;
+  --wo-e1:cubic-bezier(.16,1,.3,1); --wo-e2:cubic-bezier(.32,.72,0,1);
+  /* Holz: dunkle Flächen (Namen --wo-nacht… bleiben, weil der Stamm sie so nennt) */
+  --wo-nacht:#33261C; --wo-nacht2:#4A3926; --wo-tief:#271D16; --wo-holz:#5A4632;
+  /* Stroh: g1 Glanz, g2 hell, g3 Stroh, g4 Gold dunkel (Verlauf des Hauptknopfs und der Knäufe) */
+  --wo-g1:#F1E4C8; --wo-g2:#E6D2A8; --wo-g3:#D9BF8F; --wo-g4:#BFA06C;
+  /* Akzent: auf Holz Stroh, auf Putz Gold tief; Signalfarbe gibt es keine.
+     Die Namen --wo-kerze/--wo-rot/--wo-loft/--wo-dc/--wo-dj bleiben für die Werkzeuge des Stamms, tragen hier aber nur Stroh bzw. Holz tief. */
+  --wo-gold:#D9BF8F; --wo-akzent:#7A5A30; --wo-kerze:#D9BF8F; --wo-rot:#D9BF8F; --wo-loft:#33261C; --wo-dc:#33261C; --wo-dj:#33261C;
+  /* Raum: Putz, Creme, Papier */
+  --wo-papier:#F4EEE3; --wo-papier2:#EFE6D6; --wo-schnee:#F6F0E4; --wo-blatt:#FBF7EF; --wo-weiss:#FFFCF6;
+  --wo-tinte:#3A2E22; --wo-leise:#76654F; --wo-linie:rgba(90,70,50,.18); --wo-linie-d:rgba(217,191,143,.32);
+  --wo-punkt:#D9BF8F; --wo-gut:#4F7A5C;
+  --wo-titel:'Fraunces','Instrument Sans',Georgia,serif; --wo-titel-g:400; --wo-titel-ls:-.006em;
+  --wo-r1:22px; --wo-r2:14px; --wo-r3:14px; --wo-rk:999px;
+  --wo-tapete:#271D16;
+  --wo-tapete-fein:var(--wo-tapete);
+}
+/* Der Hausname als Schrift (wo ein Werkzeug den Namen setzt): Grenze Gotisch 500 wie «Chalet Rustica» in der Leiste der Website, sonst nirgends */
+.wo-hausname{font-family:var(--wo-marke);font-weight:500;font-style:normal;letter-spacing:.01em;text-transform:none}
+
+/* Tapete auf den grossen dunklen Flächen: das R der Website als leises Muster (5 % Stroh), über der Farbe, die vorher die Abdunklung ergab.
+   Der Kopf bleibt glatt: dort steht das R als Zeichen und soll allein stehen. */
+.wo-kopf::after{background:#2C2119;opacity:1}
+.wo-sb::after{background:#281E17 url('rustica-tapete-dunkel.webp') 0 0/240px 240px;opacity:1}
+.wo-sb__text::after{background:#2A1F18 url('rustica-tapete-dunkel.webp') 0 0/240px 240px;opacity:1}
+.wo-det__kopf::after{background:#291E17 url('rustica-tapete-dunkel.webp') 0 0/240px 240px;opacity:1}
+.wo-bl__band::after{background:#2A1F18 url('rustica-tapete-dunkel.webp') 0 0/240px 240px;opacity:1}
+
+
+/* ================= Titel und Etiketten ================= */
+/* Titel in Fraunces Regular wie die Website (.titel 400, -0,012 em); Betonung über die Farbe (auf Putz Gold tief, auf Holz Stroh), nie fett, nie kursiv */
+.wo-sb__h{font-family:var(--wo-titel);font-weight:400;letter-spacing:-.012em}
+.wo-zw{font-family:var(--wo-titel);font-weight:400;letter-spacing:-.006em}
+.wo-zw em{font-style:normal;color:var(--wo-akzent)}
+/* Fehlerbuch 10a: auf dunkler Fläche ist jede Titelzeile hell, die Betonung Stroh */
+.wo-sb .wo-sb__h em,[data-wo-rahmen] .wo-sb .wo-sb__h em,#ansicht .wo-sb .wo-sb__h em,body .wo-sb .wo-sb__h em{font-style:normal;color:var(--wo-gold);font-weight:inherit}
+/* Frühere Klasse des Stamms für Menüzeilen: hier als Etikett (DM Mono, gesperrt, Versalien) */
+.wo-rudi{font-family:var(--wo-etikett);font-weight:400;text-transform:uppercase;letter-spacing:.12em}
+/* Etiketten in DM Mono gesperrt wie die Website, Zahlen mit gleich breiten Ziffern */
+.wo-bk__t small,.wo-mk,.wo-sb__zier span{font-family:var(--wo-etikett);font-weight:400;letter-spacing:.18em}
+.wo-zahl{font-family:var(--wo-mono);font-variant-numeric:tabular-nums lining-nums}
+
+/* ================= Platten ================= */
+/* Ruhige Platten: Stroh-Haarlinie innen, weicher Schatten (Ecken 22 px, Kacheln 14 px) */
+.wo-lage,.wo-ag,.wo-det__kopf{box-shadow:inset 0 0 0 1px rgba(217,191,143,.42),0 18px 40px -26px rgba(39,29,22,.45)}
+[data-wo-rahmen="buehne"] .wo-kopf{border-bottom:1px solid rgba(217,191,143,.30)}
+/* Die Bühne: eine Stroh-Haarlinie innen, ein schmaler Rand in Nacht, weicher Schatten */
+[data-wo-rahmen="buehne"] .wo-sb{border-bottom:0;box-shadow:inset 0 0 0 1px rgba(217,191,143,.55),inset 0 0 0 6px #271D16,0 40px 60px -40px rgba(39,29,22,.8)}
+/* Über den Abschnittstiteln: eine kurze Stroh-Haarlinie, sonst kein Schmuck */
+.wo-zw::before{content:'';display:block;width:56px;height:1px;margin-bottom:14px;background:var(--wo-gold)}
+.cu-x{font-family:var(--wo-titel);font-style:normal;font-weight:400;letter-spacing:0;text-transform:none;color:var(--wo-gold)}
+/* Foto des Startbilds: unten leicht ins Holz */
+.wo-sb__foto::after{background:linear-gradient(0deg,rgba(39,29,22,.55),transparent 55%)}
+.wo-lg__z,.wo-ag__z{border-radius:50%}
+.wo-bk__t small,.wo-mk{color:var(--wo-akzent)}
+.wo-re.wo-an,.wo-re[aria-current="true"],.wo-re[aria-current="page"]{background:linear-gradient(180deg,#4A3926,#271D16);box-shadow:inset 0 0 0 1px rgba(217,191,143,.55)}
+.wo-re.wo-an,.wo-re[aria-current="true"],.wo-re[aria-current="page"],.wo-re.wo-an *,.wo-re[aria-current] *{color:#F4EEE3}
+.wo-re.wo-an .wo-zahl,.wo-re[aria-current="true"] .wo-zahl,.wo-re[aria-current="page"] .wo-zahl{color:var(--wo-tief)}
+
+/* ================= Knöpfe rund wie auf der Website ================= */
+/* Hauptweg: Stroh mit Schrift in Holz tief (8,2:1), Knauf Holz mit Stroh-Pfeil. Nebenweg dunkel: Holz mit Stroh-Haarlinie und Stroh-Knauf.
+   Nebenweg hell: Papier mit Gold-Haarlinie und Stroh-Knauf. Alle rund wie die Knöpfe der Website (999 px). */
+.wo-kn--gold{color:#33261C;text-shadow:none;background:linear-gradient(180deg,#F1E4C8 0%,#DCC394 48%,#BFA06C 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(90,70,50,.35),0 14px 26px -14px rgba(39,29,22,.7),0 3px 8px -3px rgba(39,29,22,.3)}
+.wo-kn--gold i{background:linear-gradient(180deg,#5A4632,#33261C);color:#E6D2A8;box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 3px 8px -2px rgba(39,29,22,.5)}
+.wo-kn--dunkel{color:#F4EEE3;background:linear-gradient(180deg,#5A4632 0%,#4A3926 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.14),inset 0 0 0 1px rgba(217,191,143,.42),0 14px 30px -14px rgba(51,38,28,.7)}
+.wo-kn--dunkel i,.wo-kn--hell i{background:linear-gradient(180deg,#F1E4C8,#BFA06C);color:#33261C;box-shadow:inset 0 1px 0 rgba(255,255,255,.6),0 3px 8px rgba(39,29,22,.3)}
+.wo-kn--hell{color:#33261C;background:linear-gradient(180deg,#FFFCF5,#EFE6D6);box-shadow:inset 0 1px 0 #fff,inset 0 0 0 1px rgba(169,134,90,.38),0 12px 24px -14px rgba(39,29,22,.45)}
+.wo-kn--glas i{background:rgba(255,255,255,.08);color:#E6D2A8}
+[data-wo-rahmen="buehne"] .wo-leiste{border-radius:18px}
+
+/* Ecke oben links in allen Werkzeugen gleich (M24): das gotische R der Website frei in Stroh, ohne Ring und ohne runde Fläche, daneben Werkzeug und
+   Bereich · Haus. Das R steht in seinem eigenen Seitenverhältnis (66 × 74,2 = 0,89, wie website/assets/zeichen/r.svg) 36 × 40,5 px hoch: auf Holz deutlich (8,2:1). */
+.wo-marke-w{position:relative;padding-left:52px!important;min-height:46px}
+.wo-marke-w::before{content:none}
+.wo-marke-w .wo-zeichen{position:absolute;left:2px;top:50%;width:36px;height:40.5px;max-width:none;margin-top:-20.5px;color:#D9BF8F}
+.wo-marke-w b{font-family:var(--wo-titel);font-weight:400}
+.wo-marke-w small{color:rgba(217,191,143,.95)!important}
+
+/* Auftritt der Bühne (Fehlerbuch 10a): Foto schwebt 40 px von unten und zoomt ein, Zier, Titel, Satz und Knöpfe folgen gestaffelt. Nur transform, deckend. */
+@keyframes woAufFoto{from{translate:0 40px;scale:1.06}}
+@keyframes woAuf{from{translate:0 40px}}
+/* Ruhig und lang wie ein Abend in der Stube: das Foto zoomt 2,6 s langsam ein (von 1,12), der Titel kommt 1,15 s aus der Tiefe, die Kurve läuft weich aus.
+   Läuft ab dem ersten Bild, wartet auf kein Skript. Das Foto zieht beim Scrollen etwas langsamer mit (Scroll-Zeitachse, nur wo der Browser sie kann). */
+@keyframes woZoom{from{scale:1.12}}
+@keyframes woHoch{from{translate:0 34px}}
+@media screen and (prefers-reduced-motion:no-preference){
+  html:not(.still) .wo-sb__foto{animation:woAufFoto 1.1s cubic-bezier(.19,1,.22,1) both}
+  html:not(.still) .wo-sb__foto{overflow:hidden}
+  html:not(.still) .wo-sb__foto img{animation:woZoom 2.6s cubic-bezier(.19,1,.22,1) both}
+  html:not(.still) :is(.wo-sb__zier,.wo-sb__h,.wo-sb__satz,.wo-sb__kn){animation:woHoch 1.15s cubic-bezier(.19,1,.22,1) both}
+  html:not(.still) .wo-sb__zier{animation-delay:.1s}
+  html:not(.still) .wo-sb__h{animation-delay:.18s}
+  html:not(.still) .wo-sb__satz{animation-delay:.3s}
+  html:not(.still) .wo-sb__kn{animation-delay:.42s}
+  /* Titel zeilenweise (Kriterium 37): kleid/rustica.js teilt ihn in Wörter mit Zeilennummer --z; jede Zeile steigt 0,11 s nach der vorigen */
+  html:not(.still) .wo-sb__h.wo-zl{animation:none}
+  html:not(.still) .wo-sb__h.wo-zl .wo-w{display:inline-block;animation:woHoch 1.15s cubic-bezier(.19,1,.22,1) both;animation-delay:calc(.18s + var(--z,0) * .11s)}
+  @supports (animation-timeline:view()){
+    @keyframes woZug{from{translate:0 -6%}to{translate:0 0}}   /* das Foto ist 12 % höher als sein Rahmen: beim Ziehen entsteht nie ein Spalt */
+    html:not(.still) .wo-sb__foto img{height:112%;animation:woZoom 2.6s cubic-bezier(.19,1,.22,1) both,woZug linear both;animation-timeline:auto,view();animation-range:normal,exit 0% exit 100%}
+  }
+  /* Knöpfe geben beim Drücken nach (nur beim Drücken, die Übergänge der Werkzeuge bleiben) */
+  :is(.wo-kn,.wo-rund,.wo-ag,.wo-bk,.kn,button):active{scale:.975;transition:scale .12s ease-out}
+}
+
+/* Untere Leiste (Fehlerbuch 10a): der Titel bricht nie um; wird es eng, verschwindet erst der Satz, dann die Beschriftung der Knöpfe */
+.wo-leiste__t b{white-space:nowrap}
+
+/* Kopf bei wenig Breite (Fehlerbuch 10a): der Titel in der Mitte nimmt nur den freien Platz, wird kleiner und kürzt notfalls mit «…»; er überdeckt nie einen Knopf */
+@media (min-width:901px){
+  .wo-kopf{grid-template-columns:auto minmax(0,1fr) auto}
+  .wo-kopf__mitte{min-width:0;max-width:100%}
+  .wo-kopf__mitte b,.wo-kopf__mitte small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+}
+@media (min-width:901px) and (max-width:1240px){
+  .wo-kopf__mitte b{font-size:18px}
+  .wo-kopf .wo-kn--gold.wo-kn--klein>span{position:absolute;left:50%;top:50%;width:1px;height:1px;margin:0;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;font-size:13px;line-height:1px;letter-spacing:0;color:transparent;text-box:none}   /* Beschriftung bleibt für Vorleser, sichtbar nur der Knauf; sie liegt in der Mitte des Knaufs (Tor-Regel «randlos») */
+  .wo-kopf .wo-kn--gold.wo-kn--klein{padding:0;gap:0;width:42px;height:42px;min-height:0;min-width:0;border-radius:50%;justify-content:center;align-items:center}   /* nur noch der runde Knauf, nie eine Kachel */
+}
+
+/* Zierzeile im Startbild: bricht um, wenn der Platz nicht reicht; die Linie daneben gibt unter 1240 px ihren Platz dem Text */
+.wo-sb__zier{min-width:0;max-width:100%}
+.wo-sb__zier span{min-width:0;white-space:normal;overflow:visible;line-height:1.6}
+@media (max-width:1240px){.wo-sb__zier i{display:none}}
+
+/* Luft unter der Bühne (Fehlerbuch 10a): mindestens 30 px bis zu den ersten Kacheln, am Handy 24 px */
+.wo-sb{margin-bottom:34px}
+@media (max-width:760px){.wo-sb{margin-bottom:24px}}
+
+/* Fehlerbuch 10a: auf jeder dunklen Fläche ist die Schrift hell, auch auf Knöpfen und Einträgen, die immer dunkel sind */
+.wo-kopf,.wo-kopf a:not(.wo-kn--gold):not(.wo-kn--hell),.wo-sb,.wo-sb a:not(.wo-kn){color:#F4EEE3}
+
+/* Nie kursiv (wie die Website): die Stamm-Bausteine Brief und Blatt setzen Georgia kursiv; hier aufrecht in Fraunces, Hervorhebung über die Farbe */
+.wo-brief em,.wo-brief i,.wo-bl em,.wo-bl i{font-style:normal}
+.wo-bl__rub span,.wo-bl__g span,.wo-bl__h{font-family:var(--wo-titel);font-style:normal;font-weight:400}
+.wo-brief mark,.wo-brief em{background:none;color:var(--wo-akzent)}
+.wo-lu{font-style:normal;background:linear-gradient(180deg,transparent 55%,rgba(217,191,143,.38) 55%)}
+
+/* Nie fett (wie die Website): der Stamm setzt im Blatt Namen fett (.wo-bl__g b 700); hier Fraunces Regular */
+.wo-bl__g b{font-family:var(--wo-titel);font-weight:400;letter-spacing:.01em}
+b,strong{font-weight:500}
+
+/* Schrift optisch mittig in Knöpfen und Pillen (Kriterium 35; Messlauf-Regel text-mitte).
+   text-box schneidet die Zeile auf Versalhöhe und Grundlinie zu, dann zentriert der Knopf genau die Buchstaben. Ohne text-box ein kleiner gemessener Ausgleich. */
+.wo-kn>span,.wo-re>span,.wo-kopf__ber>span{text-box:trim-both cap alphabetic}
+.wo-re .wo-zahl{display:block;height:auto;padding:7px;line-height:1;text-align:center;text-box:trim-both cap alphabetic}
+@supports not (text-box:trim-both cap alphabetic){.wo-kn>span,.wo-re>span,.wo-kopf__ber>span{position:relative;top:.05em}}
+
+/* Kriterium 7 (Regel einzelwort): kein einzelnes Wort allein in der letzten Titelzeile */
+h1,h2,h3,h4,figcaption{text-wrap:balance}
+.rdg-karte h3,.wo-zw,.wo-sb__h{text-wrap:balance}
+/* Kriterium 3 (Regel reihe): wo die Kacheltitel neben dem Pfeil umbrechen (schmale Spalten), reserviert jeder Titel zwei Zeilen, damit die Reihe auf einer Linie steht */
+@media (min-width:901px) and (max-width:1365px){.wo-ber .wo-bk__t b{min-height:2.4em}}
+
+/* Handy: der Knopf «Bereiche» im dunklen Kopf ist ein Nebenweg (Holz mit Stroh-Haarlinie, rund wie die Knöpfe der Website), keine Stroh-Pille */
+@media (max-width:900px){
+  [data-wo-rahmen] .wo-kopf__ber{border-radius:999px;font-family:var(--wo-etikett);font-weight:400;color:#F4EEE3;
+    background:linear-gradient(180deg,#5A4632 0%,#4A3926 100%);box-shadow:inset 0 0 0 1px rgba(217,191,143,.55),inset 0 1px 0 rgba(255,255,255,.12),0 8px 18px -10px rgba(0,0,0,.8)}
+  [data-wo-rahmen] .wo-kopf__ber .wo-ic{color:#D9BF8F}
+}
+
+/* Kopfmitte: Fraunces braucht mehr Zeilenhöhe (Schriftkasten 1,22 em); bei 1,1 schnitt «overflow:hidden» die Unterlängen ab. Zeile 1,42, Unterzeile näher heran. */
+.wo-kopf__mitte b{font-family:var(--wo-titel);font-weight:400;line-height:1.42}
+.wo-kopf__mitte small{margin-top:0}
+/* Leiste unten am Handy: grund.css färbt den Hauptknopf dort Stroh; das Zeichen darin Holz tief */
+@media (max-width:900px){
+  .wo-leiste .wo-kn--gold{background:linear-gradient(180deg,#F1E4C8,#DCC394 48%,#BFA06C);box-shadow:inset 0 1px 0 rgba(255,255,255,.5),0 8px 18px -10px rgba(39,29,22,.6)}
+  .wo-leiste .wo-kn--gold i{color:#33261C}
+}
+
+/* Sperrabstand optisch mittig (Messlauf «text-mitte» in WebKit). Gesperrte Versalien: Chromium hängt den Sperrabstand auch nach dem letzten Buchstaben an
+   (die Schrift sitzt dann um den halben Abstand links), WebKit nicht. Grundfall ist darum symmetrisch (richtig in WebKit, ohne Ausgleich);
+   nur Chromium bekommt den Ausgleich, erkannt an interpolate-size (gibt es nur dort).
+   Für eigene Knöpfe der Werkzeuge: --wo-sperr = der Sperrabstand des Knopfs (in em, wie letter-spacing), Klasse .wo-sperr-mitte an den Knopf
+   (Text direkt im Knopf oder in einem Kind ohne eigene Breite; Zeichen in <i>, <svg>, <img> rücken nicht mit). Bei span-Beschriftungen geht auch
+   margin-right:calc(-1 * var(--wo-sperr)) am span (so die Bausteine unten). */
+:root{--wo-sperr:.16em}
+.wo-kn,.wo-kopf__ber,.wo-marke{--wo-sperr:.16em}
+.wo-sp{--wo-sperr:.08em}
+.wo-an__st em{--wo-sperr:.12em}
+.rdg-karte .rdg-zu{--wo-sperr:.14em}
+@supports (interpolate-size:allow-keywords){
+  .wo-kn>span,.wo-kopf__ber>span{margin-right:calc(-1 * var(--wo-sperr))}
+  .wo-marke,.wo-sp,.wo-an__st em,.rdg-karte .rdg-zu,.wo-sperr-mitte{text-indent:var(--wo-sperr)}
+  :is(.wo-marke,.wo-sp,.wo-an__st em,.wo-sperr-mitte) :is(i,svg,img){text-indent:0}
+}
+
+/* Marke «Entwurf» (em.wo-marke) und Wahlknöpfe (.wo-wahl button) optisch mittig (Kriterium 35, Oberchef 08.11.2026, gemessen mit Messlauf text-mitte an der Musterseite):
+   WebKit sitzt mit dem Grundpolster genau (0 Funde); Chromium setzt DM Mono 9,5 px um 1,3 px und Instrument Sans 13,5 px um 0,8 px zu hoch. Nur Chromium
+   (erkannt an interpolate-size, wie --wo-sperr) bekommt den Ausgleich, gleiche Gesamthöhe. Werkzeuge brauchen dafür keinen eigenen Ausgleich mehr. */
+@supports (interpolate-size:allow-keywords){
+  .wo-marke{padding-top:7.3px;padding-bottom:4.7px}
+  .wo-wahl button{padding-top:11.8px;padding-bottom:10.2px}
+}

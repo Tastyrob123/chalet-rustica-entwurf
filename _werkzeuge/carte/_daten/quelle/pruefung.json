@@ -1,0 +1,35 @@
+{
+ "geprueft": "Wort für Wort gegen die Werte von _werkzeuge/_web/inhalt/daten.py und die Seiten der Website (wohnung-*.html, wohnungen.html, haus.html, kontakt.html); Ausstattung, Inbegriffenes, Umgebung und Anreise Zeile für Zeile gegen die gebaute Website; keine Preise, nichts aus OFFEN",
+ "karten": {
+  "almagellerhorn": {
+   "name": "Almagellerhorn",
+   "eintraege": 8,
+   "preise": 0
+  },
+  "portjengrat": {
+   "name": "Portjengrat",
+   "eintraege": 8,
+   "preise": 0
+  },
+  "weissmies": {
+   "name": "Weissmies",
+   "eintraege": 8,
+   "preise": 0
+  },
+  "inbegriffen": {
+   "name": "Im Preis inbegriffen und Hausregeln",
+   "eintraege": 11,
+   "preise": 0
+  },
+  "rund-ums-haus": {
+   "name": "Rund ums Haus",
+   "eintraege": 14,
+   "preise": 0
+  },
+  "anreise": {
+   "name": "Anreise",
+   "eintraege": 9,
+   "preise": 0
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "zeit": "2026-11-08T11:30:00+01:00",
+ "art": "wohnung",
+ "name": "Claudia Moser",
+ "kontakt": "claudia.moser@example.com",
+ "datum": "10.07.2027 bis 17.07.2027",
+ "personen": 2,
+ "anliegen": "Die Wohnung Weissmies im Juli zu zweit, möchte ihren kleinen Hund mitbringen.",
+ "sprache": "de",
+ "gespraech": "beispiel-3",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Grüezi, wir möchten im Juli eine Woche in die Wohnung Weissmies, vom 10. bis 17. Juli. Dürfen wir unseren kleinen Hund mitbringen?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Haustiere sind in allen Wohnungen nicht gestattet. Gerne gebe ich Ihre Anfrage für die Wohnung Weissmies trotzdem an Heidi und Damian weiter: Wie heissen Sie, und wie erreicht man Sie?"
+  },
+  {
+   "rolle": "user",
+   "text": "Claudia Moser, claudia.moser@example.com"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht im Gästebuch."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "abteilung": "Wohnungen",
+ "platz": "Wohnung Weissmies",
+ "entwurf": {
+  "betreff": "Ihre Sommerwoche in der Wohnung Weissmies",
+  "text": "Grüezi Frau Moser,\n\nherzlichen Dank für Ihre Nachricht und Ihr Interesse an der Wohnung Weissmies. Sie liegt im ersten Stock, neu renoviert, mit zwei Schlafzimmern und dem Südbalkon. Gerne schauen wir, ob sie vom 10. bis 17. Juli für Sie frei ist [Verfügbarkeit prüfen].\n\nZu Ihrem Hund müssen wir Ihnen ehrlich sagen: Haustiere sind in allen unseren Wohnungen nicht gestattet. Wir hoffen auf Ihr Verständnis.\n\nDen Preis für Ihre Tage nennen wir Ihnen gerne [Preis für die Tage].\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Wohnung Weissmies (Website), Startseite und Die Wohnungen (Hausregeln).\nOffen: Verfügbarkeit, Preis für die Tage.",
+  "vorlage": "wohnung",
+  "absender": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+  "zeit": "2026-11-08T11:30:00+01:00"
+ }
+}

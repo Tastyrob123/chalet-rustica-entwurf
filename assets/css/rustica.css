@@ -1,0 +1,455 @@
+/* Chalet Rustica · Designstudie von Tasty Studios (Neubau 08.11.2026).
+   Eigene Welt des Hauses: weisser Putz, dunkles Balkonholz, Geranien, Bach und Berg. Der Name steht in gotischen Lettern wie an der Fassade
+   (Grenze Gotisch, nur im Namen); Überschriften in Fraunces, Lesetext in Instrument Sans. Machart der Familie Zurbriggen (Knöpfe, Leiste,
+   Auftritte, Familienband «Vier Scheiben»). Bewegt wird nur über transform und opacity; nativer Scroll. */
+
+/* ---------- Schriften (lokal, mit fontTools geprüft: variabel Grenze Gotisch 100–900, Fraunces 100–900 + opsz, Instrument Sans 400–700; Tenor Sans 400, DM Mono 400) ---------- */
+@font-face{font-family:'Grenze Gotisch';src:url(../fonts/GrenzeGotisch-latin-var.woff2) format('woff2');font-weight:100 900;font-display:block}
+@font-face{font-family:'Fraunces';src:url(../fonts/Fraunces-latin-var.woff2) format('woff2');font-weight:100 900;font-display:block}
+@font-face{font-family:'Instrument Sans';src:url(../fonts/InstrumentSans-normal-400_600.woff2) format('woff2');font-weight:400 700;font-display:block}
+@font-face{font-family:'Tenor Sans';src:url(../fonts/TenorSans.woff2) format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'DM Mono';src:url(../fonts/DMMono-normal-400.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Titel Ersatz';src:local('Georgia');size-adjust:96%}
+
+/* ---------- Grundwerte ---------- */
+:root{
+  --putz:#F4EEE3;--papier:#FBF7EF;--creme:#EFE6D6;--holz:#5A4632;--holz2:#4A3926;--tief:#33261C;--nacht:#271D16;
+  --tinte:#3A2E22;--leise:#76654F;--stroh:#D9BF8F;--hell:#F6F0E4;--linie:rgba(90,70,50,.22);
+  --marke:'Grenze Gotisch',Georgia,serif;--titel:'Fraunces','Titel Ersatz',Georgia,serif;--text:'Instrument Sans',system-ui,sans-serif;--mono:'DM Mono',ui-monospace,monospace;
+  --rand:clamp(16px,4.6vw,66px);--rand2:clamp(10px,1.7vw,24px);--breit:1340px;
+  --e1:cubic-bezier(.16,1,.3,1);--e2:cubic-bezier(.32,.72,0,1);
+  --r1:22px;--r2:14px;
+  --hof:0 0 15px rgba(20,14,10,.62),0 1px 3px rgba(20,14,10,.42);
+  /* für auswahl.js / auswahl.css (Vorlage Carlton), in den Farben des Hauses */
+  --weiss:var(--papier);--serif:var(--text);--sans:var(--text);--blau:var(--holz);--taupe:#8A7458;--gold:#A9865A;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:clip;background:var(--putz)}
+body{margin:0;color:var(--tinte);font:400 18px/1.62 var(--text);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3,p,figure,ul,address{margin:0}
+ul{padding:0;list-style:none}
+address{font-style:normal}
+em{font-style:normal}
+section[id]{scroll-margin-top:84px}
+button{font:inherit;color:inherit}
+:where(.cw-pop) button{border:0;background:none;padding:0;margin:0;-webkit-appearance:none;appearance:none}
+/* jeder Abschnitt deckt, damit das stehende Bild des Fensters nur im Fenster zu sehen ist */
+main>section,footer{position:relative;z-index:1}
+
+/* Erster Blick komplett: Seite bleibt unsichtbar, bis Schrift und das Auftaktbild geladen sind; Rückfall nach 3 s */
+html.wartet body{visibility:hidden;animation:zeig 0s 3s forwards}
+@keyframes zeig{to{visibility:visible}}
+
+/* ---------- Titel ---------- */
+.titel{font:400 clamp(44px,5.6vw,92px)/1.02 var(--titel);letter-spacing:-.012em;color:var(--tinte);text-wrap:balance;font-optical-sizing:auto}
+.titel em{color:var(--holz)}
+.gross{font-size:clamp(18px,1.4vw,21px);line-height:1.62}
+
+/* Zeilen aus dem Schlitz (Teilung in rustica.js) */
+[data-zeilen].geteilt{display:flex;flex-direction:column}
+[data-zeilen] .zl{display:block;overflow:hidden;padding-bottom:.16em;margin-bottom:-.16em}
+[data-zeilen] .zl>span{display:block}
+.js [data-zeilen] .zl>span{transform:translateY(118%);transition:transform 1.45s var(--e1) calc(var(--z,0)*110ms)}
+.js [data-zeilen].da .zl>span{transform:none}
+
+/* ---------- Auftritte (Handschrift Tasty, wie auf den Häusern der Familie): deckend von unten, Foto setzt sich in den Rahmen ---------- */
+.js [data-r]:not([data-r=text]){transform:translate3d(0,clamp(70px,8vw,120px),0) scale(.95);transition:transform 1.6s var(--e1) calc(var(--i,0)*100ms)}
+.js [data-r]:not([data-r=text]).da{transform:none}
+.js figure[data-r] img,.js [data-staffel] figure img{transform:scale(1.14);transition:transform 2.4s var(--e1)}
+.js figure[data-r].da img,.js [data-staffel].da figure img{transform:none}
+.js [data-r=text]{transform:translate3d(0,clamp(20px,2vw,30px),0);opacity:0;transition:transform 1.4s var(--e1) calc(var(--i,0)*100ms),opacity 1.1s ease calc(var(--i,0)*100ms)}
+.js [data-r=text].da{transform:none;opacity:1}
+.js [data-staffel]>*{transform:translate3d(0,90px,0) scale(.95);transition:transform 1.5s var(--e1) calc(var(--n,0)*90ms)}
+.js [data-staffel].da>*{transform:none}
+/* Fläche: alle Fotos einer Wand kommen gemeinsam, jedes setzt sich in seinen Rahmen */
+.js [data-flaeche]{transform:translate3d(0,clamp(70px,7vw,110px),0) scale(.97);transition:transform 1.6s var(--e1)}
+.js [data-flaeche].da{transform:none}
+.js [data-flaeche]:not(:has([data-zug])) figure>img{scale:1.14;transition:scale 2.6s var(--e1)}
+.js [data-flaeche].da:not(:has([data-zug])) figure>img{scale:1}
+html.ruhig *{transition:none!important;animation:none!important}
+/* Fluss beim Scrollen (Rezept Carlton seitenbau.css «ce-zug», Briefing 8.2): Fotos, Tafeln und Blätter steigen mit dem Scrollen auf,
+   je nach Tiefe verschieden weit (--weg), deckend; das Foto setzt sich nach der Uhr in seinen Rahmen. Ohne Scroll-Zeitachse: Auftritt nach der Uhr. */
+@keyframes zug{from{translate:0 var(--weg,110px)}}
+@supports (animation-timeline:view()){
+  .js [data-zug],.js [data-r]:not([data-r=text]){animation:zug cubic-bezier(.3,.3,.45,1) both;animation-timeline:view();animation-range:cover 0% cover 58vh}
+  .js [data-r]:not([data-r=text]),.js [data-r]:not([data-r=text]).da{transform:none;transition:none}
+  .js [data-flaeche],.js [data-flaeche].da{transform:none;transition:none}
+  .js [data-zug]>img{scale:1.14;transition:scale 2.6s var(--e1)}
+  .js [data-zug].da>img{scale:1}
+}
+@supports not (animation-timeline:view()){
+  .js [data-zug]{transform:translate3d(0,clamp(60px,7vw,110px),0);transition:transform 1.6s var(--e1)}
+  .js [data-zug].da{transform:none}
+}
+
+/* ---------- Knöpfe: Pille mit Lichtkante oben, Schattenkante unten, runder Knauf mit Pfeil (Machart der Familie) ---------- */
+.knoepfe{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.knopf{--k1:#fff;--k2:#F6F1E8;--k3:#E8DFD0;--kt:var(--tinte);--kn1:var(--holz);--kn2:var(--holz2);--kp:#FBF7EF;
+  position:relative;display:inline-flex;align-items:center;gap:16px;height:56px;padding:0 8px 0 26px;border-radius:999px;overflow:hidden;
+  background:linear-gradient(180deg,var(--k1),var(--k2) 55%,var(--k3));color:var(--kt);text-decoration:none;
+  font:500 15px/1 var(--text);letter-spacing:.02em;white-space:nowrap;border:0;cursor:pointer;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.9),inset 0 -2px 0 rgba(0,0,0,.14),0 1px 1px rgba(0,0,0,.12),0 18px 30px -18px rgba(39,29,22,.55);
+  transition:transform .9s var(--e1)}
+.knopf i{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:linear-gradient(180deg,var(--kn1),var(--kn2));box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 4px 10px -4px rgba(0,0,0,.5)}
+.knopf svg{width:14px;height:14px;fill:none;stroke:var(--kp);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform .9s var(--e1)}
+.knopf::after{content:'';position:absolute;top:0;bottom:0;left:-40%;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);transform:translateX(0) skewX(-18deg);transition:transform 1.4s var(--e1);pointer-events:none}
+.knopf:hover{transform:translateY(-2px)}
+.knopf:hover::after{transform:translateX(560%) skewX(-18deg)}
+.knopf:hover svg{transform:translate(2px,-2px)}
+.knopf:active{transform:translateY(1px) scale(.98)}
+.knopf--klein{height:46px;padding-left:20px;font-size:14px;gap:12px}
+.knopf--klein i{width:34px;height:34px}
+.knopf--holz{--k1:#735C44;--k2:#5A4632;--k3:#4A3926;--kt:#FBF7EF;--kn1:#FBF7EF;--kn2:#EDE3D2;--kp:var(--holz);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),inset 0 -2px 0 rgba(0,0,0,.22),0 18px 30px -16px rgba(20,14,10,.6)}
+.knopf--hell{--k1:#FFFDF8;--k2:#F6F0E4;--k3:#E9DFCC}
+.knopf--linie{--k1:#FFFDF9;--k2:#F7F1E7;--k3:#ECE3D4;--kt:var(--tinte)}
+
+/* ---------- Leiste oben: schmale Insel, links der Weg zur Familie, rechts die Anfrage ---------- */
+.leiste{position:fixed;z-index:50;top:14px;left:0;right:0;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 clamp(14px,2vw,26px);pointer-events:none;transition:transform .8s var(--e2)}
+.leiste>*{pointer-events:auto}
+.leiste.weg{transform:translateY(-150%)}
+.leiste__ecke{display:flex;align-items:center;gap:10px;height:46px;padding:0 18px 0 12px;border-radius:999px;text-decoration:none;font:400 14px/1 'Tenor Sans',var(--text);letter-spacing:.03em;color:#F4EEE3;
+  background:linear-gradient(180deg,#4A3A2B,#33261C);box-shadow:inset 0 1px 0 rgba(255,255,255,.16),inset 0 -2px 0 rgba(0,0,0,.25),0 14px 26px -16px rgba(20,14,10,.7)}
+.leiste__ecke img{width:24px}
+.leiste__insel{position:absolute;left:50%;top:0;transform:translateX(-50%);display:flex;align-items:center;gap:clamp(18px,2.4vw,34px);height:58px;padding:0 26px;border-radius:18px;
+  background:rgba(251,247,239,.97);box-shadow:inset 0 1px 0 #fff,0 0 0 1px rgba(90,70,50,.1),0 22px 44px -26px rgba(20,14,10,.6)}
+.leiste__marke{font:500 32px/1 var(--marke);color:var(--holz);text-decoration:none;letter-spacing:.01em;padding-bottom:3px}
+.leiste__nav{display:flex;gap:clamp(14px,1.8vw,28px)}
+.leiste__nav a{font:400 12.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--tinte);padding:8px 0;background:linear-gradient(var(--holz),var(--holz)) 0 100%/0 1px no-repeat;transition:background-size .6s var(--e1);white-space:nowrap}
+.leiste__nav a:hover{background-size:100% 1px}
+.leiste__menue{display:none;border:0;background:none;font:400 12.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;padding:10px 0;cursor:pointer}
+.menue{position:fixed;z-index:49;inset:0;display:flex;flex-direction:column;justify-content:center;gap:10px;padding:90px var(--rand) 40px;background:var(--putz) url(../zeichen/tapete-hell.svg?v=2) 0 0/240px 240px}
+.menue[hidden]{display:none}
+.menue>a:not(.knopf){font:400 clamp(40px,11vw,60px)/1.1 var(--titel);color:var(--tinte);text-decoration:none}
+.menue .knopf{align-self:flex-start;margin-top:24px}
+
+/* ---------- 1 Ankommen: das Haus über den ganzen Bildschirm ---------- */
+.auftakt{height:100svh;min-height:620px;overflow:hidden;background:var(--nacht);color:var(--hell)}
+.auftakt__bild{display:block}
+.auftakt__bild{position:absolute;inset:0}
+.auftakt__bild img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.auftakt__text{position:absolute;left:var(--rand);right:var(--rand);bottom:clamp(30px,6vh,72px);max-width:1180px}
+.auftakt__ort{font:400 13.5px/1.4 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:#F1DDB4;text-shadow:0 0 18px rgba(20,14,10,.8),0 0 2px rgba(20,14,10,.6)}
+.auftakt__titel{margin-top:10px;color:var(--hell);text-shadow:var(--hof)}
+.auftakt__chalet{display:block;font:400 clamp(30px,3.2vw,52px)/1 var(--titel);letter-spacing:.01em}
+.auftakt__name{display:block;overflow:hidden;padding:.02em 0 .1em;margin-bottom:-.06em}
+.auftakt__name>span{display:block;font:500 clamp(120px,17.5vw,290px)/.84 var(--marke);letter-spacing:-.004em}
+.auftakt__satz{max-width:40ch;margin-top:14px;font-size:clamp(19px,1.5vw,22px);line-height:1.5;text-shadow:var(--hof)}
+.auftakt .knoepfe{margin-top:26px}
+/* Auftakt geht von selbst auf, alles in einem Moment, sobald das Bild da ist; das Haus setzt sich in den Bildschirm */
+.js .auftakt__bild img{transform:scale(1.1);transition:transform 2.8s var(--e1)}
+.js body.los .auftakt__bild img{transform:none}
+.js .auftakt__name>span{transform:translateY(105%);transition:transform 1.5s var(--e1) .12s}
+.js body.los .auftakt__name>span{transform:none}
+.js .auftakt__text>*:not(.auftakt__titel),.js .auftakt__chalet{transform:translate3d(0,26px,0);opacity:0;transition:transform 1.4s var(--e1) calc(.2s + var(--i,0)*90ms),opacity 1.1s ease calc(.2s + var(--i,0)*90ms)}
+.js .auftakt__satz{--i:2}.js .auftakt .knoepfe{--i:3}
+.js body.los .auftakt__text>*:not(.auftakt__titel),.js body.los .auftakt__chalet{transform:none;opacity:1}
+/* Beim Weiterscrollen bleibt das Haus etwas zurück (Tiefe), über die Scroll-Zeitachse */
+@supports (animation-timeline:scroll()){
+  .auftakt__bild{animation:zurueck linear both;animation-timeline:scroll(root);animation-range:0 100vh}
+  @keyframes zurueck{to{transform:translate3d(0,22vh,0)}}
+  .auftakt__text{animation:vorweg linear both;animation-timeline:scroll(root);animation-range:0 100vh}
+  @keyframes vorweg{to{translate:0 -12vh}}
+}
+
+/* ---------- Abschnittskopf: Titel links, Satz rechts, Haarlinie ---------- */
+.kopf{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:end;gap:clamp(24px,4vw,64px);max-width:var(--breit);margin:0 auto;padding-bottom:clamp(26px,3vw,40px);border-bottom:1px solid var(--linie)}
+.kopf__satz{max-width:42ch;padding-bottom:6px}
+
+/* ---------- 2 Das Haus am Bach: Winter und Sommer Wand an Wand ---------- */
+.haus{background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px;padding:clamp(80px,9vw,140px) var(--rand) var(--rand2)}
+.haus__wand{display:flex;gap:8px;margin:clamp(40px,4.4vw,64px) calc(var(--rand2) - var(--rand)) 0}
+.haus__f{position:relative;flex:var(--q) 1 0;aspect-ratio:var(--q);overflow:hidden;border-radius:6px}
+.haus__f--winter{--q:.747;border-radius:var(--r1) 6px 6px var(--r1)}
+.haus__f--sommer{--q:1.649;border-radius:6px var(--r1) var(--r1) 6px}
+.haus__f img{width:100%;height:100%;object-fit:cover}
+.haus__f figcaption{position:absolute;left:22px;bottom:18px;font:400 12.5px/1 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--hell);text-shadow:var(--hof)}
+/* das Foto gleitet beim Scrollen leicht in seinem Rahmen */
+@supports (animation-timeline:view()){
+  .haus__f img{animation:gleiten linear both;animation-timeline:view();animation-range:cover 0% cover 100%;transform-origin:50% 50%}
+  @keyframes gleiten{from{transform:translate3d(0,-4%,0) scale(1.1)}to{transform:translate3d(0,4%,0) scale(1.1)}}
+}
+
+/* ---------- 3 Fenster (Vorlage Tasty Studios fen.css, Bauart «Fenster ohne Beschneiden»): Bild UND Satz stehen fest im Bildschirm,
+   die Seite zieht darunter und darüber. Hülle ragt einen Bildschirm über und unter das Fenster, Bild und Satz kleben darin (sticky).
+   Nichts schneidet ab; die deckenden Nachbarn (z-index 1) verdecken, was übersteht. Fenster oben gerade, der Abschnitt darunter legt
+   sich mit runden Ecken darüber. Mass: min(67vh,624px), Handy 58svh. ---------- */
+main>section.bruch{position:relative;z-index:auto;height:min(67vh,624px);color:var(--hell);background:transparent}
+.bruch::before{content:'';position:absolute;inset:0;z-index:-1;background:var(--nacht)}
+.bruch__h{position:absolute;left:0;right:0;top:-100vh;top:-100lvh;bottom:-100vh;bottom:-100lvh}
+.bruch__b{display:block;position:sticky;top:0;height:100vh;height:100lvh;z-index:-1}
+.bruch__b img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 55%}
+.bruch__t{position:sticky;top:0;height:100vh;height:100lvh;margin-top:-100vh;margin-top:-100lvh;z-index:-1;display:grid;place-items:center;padding:0 var(--rand);text-align:center}
+.bruch__satz{font:400 clamp(48px,6.4vw,104px)/1 var(--titel);letter-spacing:-.015em;color:var(--hell);text-shadow:0 0 .13em rgba(20,14,10,.66),0 .012em .03em rgba(20,14,10,.5)}
+.bruch__satz em{color:#F1DDB4}
+.bruch__satz.geteilt{display:flex;flex-direction:column;align-items:center}
+.bruch__satz .zl{display:block;overflow:hidden;padding:.06em .3em .18em;margin:-.06em -.3em -.18em}
+.bruch__satz .zl>span{display:block}
+.js .bruch:not(.los) .bruch__satz .zl>span{transform:translateY(125%)}
+.js .bruch__satz .zl>span{transition:transform 1.3s var(--e1) calc(var(--z,0)*100ms)}
+/* der Abschnitt nach dem Fenster legt sich mit runden Ecken darüber */
+main>.bruch+section{--ecke:clamp(22px,2.6vw,40px);margin-top:calc(-1 * var(--ecke));border-radius:var(--ecke) var(--ecke) 0 0;z-index:2}
+
+/* ---------- 4 Wohnungen: Türschilder und Bühne ---------- */
+.wohnungen{background:var(--papier);padding:clamp(80px,9vw,140px) var(--rand) clamp(70px,8vw,120px)}
+.schilder{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-width:var(--breit);margin:clamp(34px,3.6vw,52px) auto 0}
+.schild{display:flex;align-items:center;gap:18px;padding:14px 22px 14px 16px;border:0;border-radius:var(--r2);cursor:pointer;text-align:left;color:var(--tinte);
+  background:linear-gradient(180deg,#FFFDF8,#F1E9DB);box-shadow:inset 0 1px 0 #fff,inset 0 -2px 0 rgba(90,70,50,.14),0 0 0 1px rgba(90,70,50,.12),0 16px 26px -20px rgba(39,29,22,.5);
+  transition:transform .9s var(--e1),background-color .6s}
+.schild:hover{transform:translateY(-2px)}
+.schild b{display:grid;place-items:center;width:62px;height:62px;border-radius:12px;font:400 40px/1 var(--titel);color:var(--holz);background:#EDE3D2;box-shadow:inset 0 2px 4px rgba(58,46,34,.16)}
+.schild span{display:grid;gap:2px;font:400 clamp(20px,1.6vw,24px)/1.15 var(--titel)}
+.schild small{font:400 12px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+.schild[aria-selected="true"]{color:#F4EEE3;background:linear-gradient(180deg,#6B5440,#4E3C2B 60%,#45352A);box-shadow:inset 0 1px 0 rgba(255,255,255,.18),inset 0 -2px 0 rgba(0,0,0,.28),0 22px 32px -20px rgba(39,29,22,.75)}
+.schild[aria-selected="true"] b{color:var(--stroh);background:rgba(0,0,0,.2);box-shadow:inset 0 2px 5px rgba(0,0,0,.3)}
+.schild[aria-selected="true"] small{color:var(--stroh)}
+.buehne{max-width:var(--breit);margin:18px auto 0}
+.wohnung{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:clamp(28px,4vw,64px);align-items:start}
+.wohnung[hidden]{display:none}
+.wohnung__gross{position:relative;aspect-ratio:4/3;overflow:hidden;border-radius:var(--r1);background:var(--creme)}
+.wohnung__gross img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.wohnung__gross img.neu{transform:translate3d(0,100%,0);transition:transform .95s var(--e1)}
+.wohnung__gross img.neu.da{transform:none}
+.wohnung__reihe{display:flex;gap:8px;margin-top:8px}
+.wohnung__reihe .mini{flex:1 1 0;min-width:0}
+.mini{position:relative;aspect-ratio:1;padding:0;border:0;border-radius:10px;overflow:hidden;cursor:pointer;background:var(--creme);opacity:.55;transition:opacity .6s}
+.mini:hover{opacity:.85}
+.mini[aria-pressed="true"]{opacity:1}
+.mini img{width:100%;height:100%;object-fit:cover}
+.wohnung__text{padding-top:8px}
+.wohnung__titel{font:400 clamp(40px,3.8vw,60px)/1.02 var(--titel);color:var(--tinte)}
+.wohnung__lage{margin-top:10px;font:400 12.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--leise)}
+.liste{margin-top:22px;border-top:1px solid var(--linie)}
+.liste li{padding:12px 0;border-bottom:1px solid var(--linie);font-size:17px;line-height:1.45}
+.js .wohnung.wechsel .wohnung__text{animation:wechsel .45s var(--e1)}
+@keyframes wechsel{from{opacity:0;transform:translate3d(0,14px,0)}}
+.inbegriffen{display:flex;align-items:center;justify-content:space-between;gap:28px;max-width:var(--breit);margin:clamp(40px,4vw,60px) auto 0;padding-top:28px;border-top:1px solid var(--linie)}
+.inbegriffen p{max-width:76ch;font-size:16.5px;line-height:1.6;color:var(--leise)}
+.inbegriffen b{font-weight:500;color:var(--tinte)}
+.inbegriffen .knopf{flex:none}
+
+/* ---------- 5 Bergpanorama ---------- */
+.panorama{background:var(--papier);padding:0 var(--rand2) var(--rand2)}
+.panorama__bild{aspect-ratio:3/1;overflow:hidden;border-radius:var(--r1)}
+.panorama__bild img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- 6 Das Tal vor der Haustür ---------- */
+.tal{background:var(--putz) url(../zeichen/tapete-hell.svg?v=2) 0 0/240px 240px;padding:clamp(80px,9vw,140px) var(--rand) var(--rand2)}
+.tal .kopf{align-items:center}
+.tafel-holz{position:relative;border-radius:var(--r1);color:#F4EEE3;background:linear-gradient(180deg,#5E4936,#45352A);box-shadow:inset 0 1px 0 rgba(255,255,255,.14),inset 0 -2px 0 rgba(0,0,0,.25),0 34px 50px -30px rgba(20,14,10,.7)}
+.minuten{display:flex;align-items:center;gap:clamp(18px,2.4vw,32px);padding:clamp(20px,2.2vw,30px) clamp(24px,2.8vw,40px);justify-self:end;max-width:560px}
+.minuten b{font:400 clamp(92px,8vw,128px)/.8 var(--titel);color:var(--stroh);min-width:.6em;text-align:center}
+.minuten p{font-size:17px;line-height:1.5}
+.minuten span{display:block;font:400 clamp(26px,2.2vw,34px)/1.1 var(--titel);margin-bottom:6px}
+.tal__wand{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:clamp(40px,4.4vw,64px) calc(var(--rand2) - var(--rand)) 0}
+.tal__f{aspect-ratio:4/3;overflow:hidden;border-radius:6px}
+.tal__f:nth-child(1){border-top-left-radius:var(--r1)}.tal__f:nth-child(3){border-top-right-radius:var(--r1)}
+.tal__f:nth-child(4){border-bottom-left-radius:var(--r1)}.tal__f:nth-child(6){border-bottom-right-radius:var(--r1)}
+.tal__f img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- 7 Heidi ---------- */
+.heidi{color:#EFE6D6;background:var(--tief);padding:clamp(90px,10vw,150px) max(var(--rand),calc((100% - var(--breit))/2))}
+.heidi .titel{color:#F4EEE3;font-size:clamp(40px,4.8vw,80px);max-width:22ch}
+.heidi .titel em{color:var(--stroh)}
+.heidi__name{margin-top:22px;font:400 12.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--stroh)}
+.heidi__mitte{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(28px,5vw,84px);align-items:start;margin-top:clamp(50px,5vw,80px)}
+.heidi__fotos{display:grid;grid-template-columns:auto auto;align-items:end;gap:10px}
+.heidi__f1{width:min(284px,20vw)}
+.heidi__f2{width:min(237px,16vw)}
+.heidi__fotos img{width:100%}
+.heidi .gross{max-width:60ch;color:#E6DCCB}
+.rahmen{position:relative;padding:7px;border-radius:var(--r1);overflow:hidden}
+.rahmen img{border-radius:calc(var(--r1) - 7px)}
+.rahmen--dunkel{background:#3E2F23;box-shadow:0 0 0 1px rgba(217,191,143,.22),0 30px 50px -30px rgba(0,0,0,.6)}
+.rahmen--dunkel::after{content:'';position:absolute;inset:7px;border-radius:calc(var(--r1) - 7px);box-shadow:inset 0 0 0 1px rgba(217,191,143,.3);pointer-events:none}
+.blatt{position:relative;background:var(--papier);color:var(--tinte);border-radius:var(--r1);
+  box-shadow:0 0 0 1px rgba(90,70,50,.12),inset 0 0 0 6px var(--papier),inset 0 0 0 7px rgba(90,70,50,.2),0 46px 70px -46px rgba(20,14,10,.6)}
+.zahlen{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:34px;padding:clamp(24px,2.8vw,40px) clamp(18px,2.2vw,32px)}
+.zahl{padding:0 clamp(14px,2vw,30px);text-align:center}
+.zahl+.zahl{border-left:1px solid var(--linie)}
+.zahl b{display:block;font:400 clamp(72px,6.4vw,108px)/.9 var(--titel);color:var(--holz)}
+.zahl p{margin:12px auto 0;max-width:24ch;font-size:16px;line-height:1.5}
+.praxis{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:center;margin-top:clamp(70px,7vw,110px)}
+.praxis__bild{aspect-ratio:1.1;overflow:hidden;border-radius:var(--r1)}
+.praxis__bild img{width:100%;height:100%;object-fit:cover}
+.praxis__titel{font:400 clamp(40px,4.2vw,68px)/1.02 var(--titel);color:#F4EEE3}
+.praxis__titel em{color:var(--stroh)}
+.praxis .gross{margin-top:22px}
+
+/* ---------- 8 Die Einladung: Text auf ruhigem dunklem Grund, der Weiler im Schnee daneben ---------- */
+.kontakt{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(28px,4vw,64px);align-items:center;color:var(--tinte);background:var(--putz) url(../zeichen/tapete-hell.svg?v=2) 0 0/240px 240px;padding:clamp(90px,10vw,150px) var(--rand2) clamp(90px,10vw,150px) max(var(--rand),calc((100% - var(--breit))/2))}
+.kontakt__titel{color:var(--tinte);max-width:15ch}
+.kontakt__titel em{color:var(--holz)}
+.kontakt .brief{margin-top:clamp(30px,3.4vw,48px);max-width:560px}
+.kontakt__bild{aspect-ratio:4/5;overflow:hidden;border-radius:var(--r1)}
+.kontakt__bild img{width:100%;height:100%;object-fit:cover;object-position:30% 50%}
+.brief{padding:clamp(28px,3vw,46px)}
+.brief__satz{max-width:40ch}
+.brief address{display:grid;gap:4px;margin-top:22px;padding-top:20px;border-top:1px solid var(--linie);font-size:18px}
+.brief address b{font:400 clamp(26px,2.2vw,34px)/1.1 var(--titel);color:var(--holz);margin-bottom:6px}
+.brief address a{text-decoration:none;background:linear-gradient(var(--holz),var(--holz)) 0 100%/100% 1px no-repeat;justify-self:start}
+
+/* ---------- 9 Fuss ---------- */
+.fuss{color:#EFE6D6;background:var(--tief) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px;padding:clamp(80px,8vw,120px) 0 0}
+.fuss__haus,.familienband{width:min(var(--breit),calc(100% - 2 * var(--rand)));margin-inline:auto}
+.fuss__satz{max-width:24ch;font:400 clamp(40px,4.4vw,72px)/1.04 var(--titel);color:#F4EEE3}
+.fuss__satz em{color:var(--stroh)}
+.fuss__spalten{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:clamp(34px,4vw,56px);padding-top:28px;border-top:1px solid rgba(217,191,143,.25)}
+.fuss__adresse{font-size:17px;line-height:1.7}
+.fuss__adresse a{text-decoration:none}
+.fuss__wege{display:grid;grid-template-columns:1fr 1fr;column-gap:28px}
+.fuss__wege a{display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(217,191,143,.22);text-decoration:none;font-size:17px}
+.fuss__wege i{width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 50% 35%,#6B5440,#45352A);box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 0 0 1px rgba(217,191,143,.3);position:relative}
+.fuss__wege i::after{content:'';position:absolute;left:50%;top:50%;width:7px;height:7px;border-right:1.6px solid var(--stroh);border-bottom:1.6px solid var(--stroh);transform:translate(-65%,-50%) rotate(-45deg)}
+
+/* Familienband «Vier Scheiben» (FAMILIEN-FOOTER.md, gleich auf allen Häusern; hier nur die Farben des Chalets) */
+.familienband{--fb-text:#EFE6D6;--fb-akzent:var(--stroh);--fbr:clamp(14px,1.4vw,22px);display:block;margin-top:clamp(56px,6vw,90px);padding:clamp(50px,5vw,80px) 0;border-top:1px solid rgba(217,191,143,.25);color:var(--fb-text);font-family:'Tenor Sans','Avenir Next',sans-serif}
+.fb__kopf{display:flex;align-items:center;gap:16px;color:var(--fb-text);text-decoration:none;font-size:clamp(1.1rem,1.5vw,1.4rem);letter-spacing:.04em}
+.fb__kopf img{width:44px;height:auto}
+.fb__haeuser{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:clamp(30px,4vw,50px) 0 0;padding:0;list-style:none}
+.fb__haus a,.fb__haus>div{display:grid;gap:6px;color:var(--fb-text);text-decoration:none}
+.fb__haus figure{position:relative;aspect-ratio:2/3;margin:0 0 18px;overflow:hidden;background:rgba(255,255,255,.06)}
+.fb__haus:first-child figure{border-radius:var(--fbr) 0 0 var(--fbr)}
+.fb__haus:last-child figure{border-radius:0 var(--fbr) var(--fbr) 0}
+.fb__haus img{display:block;width:100%;height:100%;object-fit:cover;transition:transform 2.4s cubic-bezier(.16,1,.3,1)}
+.fb__haus a:hover img{transform:scale(1.03)}
+.fb__haus--hier figure::after{content:'';position:absolute;left:0;right:0;bottom:0;height:4px;background:var(--fb-akzent)}
+.fb__name{font-size:clamp(1.05rem,1.3vw,1.25rem);line-height:1.2;padding-right:14px}
+.fb__zusatz{font-size:.92rem;opacity:.75;padding-right:14px}
+.fb__ort{font-size:.88rem;opacity:.6;padding-right:14px}
+.fb__hier,.fb__weiter{margin-top:6px;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--fb-akzent)}
+.js .fb__haus{transform:translate3d(0,110px,0) scale(.96);transition:transform 1.2s cubic-bezier(.22,.61,.36,1) calc(var(--n,0) * 70ms)}
+.js .fb__haus.da{transform:none}
+.studie{display:flex;flex-wrap:wrap;gap:8px 26px;align-items:center;padding:18px max(var(--rand),calc((100% - var(--breit))/2));background:var(--nacht);font:400 13px/1.5 var(--mono);letter-spacing:.06em;color:#BFAF96}
+.studie button{border:0;background:none;padding:0;font:inherit;letter-spacing:inherit;color:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+
+/* ---------- Fenster auf der Seite: Anfrage und Impressum ---------- */
+dialog{border:0;padding:0;background:none;max-width:min(720px,calc(100vw - 24px));width:100%;color:var(--tinte)}
+dialog::backdrop{background:rgba(39,29,22,.62)}
+dialog .blatt{padding:clamp(26px,3.4vw,44px);max-height:calc(100svh - 32px);overflow-y:auto;overscroll-behavior:contain}
+dialog[open]{animation:auf .6s var(--e1)}
+@keyframes auf{from{transform:translateY(30px) scale(.98)}to{transform:none}}
+.dlg__zu{position:absolute;top:14px;right:14px;width:42px;height:42px;border-radius:50%;border:0;cursor:pointer;font-size:24px;line-height:1;color:var(--tinte);
+  background:linear-gradient(180deg,#fff,#EFE7DA);box-shadow:inset 0 1px 0 #fff,inset 0 -1px 0 rgba(90,70,50,.25),0 0 0 1px rgba(90,70,50,.2)}
+.dlg__titel{font:400 clamp(34px,3.4vw,48px)/1.05 var(--titel);color:var(--holz);padding-right:40px}
+.dlg__satz{margin-top:10px;max-width:46ch}
+.leise{color:var(--leise);font-size:15px;margin-top:16px}
+.anf__felder{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px;margin-top:24px}
+.anf__felder .ganz{grid-column:1/-1}
+.anf__felder label{display:grid;gap:6px;font-size:14px;color:var(--leise)}
+.anf__felder input,.anf__felder select,.anf__felder textarea,.anf__felder .cw-knopf{width:100%;min-height:50px;padding:12px 16px;border:0;border-radius:14px;font:400 17px/1.3 var(--text);color:var(--tinte);
+  background:#F1EADD;box-shadow:inset 0 2px 4px rgba(58,46,34,.14),inset 0 -1px 0 rgba(255,255,255,.8);-webkit-appearance:none;appearance:none}
+.anf__felder .cw{background:#F1EADD;border-radius:14px;box-shadow:inset 0 2px 4px rgba(58,46,34,.14),inset 0 -1px 0 rgba(255,255,255,.8)}
+.anf__felder .cw .cw-knopf{background:none;box-shadow:none}
+.anf__felder textarea{min-height:110px;resize:vertical}
+.anf__felder input:focus-visible,.anf__felder textarea:focus-visible{outline:1.5px solid var(--holz);outline-offset:2px}
+.anf__hinweis{margin-top:16px;font-size:14px;color:var(--leise)}
+.anf__fehler{margin-top:12px;color:#8E2F22;font-size:15px}
+.anf__danke{display:none}
+.anf--danke .anf__form{display:none}
+.anf--danke .anf__danke{display:block}
+
+/* ---------- Handy und schmale Fenster: eigene Fassung ---------- */
+@media (max-width:1080px){
+  .leiste__nav{display:none}
+  .leiste__menue{display:block}
+}
+@media (max-width:980px){
+  .leiste__ecke span{display:none}
+  .leiste__ecke{padding:0 11px}
+  .kopf,.wohnung,.praxis,.kontakt{grid-template-columns:1fr}
+  .kontakt{padding-right:var(--rand)}
+  .kontakt__bild{aspect-ratio:4/3}
+  .heidi__mitte{grid-template-columns:1fr}
+  .heidi__f1{width:min(270px,46vw)}.heidi__f2{width:min(223px,38vw)}
+  .minuten{justify-self:start}
+  .inbegriffen{flex-direction:column;align-items:flex-start}
+}
+@media (max-width:760px){
+  body{font-size:17px}
+  .leiste{top:10px;gap:8px;padding:0 10px}
+  .leiste__insel{position:static;transform:none;height:52px;padding:0 16px;gap:16px;margin-right:auto}
+  .leiste__marke{font-size:28px}
+  .leiste__anfrage{height:44px;padding-left:16px;gap:10px}
+  .leiste__anfrage i{width:32px;height:32px}
+  .auftakt__name>span{font-size:clamp(96px,30vw,150px)}
+  .auftakt .knoepfe{gap:10px}
+  .knopf{height:52px;padding-left:22px}
+  .knopf i{width:38px;height:38px}
+  .haus__wand{flex-direction:column;gap:6px}
+  .haus__f--winter,.haus__f--sommer{flex:none;width:100%;border-radius:var(--r2)}
+  .haus__f--winter{aspect-ratio:4/5}
+  main>section.bruch{height:58svh}
+  .bruch__satz{font-size:clamp(40px,12vw,60px)}
+  .schilder{grid-template-columns:1fr;gap:8px}
+  .schild{padding:10px 16px 10px 10px}
+  .schild b{width:50px;height:50px;font-size:32px}
+  .wohnung__reihe{gap:5px}
+  .mini{border-radius:7px}
+  .tal__wand{grid-template-columns:1fr 1fr;gap:6px}
+  .tal__f:nth-child(n){border-radius:6px}
+  .tal__f:nth-child(1){border-top-left-radius:var(--r2)}.tal__f:nth-child(2){border-top-right-radius:var(--r2)}.tal__f:nth-child(5){border-bottom-left-radius:var(--r2)}.tal__f:nth-child(6){border-bottom-right-radius:var(--r2)}
+  .minuten{flex-direction:column;align-items:flex-start}
+  .zahlen{grid-template-columns:1fr}
+  .zahl{padding:20px 0}
+  .zahl+.zahl{border-left:0;border-top:1px solid var(--linie)}
+  .panorama__bild{aspect-ratio:2/1}
+  .fuss__spalten{grid-template-columns:1fr}
+  .fb__haeuser{grid-template-columns:1fr 1fr;row-gap:30px}
+  .fb__haus figure,.fb__haus:first-child figure,.fb__haus:last-child figure{border-radius:var(--fbr)}
+  .anf__felder{grid-template-columns:1fr}
+}
+@media (max-width:360px){
+  .leiste__anfrage{padding:0 16px}
+  .leiste__anfrage i{display:none}
+  .leiste__insel{padding:0 12px;gap:12px}
+}
+@media (prefers-reduced-motion:reduce){
+  .js [data-r],.js [data-r] *,.js [data-zeilen] .zl>span,.js [data-staffel]>*,.js [data-flaeche],.js [data-flaeche] img,.js figure img,.js .fb__haus,.js .auftakt__bild img,.js .auftakt__name>span,.js .auftakt__text>*,.js .auftakt__chalet{transform:none!important;scale:1!important;opacity:1!important;transition:none!important;animation:none!important}
+  .auftakt__bild,.auftakt__text,.haus__f img,[data-zug],[data-r]{animation:none!important;translate:none!important}
+}
+
+.menue{overflow-y:auto}
+/* Handy, Menü offen: «Schliessen» ist länger als «Menü», der Anfrage-Knopf bleibt trotzdem ganz im Bild */
+@media (max-width:440px){
+  .leiste:has(.leiste__menue[aria-expanded=true]) .leiste__anfrage{padding:0 16px}
+  .leiste:has(.leiste__menue[aria-expanded=true]) .leiste__anfrage i{display:none}
+  .leiste:has(.leiste__menue[aria-expanded=true]) .leiste__insel{padding:0 12px;gap:12px}
+}
+/* Leiste: der Punkt der Seite, auf der man ist, bleibt unterstrichen */
+.leiste__nav a[aria-current=page]{background-size:100% 1px}
+
+/* ---------- Hereinschweben wie beim Grand Beau-Rivage (schweben.js, Robert 09.11.2026) ----------
+   Bilder fliegen 64–96 px herauf und wachsen von .975 auf 1 (1,6 s), das Foto darin setzt sich aus 1,13 auf 1,04 (2,2 s).
+   Die älteren Auftritte (Zug am Scrollen, Staffel, Fläche) ruhen, solange das Schweben läuft; Titelzeilen und Textzeilen bleiben. */
+.schwebt [data-zug],.schwebt [data-r]:not([data-r=text]),.schwebt [data-flaeche],.schwebt [data-staffel]>*{animation:none!important;transform:none!important}
+.schwebt figure[data-r] img,.schwebt [data-staffel] figure img,.schwebt [data-flaeche] figure>img,.schwebt [data-zug]>img{transform:none}
+.schwebt [data-flaeche] figure>img:not(.rv-f),.schwebt [data-zug]>img:not(.rv-f){scale:none}
+/* !important und html.schwebt: die älteren Auftritte ([data-r], Staffel, Zug) setzen eigene Übergänge und liessen die Bilder sonst springen */
+html.schwebt .rv-t.rv-n{translate:0 clamp(34px,3.2vw,52px);transition-delay:calc(var(--rvn,0) * 85ms)!important}
+.rv-t,html.schwebt .rv-b{translate:0 clamp(64px,6.2vw,96px);transition:translate 1.6s cubic-bezier(.16,1,.3,1),scale 1.6s cubic-bezier(.16,1,.3,1)!important}
+html.schwebt .rv-b{scale:.975;transform-origin:50% 100%}
+html.schwebt .rv-t.rv-da,html.schwebt .rv-b.rv-da{translate:none;scale:none}
+html.schwebt .rv-b img.rv-f{scale:1.15;transition:scale 2.6s cubic-bezier(.16,1,.3,1)!important}
+html.schwebt .rv-b.rv-zo img.rv-f{scale:1.04}
+/* Lauftexte rollen zeilenweise aus dem Schlitz (Stand Gilles Varone 09.11.2026) */
+.rv-z .zl{display:block;overflow:hidden;padding-bottom:.16em;margin-bottom:-.16em}
+.rv-z .zl>span{display:block;transform:translateY(118%);transition:transform 1.3s cubic-bezier(.16,1,.3,1) calc(var(--z,0)*95ms)}
+.rv-z.rv-da .zl>span{transform:none}
+html.schwebt .rv-sofort.rv-sofort,html.schwebt .rv-sofort.rv-sofort img,html.schwebt .rv-sofort.rv-sofort .zl>span{transition:none!important}
+/* Gleiten auf der Scroll-Zeitachse: läuft im Takt des Scrollens, auch in Safari mit 120 Hz (Vorlage gv.css) */
+@supports (animation-timeline: view()){
+  .rv-gl{view-timeline:--rv-gleit block}
+  .rv-gl>img.rv-f,.rv-gl img.rv-f{animation:rv-gleit linear both;animation-timeline:--rv-gleit;animation-range:cover 0% cover 100%}
+  @keyframes rv-gleit{from{translate:0 2%}to{translate:0 -2%}}
+}
+
+/* ---------- Runde Ecken: jeder Abschnitt legt sich mit runden oberen Ecken über den vorigen (Standard aller Häuser); das Fenster bleibt oben gerade ---------- */
+main>section:not(:first-child):not(.bruch){--ecke:clamp(22px,2.6vw,40px);margin-top:calc(-1 * var(--ecke));border-radius:var(--ecke) var(--ecke) 0 0;overflow:clip}
+main+.fuss{--ecke:clamp(22px,2.6vw,40px);position:relative;z-index:2;margin-top:calc(-1 * var(--ecke));border-radius:var(--ecke) var(--ecke) 0 0}
+/* Was zuletzt in einem Abschnitt steht, bleibt frei vom nächsten Abschnitt, der sich mit runden Ecken darüberlegt (Robert 09.11.2026) */
+main>section.tal{padding-bottom:calc(clamp(56px,6vw,96px) + clamp(22px,2.6vw,40px))}
+@media (max-width:760px){main>section.auftakt{padding-bottom:calc(clamp(22px,2.6vw,40px) + 16px)}}
+/* Keine abgeschnittenen Buchstaben (Robert 10.11.2026, Vorlage Monte-Moro): der Schlitz der Titelzeilen hat oben .22em Luft für Ober- und Akzentlängen */
+@media (prefers-reduced-motion:no-preference){.js [data-zeilen] .zl,.rv-z .zl{padding:.22em 0 .16em;margin:-.22em 0 -.16em}.bruch__satz .zl{padding:.22em .3em .18em;margin:-.22em -.3em -.18em}}

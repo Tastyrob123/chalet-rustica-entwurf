@@ -1,0 +1,112 @@
+{
+ "ziel": "anreise",
+ "art": "satz",
+ "key": "anreise",
+ "name": "Anreise",
+ "unter": "Der Weg ins Tal",
+ "gruppe": "Für alle Wohnungen",
+ "ab": "",
+ "plakat": "",
+ "foto": "winterweg",
+ "titel": "Anreise",
+ "datum": "Der Weg ins Tal",
+ "mit": "CH-3905 Saas-Almagell",
+ "rubriken": [
+  {
+   "titel": "Mit dem Zug",
+   "form": "einzeln",
+   "eintraege": [
+    {
+     "name": "",
+     "zeit": "",
+     "text": "Mit dem Zug bis Visp, von dort mit dem Bus über Saas-Grund nach Saas-Almagell.",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "",
+   "form": "zeiten",
+   "eintraege": [
+    {
+     "name": "55 Min.",
+     "zeit": "",
+     "text": "ab Bern",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "2 Std.",
+     "zeit": "",
+     "text": "ab Basel und Zürich",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Mit dem Auto",
+   "form": "einzeln",
+   "eintraege": [
+    {
+     "name": "Durch das Rhonetal über Sion, Sierre und Visp",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Durch den Lötschberg mit dem Autoverlad Kandersteg–Goppenstein",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Aus der Ost- und Zentralschweiz mit dem Autoverlad an der Furka, im Sommer über den Pass",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Mit dem Flugzeug",
+   "form": "zeiten",
+   "eintraege": [
+    {
+     "name": "2 Stunden",
+     "zeit": "",
+     "text": "ab Zürich",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "2½ Stunden",
+     "zeit": "",
+     "text": "ab Mailand",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "3 Stunden",
+     "zeit": "",
+     "text": "ab Genf",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  }
+ ],
+ "hinweis": "",
+ "quelle": "_werkzeuge/_web/inhalt/daten.py ANREISE, HAUS (adresse), gebaut auf kontakt.html («Der Weg ins Tal.»)",
+ "seite": "kontakt.html",
+ "bild": null,
+ "foto_gross": "winter-quer",
+ "fotos": [
+  "tal-klar",
+  "mattmark-see"
+ ]
+}

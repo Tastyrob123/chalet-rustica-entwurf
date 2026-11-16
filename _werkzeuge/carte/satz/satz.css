@@ -1,0 +1,98 @@
+/* Die Hausmappe · Chalet Rustica Saas-Almagell — Satz der Blätter (09.11.2026, satz_bau.py; Vorlage Pairing-Karte des Schwesterhauses). Eine Datei für Vorschau, PDF und Werkbank.
+   Kleid aus der Website des Chalets (website/assets/css/rustica.css :root): Papier #FBF7EF als Blatt, Tief #33261C und Tinte #3A2E22 als Schrift,
+   Holz #5A4632 für das gotische R und den Namen, Gold #A9865A als Haarlinie (runde Ecken wie die Website), Stroh #D9BF8F als kurzer Strich, Taupe #8A7458
+   für kleine Zeilen, Leise #76654F für Beschreibungen. Titel in Fraunces 400 (Betonung über die Farbe, nie fett, nie kursiv), Name des Hauses in
+   Grenze Gotisch (nur der Name), Lauf in Instrument Sans, kleine Zeilen in DM Mono. Masse in mm, Schrift in pt über --s (blatt.js passt je Seite an).
+   Feste Schnitte statt variabler Schriften (fonts_statisch.py): Chromium bettet variable Schriften als «Type 3» ein (Fehlerbuch 10a).
+   Gesperrte Versalien höchstens .08em, sonst liest pdftotext Buchstabe für Buchstabe. */
+@font-face{font-family:'Fraunces Titel';src:url('../fonts/Fraunces-Titel-400.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:'Fraunces Satz';src:url('../fonts/Fraunces-400.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:'Grenze Satz';src:url('../fonts/GrenzeGotisch-400.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:'Instrument Satz';src:url('../fonts/Instrument-400.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:'Instrument Satz';src:url('../fonts/Instrument-500.ttf') format('truetype');font-weight:500;font-style:normal;font-display:block}
+@font-face{font-family:'DM Mono Satz';src:url('../fonts/DMMono-400.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
+:root{--papier:#FBF7EF;--creme:#EFE6D6;--tief:#33261C;--tinte:#3A2E22;--holz:#5A4632;--leise:#76654F;--taupe:#8A7458;--stroh:#D9BF8F;--gold:#A9865A;
+  --linie:rgba(169,134,90,.6);--linie2:rgba(90,70,50,.18)}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#4A3926;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.blatt{--s:1;position:relative;overflow:hidden;margin:8mm auto;background:var(--papier);color:var(--tinte);display:flex;flex-direction:column;
+  font-family:'Instrument Satz',Arial,sans-serif;font-weight:400;font-size:calc(8.8pt*var(--s));line-height:1.45;font-feature-settings:'locl' 0;page-break-after:always;break-after:page}
+:where(.blatt) :where(h1,h2,h3,h4,p,figure){margin:0;padding:0;font-weight:inherit}
+:where(.blatt) b{font-weight:400}   /* nie fett (Kleid des Hauses) */
+/* eine Haarlinie in Gold mit runden Ecken (Website r2 14 px), innen eine leise zweite */
+.blatt::before,.blatt::after{content:'';position:absolute;pointer-events:none;border:.3mm solid var(--linie);border-radius:4mm}
+.blatt::before{inset:7mm}
+.blatt::after{inset:8.6mm;border-color:var(--linie2);border-radius:3mm}
+.inhalt{position:relative;z-index:1;flex:1;min-height:0;padding:16mm 19mm 3mm;display:flex;flex-direction:column}
+.ufuss2{position:relative;z-index:1;flex:none;margin:0 19mm;padding:2.6mm 0 12.5mm;font-family:'DM Mono Satz',Menlo,monospace;font-size:6.6pt;letter-spacing:.04em;text-align:center;color:var(--leise)}   /* ohne Versalien: «ß» bliebe sonst nicht «ß» */
+
+/* Kopf: gotisches R, Name des Hauses, Titel, kleine Zeile, Zeile darunter */
+.sb-quer{flex:1 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center}
+.sb-oben{display:flex;flex-direction:column;align-items:center;margin-bottom:calc(6mm*var(--s))}
+.sb-zeichen{display:flex;flex-direction:column;align-items:center;color:var(--holz)}
+.zb-z{display:block;width:calc(10mm*min(var(--s),1.2));height:auto}
+.sb-haus{display:block;font-family:'Grenze Satz',Georgia,serif;font-size:calc(10.5pt*min(var(--s),1.2));line-height:1;letter-spacing:.02em;color:var(--holz);margin-top:calc(1.6mm*var(--s))}
+.sb-band{font-family:'Fraunces Titel',Georgia,serif;font-weight:400;font-size:calc(30pt*var(--s));line-height:1.06;letter-spacing:-.005em;color:var(--tief);margin-top:calc(6.5mm*var(--s))}
+.sb-datum{font-family:'DM Mono Satz',Menlo,monospace;font-size:calc(7.4pt*var(--s));letter-spacing:.08em;text-transform:uppercase;color:var(--taupe);margin-top:calc(3mm*var(--s))}
+.sb-mit{font-size:calc(9.2pt*var(--s));color:var(--leise);margin-top:calc(1.8mm*var(--s))}
+
+/* Foto der Wohnung: ganze Breite, runde Ecken wie die Website */
+.sb-foto{display:block;width:100%;margin:0 0 calc(6.5mm*var(--s));border-radius:3mm;overflow:hidden;background:var(--creme)}
+.sb-foto img{display:block;width:100%;height:calc(78mm*min(var(--s),1.15));object-fit:cover}
+
+/* Rubriken: Etikett mit kurzem Strich in Stroh, Einträge in zwei Spalten, je Name, Angabe, Beschreibung */
+.sb-menue{display:flex;flex-direction:column;align-items:stretch;width:100%;text-align:left}
+.sb-r+.sb-r{margin-top:calc(6.5mm*var(--s))}
+.sb-h{font-family:'DM Mono Satz',Menlo,monospace;font-size:calc(7.6pt*var(--s));letter-spacing:.08em;text-transform:uppercase;color:var(--taupe);text-align:center;margin-bottom:calc(4mm*var(--s))}
+.sb-h::after{content:'';display:block;width:9mm;height:.4mm;margin:calc(2.4mm*var(--s)) auto 0;background:var(--stroh);border-radius:.2mm}
+.sb-spalten{column-count:2;column-gap:12mm}
+.sb-spalten .sb-m{break-inside:avoid;margin-bottom:calc(3.2mm*var(--s))}
+.sb-n,.sb-band,.sb-t{text-wrap:pretty}
+.sb-n{font-family:'Fraunces Satz',Georgia,serif;font-weight:400;font-size:calc(10.4pt*var(--s));line-height:1.3;color:var(--tief)}
+.sb-mz,.sb-mp{font-family:'DM Mono Satz',Menlo,monospace;font-size:calc(6.9pt*var(--s));letter-spacing:.04em;color:var(--taupe);margin-top:calc(.8mm*var(--s));font-variant-numeric:tabular-nums}
+.sb-mp{color:var(--tief)}
+.sb-mp+.sb-mz{margin-top:0}
+.sb-t{color:var(--tinte);margin-top:calc(.6mm*var(--s))}
+.sb-m>.sb-t:first-child{margin-top:0}
+/* «Auf einen Blick»: die Zahlen der Wohnung nebeneinander, gross in Fraunces wie auf der Website */
+.sb-r--zahlen .sb-spalten{column-count:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:0 8mm;text-align:center}
+.sb-r--zahlen .sb-m{margin:0;padding:calc(1.5mm*var(--s)) 0;border-left:.25mm solid var(--linie2)}
+.sb-r--zahlen .sb-m:first-child{border-left:0}
+.sb-r--zahlen .sb-n{font-family:'Fraunces Titel',Georgia,serif;font-size:calc(24pt*var(--s));line-height:1;color:var(--holz)}
+.sb-r--zahlen .sb-t{font-size:calc(8.2pt*var(--s));color:var(--leise);margin-top:calc(1.4mm*var(--s))}
+/* Formen der Rubriken (karten_lesen.py): einzeln = eine Spalte mittig (Sätze), zeiten = so viele Spalten wie Angaben, spalte = Rubriken nebeneinander */
+.sb-r--einzeln .sb-spalten{column-count:1;text-align:center;max-width:150mm;margin:0 auto}
+.sb-r--zeiten .sb-spalten{column-count:auto;display:flex;justify-content:center;text-align:center}
+.sb-r--zeiten .sb-m{flex:1 1 0;max-width:58mm;margin:0;padding:calc(1mm*var(--s)) 4mm;border-left:.25mm solid var(--linie2)}
+.sb-r--zeiten .sb-m:first-child{border-left:0}
+.sb-r--zeiten .sb-n{font-family:'Fraunces Titel',Georgia,serif;font-size:calc(15pt*var(--s));line-height:1.1;color:var(--holz)}
+.sb-r--zeiten .sb-t{color:var(--leise);margin-top:calc(1mm*var(--s))}
+.sb-r:not(:has(.sb-h)){margin-top:calc(3.5mm*var(--s))}
+.sb-reihe{display:flex;gap:8mm;margin-top:calc(6.5mm*var(--s))}
+.sb-reihe>.sb-r{flex:1 1 0;margin-top:0}
+.sb-r--spalte .sb-spalten{column-count:1;text-align:center}
+.sb-hinweis{margin-top:calc(6mm*var(--s));padding-top:calc(3mm*var(--s));border-top:.25mm solid var(--linie2);font-size:calc(8.8pt*var(--s));color:var(--leise);text-align:center;max-width:150mm;margin-left:auto;margin-right:auto}
+.sb-unten{width:100%;display:flex;flex-direction:column;align-items:center;margin-top:auto}
+.sb-zusatz{margin-top:calc(2.4mm*var(--s));font-size:calc(8.4pt*var(--s));color:var(--leise)}
+
+/* Teil ABEND (satz.js) aus der Vorlage: ruht, das Chalet führt kein Menü; Klassen bleiben, damit satz.js unverändert setzt */
+.sb-quer--menue{justify-content:space-evenly}
+.sb-quer--menue .sb-menue{align-items:center;text-align:center}
+.sb-menue>.sb-m{break-inside:avoid;max-width:142mm}
+.sb-gn,.sb-oder{font-family:'DM Mono Satz',Menlo,monospace;font-size:calc(7.2pt*var(--s));letter-spacing:.08em;text-transform:uppercase;color:var(--taupe)}
+.sb-dr{font-size:calc(8.6pt*var(--s));color:var(--leise);margin-top:calc(1.6mm*var(--s))}
+.sb-tr.bruch{display:block;height:0;overflow:hidden;font-size:0;line-height:0}   /* Trenner, an dem die Zeile bricht (blatt.js trennerAmRand) */
+.sb-gang{display:flex;justify-content:center;padding:calc(3.4mm*var(--s)) 0}
+.sb-gang i{display:block;width:8mm;height:.4mm;background:var(--stroh)}
+
+/* Gestalten (Fortgeschritten): Stile, die satz.js an ein Element legt (nie fett, nie kursiv: «kursiv» und «medium» gibt es hier nicht) */
+[data-gf]{font-family:var(--gf)!important}
+[data-gc]{color:var(--gc)!important}
+[data-ga="versal"]{text-transform:uppercase!important;letter-spacing:.06em}
+[data-ga="normal"]{text-transform:none!important;letter-spacing:0!important}
+[data-gal]{text-align:var(--gal)!important;justify-content:var(--gai)!important;align-items:var(--gai)}
+[data-gz]{line-height:var(--gz)!important}
+@media print{html,body{background:none}.blatt{margin:0}}
+/* Flächen wachsen, schrumpfen aber nie: sonst läuft Inhalt unbemerkt übereinander statt dass blatt.js die Schrift einpasst (Fehlerbuch 9) */
+.sb-quer{flex:1 0 auto;min-height:auto}
+.sb-menue{flex:0 0 auto}

@@ -1,0 +1,1414 @@
+{
+ "haus": "Chalet Rustica",
+ "ort": "Saas-Almagell",
+ "fotos": [
+  {
+   "k": "haus-berg",
+   "t": {
+    "de": "Das Chalet Rustica an einem Sommertag, dahinter der Berg"
+   },
+   "b": "haus",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/haus-berg-x.webp",
+   "fm": "../../assets/img/haus-berg-l.webp",
+   "fs": "../../assets/img/haus-berg-s.webp"
+  },
+  {
+   "k": "haus-sommer",
+   "t": {
+    "de": "Das Chalet Rustica im Sommer mit Geranien an jedem Balkon und der Liegewiese davor"
+   },
+   "b": "haus",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2533,
+   "h": 1536,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/haus-sommer-x.webp",
+   "fm": "../../assets/img/haus-sommer-l.webp",
+   "fs": "../../assets/img/haus-sommer-s.webp"
+  },
+  {
+   "k": "haus-winter",
+   "t": {
+    "de": "Das Chalet Rustica im tiefen Schnee, an der Fassade der Schriftzug «Rustica»"
+   },
+   "b": "haus",
+   "s": "winter",
+   "f": "hoch",
+   "w": 1792,
+   "h": 2400,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/haus-winter-x.webp",
+   "fm": "../../assets/img/haus-winter-l.webp",
+   "fs": "../../assets/img/haus-winter-s.webp"
+  },
+  {
+   "k": "sommer-hoch",
+   "t": {
+    "de": "Die Balkone des Chalet Rustica voller Geranien"
+   },
+   "b": "haus",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 1229,
+   "h": 1536,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/sommer-hoch-x.webp",
+   "fm": "../../assets/img/sommer-hoch-l.webp",
+   "fs": "../../assets/img/sommer-hoch-s.webp"
+  },
+  {
+   "k": "n1-bad",
+   "t": {
+    "de": "Wohnung Almagellerhorn: Dusche und WC"
+   },
+   "b": "almagellerhorn",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1792,
+   "h": 2400,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr1badduschegross.JPG",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n1-bad-x.webp",
+   "fm": "../../assets/img/n1-bad-l.webp",
+   "fs": "../../assets/img/n1-bad-s.webp"
+  },
+  {
+   "k": "n1-kueche",
+   "t": {
+    "de": "Wohnung Almagellerhorn: Essplatz und Küche"
+   },
+   "b": "almagellerhorn",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1792,
+   "h": 2400,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr1kuecheesstischgross.JPG",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n1-kueche-x.webp",
+   "fm": "../../assets/img/n1-kueche-l.webp",
+   "fs": "../../assets/img/n1-kueche-s.webp"
+  },
+  {
+   "k": "n1-nord",
+   "t": {
+    "de": "Wohnung Almagellerhorn: zweites Schlafzimmer mit Doppelbett"
+   },
+   "b": "almagellerhorn",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr1zimmernordgross.JPG",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n1-nord-x.webp",
+   "fm": "../../assets/img/n1-nord-l.webp",
+   "fs": "../../assets/img/n1-nord-s.webp"
+  },
+  {
+   "k": "n1-sued",
+   "t": {
+    "de": "Wohnung Almagellerhorn: Schlafzimmer mit Doppelbett"
+   },
+   "b": "almagellerhorn",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr1zimmersuedgross.JPG",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n1-sued-x.webp",
+   "fm": "../../assets/img/n1-sued-l.webp",
+   "fs": "../../assets/img/n1-sued-s.webp"
+  },
+  {
+   "k": "n1-wohnraum",
+   "t": {
+    "de": "Wohnung Almagellerhorn: Aufenthaltsraum mit Polstergruppe und Fernseher"
+   },
+   "b": "almagellerhorn",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr1wohnraumgross.JPG",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n1-wohnraum-x.webp",
+   "fm": "../../assets/img/n1-wohnraum-l.webp",
+   "fs": "../../assets/img/n1-wohnraum-s.webp"
+  },
+  {
+   "k": "n2-bad",
+   "t": {
+    "de": "Wohnung Portjengrat: Lavabo mit Spiegel"
+   },
+   "b": "portjengrat",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1792,
+   "h": 2400,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr2badgross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n2-bad-x.webp",
+   "fm": "../../assets/img/n2-bad-l.webp",
+   "fs": "../../assets/img/n2-bad-s.webp"
+  },
+  {
+   "k": "n2-balkon",
+   "t": {
+    "de": "Wohnung Portjengrat: Sitzecke mit Tür zum Südbalkon"
+   },
+   "b": "portjengrat",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1792,
+   "h": 2400,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr2balkongross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n2-balkon-x.webp",
+   "fm": "../../assets/img/n2-balkon-l.webp",
+   "fs": "../../assets/img/n2-balkon-s.webp"
+  },
+  {
+   "k": "n2-bett",
+   "t": {
+    "de": "Wohnung Portjengrat: Schlafzimmer mit Doppelbett und Nachttischlampen"
+   },
+   "b": "portjengrat",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr2bettgross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n2-bett-x.webp",
+   "fm": "../../assets/img/n2-bett-l.webp",
+   "fs": "../../assets/img/n2-bett-s.webp"
+  },
+  {
+   "k": "n2-kueche",
+   "t": {
+    "de": "Wohnung Portjengrat: Küche mit Herd und Geschirrspüler"
+   },
+   "b": "portjengrat",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1792,
+   "h": 2400,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr2kuchegross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n2-kueche-x.webp",
+   "fm": "../../assets/img/n2-kueche-l.webp",
+   "fs": "../../assets/img/n2-kueche-s.webp"
+  },
+  {
+   "k": "n2-wohn",
+   "t": {
+    "de": "Wohnung Portjengrat: Aufenthaltsraum mit Essplatz und Küche"
+   },
+   "b": "portjengrat",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1792,
+   "h": 2400,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr2wohngross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n2-wohn-x.webp",
+   "fm": "../../assets/img/n2-wohn-l.webp",
+   "fs": "../../assets/img/n2-wohn-s.webp"
+  },
+  {
+   "k": "n5-bad",
+   "t": {
+    "de": "Wohnung Weissmies: Bad mit Lavabo"
+   },
+   "b": "weissmies",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1792,
+   "h": 2400,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr5badgross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n5-bad-x.webp",
+   "fm": "../../assets/img/n5-bad-l.webp",
+   "fs": "../../assets/img/n5-bad-s.webp"
+  },
+  {
+   "k": "n5-bett",
+   "t": {
+    "de": "Wohnung Weissmies: Schlafzimmer mit zwei Betten"
+   },
+   "b": "weissmies",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr5bettgross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n5-bett-x.webp",
+   "fm": "../../assets/img/n5-bett-l.webp",
+   "fs": "../../assets/img/n5-bett-s.webp"
+  },
+  {
+   "k": "n5-kueche",
+   "t": {
+    "de": "Wohnung Weissmies: Küche mit Kochinsel"
+   },
+   "b": "weissmies",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr5kuchegross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n5-kueche-x.webp",
+   "fm": "../../assets/img/n5-kueche-l.webp",
+   "fs": "../../assets/img/n5-kueche-s.webp"
+  },
+  {
+   "k": "n5-wohn",
+   "t": {
+    "de": "Wohnung Weissmies: Aufenthaltsraum mit rotem Sofa und Holzboden"
+   },
+   "b": "weissmies",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr5wohngross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n5-wohn-x.webp",
+   "fm": "../../assets/img/n5-wohn-l.webp",
+   "fs": "../../assets/img/n5-wohn-s.webp"
+  },
+  {
+   "k": "n5-wohn2",
+   "t": {
+    "de": "Wohnung Weissmies: Essraum mit langem Tisch"
+   },
+   "b": "weissmies",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1792,
+   "h": 2400,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr5wohn2gross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n5-wohn2-x.webp",
+   "fm": "../../assets/img/n5-wohn2-l.webp",
+   "fs": "../../assets/img/n5-wohn2-s.webp"
+  },
+  {
+   "k": "n5-zimmer2",
+   "t": {
+    "de": "Wohnung Weissmies: zweites Schlafzimmer mit zwei Betten"
+   },
+   "b": "weissmies",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Bilder der Wohnungen. Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.chalet-rustica.ch/rustica/bilder/nr5balkongross.jpg",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/n5-zimmer2-x.webp",
+   "fm": "../../assets/img/n5-zimmer2-l.webp",
+   "fs": "../../assets/img/n5-zimmer2-s.webp"
+  },
+  {
+   "k": "dorf",
+   "t": {
+    "de": "Blick von oben ins Tal auf das Dorf"
+   },
+   "b": "tal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/dorf-x.webp",
+   "fm": "../../assets/img/dorf-l.webp",
+   "fs": "../../assets/img/dorf-s.webp"
+  },
+  {
+   "k": "gletscher",
+   "t": {
+    "de": "Unterwegs auf dem Gletscher, rundum Viertausender"
+   },
+   "b": "tal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1024,
+   "h": 683,
+   "art": "haus",
+   "q": "Wintergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/winter/winterimpressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/gletscher-x.webp",
+   "fm": "../../assets/img/gletscher-l.webp",
+   "fs": "../../assets/img/gletscher-s.webp"
+  },
+  {
+   "k": "hoehenweg",
+   "t": {
+    "de": "Wandernde auf einem Höhenweg über dem Tal"
+   },
+   "b": "tal",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1024,
+   "h": 772,
+   "art": "haus",
+   "q": "Sommergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/sommer/sommer-impressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/hoehenweg-x.webp",
+   "fm": "../../assets/img/hoehenweg-l.webp",
+   "fs": "../../assets/img/hoehenweg-s.webp"
+  },
+  {
+   "k": "klettergarten",
+   "t": {
+    "de": "Am Seil im Klettergarten"
+   },
+   "b": "tal",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1024,
+   "h": 772,
+   "art": "haus",
+   "q": "Sommergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/sommer/sommer-impressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/klettergarten-x.webp",
+   "fm": "../../assets/img/klettergarten-l.webp",
+   "fs": "../../assets/img/klettergarten-s.webp"
+  },
+  {
+   "k": "klettersteig",
+   "t": {
+    "de": "Am Klettersteig mit Leitern und Seilen"
+   },
+   "b": "tal",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1024,
+   "h": 772,
+   "art": "haus",
+   "q": "Sommergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/sommer/sommer-impressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/klettersteig-x.webp",
+   "fm": "../../assets/img/klettersteig-l.webp",
+   "fs": "../../assets/img/klettersteig-s.webp"
+  },
+  {
+   "k": "laerchen",
+   "t": {
+    "de": "Goldene Lärchen im Herbst"
+   },
+   "b": "tal",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/laerchen-x.webp",
+   "fm": "../../assets/img/laerchen-l.webp",
+   "fs": "../../assets/img/laerchen-s.webp"
+  },
+  {
+   "k": "langlauf",
+   "t": {
+    "de": "Langläufer auf der Loipe im Lärchenwald"
+   },
+   "b": "tal",
+   "s": "winter",
+   "f": "quer",
+   "w": 1024,
+   "h": 683,
+   "art": "haus",
+   "q": "Wintergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/winter/winterimpressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/langlauf-x.webp",
+   "fm": "../../assets/img/langlauf-l.webp",
+   "fs": "../../assets/img/langlauf-s.webp"
+  },
+  {
+   "k": "mattmark",
+   "t": {
+    "de": "Der Stausee Mattmark zwischen den Bergen"
+   },
+   "b": "tal",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1024,
+   "h": 772,
+   "art": "haus",
+   "q": "Sommergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/sommer/sommer-impressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/mattmark-x.webp",
+   "fm": "../../assets/img/mattmark-l.webp",
+   "fs": "../../assets/img/mattmark-s.webp"
+  },
+  {
+   "k": "mattmark-see",
+   "t": {
+    "de": "Der Mattmark-Stausee hinten im Tal"
+   },
+   "b": "tal",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1024,
+   "h": 772,
+   "art": "haus",
+   "q": "Sommergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/sommer/sommer-impressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/mattmark-see-x.webp",
+   "fm": "../../assets/img/mattmark-see-l.webp",
+   "fs": "../../assets/img/mattmark-see-s.webp"
+  },
+  {
+   "k": "panorama",
+   "t": {
+    "de": "Bergpanorama mit verschneiten Gipfeln über dem Tal"
+   },
+   "b": "tal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 3168,
+   "h": 1056,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/panorama-x.webp",
+   "fm": "../../assets/img/panorama-l.webp",
+   "fs": "../../assets/img/panorama-s.webp"
+  },
+  {
+   "k": "piste",
+   "t": {
+    "de": "Skipiste vor verschneiten Gipfeln"
+   },
+   "b": "tal",
+   "s": "winter",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/piste-x.webp",
+   "fm": "../../assets/img/piste-l.webp",
+   "fs": "../../assets/img/piste-s.webp"
+  },
+  {
+   "k": "schlitteln",
+   "t": {
+    "de": "Schlitteln im Schnee"
+   },
+   "b": "tal",
+   "s": "winter",
+   "f": "quer",
+   "w": 1024,
+   "h": 683,
+   "art": "haus",
+   "q": "Wintergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/winter/winterimpressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/schlitteln-x.webp",
+   "fm": "../../assets/img/schlitteln-l.webp",
+   "fs": "../../assets/img/schlitteln-s.webp"
+  },
+  {
+   "k": "schneeschuh",
+   "t": {
+    "de": "Mit Schneeschuhen unterwegs im Schnee"
+   },
+   "b": "tal",
+   "s": "winter",
+   "f": "quer",
+   "w": 1024,
+   "h": 683,
+   "art": "haus",
+   "q": "Wintergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/winter/winterimpressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/schneeschuh-x.webp",
+   "fm": "../../assets/img/schneeschuh-l.webp",
+   "fs": "../../assets/img/schneeschuh-s.webp"
+  },
+  {
+   "k": "skifahren",
+   "t": {
+    "de": "Skifahrerin auf der Piste vor verschneiten Gipfeln"
+   },
+   "b": "tal",
+   "s": "winter",
+   "f": "quer",
+   "w": 1024,
+   "h": 683,
+   "art": "haus",
+   "q": "Wintergalerie des Hotels Pirmin Zurbriggen (Haus der Familie im Dorf)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/sport-saastal/winter/winterimpressionen/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": false,
+   "fl": "../../assets/img/skifahren-x.webp",
+   "fm": "../../assets/img/skifahren-l.webp",
+   "fs": "../../assets/img/skifahren-s.webp"
+  },
+  {
+   "k": "tal-klar",
+   "t": {
+    "de": "Blick von oben ins Tal auf das Dorf, darüber der Berg"
+   },
+   "b": "tal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/tal-klar-x.webp",
+   "fm": "../../assets/img/tal-klar-l.webp",
+   "fs": "../../assets/img/tal-klar-s.webp"
+  },
+  {
+   "k": "wald",
+   "t": {
+    "de": "Lärchenwald mit Weg im Sommer"
+   },
+   "b": "tal",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/wald-x.webp",
+   "fm": "../../assets/img/wald-l.webp",
+   "fs": "../../assets/img/wald-s.webp"
+  },
+  {
+   "k": "weiler",
+   "t": {
+    "de": "Alte Hütten aus Holz und Stein in einem grünen Seitental"
+   },
+   "b": "tal",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/weiler-x.webp",
+   "fm": "../../assets/img/weiler-l.webp",
+   "fs": "../../assets/img/weiler-s.webp"
+  },
+  {
+   "k": "winterweg",
+   "t": {
+    "de": "Alte Häuser aus Holz und Stein im Schnee, dahinter die verschneiten Berge"
+   },
+   "b": "tal",
+   "s": "winter",
+   "f": "quer",
+   "w": 2752,
+   "h": 1536,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/winterweg-x.webp",
+   "fm": "../../assets/img/winterweg-l.webp",
+   "fs": "../../assets/img/winterweg-s.webp"
+  },
+  {
+   "k": "ziegen",
+   "t": {
+    "de": "Schwarzhalsziegen auf der Alpweide"
+   },
+   "b": "tal",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2400,
+   "h": 1792,
+   "art": "haus",
+   "q": "Inserat des Chalets bei Holidu (Fotos des Hauses). Mit KI hochgerechnet und nachgeschärft (Higgsfield, 08.11.2026)",
+   "u": "https://www.holidu.de/d/14021879",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "po": false,
+   "fl": "../../assets/img/ziegen-x.webp",
+   "fm": "../../assets/img/ziegen-l.webp",
+   "fs": "../../assets/img/ziegen-s.webp"
+  },
+  {
+   "k": "gastgeber",
+   "t": {
+    "de": "Heidi und Damian Andenmatten-Zurbriggen vor einem Wasserfall"
+   },
+   "b": "heidi",
+   "s": "jahr",
+   "f": "quer",
+   "w": 658,
+   "h": 360,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Dankesseite; Weissschleier herausgerechnet",
+   "u": "http://www.chalet-rustica.ch/kontakt/bilder/danke.jpg",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": true,
+   "fl": "../../assets/img/gastgeber-x.webp",
+   "fm": "../../assets/img/gastgeber-l.webp",
+   "fs": "../../assets/img/gastgeber-s.webp"
+  },
+  {
+   "k": "heidi-helm",
+   "t": {
+    "de": "Heidi Zurbriggen mit Helm und Rennski"
+   },
+   "b": "heidi",
+   "s": "winter",
+   "f": "quer",
+   "w": 223,
+   "h": 198,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Seite «Skikarriere»",
+   "u": "https://www.chalet-rustica.ch/skikarriere/skikarriere.htm",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": true,
+   "fl": "../../assets/img/heidi-helm-x.webp",
+   "fm": "../../assets/img/heidi-helm-l.webp",
+   "fs": "../../assets/img/heidi-helm-s.webp"
+  },
+  {
+   "k": "heidi-jubel",
+   "t": {
+    "de": "Heidi Zurbriggen im Zielraum, auf Schultern getragen"
+   },
+   "b": "heidi",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 270,
+   "h": 405,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Seite «Skikarriere»",
+   "u": "https://www.chalet-rustica.ch/skikarriere/skikarriere.htm",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": true,
+   "fl": "../../assets/img/heidi-jubel-x.webp",
+   "fm": "../../assets/img/heidi-jubel-l.webp",
+   "fs": "../../assets/img/heidi-jubel-s.webp"
+  },
+  {
+   "k": "heidi-praxis",
+   "t": {
+    "de": "Heidi bei einer Massage in ihrer Praxis"
+   },
+   "b": "heidi",
+   "s": "jahr",
+   "f": "quer",
+   "w": 3000,
+   "h": 2734,
+   "art": "haus",
+   "q": "Website des Hotels Pirmin Zurbriggen, in dem Heidi ihre Massagepraxis führt (Haus der Familie)",
+   "u": "https://www.wellnesshotel-zurbriggen.ch/de/wohnen-buchen/pauschalen-fuer-singels-und-paare/",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": true,
+   "fl": "../../assets/img/heidi-praxis-x.webp",
+   "fm": "../../assets/img/heidi-praxis-l.webp",
+   "fs": "../../assets/img/heidi-praxis-s.webp"
+  },
+  {
+   "k": "heidi-telefon",
+   "t": {
+    "de": "Heidi Andenmatten-Zurbriggen am Telefon"
+   },
+   "b": "heidi",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 270,
+   "h": 285,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Seite «Kontakt»",
+   "u": "https://www.chalet-rustica.ch/kontakt/kontakt.htm",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": true,
+   "fl": "../../assets/img/heidi-telefon-x.webp",
+   "fm": "../../assets/img/heidi-telefon-l.webp",
+   "fs": "../../assets/img/heidi-telefon-s.webp"
+  },
+  {
+   "k": "zeitung-glaube",
+   "t": {
+    "de": "Heidi Zurbriggen mit gefalteten Händen, Zeitungsbild"
+   },
+   "b": "heidi",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 223,
+   "h": 243,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Seite «Skikarriere», Zeitungsbild",
+   "u": "https://www.chalet-rustica.ch/skikarriere/skikarriere.htm",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": true,
+   "fl": "../../assets/img/zeitung-glaube-x.webp",
+   "fm": "../../assets/img/zeitung-glaube-l.webp",
+   "fs": "../../assets/img/zeitung-glaube-s.webp"
+  },
+  {
+   "k": "zeitung-junior",
+   "t": {
+    "de": "Heidi Zurbriggen als junge Rennfahrerin, Zeitungsbild"
+   },
+   "b": "heidi",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 140,
+   "h": 283,
+   "art": "haus",
+   "q": "Alte Website des Chalets (chalet-rustica.ch), Seite «Skikarriere», Zeitungsbild",
+   "u": "https://www.chalet-rustica.ch/skikarriere/skikarriere.htm",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "po": true,
+   "fl": "../../assets/img/zeitung-junior-x.webp",
+   "fm": "../../assets/img/zeitung-junior-l.webp",
+   "fs": "../../assets/img/zeitung-junior-s.webp"
+  }
+ ],
+ "dateien": [
+  {
+   "k": "zeichen",
+   "var": [
+    {
+     "k": "holz",
+     "grund": "hell",
+     "dateien": [
+      "rustica-saas-almagell-zeichen-holz.svg",
+      "rustica-saas-almagell-zeichen-holz.png"
+     ],
+     "px": [
+      1200,
+      1323
+     ]
+    },
+    {
+     "k": "stroh",
+     "grund": "dunkel",
+     "dateien": [
+      "rustica-saas-almagell-zeichen-stroh.svg",
+      "rustica-saas-almagell-zeichen-stroh.png"
+     ],
+     "px": [
+      1200,
+      1323
+     ]
+    },
+    {
+     "k": "weiss",
+     "grund": "dunkel",
+     "dateien": [
+      "rustica-saas-almagell-zeichen-weiss.svg",
+      "rustica-saas-almagell-zeichen-weiss.png"
+     ],
+     "px": [
+      1200,
+      1323
+     ]
+    }
+   ]
+  },
+  {
+   "k": "name",
+   "var": [
+    {
+     "k": "holz",
+     "grund": "hell",
+     "dateien": [
+      "rustica-saas-almagell-name-holz.svg",
+      "rustica-saas-almagell-name-holz.png"
+     ],
+     "px": [
+      2000,
+      375
+     ]
+    },
+    {
+     "k": "stroh",
+     "grund": "dunkel",
+     "dateien": [
+      "rustica-saas-almagell-name-stroh.svg",
+      "rustica-saas-almagell-name-stroh.png"
+     ],
+     "px": [
+      2000,
+      375
+     ]
+    },
+    {
+     "k": "weiss",
+     "grund": "dunkel",
+     "dateien": [
+      "rustica-saas-almagell-name-weiss.svg",
+      "rustica-saas-almagell-name-weiss.png"
+     ],
+     "px": [
+      2000,
+      375
+     ]
+    }
+   ]
+  },
+  {
+   "k": "tapete",
+   "var": [
+    {
+     "k": "dunkel",
+     "grund": "dunkel",
+     "dateien": [
+      "rustica-saas-almagell-tapete-dunkel.png",
+      "rustica-saas-almagell-tapete-dunkel.svg",
+      "rustica-saas-almagell-tapete-dunkel.webp"
+     ],
+     "farbe": "#33261C",
+     "px": [
+      1440,
+      1440
+     ]
+    },
+    {
+     "k": "hell",
+     "grund": "hell",
+     "dateien": [
+      "rustica-saas-almagell-tapete-hell.png",
+      "rustica-saas-almagell-tapete-hell.svg",
+      "rustica-saas-almagell-tapete-hell.webp"
+     ],
+     "farbe": "#F4EEE3",
+     "px": [
+      1440,
+      1440
+     ]
+    }
+   ]
+  },
+  {
+   "k": "farben",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "rustica-saas-almagell-farben.css",
+      "rustica-saas-almagell-farben.json",
+      "rustica-saas-almagell-farben.ase"
+     ]
+    }
+   ]
+  },
+  {
+   "k": "schriften",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "rustica-saas-almagell-schriften.zip"
+     ]
+    }
+   ]
+  }
+ ],
+ "farben": [
+  {
+   "k": "putz",
+   "n": "Putz",
+   "h": "#F4EEE3",
+   "rgb": [
+    244,
+    238,
+    227
+   ],
+   "r": "Grund der hellen Seiten, warm, nie reines Weiss",
+   "g": "raum",
+   "woher": "Wert der Website (rustica.css, --putz)"
+  },
+  {
+   "k": "papier",
+   "n": "Papier",
+   "h": "#FBF7EF",
+   "rgb": [
+    251,
+    247,
+    239
+   ],
+   "r": "helle Fläche auf Putz: Blätter, Tafeln, Formulare",
+   "g": "raum",
+   "woher": "Wert der Website (rustica.css, --papier)"
+  },
+  {
+   "k": "creme",
+   "n": "Creme",
+   "h": "#EFE6D6",
+   "rgb": [
+    239,
+    230,
+    214
+   ],
+   "r": "ruhige Fläche und Schrift auf dunklem Holz",
+   "g": "raum",
+   "woher": "Wert der Website (rustica.css, --creme)"
+  },
+  {
+   "k": "holz",
+   "n": "Holz",
+   "h": "#5A4632",
+   "rgb": [
+    90,
+    70,
+    50
+   ],
+   "r": "das Balkonholz: Name, Betonung im Titel, Linie auf Hell",
+   "g": "holz",
+   "woher": "Wert der Website (rustica.css, --holz)"
+  },
+  {
+   "k": "holz2",
+   "n": "Holz 2",
+   "h": "#4A3926",
+   "rgb": [
+    74,
+    57,
+    38
+   ],
+   "r": "zweite dunkle Fläche, Platte auf Holz",
+   "g": "holz",
+   "woher": "Wert der Website (rustica.css, --holz2)"
+  },
+  {
+   "k": "tief",
+   "n": "Tief",
+   "h": "#33261C",
+   "rgb": [
+    51,
+    38,
+    28
+   ],
+   "r": "dunkle Fläche: Fuss, Anfrage, Kopf der Werkzeuge",
+   "g": "holz",
+   "woher": "Wert der Website (rustica.css, --tief)"
+  },
+  {
+   "k": "nacht",
+   "n": "Nacht",
+   "h": "#271D16",
+   "rgb": [
+    39,
+    29,
+    22
+   ],
+   "r": "das Dunkelste, für Winterabschnitte und unter Fotos",
+   "g": "holz",
+   "woher": "Wert der Website (rustica.css, --nacht)"
+  },
+  {
+   "k": "tinte",
+   "n": "Tinte",
+   "h": "#3A2E22",
+   "rgb": [
+    58,
+    46,
+    34
+   ],
+   "r": "Titel und Lesetext auf Hell, nie reines Schwarz",
+   "g": "schrift",
+   "woher": "Wert der Website (rustica.css, --tinte)"
+  },
+  {
+   "k": "leise",
+   "n": "Leise",
+   "h": "#76654F",
+   "rgb": [
+    118,
+    101,
+    79
+   ],
+   "r": "kleine Zeilen, Pfade und Nebentext",
+   "g": "schrift",
+   "woher": "Wert der Website (rustica.css, --leise)"
+  },
+  {
+   "k": "stroh",
+   "n": "Stroh",
+   "h": "#D9BF8F",
+   "rgb": [
+    217,
+    191,
+    143
+   ],
+   "r": "Akzent auf Dunkel: Linie, kleine Zeile, das Zeichen",
+   "g": "akzent",
+   "woher": "Wert der Website (rustica.css, --stroh)"
+  },
+  {
+   "k": "gold",
+   "n": "Gold",
+   "h": "#A9865A",
+   "rgb": [
+    169,
+    134,
+    90
+   ],
+   "r": "Akzent auf Hell: Linie und kleine Auszeichnung",
+   "g": "akzent",
+   "woher": "Wert der Website (rustica.css, --gold)"
+  }
+ ],
+ "gruppen": [
+  {
+   "k": "raum",
+   "n": "Putz, Papier, Creme",
+   "s": "Die hellen Räume kommen vom weissen Putz des Hauses: Putz als Grund, Papier und Creme als Flächen darauf. Nie reines Weiss, nie Weiss auf Weiss.",
+   "bild": "../../assets/img/haus-winter-l.webp",
+   "bild_t": "Das Chalet im tiefen Schnee: aus dem weissen Putz kommen Putz, Papier und Creme."
+  },
+  {
+   "k": "holz",
+   "n": "Das Balkonholz",
+   "s": "Holz, Holz 2, Tief und Nacht kommen vom dunklen Holz der Balkone. Sie tragen die dunklen Flächen; darauf wird in Creme geschrieben und in Stroh betont.",
+   "bild": "../../assets/img/sommer-hoch-l.webp",
+   "bild_t": "Die Balkone aus dunklem Holz: daraus kommen Holz, Holz 2, Tief und Nacht."
+  },
+  {
+   "k": "schrift",
+   "n": "Tinte und Leise",
+   "s": "Geschrieben wird in Tinte, einem warmen Dunkelbraun, nie in reinem Schwarz. Kleine Zeilen, Pfade und Bildzeilen stehen in Leise.",
+   "bild": "listen/farbe-hell.webp",
+   "bild_t": "So stehen Tinte und Leise auf der Website."
+  },
+  {
+   "k": "akzent",
+   "n": "Stroh und Gold",
+   "s": "Stroh auf Dunkel, Gold auf Hell: für Linien, kleine Zeilen und das Zeichen. Nie als grosse Fläche, nie als Signalfarbe.",
+   "bild": "../../assets/img/laerchen-l.webp",
+   "bild_t": "Goldene Lärchen im Herbst: so warm stehen Stroh und Gold."
+  }
+ ],
+ "glanz": [],
+ "groessen": {
+  "rustica-saas-almagell-farben.ase": 426,
+  "rustica-saas-almagell-farben.css": 982,
+  "rustica-saas-almagell-farben.json": 2406,
+  "rustica-saas-almagell-marke.zip": 655011,
+  "rustica-saas-almagell-name-holz.png": 52015,
+  "rustica-saas-almagell-name-holz.svg": 31623,
+  "rustica-saas-almagell-name-stroh.png": 52126,
+  "rustica-saas-almagell-name-stroh.svg": 31623,
+  "rustica-saas-almagell-name-weiss.png": 36269,
+  "rustica-saas-almagell-name-weiss.svg": 31623,
+  "rustica-saas-almagell-schriften.zip": 336456,
+  "rustica-saas-almagell-tapete-dunkel.png": 25321,
+  "rustica-saas-almagell-tapete-dunkel.svg": 69521,
+  "rustica-saas-almagell-tapete-dunkel.webp": 7976,
+  "rustica-saas-almagell-tapete-hell.png": 24876,
+  "rustica-saas-almagell-tapete-hell.svg": 69521,
+  "rustica-saas-almagell-tapete-hell.webp": 7456,
+  "rustica-saas-almagell-zeichen-holz.png": 41999,
+  "rustica-saas-almagell-zeichen-holz.svg": 3908,
+  "rustica-saas-almagell-zeichen-stroh.png": 41976,
+  "rustica-saas-almagell-zeichen-stroh.svg": 3908,
+  "rustica-saas-almagell-zeichen-weiss.png": 31426,
+  "rustica-saas-almagell-zeichen-weiss.svg": 3908
+ },
+ "bereiche": [
+  "haus",
+  "almagellerhorn",
+  "portjengrat",
+  "weissmies",
+  "tal",
+  "heidi"
+ ],
+ "schriften": [
+  {
+   "k": "n",
+   "n": "Grenze Gotisch",
+   "d": "GrenzeGotisch-latin-var.woff2",
+   "r": "Nur der Name",
+   "e": "500, nur «Chalet Rustica» und «Rustica», nie für Titel oder Lesetext",
+   "p": "Chalet Rustica",
+   "w": 500,
+   "bild": "listen/schrift-n.webp"
+  },
+  {
+   "k": "t",
+   "n": "Fraunces",
+   "d": "Fraunces-latin-var.woff2",
+   "r": "Titel",
+   "e": "Regular 400, Betonung über die Farbe, nie fett, nie kursiv",
+   "p": "Mitten im Dorf. Und doch am Bach.",
+   "w": 400,
+   "bild": "listen/schrift-t.webp"
+  },
+  {
+   "k": "s",
+   "n": "Instrument Sans",
+   "d": "InstrumentSans-normal-400_600.woff2",
+   "r": "Lesetext",
+   "e": "400, 18 px, Zeilenabstand 1,62",
+   "p": "Drei Ferienwohnungen von Heidi und Damian Andenmatten-Zurbriggen, zentral und trotzdem ruhig, direkt am Bach.",
+   "w": 400,
+   "bild": "listen/schrift-s.webp"
+  },
+  {
+   "k": "e",
+   "n": "DM Mono",
+   "d": "DMMono-normal-400.woff2",
+   "r": "Kleine Zeilen",
+   "e": "400, 12 px, Versalien, 0,14 em gesperrt",
+   "p": "FERIENWOHNUNGEN · SAAS-ALMAGELL",
+   "w": 400,
+   "bild": "listen/schrift-e.webp"
+  }
+ ],
+ "namen": {
+  "zentrale": "Kontrollpanel",
+  "website": "Website bearbeiten",
+  "karten": "Karten & Preislisten",
+  "gaeste": "Anfragen & Chat",
+  "marke": "Markenbuch",
+  "besuche": "Besucher",
+  "druck": "Drucksachen & Feed"
+ },
+ "zusammen": {
+  "auftakt": "haus-berg",
+  "tal": "tal-klar",
+  "winter-quer": "haus-winter"
+ },
+ "ton": {
+  "eigene_worte": [
+   "Mitten im Dorf. Und doch am Bach.",
+   "Drei Wohnungen, jede mit Südbalkon.",
+   "Werfen Sie einen Blick hinein.",
+   "Rund ums Haus, alles zu Fuss.",
+   "Tief verschneit, warm drinnen.",
+   "Ihre Beharrlichkeit zahlt sich aus.",
+   "Möchten Sie Ihren nächsten Urlaub im Chalet Rustica verbringen?",
+   "Es grüsst Sie herzlich die Familie Andenmatten-Zurbriggen."
+  ],
+  "nicht": [
+   "du",
+   "Ausrufezeichen und «Jetzt buchen!»",
+   "Luxus- und Superlativ-Sprache",
+   "Preise (das Haus veröffentlicht keine)",
+   "Masse, Abfertigung, Stückzahlen als Pointe",
+   "Wellness-, Hotel- und Restaurant-Wörter: es sind Ferienwohnungen"
+  ]
+ },
+ "stand": {
+  "fotos": 46,
+  "haus": 46,
+  "frei": 0,
+  "ki": 0,
+  "fremd": 0,
+  "partner": 0,
+  "po": 7,
+  "ue": 29,
+  "vn": 26,
+  "original": 29,
+  "dateien": 23,
+  "datum": "09.11.2026"
+ }
+}

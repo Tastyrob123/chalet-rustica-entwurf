@@ -1,0 +1,97 @@
+{
+ "ziel": "weissmies",
+ "art": "satz",
+ "key": "weissmies",
+ "name": "Weissmies",
+ "unter": "1. Stock, neu renoviert",
+ "gruppe": "Die Wohnungen",
+ "ab": "",
+ "plakat": "",
+ "foto": "n5-bett",
+ "titel": "Weissmies",
+ "datum": "Wohnung · 1. Stock, neu renoviert",
+ "mit": "2 Schlafzimmer · neu renoviert · Südbalkon",
+ "rubriken": [
+  {
+   "titel": "Auf einen Blick",
+   "form": "zahlen",
+   "eintraege": [
+    {
+     "name": "2",
+     "zeit": "",
+     "text": "Schlafzimmer",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "4",
+     "zeit": "",
+     "text": "Betten",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "1",
+     "zeit": "",
+     "text": "Bad / Dusche / WC",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Ausstattung",
+   "form": "",
+   "eintraege": [
+    {
+     "name": "2 Schlafzimmer mit je 2 Betten",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Aufenthaltsraum mit TV und Radio",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Essraum und Küche mit Geschirrspüler, Kaffeemaschine und Toaster",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Bad / Dusche / WC mit Haartrockner",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Südbalkon",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  }
+ ],
+ "hinweis": "",
+ "quelle": "_werkzeuge/_web/inhalt/daten.py WOHNUNGEN («Weissmies»: name, lage, kurz, zahlen, liste, bilder), gebaut auf wohnung-weissmies.html",
+ "seite": "wohnung-weissmies.html",
+ "bild": {
+  "schluessel": "n5-wohn",
+  "alt": "Wohnung Weissmies: Aufenthaltsraum mit rotem Sofa und Holzboden"
+ },
+ "foto_gross": "n5-wohn2",
+ "fotos": [
+  "n5-kueche",
+  "n5-zimmer2",
+  "n5-bad"
+ ]
+}

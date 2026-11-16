@@ -1,0 +1,120 @@
+{
+ "ziel": "inbegriffen",
+ "art": "satz",
+ "key": "inbegriffen",
+ "name": "Im Preis inbegriffen und Hausregeln",
+ "unter": "Bei allen Wohnungen",
+ "gruppe": "Für alle Wohnungen",
+ "ab": "",
+ "plakat": "",
+ "foto": "haus-sommer",
+ "titel": "Inbegriffen und Hausregeln",
+ "datum": "Bei allen Wohnungen",
+ "mit": "",
+ "rubriken": [
+  {
+   "titel": "Im Preis inbegriffen",
+   "form": "",
+   "eintraege": [
+    {
+     "name": "Bettwäsche",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Dusch- und Handtücher",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Küchentücher",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Heizung",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Warmwasser und Strom",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Endreinigung",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Kurtaxe",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Hausregeln",
+   "form": "einzeln",
+   "eintraege": [
+    {
+     "name": "",
+     "zeit": "",
+     "text": "Damit Ihr Aufenthalt noch angenehmer ist, wird in den Wohnungen nicht geraucht.",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "",
+     "zeit": "",
+     "text": "Haustiere sind in allen Wohnungen nicht gestattet.",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "",
+     "zeit": "",
+     "text": "Die hauseigene Waschküche steht Ihnen zur Verfügung.",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Ihre Gastgeber",
+   "form": "einzeln",
+   "eintraege": [
+    {
+     "name": "Heidi und Damian Andenmatten-Zurbriggen",
+     "zeit": "CH-3905 Saas-Almagell",
+     "text": "+41 27 957 10 55 · info@chalet-rustica.ch",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  }
+ ],
+ "hinweis": "Es grüsst Sie herzlich die Familie Andenmatten-Zurbriggen",
+ "quelle": "_werkzeuge/_web/inhalt/daten.py INBEGRIFFEN, HAUSREGELN, HAUS (gastgeber, adresse, telefon, email, gruss), gebaut auf wohnungen.html",
+ "seite": "wohnungen.html",
+ "bild": null,
+ "foto_gross": "sommer-hoch",
+ "fotos": [
+  "haus-berg",
+  "auftakt"
+ ]
+}

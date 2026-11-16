@@ -1,0 +1,239 @@
+﻿Art;Tag;Uhrzeit;Land;Ort;Region;Gerät;Sprache des Browsers;Gekommen über;Geblieben (Sekunden);Seiten;Weg durch die Website;Anfrage-Fenster geöffnet;Anfrage abgeschickt;Wohnung angefragt;Massage bei Heidi angefragt;Preise angefragt;Angerufen;E-Mail-Adresse angeklickt;Foto gross angesehen;Zu den Häusern der Familie
+Beispiel;09.11.2026;12:45;Schweiz;Winterthur;ZH;Handy;Deutsch;Direkt aufgerufen;121;1;Startseite (121 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;09:37;Schweiz;Zürich;ZH;Handy;Deutsch;Direkt aufgerufen;185;2;Startseite (27 s) > Die Wohnungen (158 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;06:16;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;361;3;Das Tal (41 s) > Die Wohnungen (174 s) > Wohnung Almagellerhorn (146 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;09.11.2026;02:28;Schweiz;Bern;BE;Handy;Deutsch;Google;176;3;Startseite (27 s) > Das Tal (93 s) > Das Haus (56 s);nein;nein;nein;nein;nein;nein;nein;nein;ja
+Beispiel;08.11.2026;20:39;Schweiz;Thun;BE;Rechner;Deutsch;Google;431;4;Wohnung Almagellerhorn (182 s) > Das Haus (82 s) > Das Tal (18 s) > Die Wohnungen (149 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;19:03;Schweiz;Baden;AG;Tablet;Deutsch;Interhome;464;4;Startseite (69 s) > Das Haus (64 s) > Die Wohnungen (174 s) > Wohnung Almagellerhorn (157 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;17:07;Schweiz;Bern;BE;Handy;Deutsch;Google;44;1;Das Tal (44 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;14:30;Schweiz;Zürich;ZH;Handy;Deutsch;Direkt aufgerufen;213;2;Die Wohnungen (164 s) > Das Haus (49 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;13:15;Schweiz;Bern;BE;Tablet;Deutsch;Google;248;1;Die Wohnungen (248 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;11:37;Deutschland;Frankfurt am Main;HE;Rechner;Deutsch;Google;303;2;Das Tal (77 s) > Wohnung Portjengrat (226 s);ja;ja;ja;nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;10:29;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;664;6;Die Wohnungen (99 s) > Das Haus (45 s) > Heidi (116 s) > Die Wohnungen (168 s) > Heidi (189 s) > Das Tal (47 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;07:17;Schweiz;Zürich;ZH;Handy;Deutsch;Ecosia;299;3;Das Tal (67 s) > Wohnung Almagellerhorn (167 s) > Das Tal (65 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;16:59;Schweiz;Bern;BE;Handy;Deutsch;Google;264;2;Das Tal (30 s) > Heidi (234 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;15:57;Schweiz;Thun;BE;Handy;Deutsch;Direkt aufgerufen;176;2;Die Wohnungen (155 s) > Das Haus (21 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;14:14;Schweiz;Baden;AG;Rechner;Deutsch;Holidu;191;2;Startseite (34 s) > Wohnung Portjengrat (157 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;13:30;Schweiz;Baden;AG;Rechner;Deutsch;Direkt aufgerufen;142;2;Startseite (30 s) > Die Wohnungen (112 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;11:13;Schweiz;Solothurn;SO;Rechner;Deutsch;Direkt aufgerufen;47;1;Startseite (47 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;10:19;Schweiz;Thun;BE;Handy;Deutsch;Google;642;5;Startseite (85 s) > Das Haus (124 s) > Wohnung Weissmies (173 s) > Kontakt (29 s) > Wohnung Portjengrat (231 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;07:12;Schweiz;Bern;BE;Rechner;Deutsch;Google;194;2;Die Wohnungen (100 s) > Heidi (94 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;16:59;Schweiz;Zürich;ZH;Handy;Deutsch;Saastal Tourismus;129;1;Wohnung Almagellerhorn (129 s);ja;ja;ja;nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;14:56;Schweiz;Visp;VS;Rechner;Deutsch;Google;225;3;Startseite (24 s) > Das Tal (14 s) > Die Wohnungen (187 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;14:40;Schweiz;Winterthur;ZH;Tablet;Deutsch;Google;402;4;Startseite (107 s) > Das Tal (64 s) > Kontakt (51 s) > Die Wohnungen (180 s);nein;nein;nein;nein;nein;nein;nein;nein;ja
+Beispiel;06.11.2026;12:09;Schweiz;Zürich;ZH;Handy;Deutsch;Direkt aufgerufen;193;3;Startseite (72 s) > Das Haus (17 s) > Wohnung Almagellerhorn (104 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;10:39;Schweiz;Liestal;BL;Rechner;Deutsch;Google;470;4;Heidi (78 s) > Das Tal (26 s) > Wohnung Almagellerhorn (180 s) > Heidi (186 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;07:10;Schweiz;Zürich;ZH;Tablet;Deutsch;Direkt aufgerufen;389;3;Wohnung Weissmies (127 s) > Kontakt (84 s) > Die Wohnungen (178 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;06:06;Schweiz;Bern;BE;Rechner;Deutsch;Direkt aufgerufen;9;1;Startseite (9 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;18:46;Schweiz;Basel;BS;Rechner;Deutsch;Google;269;3;Startseite (35 s) > Die Wohnungen (155 s) > Das Tal (79 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;12:24;Schweiz;Lausanne;VD;Tablet;Französisch;Google;78;1;Heidi (78 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;08:45;Schweiz;Baden;AG;Handy;Deutsch;Interhome;280;3;Startseite (30 s) > Kontakt (88 s) > Heidi (162 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;07:43;Schweiz;Visp;VS;Rechner;Deutsch;DuckDuckGo;518;4;Die Wohnungen (171 s) > Das Tal (108 s) > Wohnung Weissmies (120 s) > Das Tal (119 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;06:00;Schweiz;Baden;AG;Handy;Deutsch;Google;348;3;Startseite (21 s) > Die Wohnungen (177 s) > Heidi (150 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;22:39;Schweiz;Winterthur;ZH;Rechner;Deutsch;Google;52;2;Startseite (35 s) > Kontakt (17 s);nein;ja;nein;nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;13:55;Schweiz;Sion;VS;Handy;Französisch;Google;585;5;Die Wohnungen (116 s) > Wohnung Almagellerhorn (138 s) > Das Tal (93 s) > Wohnung Weissmies (188 s) > Kontakt (50 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;04.11.2026;13:08;Schweiz;Luzern;LU;Handy;Deutsch;Google;444;5;Das Tal (18 s) > Das Haus (63 s) > Heidi (88 s) > Die Wohnungen (229 s) > Das Tal (46 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;08:52;Schweiz;Zürich;ZH;Handy;Deutsch;Familie Zurbriggen;557;4;Startseite (108 s) > Heidi (171 s) > Die Wohnungen (159 s) > Das Haus (119 s);ja;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;04:41;Deutschland;München;BY;Handy;Deutsch;Holidu;175;2;Startseite (28 s) > Die Wohnungen (147 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;01:00;Schweiz;Biel/Bienne;BE;Handy;Deutsch;DuckDuckGo;250;1;Die Wohnungen (250 s);ja;ja;ja;nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;20:40;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;300;3;Wohnung Almagellerhorn (113 s) > Das Tal (116 s) > Das Haus (71 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;03.11.2026;13:42;Schweiz;Visp;VS;Handy;Deutsch;Saastal Tourismus;37;1;Startseite (37 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;12:57;Schweiz;Bern;BE;Rechner;Deutsch;Google;236;3;Das Tal (86 s) > Wohnung Almagellerhorn (64 s) > Die Wohnungen (86 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;12:50;Deutschland;Stuttgart;BW;Handy;Deutsch;Direkt aufgerufen;396;4;Das Tal (20 s) > Die Wohnungen (125 s) > Kontakt (34 s) > Wohnung Portjengrat (217 s);nein;nein;nein;nein;nein;nein;ja;ja;nein
+Beispiel;03.11.2026;09:36;Schweiz;Basel;BS;Handy;Deutsch;Google;330;5;Die Wohnungen (103 s) > Kontakt (24 s) > Das Tal (36 s) > Die Wohnungen (100 s) > Kontakt (67 s);nein;nein;nein;nein;nein;nein;ja;nein;nein
+Beispiel;03.11.2026;09:20;Italien;Milano;25;Handy;Italienisch;Google;135;2;Startseite (89 s) > Kontakt (46 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;07:28;Österreich;Innsbruck;7;Handy;Deutsch;Saastal Tourismus;214;1;Die Wohnungen (214 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;02:36;Schweiz;Brig-Glis;VS;Handy;Deutsch;Google;164;1;Wohnung Weissmies (164 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;21:19;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;934;5;Die Wohnungen (138 s) > Heidi (162 s) > Die Wohnungen (231 s) > Wohnung Weissmies (260 s) > Die Wohnungen (143 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;19:19;Schweiz;Zürich;ZH;Rechner;Deutsch;Direkt aufgerufen;287;3;Heidi (146 s) > Die Wohnungen (120 s) > Kontakt (21 s);nein;ja;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;19:17;Schweiz;Solothurn;SO;Rechner;Deutsch;DuckDuckGo;525;5;Das Tal (14 s) > Die Wohnungen (176 s) > Kontakt (46 s) > Die Wohnungen (147 s) > Wohnung Weissmies (142 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;19:13;Deutschland;Stuttgart;BW;Tablet;Deutsch;Direkt aufgerufen;242;2;Startseite (62 s) > Die Wohnungen (180 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;18:44;Schweiz;Luzern;LU;Rechner;Deutsch;Wallis Tourismus;174;1;Heidi (174 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;11:48;Schweiz;Zürich;ZH;Handy;Deutsch;Google;421;3;Startseite (96 s) > Wohnung Almagellerhorn (230 s) > Kontakt (95 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;10:42;Schweiz;Baden;AG;Rechner;Deutsch;Direkt aufgerufen;47;1;Startseite (47 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;06:24;Deutschland;München;BY;Rechner;Deutsch;Direkt aufgerufen;480;4;Startseite (72 s) > Heidi (176 s) > Das Tal (59 s) > Heidi (173 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;05:27;Niederlande;Utrecht;UT;Handy;Niederländisch;Direkt aufgerufen;350;2;Die Wohnungen (132 s) > Wohnung Weissmies (218 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;04:04;Schweiz;St. Gallen;SG;Handy;Deutsch;Direkt aufgerufen;157;1;Die Wohnungen (157 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;21:05;Schweiz;Thun;BE;Rechner;Deutsch;Google;170;2;Wohnung Weissmies (116 s) > Das Tal (54 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;01.11.2026;20:47;Schweiz;Lausanne;VD;Tablet;Französisch;Direkt aufgerufen;76;2;Startseite (34 s) > Das Tal (42 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;19:13;Schweiz;St. Gallen;SG;Tablet;Deutsch;Familie Zurbriggen;200;2;Die Wohnungen (134 s) > Das Haus (66 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;17:31;Deutschland;Freiburg im Breisgau;BW;Rechner;Deutsch;Google;399;3;Startseite (121 s) > Wohnung Almagellerhorn (94 s) > Wohnung Portjengrat (184 s);ja;nein;ja;nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;14:28;Deutschland;Stuttgart;BW;Rechner;Deutsch;Direkt aufgerufen;15;1;Startseite (15 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;11:00;Schweiz;Winterthur;ZH;Handy;Deutsch;Holidu;380;3;Startseite (100 s) > Die Wohnungen (140 s) > Heidi (140 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;10:02;Schweiz;Basel;BS;Rechner;Deutsch;ChatGPT;216;2;Wohnung Almagellerhorn (170 s) > Kontakt (46 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;10:01;Schweiz;Zürich;ZH;Rechner;Deutsch;Direkt aufgerufen;494;6;Startseite (45 s) > Das Haus (73 s) > Das Tal (104 s) > Das Haus (81 s) > Wohnung Weissmies (113 s) > Das Tal (78 s);nein;nein;nein;nein;nein;nein;nein;nein;ja
+Beispiel;01.11.2026;07:02;Schweiz;Zürich;ZH;Handy;Deutsch;Google;101;1;Startseite (101 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;03:51;Schweiz;Thun;BE;Rechner;Deutsch;Google;408;3;Startseite (106 s) > Heidi (176 s) > Wohnung Weissmies (126 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;03:04;Schweiz;Aarau;AG;Handy;Deutsch;Holidu;718;5;Startseite (100 s) > Wohnung Portjengrat (187 s) > Wohnung Weissmies (57 s) > Die Wohnungen (196 s) > Wohnung Almagellerhorn (178 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;31.10.2026;20:40;Schweiz;Liestal;BL;Rechner;Deutsch;Google;262;2;Heidi (74 s) > Die Wohnungen (188 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;18:37;Grossbritannien;London;ENG;Tablet;Englisch;Direkt aufgerufen;692;7;Startseite (123 s) > Kontakt (31 s) > Das Haus (39 s) > Das Tal (47 s) > Wohnung Almagellerhorn (117 s) > Die Wohnungen (147 s) > Heidi (188 s);ja;nein;nein;ja;nein;nein;nein;ja;nein
+Beispiel;31.10.2026;14:32;Schweiz;Solothurn;SO;Handy;Deutsch;DuckDuckGo;379;2;Die Wohnungen (217 s) > Heidi (162 s);ja;nein;ja;nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;12:00;Schweiz;Uster;ZH;Handy;Deutsch;Schweiz Tourismus;71;1;Startseite (71 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;07:33;Italien;Milano;25;Rechner;Italienisch;Familie Zurbriggen;125;2;Startseite (64 s) > Kontakt (61 s);nein;ja;nein;nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;07:10;Schweiz;St. Gallen;SG;Rechner;Deutsch;Direkt aufgerufen;461;4;Startseite (47 s) > Wohnung Almagellerhorn (114 s) > Wohnung Portjengrat (74 s) > Wohnung Almagellerhorn (226 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;06:44;Deutschland;Köln;NW;Tablet;Deutsch;Familie Zurbriggen;35;1;Startseite (35 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;04:44;Schweiz;Basel;BS;Handy;Deutsch;Wallis Tourismus;703;6;Startseite (65 s) > Wohnung Portjengrat (83 s) > Kontakt (48 s) > Die Wohnungen (258 s) > Kontakt (99 s) > Heidi (150 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;04:02;Schweiz;Luzern;LU;Handy;Deutsch;Direkt aufgerufen;258;2;Die Wohnungen (111 s) > Heidi (147 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;19:01;Deutschland;Freiburg im Breisgau;BW;Rechner;Deutsch;Google;698;4;Heidi (222 s) > Die Wohnungen (84 s) > Wohnung Weissmies (200 s) > Heidi (192 s);ja;ja;nein;ja;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;15:06;Schweiz;Thun;BE;Handy;Deutsch;Direkt aufgerufen;35;1;Startseite (35 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;14:35;Schweiz;Winterthur;ZH;Rechner;Deutsch;Direkt aufgerufen;82;1;Die Wohnungen (82 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;13:30;Schweiz;Zürich;ZH;Handy;Deutsch;Google;788;6;Startseite (62 s) > Heidi (181 s) > Wohnung Almagellerhorn (182 s) > Das Tal (92 s) > Die Wohnungen (142 s) > Wohnung Weissmies (129 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;30.10.2026;12:29;Schweiz;Lugano;TI;Handy;Italienisch;Google;553;4;Heidi (84 s) > Die Wohnungen (109 s) > Wohnung Portjengrat (217 s) > Wohnung Weissmies (143 s);ja;nein;nein;ja;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;10:37;Schweiz;Brig-Glis;VS;Handy;Deutsch;Google;265;3;Die Wohnungen (168 s) > Kontakt (65 s) > Das Haus (32 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;09:10;Schweiz;Brig-Glis;VS;Rechner;Deutsch;Google;458;5;Startseite (48 s) > Heidi (186 s) > Das Haus (18 s) > Kontakt (37 s) > Die Wohnungen (169 s);nein;nein;nein;nein;nein;ja;nein;nein;nein
+Beispiel;30.10.2026;06:55;Schweiz;Uster;ZH;Rechner;Deutsch;Google;307;3;Startseite (66 s) > Die Wohnungen (138 s) > Wohnung Portjengrat (103 s);ja;nein;nein;nein;ja;nein;nein;nein;nein
+Beispiel;30.10.2026;05:32;Schweiz;Baden;AG;Handy;Deutsch;Direkt aufgerufen;103;1;Startseite (103 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;21:24;Deutschland;Stuttgart;BW;Tablet;Deutsch;Google;158;2;Das Tal (24 s) > Die Wohnungen (134 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;15:34;Schweiz;Liestal;BL;Tablet;Deutsch;Google;73;1;Das Tal (73 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;12:21;Deutschland;Freiburg im Breisgau;BW;Handy;Deutsch;Direkt aufgerufen;566;5;Das Tal (54 s) > Wohnung Weissmies (78 s) > Wohnung Almagellerhorn (148 s) > Die Wohnungen (108 s) > Heidi (178 s);ja;ja;ja;ja;nein;nein;nein;ja;nein
+Beispiel;29.10.2026;11:21;Schweiz;Bern;BE;Handy;Deutsch;Google;199;2;Das Tal (34 s) > Die Wohnungen (165 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;07:43;Schweiz;Luzern;LU;Handy;Deutsch;Holidu;261;2;Startseite (100 s) > Wohnung Almagellerhorn (161 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;05:48;Schweiz;Luzern;LU;Handy;Deutsch;Google;82;1;Startseite (82 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;21:16;Schweiz;Zürich;ZH;Rechner;Deutsch;Direkt aufgerufen;433;4;Startseite (103 s) > Die Wohnungen (99 s) > Heidi (100 s) > Das Tal (131 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;18:34;Schweiz;Lausanne;VD;Handy;Französisch;Schweiz Tourismus;36;1;Das Tal (36 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;17:43;Schweiz;Baden;AG;Handy;Deutsch;Bing;359;2;Die Wohnungen (218 s) > Wohnung Weissmies (141 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;17:22;Schweiz;Sion;VS;Rechner;Französisch;Direkt aufgerufen;239;2;Startseite (115 s) > Heidi (124 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;15:47;Schweiz;St. Gallen;SG;Handy;Deutsch;Direkt aufgerufen;38;1;Das Tal (38 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;13:58;Schweiz;Zürich;ZH;Handy;Deutsch;Google;138;2;Startseite (41 s) > Die Wohnungen (97 s);ja;ja;ja;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;12:21;Schweiz;Aarau;AG;Rechner;Deutsch;Google;199;3;Startseite (57 s) > Wohnung Weissmies (128 s) > Das Tal (14 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;11:05;Deutschland;Köln;NW;Rechner;Deutsch;Google;38;1;Startseite (38 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;09:43;Schweiz;Solothurn;SO;Tablet;Deutsch;Google;384;3;Startseite (111 s) > Die Wohnungen (155 s) > Wohnung Weissmies (118 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;28.10.2026;05:30;Schweiz;Visp;VS;Tablet;Deutsch;Direkt aufgerufen;491;4;Startseite (147 s) > Wohnung Portjengrat (53 s) > Wohnung Weissmies (104 s) > Heidi (187 s);ja;ja;ja;ja;nein;nein;nein;nein;nein
+Beispiel;27.10.2026;21:20;Schweiz;Bern;BE;Rechner;Deutsch;Google;287;2;Die Wohnungen (203 s) > Das Tal (84 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;27.10.2026;19:44;Schweiz;Chur;GR;Handy;Deutsch;Google;431;4;Startseite (29 s) > Die Wohnungen (99 s) > Das Tal (96 s) > Die Wohnungen (207 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;27.10.2026;19:16;Deutschland;Köln;NW;Rechner;Deutsch;Wallis Tourismus;120;1;Das Tal (120 s);nein;nein;nein;nein;nein;nein;nein;nein;ja
+Beispiel;27.10.2026;18:46;Schweiz;Thun;BE;Handy;Deutsch;Ecosia;393;4;Startseite (36 s) > Die Wohnungen (243 s) > Das Haus (63 s) > Kontakt (51 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;27.10.2026;18:10;Schweiz;Winterthur;ZH;Tablet;Deutsch;Google;371;2;Heidi (187 s) > Die Wohnungen (184 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;27.10.2026;16:08;Schweiz;Sion;VS;Rechner;Französisch;Direkt aufgerufen;24;1;Startseite (24 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;27.10.2026;14:30;Deutschland;Köln;NW;Handy;Deutsch;Google;609;5;Startseite (82 s) > Das Haus (33 s) > Wohnung Portjengrat (211 s) > Die Wohnungen (203 s) > Das Haus (80 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;27.10.2026;13:24;Schweiz;Bern;BE;Rechner;Deutsch;Google;45;1;Startseite (45 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;27.10.2026;11:05;Schweiz;Lugano;TI;Handy;Italienisch;Direkt aufgerufen;369;3;Wohnung Weissmies (215 s) > Das Tal (74 s) > Wohnung Portjengrat (80 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;27.10.2026;08:44;Schweiz;Liestal;BL;Handy;Deutsch;Google;27;1;Startseite (27 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;26.10.2026;20:57;Schweiz;Lausanne;VD;Handy;Französisch;Direkt aufgerufen;309;4;Startseite (25 s) > Kontakt (95 s) > Die Wohnungen (132 s) > Kontakt (57 s);nein;ja;nein;nein;nein;nein;nein;nein;nein
+Beispiel;26.10.2026;20:13;Schweiz;Lugano;TI;Handy;Italienisch;Direkt aufgerufen;152;1;Wohnung Weissmies (152 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;26.10.2026;19:47;Schweiz;Liestal;BL;Rechner;Deutsch;Direkt aufgerufen;567;5;Startseite (83 s) > Wohnung Portjengrat (137 s) > Wohnung Almagellerhorn (164 s) > Das Haus (82 s) > Die Wohnungen (101 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;26.10.2026;18:42;Frankreich;Lyon;ARA;Rechner;Französisch;Familie Zurbriggen;423;3;Heidi (185 s) > Das Haus (108 s) > Wohnung Almagellerhorn (130 s);ja;nein;nein;ja;nein;nein;nein;nein;nein
+Beispiel;26.10.2026;14:31;Schweiz;Winterthur;ZH;Rechner;Deutsch;Google;72;1;Die Wohnungen (72 s);ja;ja;nein;nein;ja;nein;nein;nein;nein
+Beispiel;26.10.2026;10:24;Schweiz;Zürich;ZH;Rechner;Deutsch;Direkt aufgerufen;105;1;Wohnung Almagellerhorn (105 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;26.10.2026;09:18;Deutschland;Freiburg im Breisgau;BW;Rechner;Deutsch;Google;19;1;Startseite (19 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;26.10.2026;06:47;Niederlande;Utrecht;UT;Handy;Niederländisch;Schweiz Tourismus;435;6;Die Wohnungen (84 s) > Kontakt (36 s) > Heidi (156 s) > Das Tal (59 s) > Kontakt (78 s) > Das Tal (22 s);nein;nein;nein;nein;nein;nein;nein;nein;ja
+Beispiel;25.10.2026;23:19;Schweiz;St. Gallen;SG;Rechner;Deutsch;Google;40;1;Startseite (40 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;25.10.2026;19:30;Schweiz;Brig-Glis;VS;Handy;Deutsch;Interhome;329;3;Startseite (45 s) > Wohnung Weissmies (111 s) > Wohnung Portjengrat (173 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;25.10.2026;16:53;Schweiz;Biel/Bienne;BE;Rechner;Deutsch;Ecosia;392;4;Startseite (80 s) > Die Wohnungen (89 s) > Kontakt (128 s) > Das Tal (95 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;25.10.2026;16:50;Schweiz;Zürich;ZH;Rechner;Deutsch;Interhome;371;4;Wohnung Almagellerhorn (105 s) > Heidi (211 s) > Das Haus (27 s) > Das Tal (28 s);ja;nein;nein;nein;ja;nein;nein;ja;nein
+Beispiel;25.10.2026;13:24;Schweiz;Aarau;AG;Handy;Deutsch;Direkt aufgerufen;202;2;Die Wohnungen (104 s) > Wohnung Portjengrat (98 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;25.10.2026;09:00;Schweiz;Luzern;LU;Rechner;Deutsch;Google;275;2;Startseite (43 s) > Wohnung Portjengrat (232 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;25.10.2026;08:49;Schweiz;Winterthur;ZH;Handy;Deutsch;Google;615;4;Das Tal (53 s) > Das Haus (128 s) > Wohnung Weissmies (239 s) > Wohnung Almagellerhorn (195 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;25.10.2026;03:22;Schweiz;Bern;BE;Handy;Deutsch;Google;352;3;Startseite (141 s) > Wohnung Almagellerhorn (129 s) > Heidi (82 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;25.10.2026;01:53;Schweiz;Bern;BE;Rechner;Deutsch;Holidu;331;3;Heidi (121 s) > Das Tal (41 s) > Wohnung Almagellerhorn (169 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;24.10.2026;22:40;Schweiz;Baden;AG;Handy;Deutsch;Direkt aufgerufen;320;3;Startseite (80 s) > Heidi (112 s) > Das Haus (128 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;24.10.2026;22:13;Grossbritannien;London;ENG;Tablet;Englisch;Direkt aufgerufen;148;1;Die Wohnungen (148 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;24.10.2026;19:53;Italien;Milano;25;Rechner;Italienisch;Direkt aufgerufen;460;3;Die Wohnungen (122 s) > Wohnung Almagellerhorn (208 s) > Wohnung Portjengrat (130 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;24.10.2026;13:50;Schweiz;Bern;BE;Tablet;Deutsch;Google;493;4;Das Tal (139 s) > Die Wohnungen (135 s) > Das Haus (46 s) > Wohnung Weissmies (173 s);ja;nein;nein;nein;ja;nein;nein;nein;nein
+Beispiel;24.10.2026;13:20;Schweiz;Zürich;ZH;Handy;Englisch;Direkt aufgerufen;60;1;Das Tal (60 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;24.10.2026;10:46;Schweiz;Uster;ZH;Handy;Deutsch;Google;189;2;Startseite (116 s) > Das Tal (73 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;24.10.2026;10:11;Deutschland;Konstanz;BW;Rechner;Deutsch;Google;171;2;Startseite (11 s) > Wohnung Weissmies (160 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;24.10.2026;09:37;Schweiz;Zürich;ZH;Handy;Deutsch;Google;220;2;Das Tal (110 s) > Heidi (110 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;24.10.2026;05:47;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;158;2;Startseite (55 s) > Die Wohnungen (103 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;23.10.2026;19:51;Schweiz;Zürich;ZH;Handy;Deutsch;Holidu;260;3;Startseite (42 s) > Die Wohnungen (90 s) > Heidi (128 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;23.10.2026;18:38;Schweiz;Schaffhausen;SH;Tablet;Deutsch;Google;536;6;Startseite (19 s) > Das Haus (61 s) > Heidi (143 s) > Wohnung Almagellerhorn (87 s) > Wohnung Weissmies (176 s) > Das Tal (50 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;23.10.2026;13:16;Deutschland;Stuttgart;BW;Tablet;Deutsch;Direkt aufgerufen;59;1;Startseite (59 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;23.10.2026;12:52;Schweiz;Bern;BE;Tablet;Deutsch;Google;310;3;Startseite (89 s) > Wohnung Weissmies (112 s) > Wohnung Almagellerhorn (109 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;23.10.2026;08:41;Schweiz;Zug;ZG;Rechner;Deutsch;Direkt aufgerufen;591;5;Startseite (32 s) > Die Wohnungen (144 s) > Das Tal (46 s) > Heidi (209 s) > Wohnung Weissmies (160 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;23.10.2026;03:01;Deutschland;Stuttgart;BW;Handy;Deutsch;Direkt aufgerufen;519;5;Startseite (30 s) > Wohnung Weissmies (213 s) > Heidi (169 s) > Das Haus (31 s) > Das Tal (76 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;22.10.2026;16:09;Deutschland;Stuttgart;BW;Handy;Deutsch;Bing;148;2;Startseite (25 s) > Die Wohnungen (123 s);ja;ja;ja;nein;nein;nein;nein;nein;nein
+Beispiel;22.10.2026;12:44;Grossbritannien;London;ENG;Tablet;Englisch;Holidu;329;3;Wohnung Almagellerhorn (178 s) > Das Tal (106 s) > Kontakt (45 s);nein;nein;nein;nein;nein;ja;nein;nein;nein
+Beispiel;22.10.2026;09:54;Niederlande;Amsterdam;NH;Tablet;Niederländisch;Direkt aufgerufen;171;2;Startseite (22 s) > Die Wohnungen (149 s);nein;nein;nein;nein;nein;nein;nein;nein;ja
+Beispiel;22.10.2026;08:17;Schweiz;St. Gallen;SG;Handy;Deutsch;Direkt aufgerufen;288;2;Startseite (126 s) > Heidi (162 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;22.10.2026;05:22;Niederlande;Amsterdam;NH;Tablet;Niederländisch;Google;251;3;Heidi (91 s) > Kontakt (29 s) > Das Haus (131 s);nein;nein;nein;nein;nein;nein;nein;nein;ja
+Beispiel;21.10.2026;19:16;Schweiz;Bern;BE;Rechner;Deutsch;Wallis Tourismus;170;1;Heidi (170 s);ja;ja;nein;ja;nein;nein;nein;nein;nein
+Beispiel;21.10.2026;17:46;Schweiz;Thun;BE;Tablet;Deutsch;Direkt aufgerufen;469;4;Die Wohnungen (83 s) > Heidi (107 s) > Das Haus (54 s) > Heidi (225 s);ja;nein;nein;ja;nein;nein;nein;nein;nein
+Beispiel;21.10.2026;17:18;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;258;2;Startseite (109 s) > Wohnung Weissmies (149 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;21.10.2026;10:47;Schweiz;Genève;GE;Handy;Französisch;Google;42;1;Startseite (42 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;21.10.2026;09:03;Schweiz;Baden;AG;Handy;Deutsch;Google;152;2;Die Wohnungen (98 s) > Kontakt (54 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;21.10.2026;08:09;Belgien;Antwerpen;VAN;Handy;Niederländisch;Direkt aufgerufen;250;2;Startseite (93 s) > Die Wohnungen (157 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;21.10.2026;07:56;Schweiz;Liestal;BL;Rechner;Deutsch;Direkt aufgerufen;560;5;Startseite (80 s) > Wohnung Almagellerhorn (164 s) > Heidi (157 s) > Wohnung Almagellerhorn (114 s) > Das Tal (45 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;21.10.2026;07:24;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;380;3;Wohnung Almagellerhorn (149 s) > Das Tal (112 s) > Wohnung Weissmies (119 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;21.10.2026;02:34;Schweiz;Basel;BS;Rechner;Deutsch;Google;183;2;Startseite (44 s) > Wohnung Almagellerhorn (139 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;20.10.2026;20:55;Schweiz;Basel;BS;Handy;Deutsch;Google;365;3;Startseite (127 s) > Das Haus (50 s) > Die Wohnungen (188 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;20.10.2026;18:19;Schweiz;Brig-Glis;VS;Handy;Deutsch;Google;319;2;Heidi (218 s) > Wohnung Weissmies (101 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;20.10.2026;17:40;Schweiz;Thun;BE;Rechner;Deutsch;Google;407;4;Startseite (108 s) > Das Tal (66 s) > Das Haus (79 s) > Heidi (154 s);ja;ja;nein;ja;nein;nein;nein;nein;nein
+Beispiel;20.10.2026;14:56;Schweiz;Lugano;TI;Tablet;Italienisch;Houfy;65;1;Heidi (65 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;20.10.2026;12:05;Niederlande;Amsterdam;NH;Handy;Niederländisch;Google;64;2;Startseite (15 s) > Die Wohnungen (49 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;20.10.2026;07:42;Schweiz;Basel;BS;Handy;Deutsch;Bing;323;3;Startseite (60 s) > Die Wohnungen (119 s) > Wohnung Weissmies (144 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;20.10.2026;07:24;Schweiz;Sion;VS;Rechner;Französisch;Direkt aufgerufen;192;3;Startseite (17 s) > Das Tal (41 s) > Kontakt (134 s);nein;nein;nein;nein;nein;ja;nein;nein;nein
+Beispiel;20.10.2026;06:42;Schweiz;Brig-Glis;VS;Handy;Deutsch;Interhome;132;1;Startseite (132 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;19.10.2026;20:05;Schweiz;Basel;BS;Handy;Deutsch;Google;71;1;Startseite (71 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;19.10.2026;18:08;Schweiz;Basel;BS;Rechner;Deutsch;Direkt aufgerufen;104;2;Startseite (45 s) > Kontakt (59 s);ja;nein;nein;nein;nein;ja;nein;nein;nein
+Beispiel;19.10.2026;17:06;Schweiz;Aarau;AG;Rechner;Deutsch;Google;449;4;Das Tal (66 s) > Wohnung Portjengrat (146 s) > Die Wohnungen (65 s) > Heidi (172 s);nein;nein;nein;nein;nein;ja;nein;ja;nein
+Beispiel;19.10.2026;16:24;Schweiz;Aarau;AG;Rechner;Deutsch;Google;367;4;Das Tal (55 s) > Das Haus (50 s) > Wohnung Almagellerhorn (139 s) > Heidi (123 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;19.10.2026;15:56;Schweiz;Chur;GR;Tablet;Deutsch;Google;37;1;Startseite (37 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;19.10.2026;11:14;Schweiz;Visp;VS;Handy;Deutsch;Google;328;3;Startseite (85 s) > Wohnung Weissmies (149 s) > Die Wohnungen (94 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;19.10.2026;08:19;Schweiz;Winterthur;ZH;Handy;Deutsch;Direkt aufgerufen;504;4;Startseite (23 s) > Das Haus (58 s) > Wohnung Almagellerhorn (181 s) > Wohnung Weissmies (242 s);nein;nein;nein;nein;nein;nein;nein;ja;ja
+Beispiel;19.10.2026;05:13;Schweiz;Bern;BE;Handy;Deutsch;Google;228;3;Startseite (39 s) > Kontakt (74 s) > Heidi (115 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;19.10.2026;05:05;Schweiz;Sion;VS;Rechner;Französisch;Direkt aufgerufen;517;4;Die Wohnungen (168 s) > Heidi (209 s) > Wohnung Weissmies (101 s) > Kontakt (39 s);nein;ja;nein;nein;nein;nein;nein;nein;nein
+Beispiel;18.10.2026;21:39;Deutschland;Köln;NW;Tablet;Deutsch;Google;830;6;Das Tal (31 s) > Wohnung Portjengrat (155 s) > Die Wohnungen (157 s) > Wohnung Weissmies (189 s) > Wohnung Almagellerhorn (211 s) > Heidi (87 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;18.10.2026;20:14;Deutschland;Freiburg im Breisgau;BW;Handy;Deutsch;Google;66;1;Startseite (66 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;18.10.2026;20:01;Schweiz;Basel;BS;Rechner;Deutsch;Google;168;3;Startseite (56 s) > Das Haus (56 s) > Kontakt (56 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;18.10.2026;18:54;Schweiz;Luzern;LU;Handy;Deutsch;Saastal Tourismus;413;5;Startseite (30 s) > Das Tal (41 s) > Das Haus (28 s) > Kontakt (97 s) > Die Wohnungen (217 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;18.10.2026;15:40;Schweiz;Aarau;AG;Rechner;Deutsch;Google;146;2;Startseite (78 s) > Kontakt (68 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;18.10.2026;13:51;Schweiz;Basel;BS;Rechner;Deutsch;Direkt aufgerufen;169;2;Startseite (46 s) > Die Wohnungen (123 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;18.10.2026;13:39;Schweiz;Zürich;ZH;Handy;Deutsch;Direkt aufgerufen;220;2;Startseite (129 s) > Wohnung Portjengrat (91 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;18.10.2026;13:01;Schweiz;Zürich;ZH;Rechner;Deutsch;Schweiz Tourismus;262;3;Startseite (28 s) > Wohnung Weissmies (194 s) > Das Tal (40 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;18.10.2026;09:52;Deutschland;Konstanz;BW;Handy;Deutsch;Google;238;2;Heidi (206 s) > Kontakt (32 s);nein;nein;nein;nein;nein;ja;nein;nein;nein
+Beispiel;18.10.2026;08:56;Schweiz;Zürich;ZH;Rechner;Deutsch;Holidu;158;2;Startseite (79 s) > Kontakt (79 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;18.10.2026;06:49;Schweiz;Zürich;ZH;Handy;Deutsch;Google;190;2;Wohnung Weissmies (153 s) > Kontakt (37 s);nein;ja;nein;nein;nein;nein;nein;ja;nein
+Beispiel;18.10.2026;04:19;Schweiz;Luzern;LU;Rechner;Deutsch;Schweiz Tourismus;736;5;Wohnung Almagellerhorn (122 s) > Heidi (161 s) > Die Wohnungen (183 s) > Das Tal (28 s) > Die Wohnungen (242 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;17.10.2026;20:32;Schweiz;Zürich;ZH;Handy;Deutsch;Google;647;5;Startseite (91 s) > Kontakt (96 s) > Das Tal (80 s) > Heidi (109 s) > Wohnung Portjengrat (271 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;17.10.2026;20:25;Schweiz;Solothurn;SO;Handy;Deutsch;Google;883;6;Startseite (57 s) > Wohnung Weissmies (193 s) > Das Haus (45 s) > Die Wohnungen (213 s) > Wohnung Almagellerhorn (235 s) > Die Wohnungen (140 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;17.10.2026;17:38;Schweiz;Biel/Bienne;BE;Handy;Deutsch;Direkt aufgerufen;531;4;Die Wohnungen (185 s) > Das Tal (122 s) > Heidi (182 s) > Das Tal (42 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;17.10.2026;14:19;Schweiz;Uster;ZH;Handy;Deutsch;Direkt aufgerufen;29;1;Das Tal (29 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;17.10.2026;13:57;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;430;3;Startseite (42 s) > Die Wohnungen (267 s) > Heidi (121 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;17.10.2026;12:13;Schweiz;Zürich;ZH;Handy;Deutsch;Google;323;2;Wohnung Weissmies (195 s) > Das Haus (128 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;17.10.2026;06:34;Schweiz;Thun;BE;Rechner;Deutsch;Google;476;4;Das Tal (24 s) > Die Wohnungen (131 s) > Wohnung Almagellerhorn (218 s) > Wohnung Weissmies (103 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;16.10.2026;20:34;Deutschland;Freiburg im Breisgau;BW;Handy;Deutsch;Saastal Tourismus;140;1;Die Wohnungen (140 s);ja;ja;ja;nein;nein;nein;nein;nein;nein
+Beispiel;16.10.2026;19:52;Schweiz;Zürich;ZH;Rechner;Deutsch;DuckDuckGo;108;1;Wohnung Weissmies (108 s);ja;nein;ja;nein;nein;nein;nein;nein;nein
+Beispiel;16.10.2026;19:33;Schweiz;Zürich;ZH;Handy;Deutsch;Google;362;3;Heidi (135 s) > Wohnung Almagellerhorn (164 s) > Heidi (63 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;16.10.2026;19:18;Schweiz;Zürich;ZH;Handy;Deutsch;Google;557;6;Startseite (35 s) > Das Tal (54 s) > Heidi (89 s) > Die Wohnungen (179 s) > Das Tal (92 s) > Heidi (108 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;16.10.2026;13:14;Schweiz;Zürich;ZH;Tablet;Deutsch;Direkt aufgerufen;605;4;Die Wohnungen (89 s) > Wohnung Portjengrat (247 s) > Die Wohnungen (142 s) > Heidi (127 s);ja;ja;nein;ja;nein;nein;nein;nein;nein
+Beispiel;16.10.2026;10:52;Schweiz;Zürich;ZH;Handy;Deutsch;Direkt aufgerufen;220;2;Startseite (62 s) > Die Wohnungen (158 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;16.10.2026;08:43;Schweiz;Basel;BS;Handy;Deutsch;Google;60;1;Startseite (60 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;15.10.2026;19:56;Schweiz;Zürich;ZH;Rechner;Deutsch;Direkt aufgerufen;186;2;Die Wohnungen (105 s) > Heidi (81 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;15.10.2026;19:08;Schweiz;Zürich;ZH;Handy;Englisch;Google;415;3;Heidi (182 s) > Die Wohnungen (147 s) > Das Haus (86 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;15.10.2026;18:02;Deutschland;Konstanz;BW;Rechner;Deutsch;Google;373;2;Heidi (207 s) > Wohnung Weissmies (166 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;15.10.2026;13:38;Schweiz;Thun;BE;Handy;Deutsch;Holidu;281;2;Das Tal (65 s) > Die Wohnungen (216 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;15.10.2026;12:46;Schweiz;Zürich;ZH;Handy;Deutsch;Saastal Tourismus;429;2;Wohnung Almagellerhorn (195 s) > Die Wohnungen (234 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;15.10.2026;11:19;Schweiz;Basel;BS;Handy;Deutsch;Familie Zurbriggen;248;3;Startseite (81 s) > Heidi (119 s) > Das Haus (48 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;15.10.2026;07:23;Schweiz;Lausanne;VD;Handy;Französisch;Direkt aufgerufen;332;2;Heidi (143 s) > Die Wohnungen (189 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;15.10.2026;06:38;Schweiz;Bern;BE;Rechner;Deutsch;Google;328;3;Startseite (71 s) > Das Tal (72 s) > Wohnung Almagellerhorn (185 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;14.10.2026;22:18;Schweiz;Luzern;LU;Handy;Deutsch;Google;140;1;Wohnung Almagellerhorn (140 s);ja;nein;nein;nein;ja;nein;nein;nein;nein
+Beispiel;14.10.2026;21:04;Schweiz;Solothurn;SO;Rechner;Deutsch;Google;219;2;Heidi (189 s) > Kontakt (30 s);ja;nein;nein;ja;nein;nein;nein;nein;nein
+Beispiel;14.10.2026;19:02;Schweiz;Zürich;ZH;Handy;Deutsch;Direkt aufgerufen;419;3;Startseite (63 s) > Die Wohnungen (149 s) > Wohnung Almagellerhorn (207 s);nein;nein;nein;nein;nein;nein;nein;ja;ja
+Beispiel;14.10.2026;18:48;Schweiz;Bern;BE;Rechner;Deutsch;Direkt aufgerufen;278;2;Startseite (130 s) > Die Wohnungen (148 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;14.10.2026;15:46;Schweiz;Aarau;AG;Tablet;Deutsch;Google;211;2;Startseite (40 s) > Wohnung Weissmies (171 s);nein;nein;nein;nein;nein;nein;nein;nein;ja
+Beispiel;14.10.2026;14:07;Schweiz;Thun;BE;Handy;Deutsch;Direkt aufgerufen;303;2;Startseite (47 s) > Die Wohnungen (256 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;14.10.2026;11:14;Schweiz;Zürich;ZH;Rechner;Deutsch;Bing;345;4;Startseite (86 s) > Heidi (156 s) > Das Haus (24 s) > Die Wohnungen (79 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;13.10.2026;21:29;Schweiz;Baden;AG;Tablet;Deutsch;Holidu;201;1;Die Wohnungen (201 s);nein;nein;nein;nein;nein;ja;nein;nein;nein
+Beispiel;13.10.2026;21:23;Schweiz;Bern;BE;Handy;Deutsch;Google;307;2;Die Wohnungen (85 s) > Heidi (222 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;13.10.2026;19:41;Schweiz;Zürich;ZH;Handy;Deutsch;Direkt aufgerufen;185;1;Die Wohnungen (185 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;13.10.2026;16:53;Schweiz;St. Gallen;SG;Rechner;Deutsch;Google;207;3;Startseite (26 s) > Kontakt (35 s) > Die Wohnungen (146 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;13.10.2026;16:27;Schweiz;Zürich;ZH;Handy;Deutsch;Direkt aufgerufen;353;3;Das Tal (67 s) > Wohnung Portjengrat (248 s) > Das Haus (38 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;13.10.2026;12:58;Schweiz;Bern;BE;Handy;Deutsch;Bing;180;1;Heidi (180 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;13.10.2026;12:00;Schweiz;Liestal;BL;Handy;Deutsch;Bing;97;1;Heidi (97 s);ja;ja;nein;ja;nein;nein;nein;nein;nein
+Beispiel;13.10.2026;06:49;Schweiz;Lausanne;VD;Handy;Französisch;Direkt aufgerufen;472;3;Heidi (163 s) > Wohnung Almagellerhorn (128 s) > Heidi (181 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;12.10.2026;23:16;Schweiz;St. Gallen;SG;Rechner;Deutsch;Google;570;5;Startseite (84 s) > Wohnung Weissmies (89 s) > Das Tal (34 s) > Wohnung Portjengrat (216 s) > Die Wohnungen (147 s);nein;nein;nein;nein;nein;nein;nein;ja;nein
+Beispiel;12.10.2026;22:23;Deutschland;Hamburg;HH;Rechner;Deutsch;DuckDuckGo;202;2;Startseite (125 s) > Das Tal (77 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;12.10.2026;20:03;Grossbritannien;London;ENG;Handy;Englisch;Direkt aufgerufen;680;4;Heidi (204 s) > Die Wohnungen (172 s) > Wohnung Almagellerhorn (188 s) > Die Wohnungen (116 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;12.10.2026;17:49;Deutschland;Frankfurt am Main;HE;Handy;Deutsch;Interhome;232;1;Heidi (232 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;12.10.2026;13:38;Schweiz;Genève;GE;Rechner;Französisch;Google;20;1;Startseite (20 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;12.10.2026;12:45;Schweiz;Zürich;ZH;Tablet;Deutsch;Direkt aufgerufen;474;2;Die Wohnungen (260 s) > Wohnung Portjengrat (214 s);nein;nein;nein;nein;nein;ja;nein;ja;nein
+Beispiel;12.10.2026;10:44;Schweiz;Basel;BS;Rechner;Deutsch;Google;51;1;Startseite (51 s);ja;ja;nein;nein;nein;nein;nein;nein;nein
+Beispiel;12.10.2026;09:38;Schweiz;Uster;ZH;Handy;Deutsch;Direkt aufgerufen;773;5;Heidi (185 s) > Die Wohnungen (195 s) > Das Haus (13 s) > Die Wohnungen (161 s) > Heidi (219 s);ja;ja;nein;ja;nein;nein;nein;nein;nein
+Beispiel;11.10.2026;20:43;Deutschland;Freiburg im Breisgau;BW;Handy;Deutsch;Google;207;2;Startseite (58 s) > Die Wohnungen (149 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;11.10.2026;19:26;Schweiz;Baden;AG;Handy;Deutsch;Google;142;3;Startseite (18 s) > Das Tal (68 s) > Das Haus (56 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;11.10.2026;15:58;Schweiz;Thun;BE;Handy;Deutsch;Google;27;1;Startseite (27 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;11.10.2026;14:57;Schweiz;Lugano;TI;Rechner;Italienisch;DuckDuckGo;521;5;Heidi (160 s) > Das Tal (42 s) > Die Wohnungen (158 s) > Das Haus (39 s) > Die Wohnungen (122 s);ja;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;11.10.2026;14:36;Schweiz;Winterthur;ZH;Handy;Deutsch;Google;50;1;Startseite (50 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;11.10.2026;12:53;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;336;4;Das Tal (104 s) > Heidi (92 s) > Das Tal (93 s) > Das Haus (47 s);nein;nein;nein;nein;nein;nein;nein;nein;nein
+Beispiel;11.10.2026;06:04;Schweiz;Luzern;LU;Handy;Deutsch;Google;525;4;Startseite (56 s) > Wohnung Almagellerhorn (226 s) > Die Wohnungen (117 s) > Wohnung Weissmies (126 s);ja;ja;ja;nein;nein;nein;nein;ja;ja
+Beispiel;11.10.2026;04:43;Schweiz;Genève;GE;Rechner;Französisch;Houfy;127;1;Startseite (127 s);nein;nein;nein;nein;nein;nein;nein;nein;nein

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="de" class="wartet">
+<head><script data-wurzel>/* Wurzel-Weiche: Seite laeuft an der Wurzel einer Adresse oder in einem Unterordner (github.io/<repo>/) */(function(){var D=2,p=location.pathname.split('/');p.splice(p.length-1-D,D+1);var W=p.join('/')+'/';window.__W=W;if(W==='/')return;var O=location.origin;
+function f(u){if(typeof u!=='string')return u;if(u.indexOf(O+'/')===0)return O+f(u.slice(O.length));if(u.charAt(0)!=='/'||u.charAt(1)==='/'||u.indexOf(W)===0||u+'/'===W)return u;return W+u.slice(1)}
+function s(v){return typeof v!=='string'?v:v.replace(/(^|,)(\s*)(\S+)/g,function(m,a,b,u){return a+b+f(u)})}
+function c(v){return typeof v!=='string'?v:v.replace(/url\(\s*(['"]?)([^'")]+)/g,function(m,q,u){return 'url('+q+f(u)})}
+function h(v){return typeof v!=='string'?v:c(v.replace(/(\s(?:src|href|poster|action|data-src|data-href)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+f(u)+q}).replace(/(\s(?:srcset|imagesrcset|data-srcset)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+s(u)+q}))}
+function d(K,k,g){K=window[K];if(!K)return;var x=Object.getOwnPropertyDescriptor(K.prototype,k);if(!x||!x.set)return;Object.defineProperty(K.prototype,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,g(v))}})}
+[['HTMLImageElement','src'],['HTMLScriptElement','src'],['HTMLLinkElement','href'],['HTMLIFrameElement','src'],['HTMLSourceElement','src'],['HTMLMediaElement','src'],['HTMLVideoElement','poster'],['HTMLAnchorElement','href'],['HTMLAreaElement','href'],['HTMLFormElement','action'],['HTMLEmbedElement','src'],['HTMLObjectElement','data']].forEach(function(z){d(z[0],z[1],f)});
+[['HTMLImageElement','srcset'],['HTMLSourceElement','srcset'],['HTMLLinkElement','imageSrcset']].forEach(function(z){d(z[0],z[1],s)});
+d('Element','innerHTML',h);d('Element','outerHTML',h);var iah=Element.prototype.insertAdjacentHTML;Element.prototype.insertAdjacentHTML=function(w,v){return iah.call(this,w,h(v))};
+var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(n,v){var l=String(n).toLowerCase();if(/^(src|href|poster|action|data|data-src|data-href)$/.test(l))v=f(v);else if(/srcset$/.test(l))v=s(v);else if(l==='style')v=c(v);return sa.call(this,n,v)};
+var st=CSSStyleDeclaration.prototype,sp=st.setProperty;st.setProperty=function(n,v,q){return sp.call(this,n,c(v),q)};['background','backgroundImage','cssText','maskImage','webkitMaskImage','listStyleImage','borderImageSource','content'].forEach(function(k){var x=Object.getOwnPropertyDescriptor(st,k);if(x&&x.set)Object.defineProperty(st,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,c(v))}})});
+var F=window.fetch;if(F)window.fetch=function(i,o){if(typeof i==='string')i=f(i);else if(i instanceof URL)i=f(i.href);return F.call(this,i,o)};
+var XO=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){var a=[].slice.call(arguments);a[1]=f(a[1] instanceof URL?a[1].href:a[1]);return XO.apply(this,a)};
+if(navigator.sendBeacon){var B=navigator.sendBeacon;navigator.sendBeacon=function(u,x){return B.call(navigator,f(u),x)}}
+var wo=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=f(u);return wo.apply(window,a)};
+var dw=document.write,dl=document.writeln;document.write=function(){return dw.apply(document,[].map.call(arguments,h))};document.writeln=function(){return dl.apply(document,[].map.call(arguments,h))};
+['pushState','replaceState'].forEach(function(k){var o=history[k];history[k]=function(a,b,u){return o.call(history,a,b,u==null?u:f(String(u)))}});
+function e(el){if(!el||el.nodeType!==1)return;['src','href','poster','action'].forEach(function(a){var v=el.getAttribute(a);if(v&&v.charAt(0)==='/'){var z=f(v);if(z!==v)sa.call(el,a,z)}});var t=el.getAttribute('srcset');if(t&&/(^|,)\s*\/[^\/]/.test(t)){var z=s(t);if(z!==t)sa.call(el,'srcset',z)}t=el.getAttribute('style');if(t&&/url\(\s*['"]?\/[^\/]/.test(t)){z=c(t);if(z!==t)sa.call(el,'style',z)}}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')e(m.target);else m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;e(n);var l=n.querySelectorAll('[src],[href],[srcset],[poster],[action],[style]');for(var i=0;i<l.length;i++)e(l[i])})})}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','href','srcset','poster','action','style']})})();</script><!--demo-weiche--><script src="../../_demo/karte.js"></script><script src="../../_demo/shim.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Heidi · Chalet Rustica in Saas-Almagell</title>
+<meta name="description" content="Heidi Andenmatten-Zurbriggen: Juniorenweltmeisterin, Siege im Weltcup, zwei WM-Silbermedaillen, heute medizinische Masseurin in Saas-Almagell.">
+<meta name="theme-color" content="#271D16">
+<link rel="icon" href="assets/zeichen/r.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/GrenzeGotisch-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Fraunces-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/InstrumentSans-normal-400_600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/rustica.css?v=21">
+<link rel="stylesheet" href="assets/css/auswahl.css?v=13">
+<link rel="stylesheet" href="assets/css/fassungen.css?v=23">
+<link rel="stylesheet" href="assets/css/seiten.css?v=13">
+<noscript><style>html.wartet body{visibility:visible;animation:none}</style></noscript>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="unterseite">
+
+<!-- Chalet Rustica · Unterseite, gebaut von unterseiten.py (Leiste, Menü und Fuss aus index.html). Designstudie von Tasty Studios. -->
+
+<header class="leiste" data-leiste>
+  <a class="leiste__ecke" href="http://localhost:8978/haus/Familie%20Zurbriggen/einstieg/site/index.html"><img src="assets/zeichen/pinsel-schnee.svg" alt="" width="26" height="24"><span>Familie Zurbriggen</span></a>
+  <nav class="leiste__insel" aria-label="Chalet Rustica">
+    <a class="leiste__marke" href="index.html">Rustica</a>
+    <span class="leiste__nav"><a href="haus.html">Das Haus</a><a href="wohnungen.html">Wohnungen</a><a href="saas-almagell.html">Das Tal</a><a href="heidi.html" aria-current="page">Heidi</a><a href="kontakt.html">Kontakt</a></span>
+    <button class="leiste__menue" type="button" aria-expanded="false" aria-controls="menue">Menü</button>
+  </nav>
+  <a class="knopf knopf--holz knopf--klein leiste__anfrage" href="mailto:info@chalet-rustica.ch" data-anfrage>Anfrage<i><svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a>
+</header>
+<div class="menue" id="menue" hidden>
+  <a href="haus.html">Das Haus</a><a href="wohnungen.html">Die Wohnungen</a><a href="saas-almagell.html">Das Tal</a><a href="heidi.html">Heidi</a><a href="kontakt.html">Kontakt</a>
+  <a class="knopf knopf--holz" href="mailto:info@chalet-rustica.ch" data-anfrage>Anfrage senden<i><svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a>
+</div>
+
+<main>
+<!-- Kopf: Heidi gross, daneben Bilder aus ihrer Zeit im Weltcup -->
+<section class="se-heidikopf" data-erst aria-labelledby="seite-titel">
+  <div class="se-heidikopf__text">
+    <p class="se-pfad se-pfad--hell"><a href="index.html">Chalet Rustica</a></p>
+    <h1 class="se-name se-name--hell" id="seite-titel" data-zeilen>Heidi</h1>
+    <p class="se-tal__satz" data-r="text">Heidi Andenmatten-Zurbriggen: vierzehn Jahre Skirennen, Siege im Weltcup, zwei Silbermedaillen an Weltmeisterschaften. Und eine Karriere voller Rückschläge, in der sie nie aufgab.</p>
+  </div>
+  <div class="se-heidikopf__bilder">
+    <figure class="hb se-heidikopf__f"><img src="assets/img/zeitung-junior-140.webp" srcset="assets/img/zeitung-junior-140.webp 140w" sizes="300px" alt="Heidi Zurbriggen als junge Rennfahrerin, Zeitungsbild" width="140" height="283" loading="eager" decoding="sync"></figure>
+    <figure class="hb se-heidikopf__f se-heidikopf__f--gross"><img src="assets/img/heidi-jubel-270.webp" srcset="assets/img/heidi-jubel-270.webp 270w" sizes="300px" alt="Heidi Zurbriggen im Zielraum, auf Schultern getragen" width="270" height="405" loading="eager" decoding="sync"></figure>
+    <figure class="hb se-heidikopf__f"><img src="assets/img/zeitung-glaube-223.webp" srcset="assets/img/zeitung-glaube-223.webp 223w" sizes="300px" alt="Heidi Zurbriggen mit gefalteten Händen, Zeitungsbild" width="223" height="243" loading="eager" decoding="sync"></figure>
+  </div>
+</section>
+
+<!-- Die Anfänge: Juniorin und erste Weltcupsaison -->
+<section class="se-anfang" aria-labelledby="anfang-titel">
+  <div class="se-anfang__text">
+    <p class="wn-lage">Saison 1984/85</p>
+    <h2 class="titel" id="anfang-titel" data-zeilen>Mit siebzehn <em>im Weltcup.</em></h2>
+    <p class="gross" data-r="text">Als Juniorin holte Heidi den Weltmeistertitel und zahlreiche gute Resultate in FIS- und Europacup-Rennen. Bei ihren ersten Weltcupeinsätzen bestätigte die erst Siebzehnjährige ihr grosses Talent.</p>
+  </div>
+  <ol class="se-anfang__liste blatt"><li><span>Slalom</span><b>Courmayeur</b><em>Startnummer 74</em><strong>Rang 30</strong></li><li><span>Super-G</span><b>Davos</b><em>Startnummer 91</em><strong>Rang 12</strong></li><li><span>Riesenslalom</span><b>Santa Caterina</b><em>Startnummer 91</em><strong>Rang 12</strong></li><li><span>Riesenslalom</span><b>Madonna di Campiglio</b><em>Startnummer 82</em><strong>Rang 21</strong></li></ol>
+</section>
+
+<!-- Rückschläge -->
+<section class="se-rueck" aria-labelledby="rueck-titel">
+  <div class="kopf">
+    <h2 class="titel" id="rueck-titel" data-zeilen>Ein Wille, <em>der geprüft wurde.</em></h2>
+    <p class="kopf__satz gross" data-r="text">Trainer verglichen sie mit ihrem Bruder Pirmin. Das Fundament ihrer Karriere aber waren ihr aussergewöhnlicher Wille und ihr starker Glaube.</p>
+  </div>
+  <ol class="se-rueck__weg blatt"><li><b>1983/84</b><span>Meniskusoperation</span><em>Ausfall: ein Monat</em></li><li><b>1985/86</b><span>Polyarthritis, Heidi sitzt im Rollstuhl</span><em>Ausfall: ein Winter</em></li><li><b>1988</b><span>Schien- und Wadenbeinbruch</span><em>Ausfall: eine Saison</em></li><li><b>1994</b><span>Sturz beim Olympia-Super-G in Lillehammer</span></li><li><b>1994</b><span>Erster Weltcupsieg im Super-G von Altenmarkt</span><em>Fünf Tage später annulliert der FIS-Vorstand den Sieg</em></li></ol>
+</section>
+
+<!-- Erfolge -->
+<section class="se-erfolge" aria-labelledby="erfolge-titel">
+  <div class="kopf">
+    <h2 class="titel" id="erfolge-titel" data-zeilen>Die Beharrlichkeit <em>zahlt sich aus.</em></h2>
+    <p class="kopf__satz gross" data-r="text">Zwischen 1986 und 1998 stand sie zwanzigmal auf dem Podest im Weltcup und wurde mehrfach Schweizermeisterin in Abfahrt, Super-G, Riesenslalom und Kombination.</p>
+  </div>
+  <div class="se-erfolge__wand"><article class="se-erfolg tafel-holz se-erfolg--gross"><b>1994</b><h3>Altenmarkt</h3><p>Weltcup-Abfahrt</p><span>1. Rang</span></article><article class="se-erfolg blatt"><b>1995</b><h3>Super-G-Weltcup</h3><p>Gesamtwertung</p><span>3. Rang</span></article><article class="se-erfolg tafel-holz se-erfolg--gross"><b>1996</b><h3>Sierra Nevada</h3><p>WM Super-G</p><span>Silber</span></article><article class="se-erfolg tafel-holz se-erfolg--gross"><b>1996</b><h3>Lillehammer</h3><p>Weltcup-Abfahrt</p><span>1. Rang</span></article><article class="se-erfolg blatt"><b>1996</b><h3>Abfahrtsweltcup</h3><p>Gesamtwertung</p><span>3. Rang</span></article><article class="se-erfolg tafel-holz se-erfolg--gross"><b>1997</b><h3>Cortina d'Ampezzo</h3><p>Weltcup-Abfahrt</p><span>1. Rang</span></article><article class="se-erfolg tafel-holz se-erfolg--gross"><b>1997</b><h3>Bad Kleinkirchheim</h3><p>Weltcup-Abfahrt</p><span>1. Rang</span></article><article class="se-erfolg tafel-holz se-erfolg--gross"><b>1997</b><h3>Sestrière</h3><p>WM Abfahrt</p><span>Silber</span></article><article class="se-erfolg blatt"><b>1997</b><h3>Abfahrtsweltcup</h3><p>Gesamtwertung</p><span>2. Rang</span></article></div>
+</section>
+
+<!-- Abschied -->
+<section class="se-abschied" aria-labelledby="abschied-titel">
+  <p class="wn-lage">Crans-Montana, 1998</p>
+  <h2 class="titel se-abschied__titel" id="abschied-titel" data-zeilen>Der Abschied <em>von der Rennpiste.</em></h2>
+  <p class="se-abschied__satz" data-r="text">Am Weltcup-Final in Crans-Montana beendete die «ewige Zweite» ihre Karriere, mit einem lachenden und einem weinenden Auge. Mit ihr verliess eine Persönlichkeit die Skibühne, die trotz aller Rückschläge nie aufgab und ein grosser Rückhalt im Schweizer Damenteam war.</p>
+</section>
+
+<!-- Die zweite Karriere -->
+<section class="se-zweite" aria-labelledby="zweite-titel">
+  <figure class="hb se-zweite__bild"><img src="assets/img/heidi-praxis-1200.webp" srcset="assets/img/heidi-praxis-700.webp 700w, assets/img/heidi-praxis-1200.webp 1200w, assets/img/heidi-praxis-1800.webp 1800w" sizes="(max-width:760px) 92vw, 46vw" alt="Heidi bei einer Massage in ihrer Praxis" width="1800" height="1640" loading="lazy" decoding="async"></figure>
+  <div class="se-zweite__text">
+    <p class="wn-lage">1998 bis heute</p>
+    <h2 class="titel" id="zweite-titel" data-zeilen>Was ihr half, <em>gibt sie weiter.</em></h2>
+    <ol class="se-zweite__schritte">
+      <li><b>Die Methode</b>Nach Verletzungen und Krankheit halfen ihr die Methoden von Benno Poli.</li>
+      <li><b>1998 bis 2001</b>Ausbildung zur medizinischen Masseurin an der VDMS in Aarau.</li>
+      <li><b>Heute</b>Ihre eigene Massagepraxis in Saas-Almagell, auch für die Gäste des Chalet Rustica.</li>
+    </ol>
+    <div class="knoepfe"><a class="knopf knopf--holz" href="mailto:info@chalet-rustica.ch" data-anfrage="Massage bei Heidi">Massage anfragen<i><svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></div>
+  </div>
+</section>
+</main>
+
+<footer class="fuss">
+  <!-- Fuss oben: Fassung 7 «Holztafel mit Kontakt», von Robert gewählt und fest eingebaut (08.11.2026) -->
+  <div class="fuss__haus">
+<div class="fv fv7"><div><p class="fuss__satz " data-zeilen>Es grüsst Sie herzlich die Familie <em>Andenmatten-Zurbriggen.</em></p><nav class="wege" aria-label="Auf dieser Seite"><a class="wege__w" href="haus.html"><span class="wege__b"><img src="assets/img/haus-sommer-1400.webp" srcset="assets/img/haus-sommer-900.webp 900w, assets/img/haus-sommer-1400.webp 1400w, assets/img/haus-sommer-2000.webp 2000w" sizes="96px" alt="" width="2000" height="1213" loading="lazy" decoding="async" style="object-position:50% 60%"></span><span class="wege__t"><b>Das Haus</b><small>Am Bach</small></span><i><svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a><a class="wege__w" href="wohnungen.html"><span class="wege__b"><img src="assets/img/n5-wohn-900.webp" srcset="assets/img/n5-wohn-480.webp 480w, assets/img/n5-wohn-900.webp 900w, assets/img/n5-wohn-1400.webp 1400w" sizes="96px" alt="" width="1400" height="1045" loading="lazy" decoding="async"></span><span class="wege__t"><b>Die Wohnungen</b><small>Jede mit Südbalkon</small></span><i><svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a><a class="wege__w" href="saas-almagell.html"><span class="wege__b"><img src="assets/img/tal-klar-1600.webp" srcset="assets/img/tal-klar-900.webp 900w, assets/img/tal-klar-1600.webp 1600w, assets/img/tal-klar-2400.webp 2400w" sizes="96px" alt="" width="2400" height="1792" loading="lazy" decoding="async" style="object-position:50% 62%"></span><span class="wege__t"><b>Das Tal</b><small>Sommer und Winter</small></span><i><svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a><a class="wege__w" href="heidi.html"><span class="wege__b"><img src="assets/img/heidi-jubel-270.webp" srcset="assets/img/heidi-jubel-270.webp 270w" sizes="96px" alt="" width="270" height="405" loading="lazy" decoding="async" style="object-position:50% 30%"></span><span class="wege__t"><b>Heidi</b><small>Ski und Massage</small></span><i><svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></nav></div><div class="fv7__tafel blatt" data-zug><p class="fv7__name"><span>Chalet</span><b>Rustica</b></p><p class="fv-adr">CH-3905 Saas-Almagell<br><a href="tel:+41279571055">+41 27 957 10 55</a><br><a href="mailto:info@chalet-rustica.ch" data-anfrage>info@chalet-rustica.ch</a></p><div class="knoepfe"><a class="knopf knopf--holz" href="mailto:info@chalet-rustica.ch" data-anfrage>Anfrage senden<i><svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a><a class="knopf knopf--linie" href="tel:+41279571055">Anrufen<i><svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></div></div></div>
+  </div>
+
+  <section class="familienband" aria-label="Familie Zurbriggen">
+    <a class="fb__kopf" href="http://localhost:8978/haus/Familie%20Zurbriggen/einstieg/site/index.html"><img src="assets/zeichen/pinsel-schnee.svg" alt="" width="44" height="41"><span>Familie Zurbriggen · seit 1967</span></a>
+    <ul class="fb__haeuser"><li class="fb__haus"><a href="http://localhost:8978/haus/Zurbriggen%20Wellnesshotel%20Saas-Almagell/website/index.html"><figure><img src="assets/img/fam-wellness-m.webp" srcset="assets/img/fam-wellness-m.webp 900w, assets/img/fam-wellness-l.webp 1200w" sizes="(max-width:800px) 46vw, 24vw" alt="Das Wellness &amp; Spa Pirmin Zurbriggen im Lärchenwald" width="1200" height="675" loading="lazy" decoding="async"></figure><span class="fb__name">Wellness &amp; Spa Pirmin Zurbriggen</span><span class="fb__zusatz">mit dem Loft-Suite Hotel</span><span class="fb__ort">Saas-Almagell · Esther und Fabian</span><span class="fb__weiter">Zum Haus</span></a></li><li class="fb__haus"><a href="http://localhost:8978/haus/Zurbriggen%20Hotel%20Monte-Moro%20Saas-Almagell/website/index.html"><figure><img src="assets/img/fam-montemoro-m.webp" srcset="assets/img/fam-montemoro-m.webp 900w, assets/img/fam-montemoro-l.webp 1200w" sizes="(max-width:800px) 46vw, 24vw" alt="Das Hotel Monte-Moro mit seinen Holzbalkonen" width="1200" height="1200" loading="lazy" decoding="async"></figure><span class="fb__name">Hotel Monte-Moro</span><span class="fb__ort">Saas-Almagell · Esther und Fabian</span><span class="fb__weiter">Zum Haus</span></a></li><li class="fb__haus"><a href="http://localhost:8978/haus/Zurbriggen%20Suitenhotel%20Zermatt/website/index.html"><figure><img src="assets/img/fam-zermatt-m.webp" srcset="assets/img/fam-zermatt-m.webp 900w, assets/img/fam-zermatt-l.webp 1200w" sizes="(max-width:800px) 46vw, 24vw" alt="Das Suitenhotel Zurbriggen am Abend" width="1200" height="800" loading="lazy" decoding="async"></figure><span class="fb__name">Suitenhotel Zurbriggen</span><span class="fb__ort">Zermatt · Moni und Pirmin</span><span class="fb__weiter">Zum Haus</span></a></li><li class="fb__haus fb__haus--hier"><div><figure><img src="assets/img/fam-chalet-holidu-m.webp" srcset="assets/img/fam-chalet-holidu-m.webp 900w, assets/img/fam-chalet-holidu-l.webp 1024w" sizes="(max-width:800px) 46vw, 24vw" alt="Das Chalet Rustica im Sommer" width="1024" height="621" loading="lazy" decoding="async"></figure><span class="fb__name">Chalet Rustica</span><span class="fb__ort">Saas-Almagell · Heidi und Damian</span><span class="fb__hier">Sie sind hier</span></div></li></ul>
+  </section>
+
+  <div class="studie">
+    <span>Designstudie von Tasty Studios, nicht die offizielle Website</span>
+    <span>Fotos: Chalet Rustica (chalet-rustica.ch, Inserat des Hauses bei Holidu), Praxisfoto aus dem Material des Wellness &amp; Spa Pirmin Zurbriggen</span>
+    <button type="button" data-impressum>Impressum</button>
+  </div>
+</footer>
+
+<dialog class="impressum" aria-labelledby="impressum-titel">
+  <div class="blatt">
+    <button class="dlg__zu" type="button" aria-label="Schliessen">×</button>
+    <h2 class="dlg__titel" id="impressum-titel">Impressum</h2>
+    <p><b>Chalet Rustica</b><br>Damian &amp; Heidi Andenmatten-Zurbriggen<br>CH-3905 Saas-Almagell<br>Telefon +41 27 957 10 55<br>info@chalet-rustica.ch</p>
+    <p class="leise">Diese Seite ist eine Designstudie von Tasty Studios und nicht die offizielle Website des Chalet Rustica.</p>
+  </div>
+</dialog>
+
+<script src="assets/js/auswahl.js?v=13" defer></script>
+<script src="assets/js/anfrage.js?v=15" defer></script>
+<script src="assets/js/rustica.js?v=16" defer></script>
+<script src="assets/js/schweben.js?v=1" defer></script>
+<script src="assets/js/seite.js?v=1" defer></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+{
+ "winter": {
+  "quelle": "_quelle/chalet-rustica/extern/holidu/rustica4-holidu-02.jpg",
+  "groesse": [
+   576,
+   768
+  ]
+ },
+ "sommer": {
+  "quelle": "_quelle/chalet-rustica/extern/holidu/rustica4-holidu-01.jpg",
+  "groesse": [
+   1024,
+   768
+  ]
+ },
+ "dorf": {
+  "quelle": "_quelle/chalet-rustica/extern/holidu/rustica4-holidu-24.jpg",
+  "groesse": [
+   1024,
+   768
+  ]
+ },
+ "panorama": {
+  "quelle": "_quelle/chalet-rustica/extern/holidu/rustica4-holidu-11.jpg",
+  "groesse": [
+   1536,
+   512
+  ]
+ },
+ "piste": {
+  "quelle": "_quelle/chalet-rustica/extern/holidu/rustica4-holidu-03.jpg",
+  "groesse": [
+   1024,
+   768
+  ]
+ },
+ "weiler": {
+  "quelle": "_quelle/chalet-rustica/extern/holidu/rustica4-holidu-22.jpg",
+  "groesse": [
+   1024,
+   768
+  ]
+ },
+ "ziegen": {
+  "quelle": "_quelle/chalet-rustica/extern/holidu/rustica4-holidu-27.jpg",
+  "groesse": [
+   1024,
+   768
+  ]
+ },
+ "laerchen": {
+  "quelle": "_quelle/chalet-rustica/extern/holidu/rustica4-holidu-32.jpg",
+  "groesse": [
+   1024,
+   768
+  ]
+ },
+ "n1-wohnraum": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr1wohnraumgross.JPG",
+  "groesse": [
+   533,
+   400
+  ]
+ },
+ "n1-sued": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr1zimmersuedgross.JPG",
+  "groesse": [
+   533,
+   400
+  ]
+ },
+ "n1-nord": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr1zimmernordgross.JPG",
+  "groesse": [
+   533,
+   400
+  ]
+ },
+ "n1-kueche": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr1kuecheesstischgross.JPG",
+  "groesse": [
+   400,
+   533
+  ]
+ },
+ "n1-bad": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr1badduschegross.JPG",
+  "groesse": [
+   400,
+   533
+  ]
+ },
+ "n2-bett": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr2bettgross.jpg",
+  "groesse": [
+   533,
+   400
+  ]
+ },
+ "n2-wohn": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr2wohngross.jpg",
+  "groesse": [
+   400,
+   533
+  ]
+ },
+ "n2-kueche": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr2kuchegross.jpg",
+  "groesse": [
+   400,
+   533
+  ]
+ },
+ "n2-balkon": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr2balkongross.jpg",
+  "groesse": [
+   400,
+   533
+  ]
+ },
+ "n2-bad": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr2badgross.jpg",
+  "groesse": [
+   400,
+   533
+  ]
+ },
+ "n5-wohn": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr5wohngross.jpg",
+  "groesse": [
+   533,
+   400
+  ]
+ },
+ "n5-kueche": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr5kuchegross.jpg",
+  "groesse": [
+   533,
+   400
+  ]
+ },
+ "n5-bett": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr5bettgross.jpg",
+  "groesse": [
+   533,
+   400
+  ]
+ },
+ "n5-balkon": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr5balkongross.jpg",
+  "groesse": [
+   533,
+   400
+  ]
+ },
+ "n5-wohn2": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr5wohn2gross.jpg",
+  "groesse": [
+   400,
+   533
+  ]
+ },
+ "n5-bad": {
+  "quelle": "_quelle/chalet-rustica/spiegel/rustica/bilder/nr5badgross.jpg",
+  "groesse": [
+   400,
+   533
+  ]
+ },
+ "heidi-jubel": {
+  "quelle": "_quelle/chalet-rustica/spiegel/skikarriere/bilder/b4.jpg",
+  "groesse": [
+   270,
+   405
+  ]
+ },
+ "heidi-helm": {
+  "quelle": "_quelle/chalet-rustica/spiegel/skikarriere/bilder/b3a.jpg",
+  "groesse": [
+   223,
+   198
+  ]
+ },
+ "heidi-massage": {
+  "quelle": "_quelle/chalet-rustica/spiegel/mass/bilder/ma_3g.jpg",
+  "groesse": [
+   414,
+   390
+  ]
+ },
+ "weiler-winter": {
+  "quelle": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-16.jpg",
+  "groesse": [
+   1182,
+   665
+  ]
+ }
+}

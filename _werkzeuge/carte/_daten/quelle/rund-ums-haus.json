@@ -1,0 +1,148 @@
+{
+ "ziel": "rund-ums-haus",
+ "art": "satz",
+ "key": "rund-ums-haus",
+ "name": "Rund ums Haus",
+ "unter": "Alles zu Fuss",
+ "gruppe": "Für alle Wohnungen",
+ "ab": "",
+ "plakat": "",
+ "foto": "dorf",
+ "titel": "Rund ums Haus",
+ "datum": "Alles zu Fuss",
+ "mit": "",
+ "rubriken": [
+  {
+   "titel": "Lage",
+   "form": "einzeln",
+   "eintraege": [
+    {
+     "name": "",
+     "zeit": "",
+     "text": "Der rustikale Neubau mit drei Sternen liegt sehr zentral und trotzdem in ruhiger Lage.",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "",
+     "zeit": "",
+     "text": "Direkt daneben fliesst ein Bach vorbei, und Sie haben freie Sicht auf das wunderschöne Bergpanorama.",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "",
+     "zeit": "",
+     "text": "Innerhalb 5 Minuten erreichen Sie zu Fuss die Skilifte, Sportanlagen, die Bushaltestelle, Parkplatz und Einkaufsläden.",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Im Dorf",
+   "form": "spalte",
+   "eintraege": [
+    {
+     "name": "Bushaltestelle, 100 Meter",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Einkaufsläden und Lebensmittel",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Post",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Tourismusbüro",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Zum Sport",
+   "form": "spalte",
+   "eintraege": [
+    {
+     "name": "Bergbahn und Skilifte",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Langlaufloipe",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Eisbahn",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Tennisplatz und Sportplatz",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Für Kinder",
+   "form": "spalte",
+   "eintraege": [
+    {
+     "name": "Kinderspielplätze",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Minigolf",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Eisbahn im Winter",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  }
+ ],
+ "hinweis": "",
+ "quelle": "_werkzeuge/_web/inhalt/daten.py LAGE, UMGEBUNG, gebaut auf haus.html («Rund ums Haus, alles zu Fuss.»)",
+ "seite": "haus.html",
+ "bild": null,
+ "foto_gross": "panorama",
+ "fotos": [
+  "wald",
+  "langlauf",
+  "hoehenweg"
+ ]
+}

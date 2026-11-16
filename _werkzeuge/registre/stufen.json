@@ -1,0 +1,5 @@
+{
+ "hinweis": "Stufen des Wegs zur Anfrage, wie «Besucher» sie zeigt (registre.js trichter). Kontrollpanel liest «maison» (bau.py STUFE) und zählt für Stufe 1 die Aufrufe der Seiten in «seiten» (die drei Wohnungsseiten), höchstens die Besuche; Stufe 2 = summe.buchung (Anfrage abgeschickt oder angerufen), höchstens Stufe 1.",
+ "seiten": ["wohnung-almagellerhorn.html", "wohnung-portjengrat.html", "wohnung-weissmies.html"],
+ "maison": ["Eine Wohnungsseite geöffnet", "Anfrage gesendet oder angerufen", "Gast in der Wohnung", "wissen Heidi und Damian, nicht die Website"]
+}

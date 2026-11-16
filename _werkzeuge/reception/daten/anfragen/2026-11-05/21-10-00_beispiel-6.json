@@ -1,0 +1,52 @@
+{
+ "zeit": "2026-11-05T21:10:00+01:00",
+ "art": "wohnung",
+ "name": "Sarah Whitfield",
+ "kontakt": "sarah.whitfield@example.com",
+ "datum": "06.03.2027 bis 13.03.2027",
+ "personen": 4,
+ "anliegen": "Eine Woche im März zu viert, zum Skifahren und Langlaufen; fragt nach dem Weg zu den Skiliften und zur Loipe.",
+ "sprache": "en",
+ "gespraech": "beispiel-6",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Hello, we would like to stay a week in March, four of us, for skiing and cross-country skiing. How far is it to the ski lifts and the trail?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "The ski lifts are five minutes away on foot, and the cross-country trail is close by. Could you give me your name and an email address, so that Heidi and Damian can reply?"
+  },
+  {
+   "rolle": "user",
+   "text": "Sarah Whitfield, sarah.whitfield@example.com, 6 to 13 March, four of us"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Thank you. This is a draft by Tasty Studios: your request does not go to the chalet, it is only kept for viewing in the host tool."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "abteilung": "Wohnungen",
+ "platz": "Wohnung Weissmies",
+ "entwurf": {
+  "betreff": "Your week at Chalet Rustica in March",
+  "text": "Dear Ms Whitfield,\n\nthank you very much for your enquiry. For the four of you, the Weissmies apartment on the first floor, newly renovated, has two bedrooms with two beds each and a south-facing balcony. We will gladly check whether it is free from 6 to 13 March [check availability].\n\nThe ski lifts are five minutes away on foot, and the cross-country trail is close by. The 26-kilometre Saastal trail runs from Saas-Balen through Saas-Almagell to the Eyenalp.\n\nWe will send you the price for your dates [price for your dates].\n\nWith warm regards from the Andenmatten-Zurbriggen family\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Wohnung Weissmies, Das Haus (Im Winter), Das Tal (Langlauf).\nOffen: Verfügbarkeit, Preis für die Tage.",
+  "vorlage": "wohnung",
+  "absender": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+  "zeit": "2026-11-05T21:10:00+01:00",
+  "deutsch": {
+   "betreff": "Ihre Woche im Chalet Rustica im März",
+   "text": "Sehr geehrte Frau Whitfield,\n\nherzlichen Dank für Ihre Anfrage. Für Sie zu viert hat die Wohnung Weissmies im ersten Stock, neu renoviert, zwei Schlafzimmer mit je zwei Betten und einen Südbalkon. Gerne schauen wir, ob sie vom 6. bis 13. März frei ist [Verfügbarkeit prüfen].\n\nDie Skilifte erreichen Sie in fünf Minuten zu Fuss, die Langlaufloipe liegt ganz in der Nähe. Die 26 Kilometer lange Saastal-Loipe führt von Saas-Balen über Saas-Almagell bis zur Eyenalp.\n\nDen Preis für Ihre Tage schicken wir Ihnen [Preis für die Tage].\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+   "quelle": "608c4b4c00f1"
+  }
+ },
+ "verlauf_de": [
+  "Guten Tag, wir möchten im März eine Woche zu viert kommen, zum Skifahren und Langlaufen. Wie weit ist es zu den Skiliften und zur Loipe?",
+  "Die Skilifte erreichen Sie in fünf Minuten zu Fuss, die Langlaufloipe liegt ganz in der Nähe. Möchten Sie mir Ihren Namen und eine E-Mail-Adresse geben, damit Heidi und Damian Ihnen antworten?",
+  "Sarah Whitfield, sarah.whitfield@example.com, 6. bis 13. März, zu viert",
+  "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht im Gästebuch."
+ ]
+}

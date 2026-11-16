@@ -1,0 +1,35 @@
+{
+ "zeit": "2026-11-07T17:05:00+01:00",
+ "art": "massage",
+ "name": "Monika Imboden",
+ "kontakt": "monika.imboden@example.com",
+ "datum": "19.02.2027",
+ "personen": 1,
+ "anliegen": "Eine Massage bei Heidi während ihrer Skiferien, nach einem Tag auf der Piste.",
+ "sprache": "de",
+ "gespraech": "beispiel-4",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Heidi): Ihr Anliegen: Massage bei Heidi\nAnkunft: 19.02.2027\nAbreise: 20.02.2027\nErwachsene: 1\nKinder (bis 10 J.): 0\nWünsche: Nach einem Skitag hätte ich gerne eine Massage, am liebsten am späten Nachmittag."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+ "abteilung": "Massage bei Heidi",
+ "seite": "/heidi.html",
+ "seite_name": "Heidi",
+ "web": true,
+ "nachricht": "Ihr Anliegen: Massage bei Heidi\nAnkunft: 19.02.2027\nAbreise: 20.02.2027\nErwachsene: 1\nKinder (bis 10 J.): 0\nWünsche: Nach einem Skitag hätte ich gerne eine Massage, am liebsten am späten Nachmittag.",
+ "formular": "massage",
+ "platz": "Massage bei Heidi",
+ "entwurf": {
+  "betreff": "Ihre Massage bei Heidi",
+  "text": "Grüezi Frau Imboden,\n\nherzlichen Dank für Ihre Nachricht. Heidi nimmt sich gerne Zeit für Sie [Termin bei Heidi].\n\nIhre eigene Massagepraxis führt sie im Hotel Pirmin Zurbriggen, auch für die Gäste des Chalet Rustica. Von 1998 bis 2001 machte sie in der VDMS Aarau die Ausbildung zur medizinischen Masseurin; nach ihren eigenen Verletzungen hatten ihr die Methoden von Benno Poli geholfen, und das gibt sie heute weiter.\n\nDamit Heidi alles für Sie vorbereiten kann:\n- die Uhrzeit, die Ihnen am 19. Februar passt\n- was Ihnen guttun soll\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Heidi (Website), Startseite (Heidis zweite Karriere).\nOffen: Termin, Dauer und Preis der Massage (stehen in keiner Quelle).",
+  "vorlage": "massage",
+  "absender": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+  "zeit": "2026-11-07T17:05:00+01:00"
+ }
+}

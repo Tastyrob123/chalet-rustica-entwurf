@@ -1,0 +1,41 @@
+{
+ "zeit": "2026-11-08T20:15:00+01:00",
+ "art": "wohnung",
+ "name": "Daniel Gerber",
+ "kontakt": "daniel.gerber@example.com",
+ "datum": "13.02.2027 bis 20.02.2027",
+ "personen": 5,
+ "anliegen": "Eine Woche im Februar zu fünft, Anreise mit Zug und Bus, ohne Auto.",
+ "sprache": "de",
+ "gespraech": "beispiel-2",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Guten Tag, wir sind zu fünft und möchten im Februar eine Woche kommen, vom 13. bis 20. Februar. Wir reisen mit dem Zug an. Welche Wohnung passt?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Für fünf Personen passt die Wohnung Portjengrat mit 5 Schlafplätzen, davon zwei Klappbetten. Ob sie frei ist, kann ich hier nicht prüfen. Gerne gebe ich Ihre Anfrage an Heidi und Damian weiter: Wie heissen Sie, und wie erreicht man Sie?"
+  },
+  {
+   "rolle": "user",
+   "text": "Daniel Gerber, daniel.gerber@example.com"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht im Gästebuch."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "abteilung": "Wohnungen",
+ "platz": "Wohnung Portjengrat",
+ "entwurf": {
+  "betreff": "Ihre Woche im Februar im Chalet Rustica",
+  "text": "Grüezi Herr Gerber,\n\nherzlichen Dank für Ihre Anfrage. Für Sie zu fünft passt die Wohnung Portjengrat im Erdgeschoss: ein Schlafzimmer mit einem Doppelbett und einem Einzelbett, dazu zwei Klappbetten im Aufenthaltsraum, 2 Duschen / WC und der Südbalkon mit Liegewiese. Gerne schauen wir, ob sie vom 13. bis 20. Februar für Sie frei ist [Verfügbarkeit prüfen].\n\nBei allen Wohnungen sind Bettwäsche, Dusch- und Handtücher, Küchentücher, Heizung, Warmwasser und Strom, Endreinigung und Kurtaxe im Preis inbegriffen. Für Ihre Woche beträgt der Preis [Preis für die Tage].\n\nOhne Auto reisen Sie bequem: mit dem Zug bis Visp, von dort mit dem Bus über Saas-Grund nach Saas-Almagell. Die Bushaltestelle liegt 100 Meter vom Haus, die Skilifte erreichen Sie in fünf Minuten zu Fuss.\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Die Wohnungen (Portjengrat), Startseite (im Preis inbegriffen), Kontakt (Anreise), Das Haus (Rund ums Haus).\nOffen: ob Portjengrat frei ist, Preis für die Woche.",
+  "vorlage": "wohnung",
+  "absender": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+  "zeit": "2026-11-08T20:15:00+01:00"
+ }
+}

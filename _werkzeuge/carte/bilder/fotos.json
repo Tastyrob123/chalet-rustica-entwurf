@@ -1,0 +1,44 @@
+{
+ "almagellerhorn": "n1-sued",
+ "portjengrat": "n2-bett",
+ "weissmies": "n5-bett",
+ "inbegriffen": "haus-sommer",
+ "rund-ums-haus": "dorf",
+ "anreise": "winterweg",
+ "_gross": {
+  "almagellerhorn": "n1-kueche",
+  "portjengrat": "n2-wohn",
+  "weissmies": "n5-wohn2",
+  "inbegriffen": "sommer-hoch",
+  "rund-ums-haus": "panorama",
+  "anreise": "winter-quer"
+ },
+ "_reihe": {
+  "almagellerhorn": [
+   "n1-nord",
+   "n1-bad"
+  ],
+  "portjengrat": [
+   "n2-kueche",
+   "n2-bad"
+  ],
+  "weissmies": [
+   "n5-kueche",
+   "n5-zimmer2",
+   "n5-bad"
+  ],
+  "inbegriffen": [
+   "haus-berg",
+   "auftakt"
+  ],
+  "rund-ums-haus": [
+   "wald",
+   "langlauf",
+   "hoehenweg"
+  ],
+  "anreise": [
+   "tal-klar",
+   "mattmark-see"
+  ]
+ }
+}

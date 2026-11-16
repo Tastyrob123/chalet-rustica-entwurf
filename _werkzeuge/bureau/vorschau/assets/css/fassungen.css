@@ -1,0 +1,805 @@
+/* Chalet Rustica · Fassungen zum Durchklicken (Robert 08.11.2026): je 15 für Auftakt, Wohnungen, Heidi und den oberen Teil des Fusses.
+   Gebaut von fassungen.py, gewählt über die Leiste unten (assets/js/fassungen.js). Fassung 0 = heutiger Stand.
+   Nur transform und opacity bewegen; Texte auf ruhigem Grund oder mit weichem Hof. */
+
+/* ---------- Umschalten ---------- */
+[data-abschnitt]>.vz{display:none}
+[data-abschnitt][data-v="0"]>.f0,[data-abschnitt][data-v="1"]>.f1,[data-abschnitt][data-v="2"]>.f2,[data-abschnitt][data-v="3"]>.f3,[data-abschnitt][data-v="4"]>.f4,
+[data-abschnitt][data-v="5"]>.f5,[data-abschnitt][data-v="6"]>.f6,[data-abschnitt][data-v="7"]>.f7,[data-abschnitt][data-v="8"]>.f8,[data-abschnitt][data-v="9"]>.f9,
+[data-abschnitt][data-v="10"]>.f10,[data-abschnitt][data-v="11"]>.f11,[data-abschnitt][data-v="12"]>.f12,[data-abschnitt][data-v="13"]>.f13,[data-abschnitt][data-v="14"]>.f14,
+[data-abschnitt][data-v="15"]>.f15{display:block}
+.auftakt[data-v="0"]>.f0{display:contents}
+.auftakt:not([data-v="0"]){height:auto;min-height:0;background:var(--putz)}
+.heidi{padding:0!important}
+.heidi>.f0,.hv__innen{padding:clamp(90px,10vw,150px) max(var(--rand),calc((100% - var(--breit))/2))}
+.fuss__haus{width:auto!important;margin:0!important}
+.fuss__haus>.f0,.fv{width:min(var(--breit),calc(100% - 2 * var(--rand)));margin-inline:auto}
+
+/* ---------- gemeinsam: Bilder füllen ihren Rahmen ---------- */
+.hb{margin:0;overflow:hidden;position:relative}
+.hb>img{display:block;width:100%;height:100%;object-fit:cover}
+.mittig{text-align:center;margin-inline:auto}
+.mittig.geteilt{align-items:center}
+
+/* ========== 1 AUFTAKT ========== */
+.ha{position:relative;min-height:100svh;overflow:hidden;color:var(--tinte)}
+.ha .h-ort{font:400 13.5px/1.4 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--leise)}
+.ha .h-titel{margin-top:10px}
+.ha .h-chalet{display:block;font:400 clamp(30px,3.2vw,52px)/1 var(--titel)}
+.ha .h-slot{display:block;overflow:hidden;padding:.02em 0 .1em;margin-bottom:-.06em}
+.ha .h-name{display:block;font:500 clamp(110px,15vw,250px)/.84 var(--marke);color:var(--holz)}
+.ha .h-satz{max-width:40ch;margin-top:14px;font-size:clamp(19px,1.5vw,22px);line-height:1.5}
+.ha .knoepfe{margin-top:24px}
+.ha--hell .h-ort,.ha4 .h-ort,.ha7 .h-ort,.ha8 .h-ort,.ha13 .h-ort,.ha1 .h-ort{color:#F1DDB4}
+/* Bewegung im Auftakt: das Foto setzt sich, der Name steigt aus dem Schlitz, der Rest schwebt auf, alles in einem Moment */
+.js .ha .hb>img{transform:scale(1.1);transition:transform 2.8s var(--e1)}
+.js body.los .ha .hb>img{transform:none}
+.js .ha .h-slot>span{transform:translateY(105%);transition:transform 1.5s var(--e1) .12s}
+.js body.los .ha .h-slot>span{transform:none}
+.js .ha .h-auf{transform:translate3d(0,26px,0);opacity:0;transition:transform 1.4s var(--e1) .25s,opacity 1.1s ease .25s}
+.js body.los .ha .h-auf{transform:none;opacity:1}
+.ha__bg{position:absolute;inset:0}
+
+/* 1 Sommerhimmel */
+.ha1__oben{position:absolute;left:var(--rand);top:clamp(110px,14vh,150px);color:var(--hell);text-shadow:var(--hof)}
+.ha1 .h-name{color:var(--hell);font-size:clamp(90px,9.4vw,160px)}
+.ha1 .ha__bg>img{object-position:50% 78%!important}
+.ha1__blatt{position:absolute;left:var(--rand);bottom:clamp(28px,5vh,56px);max-width:620px;padding:clamp(22px,2.4vw,34px)}
+.ha1__blatt .h-satz{margin-top:0}
+/* 2 Winterfassade */
+.ha2__t{position:absolute;left:var(--rand);bottom:clamp(30px,6vh,70px);max-width:720px;text-shadow:0 0 30px rgba(255,255,255,.7),0 0 4px rgba(255,255,255,.6)}
+.ha2 .h-ort{color:var(--holz)}
+/* 3 Putz und Haus */
+.ha3{display:grid;grid-template-columns:minmax(0,42fr) minmax(0,58fr);background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.ha3__t{align-self:end;padding:clamp(110px,14vh,150px) clamp(28px,3.4vw,56px) clamp(36px,7vh,80px) var(--rand)}
+.ha3 .h-name{font-size:clamp(100px,11vw,190px)}
+.ha3__b{min-height:100svh}
+/* 4 Holz und Winter */
+.ha4{display:grid;grid-template-columns:minmax(0,46fr) minmax(0,54fr);color:var(--hell);background:var(--tief) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px}
+.ha4__b{min-height:100svh}
+.ha4__t{align-self:end;padding:clamp(110px,14vh,150px) var(--rand) clamp(36px,7vh,80px) clamp(28px,4vw,72px)}
+.ha4 .h-name{color:#F1DDB4;font-size:clamp(100px,12vw,200px)}
+/* 5 Zwei Jahreszeiten */
+.ha5{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--putz)}
+.ha5__b{min-height:100svh}
+.ha5__blatt{position:absolute;left:50%;bottom:clamp(28px,6vh,64px);transform:translateX(-50%);width:min(980px,calc(100% - 2 * var(--rand)));padding:clamp(24px,2.8vw,40px) clamp(28px,3.4vw,52px);display:grid;grid-template-columns:auto 1fr;column-gap:clamp(24px,3vw,48px);align-items:end}
+.ha5__blatt .h-ort,.ha5__blatt .h-titel{grid-column:1}
+.ha5__blatt .h-satz,.ha5__blatt .knoepfe{grid-column:2}
+.ha5__blatt .h-satz{grid-row:2;align-self:start}
+.ha5__blatt .knoepfe{grid-row:2;align-self:end}
+.ha5 .h-name{font-size:clamp(90px,9vw,150px)}
+/* 6 Fassade mit drei Fenstern */
+.ha6{display:flex;flex-direction:column;justify-content:flex-end;gap:clamp(22px,3vh,40px);padding:clamp(100px,12vh,130px) var(--rand) clamp(24px,3vh,40px);background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.ha6__kopf{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);column-gap:clamp(24px,4vw,64px);align-items:end;max-width:var(--breit);width:100%;margin:0 auto}
+.ha6__kopf .h-ort,.ha6__kopf .h-titel{grid-column:1}
+.ha6__kopf .h-satz{grid-column:2;grid-row:2;align-self:start}
+.ha6__kopf .knoepfe{grid-column:2;grid-row:2;align-self:end}
+.ha6 .h-name{letter-spacing:.04em;font-size:clamp(90px,11.5vw,200px)}
+.ha6__fenster{display:grid;grid-template-columns:.75fr 1.65fr 1.33fr;gap:8px;height:clamp(240px,38vh,420px);max-width:var(--breit);width:100%;margin:0 auto}
+.ha6__fenster .hb{border-radius:6px}
+.ha6__fenster .hb:first-child{border-radius:var(--r1) 6px 6px var(--r1)}.ha6__fenster .hb:last-child{border-radius:6px var(--r1) var(--r1) 6px}
+/* 7 Holzband */
+.ha7{display:grid;grid-template-rows:minmax(0,1fr) auto;height:100svh;min-height:620px;background:var(--tief)}
+.ha7__b{min-height:0}
+.ha7__band{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:end;gap:clamp(24px,4vw,64px);padding:clamp(26px,3.4vw,48px) var(--rand);color:var(--hell);background:linear-gradient(180deg,#4A3A2B,#33261C)}
+.ha7 .h-name{color:#F1DDB4;font-size:clamp(90px,10vw,170px)}
+.ha7 .h-satz{margin-top:0}
+/* 8 Tal und Haus */
+.ha8{display:grid;grid-template-columns:minmax(0,58fr) minmax(0,42fr);gap:6px;background:var(--tief)}
+.ha8 .hb{min-height:100svh}
+.ha8__t{position:absolute;left:var(--rand);bottom:clamp(30px,6vh,70px);max-width:min(54%,760px);color:var(--hell);text-shadow:0 0 30px rgba(20,14,10,.85),0 0 10px rgba(20,14,10,.6),0 0 2px rgba(20,14,10,.6)}
+.ha8 .h-name{color:var(--hell)}
+/* 9 Drei Säulen */
+.ha9{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;background:var(--putz)}
+.ha9__b{min-height:100svh}
+.ha9__band{position:absolute;left:0;right:0;top:50%;transform:translateY(-38%);display:grid;grid-template-columns:auto 1fr auto;align-items:end;column-gap:clamp(24px,3vw,48px);padding:clamp(22px,2.6vw,36px) var(--rand);background:var(--papier);box-shadow:0 30px 60px -30px rgba(20,14,10,.6)}
+.ha9__band .h-ort{grid-column:1/-1}
+.ha9__band .h-satz{margin:0;align-self:center}
+.ha9__band .knoepfe{margin:0;align-self:center}
+.ha9 .h-name{font-size:clamp(84px,8.4vw,140px)}
+/* 10 Sommer oder Winter */
+.ha10 .ha10__winter{transform:translate3d(0,100%,0);transition:transform 1.1s var(--e1)}
+.ha10[data-jahreszeit="winter"] .ha10__winter{transform:none}
+.ha10__blatt{position:absolute;left:var(--rand);bottom:clamp(28px,5vh,56px);max-width:640px;padding:clamp(22px,2.4vw,34px)}
+.ha10 .h-name{font-size:clamp(90px,9vw,150px)}
+.ha10__wahl{display:inline-flex;gap:4px;margin-top:18px;padding:4px;border-radius:999px;background:#EDE3D2;box-shadow:inset 0 2px 4px rgba(58,46,34,.16)}
+.ha10__wahl button{border:0;cursor:pointer;padding:10px 18px;border-radius:999px;background:none;font:400 12.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--tinte);transition:background-color .5s,color .5s}
+.ha10__wahl button[aria-pressed="true"]{background:var(--holz);color:var(--hell)}
+/* 11 Panorama oben */
+.ha11{display:grid;grid-template-rows:auto 1fr;background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.ha11__b{height:clamp(300px,50vh,560px)}
+.ha11__t{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:end;gap:clamp(24px,4vw,64px);padding:clamp(24px,4vh,48px) var(--rand) clamp(30px,5vh,60px)}
+.ha11 .h-name{font-size:clamp(100px,12vw,200px)}
+/* 12 Bildwand */
+.ha12{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:6px;height:100svh;min-height:620px;background:var(--putz)}
+.ha12__blatt{position:absolute;left:50%;top:50%;transform:translate(-50%,-46%);width:min(720px,calc(100% - 2 * var(--rand)));padding:clamp(24px,2.8vw,40px) clamp(28px,3.4vw,52px);text-align:center}
+.ha12__blatt .knoepfe{justify-content:center}
+.ha12__blatt .h-satz{margin-inline:auto}
+.ha12 .h-name{font-size:clamp(90px,9vw,150px)}
+/* 13 Bild im Rahmen */
+.ha13{display:grid;grid-template-columns:minmax(0,42fr) minmax(0,58fr);align-items:center;gap:clamp(24px,3vw,48px);padding:clamp(100px,12vh,130px) var(--rand2) clamp(24px,4vh,48px) var(--rand);color:var(--hell);background:var(--tief) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px}
+.ha13__b{height:calc(100svh - clamp(124px,16vh,178px));border-radius:var(--r1)}
+.ha13 .h-name{color:#F1DDB4;font-size:clamp(100px,11vw,190px)}
+/* 14 Haus in der Mitte */
+.ha14{display:flex;flex-direction:column;align-items:center;padding-top:clamp(100px,12vh,130px);text-align:center;background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.ha14__t{padding:0 var(--rand)}
+.ha14 .h-satz{margin-inline:auto}
+.ha14 .knoepfe{justify-content:center}
+.ha14 .h-name{font-size:clamp(100px,12vw,200px)}
+.ha14__b{flex:1 1 auto;width:calc(100% - 2 * var(--rand2));min-height:40vh;margin-top:clamp(24px,3vh,40px);border-radius:var(--r1) var(--r1) 0 0}
+/* 15 Hochformat Winter */
+.ha15{display:grid;grid-template-columns:minmax(0,40fr) minmax(0,60fr);background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.ha15__b{min-height:100svh}
+.ha15__r{display:flex;flex-direction:column;justify-content:flex-end;gap:clamp(24px,4vh,48px);padding:clamp(110px,14vh,150px) var(--rand) clamp(24px,4vh,48px) clamp(28px,4vw,64px)}
+.ha15 .h-name{font-size:clamp(100px,11vw,190px)}
+.ha15__paar{display:grid;grid-template-columns:1.65fr 1.33fr;gap:8px;height:clamp(200px,28vh,320px)}
+.ha15__paar .hb{border-radius:var(--r2)}
+
+/* ========== 2 WOHNUNGEN ========== */
+.wv{max-width:var(--breit);margin:clamp(34px,3.6vw,52px) auto 0}
+.w-titel{font:400 clamp(34px,3.2vw,52px)/1.04 var(--titel);color:var(--tinte)}
+.w-lage{margin-top:8px;font:400 12.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--leise)}
+.wv .liste li{font-size:16.5px}
+.w-schild{display:inline-flex;align-items:baseline;gap:8px;padding:12px 22px 14px 18px;margin-bottom:18px;border-radius:14px;color:#F4EEE3;background:linear-gradient(180deg,#6B5440,#4E3C2B 60%,#45352A);box-shadow:inset 0 1px 0 rgba(255,255,255,.18),inset 0 -2px 0 rgba(0,0,0,.28),0 20px 30px -20px rgba(39,29,22,.7)}
+.w-schild span{font:400 22px/1 var(--titel);color:var(--stroh)}
+.w-schild b{font:400 64px/.84 var(--titel)}
+.w-schild--hell{color:var(--holz);background:linear-gradient(180deg,#FFFDF8,#EDE3D2);box-shadow:inset 0 1px 0 #fff,0 16px 26px -18px rgba(0,0,0,.6)}
+.w-schild--hell span{color:var(--leise)}
+.w-zahlen{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:20px}
+.w-zahlen>div{padding:0 12px;text-align:center}
+.w-zahlen>div+div{border-left:1px solid var(--linie)}
+.w-zahlen b{display:block;font:400 clamp(48px,4vw,64px)/1 var(--titel);color:var(--holz)}
+.w-zahlen span{display:block;margin-top:6px;font-size:14.5px;line-height:1.4;color:var(--leise)}
+.w-zahlen--zeile{padding:18px 0;border-block:1px solid var(--linie)}
+.w-zahlen--spalte{grid-template-columns:1fr;gap:12px;margin-top:20px}
+.w-zahlen--spalte>div{display:flex;align-items:baseline;gap:16px;padding:0;text-align:left}
+.w-zahlen--spalte>div+div{border-left:0;border-top:1px solid var(--linie);padding-top:12px}
+.w-zahlen--spalte b{min-width:1.1em}
+/* 1 Drei Türen */
+.wv1{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,1.6vw,24px);align-items:start}
+.wv1__b{aspect-ratio:4/5;border-radius:var(--r1)}
+.wv1__t{padding:22px 4px 0}
+/* 2 Karten mit Zahlen */
+.wv2{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,1.6vw,24px);align-items:stretch}
+.wv2__k{overflow:hidden;display:flex;flex-direction:column}
+.wv2__b{aspect-ratio:4/3;border-radius:var(--r1) var(--r1) 0 0}
+.wv2__t{padding:24px 26px 28px;display:flex;flex-direction:column;flex:1}
+.wv2__t .knoepfe{margin-top:auto;padding-top:22px}
+/* 3 Bildreihe je Wohnung */
+.wv3__w{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,3.4vw,56px);align-items:center;padding:clamp(30px,3vw,46px) 0;border-top:1px solid var(--linie)}
+.wv3__reihe{display:flex;gap:6px;height:clamp(240px,24vw,360px)}
+.wv3__f{flex:1 1 0;border-radius:6px}
+.wv3__f:first-child{border-radius:var(--r1) 6px 6px var(--r1)}.wv3__f:last-child{border-radius:6px var(--r1) var(--r1) 6px}
+/* 4 Grosses Bild mit Blatt */
+.wv4{max-width:none;margin-inline:calc(var(--rand2) - var(--rand))}
+.wv4__w{position:relative;height:min(92vh,860px);border-radius:var(--r1);overflow:hidden}
+.wv4__w+.wv4__w{margin-top:8px}
+.wv4__b{position:absolute;inset:0}
+.wv4__blatt{position:absolute;right:clamp(20px,3vw,48px);top:50%;translate:0 -50%;width:min(480px,calc(100% - 40px));padding:clamp(24px,2.6vw,38px)}
+.wv4__w:nth-child(2) .wv4__blatt{right:auto;left:clamp(20px,3vw,48px)}
+/* 5 Mosaik abwechselnd */
+.wv5__w{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:clamp(28px,4vw,64px);align-items:center;padding:clamp(34px,3.4vw,52px) 0}
+.wv5__w--r .wv5__mos{order:2}
+.wv5__mos{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:1fr 1fr;gap:6px;height:clamp(360px,34vw,520px)}
+.wv5__gross{grid-row:1/3;border-radius:var(--r1) 6px 6px var(--r1)}
+.wv5__klein{border-radius:6px}
+/* 6 Vergleichstafel */
+.wv6__tafel{display:grid;grid-template-columns:minmax(120px,.7fr) repeat(3,minmax(0,1fr));padding:clamp(18px,2vw,30px);column-gap:clamp(12px,1.6vw,24px)}
+.wv6__kopf{display:grid;gap:4px;padding-bottom:16px}
+.wv6__kopf b{font:400 clamp(28px,2.4vw,40px)/1 var(--titel);color:var(--holz);margin-top:10px}
+.wv6__kopf span{font:400 12px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+.wv6__b{aspect-ratio:4/3;border-radius:var(--r2)}
+.wv6__z,.wv6__c{padding:14px 0;border-top:1px solid var(--linie);font-size:16px;line-height:1.45}
+.wv6__z{font:400 20px/1.3 var(--titel);color:var(--holz)}
+.wv6__c--k{border-top:0;padding-top:20px}
+/* 7 Schilder senkrecht */
+.wv7{display:grid;grid-template-columns:minmax(220px,.36fr) minmax(0,1fr);gap:clamp(24px,3vw,48px);align-items:start}
+.wv7__tabs{display:grid;gap:10px;position:sticky;top:110px}
+.wv7__tab,.wv13__tab{display:flex;align-items:center;gap:16px;padding:14px 18px 14px 14px;border:0;border-radius:var(--r2);cursor:pointer;text-align:left;color:var(--tinte);background:linear-gradient(180deg,#FFFDF8,#F1E9DB);box-shadow:inset 0 1px 0 #fff,inset 0 -2px 0 rgba(90,70,50,.14),0 0 0 1px rgba(90,70,50,.12)}
+.wv7__tab b{display:grid;place-items:center;width:56px;height:56px;border-radius:12px;font:400 36px/1 var(--titel);color:var(--holz);background:#EDE3D2}
+.wv7__tab span{display:grid;font:400 21px/1.15 var(--titel)}
+.wv7__tab small{font:400 11.5px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+.wv7__tab[aria-pressed="true"],.wv13__tab[aria-pressed="true"],.wv9__tab[aria-pressed="true"]{color:#F4EEE3;background:linear-gradient(180deg,#6B5440,#4E3C2B 60%,#45352A)}
+.wv7__tab[aria-pressed="true"] b{color:var(--stroh);background:rgba(0,0,0,.2)}
+.wv7__tab[aria-pressed="true"] small{color:var(--stroh)}
+.wv7__gross{aspect-ratio:16/10;border-radius:var(--r1)}
+.wv7__reihe{display:flex;gap:6px;margin-top:6px;height:clamp(90px,8vw,130px)}
+.wv7__k{flex:1 1 0;border-radius:8px}
+/* 8 Zwei Bilder und Text */
+.wv8__w{padding:clamp(30px,3vw,46px) 0}
+.wv8__paar{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.wv8__paar .hb{aspect-ratio:4/3;border-radius:6px}
+.wv8__paar .hb:first-child{border-radius:var(--r1) 6px 6px var(--r1)}.wv8__paar .hb:last-child{border-radius:6px var(--r1) var(--r1) 6px}
+.wv8__t{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.4fr) auto;gap:clamp(20px,3vw,48px);align-items:start;margin-top:26px}
+.wv8__t .w-schild{margin-bottom:12px}
+.wv8__t .liste{margin-top:0}
+.wv8__t .knoepfe{margin-top:0}
+/* 9 Blätterband */
+.wv9__tabs{display:flex;gap:8px;flex-wrap:wrap}
+.wv9__tab{border:0;cursor:pointer;padding:14px 22px;border-radius:999px;font:400 20px/1 var(--titel);color:var(--tinte);background:linear-gradient(180deg,#FFFDF8,#F1E9DB);box-shadow:inset 0 1px 0 #fff,0 0 0 1px rgba(90,70,50,.14)}
+.wv9__kopf{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-top:28px}
+.wv9__pf{display:flex;gap:8px}
+.wv9__pf button{width:50px;height:50px;border:0;border-radius:50%;cursor:pointer;font-size:26px;line-height:1;color:var(--hell);background:linear-gradient(180deg,#6B5440,#45352A);box-shadow:inset 0 1px 0 rgba(255,255,255,.2),0 10px 18px -10px rgba(39,29,22,.7)}
+.wv9__band{display:flex;gap:10px;margin-top:20px;overflow:hidden;transition:none}
+.wv9__band>.wv9__f{flex:0 0 min(46%,620px);margin:0;transition:transform .9s var(--e1);transform:translate3d(var(--x,0),0,0)}
+.wv9__f img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r1)}
+.wv9__f figcaption{margin-top:10px;font-size:15px;color:var(--leise)}
+.wv9__unten{display:grid;grid-template-columns:minmax(0,1.5fr) auto;gap:clamp(20px,3vw,48px);align-items:end;margin-top:26px}
+/* 10 Holztafel und Bild */
+.wv10__w{display:grid;grid-template-columns:minmax(0,38fr) minmax(0,62fr);align-items:center;padding:clamp(20px,2vw,30px) 0}
+.wv10__tafel{position:relative;z-index:1;margin-right:-60px;padding:clamp(26px,3vw,44px)}
+.wv10__tafel .w-titel{color:#F4EEE3}
+.wv10__tafel .w-lage{color:var(--stroh)}
+.wv10__tafel .liste,.wv10__tafel .liste li{border-color:rgba(217,191,143,.25)}
+.wv10__b{aspect-ratio:16/10;border-radius:var(--r1)}
+.wv10__w:nth-child(2){grid-template-columns:minmax(0,62fr) minmax(0,38fr)}
+.wv10__w:nth-child(2) .wv10__tafel{order:2;margin:0 0 0 -60px}
+/* 11 Text oben, Bild breit */
+.wv11__w{padding:clamp(30px,3vw,46px) 0;border-top:1px solid var(--linie)}
+.wv11__t{display:grid;grid-template-columns:auto minmax(0,.8fr) minmax(0,1.4fr) auto;gap:clamp(18px,2.4vw,40px);align-items:start}
+.wv11__t .w-schild{margin:0}
+.wv11__t .liste{margin-top:0}
+.wv11__t .knoepfe{margin-top:0}
+.wv11__bilder{display:grid;grid-template-columns:2.2fr 1fr;gap:8px;margin-top:24px;height:clamp(320px,32vw,480px)}
+.wv11__gross{border-radius:var(--r1) 6px 6px var(--r1)}
+.wv11__neben{display:grid;grid-template-rows:1fr 1fr;gap:8px}
+.wv11__neben .hb{border-radius:6px}.wv11__neben .hb:first-child{border-top-right-radius:var(--r1)}.wv11__neben .hb:last-child{border-bottom-right-radius:var(--r1)}
+/* 12 Grosse Nummer */
+.wv12__w{display:grid;grid-template-columns:auto minmax(0,1fr) minmax(0,1.15fr);gap:clamp(20px,3vw,48px);align-items:center;padding:clamp(28px,3vw,44px) 0;border-top:1px solid var(--linie)}
+.wv12__nr{display:grid;place-items:center;width:clamp(150px,14vw,210px);aspect-ratio:3/4;padding:16px;text-align:center}
+.wv12__nr b{font:400 clamp(110px,10vw,160px)/.9 var(--titel);color:#F1DDB4}
+.wv12__nr span{font:400 11.5px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--stroh)}
+.wv12__bilder{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.wv12__bilder .hb{aspect-ratio:4/3;border-radius:6px}
+/* 13 Alle Bilder als Wand */
+.wv13__tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.wv13__tab{font:400 21px/1.15 var(--titel)}
+.wv13__tab b{display:grid;place-items:center;width:46px;height:46px;border-radius:10px;font:400 30px/1 var(--titel);background:rgba(90,70,50,.12)}
+.wv13__grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:clamp(24px,3vw,48px);margin-top:18px;align-items:start}
+.wv13__wand{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.wv13__f{aspect-ratio:1;border-radius:8px}
+.wv13__f>img{transition:transform 2.4s var(--e1),opacity .6s}
+.wv13 .wv13__f{opacity:.28;transition:opacity .6s}
+.wv13[data-w-aktiv="1"] .wv13__f[data-w="1"],.wv13[data-w-aktiv="2"] .wv13__f[data-w="2"],.wv13[data-w-aktiv="5"] .wv13__f[data-w="5"]{opacity:1}
+/* 14 Zahlen und Bildpaar */
+.wv14__w{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr) minmax(0,1fr);gap:8px;align-items:stretch;padding:clamp(18px,1.8vw,26px) 0}
+.wv14__l{padding:clamp(20px,2.4vw,34px);border-radius:var(--r1) 6px 6px var(--r1);background:var(--creme)}
+.wv14__b{border-radius:6px;min-height:clamp(300px,26vw,400px)}
+.wv14__b:last-child{border-radius:6px var(--r1) var(--r1) 6px}
+/* 15 Raum für Raum */
+.wv15__raster{display:grid;grid-template-columns:minmax(110px,.5fr) repeat(3,minmax(0,1fr));gap:8px;align-items:center}
+.wv15__kopf{padding-bottom:6px}
+.wv15__kopf b{display:block;font:400 clamp(30px,2.6vw,42px)/1 var(--titel);color:var(--holz)}
+.wv15__kopf span{font:400 12px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+.wv15__z{font:400 22px/1.2 var(--titel);color:var(--holz)}
+.wv15__f{aspect-ratio:4/3;border-radius:var(--r2)}
+.wv15__k{padding-top:12px}
+
+/* ========== 3 HEIDI ========== */
+.hv{color:#EFE6D6}
+.hv .titel{color:#F4EEE3;font-size:clamp(40px,4.8vw,80px);max-width:22ch}
+.hv .titel em{color:var(--stroh)}
+.h-name2{margin-top:22px;font:400 12.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--stroh)}
+.hv .gross{color:#E6DCCB;max-width:60ch}
+.h-fotos{display:flex;align-items:flex-end;gap:10px}
+.h-fotos .hb:first-child{width:min(284px,22vw)}.h-fotos .hb:last-child{width:min(237px,18vw)}
+.h-fotos--senkrecht{flex-direction:column;align-items:flex-start}
+.h-fotos--gross{justify-content:center}
+.h-fotos--gross .hb:first-child{width:min(340px,30vw)}.h-fotos--gross .hb:last-child{width:min(300px,26vw)}
+.h-fotos--mitte{justify-content:center;margin:40px auto}
+.hz{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:34px;padding:clamp(24px,2.8vw,40px) clamp(18px,2.2vw,32px)}
+.hz>div{padding:0 clamp(14px,2vw,30px);text-align:center}
+.hz>div+div{border-left:1px solid var(--linie)}
+.hz b{display:block;font:400 clamp(72px,6.4vw,108px)/.9 var(--titel);color:var(--holz)}
+.hz span{display:block;margin:12px auto 0;max-width:24ch;font-size:16px;line-height:1.5;color:var(--tinte)}
+.hz--zeile{padding:20px 0;border-block:1px solid rgba(217,191,143,.3)}
+.hz--zeile b{color:#F1DDB4;font-size:clamp(56px,4.6vw,80px)}
+.hz--zeile span{color:#E6DCCB}
+.hz--zeile>div+div{border-color:rgba(217,191,143,.3)}
+.hz--tafeln{gap:12px;padding:0;margin:0 0 clamp(50px,5vw,80px)}
+.hz--tafeln>div{padding:clamp(24px,2.6vw,38px) 16px;border-radius:var(--r1);background:linear-gradient(180deg,#5E4936,#45352A);box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 30px 46px -28px rgba(0,0,0,.6)}
+.hz--tafeln>div+div{border-left:0}
+.hz--tafeln b{color:#F1DDB4}.hz--tafeln span{color:#E6DCCB}
+.hz--holz b{color:var(--holz)}
+.hz--auf-bild{position:absolute;left:50%;bottom:clamp(24px,4vw,56px);transform:translateX(-50%);width:min(var(--breit),calc(100% - 2 * var(--rand)));margin:0;background:var(--papier);border-radius:var(--r1);box-shadow:0 40px 60px -36px rgba(0,0,0,.6)}
+.h-praxis{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:center;margin-top:clamp(70px,7vw,110px)}
+.h-praxis__b{aspect-ratio:1.1;border-radius:var(--r1)}
+.h-praxis__titel{font:400 clamp(40px,4.2vw,68px)/1.02 var(--titel);color:#F4EEE3}
+.h-praxis__titel em{color:var(--stroh)}
+.h-praxis__titel--dunkel{color:var(--tinte)}.h-praxis__titel--dunkel em{color:var(--holz)}
+.h-praxis .gross{margin-top:22px}
+.h-praxis--oben{margin:0 0 clamp(70px,7vw,110px)}
+.h-stationen{margin:0;padding:0;list-style:none;border-left:2px solid rgba(217,191,143,.4)}
+.h-stationen li{position:relative;display:grid;grid-template-columns:5.2em 1fr;gap:18px;padding:12px 0 12px 26px}
+.h-stationen li::before{content:'';position:absolute;left:-7px;top:22px;width:12px;height:2px;background:var(--stroh)}
+.h-stationen b{font:400 30px/1 var(--titel);color:#F1DDB4}
+.h-stationen span{font-size:17px;line-height:1.5}
+.hv1__bild,.hv7__bild{position:relative;height:min(84vh,760px)}
+.hv1__b,.hv7__b{position:absolute;inset:0}
+.hv1__zitat{position:absolute;left:var(--rand);right:var(--rand);bottom:clamp(30px,5vw,70px);text-shadow:var(--hof)}
+.hv7__zitat{position:absolute;left:var(--rand);right:var(--rand);top:clamp(40px,7vw,100px);text-shadow:var(--hof)}
+.hv1__mitte{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(28px,5vw,84px);align-items:start;margin-top:clamp(40px,4vw,60px)}
+.hv1 .hv__innen,.hv7 .hv__innen{padding-top:clamp(50px,5vw,80px)}
+.hv2__mitte{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(28px,5vw,84px);margin-top:clamp(40px,4vw,60px)}
+.hv3__mitte{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(28px,5vw,84px);align-items:end;margin-top:clamp(40px,4vw,60px)}
+.hv--hell{color:var(--tinte);background:var(--papier)}
+.hv--hell .titel{color:var(--tinte)}.hv--hell .titel em{color:var(--holz)}.hv--hell .gross{color:var(--tinte)}.hv--hell .h-name2{color:var(--leise)}
+.hv--hell .h-praxis__titel{color:var(--tinte)}.hv--hell .h-praxis__titel em{color:var(--holz)}
+.hv--hell .rahmen--dunkel{background:#EDE3D2;box-shadow:0 0 0 1px rgba(90,70,50,.18),0 30px 50px -30px rgba(39,29,22,.5)}
+.hv--hell .knopf--hell{--k1:#735C44;--k2:#5A4632;--k3:#4A3926;--kt:#FBF7EF;--kn1:#FBF7EF;--kn2:#EDE3D2;--kp:var(--holz)}
+.hv4__mitte{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(28px,5vw,84px);margin-top:clamp(40px,4vw,60px)}
+.hz--holz{border:0}
+.hv5{display:grid;grid-template-columns:minmax(0,48fr) minmax(0,52fr)}
+.hv5__b{min-height:100%}
+.hv5__r{padding:clamp(90px,10vw,150px) max(var(--rand),calc((100vw - var(--breit))/2)) clamp(90px,10vw,150px) clamp(28px,4vw,72px)}
+.hv5__r>.gross{margin-top:20px}
+.hv5__r .h-fotos{margin-top:30px}
+.hv5__r .h-praxis__titel{margin-top:clamp(50px,5vw,80px)}
+.hv6__paar{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,64px);margin-top:clamp(50px,5vw,80px)}
+.hv6__h{display:flex;flex-direction:column;gap:22px}
+.hv6__h p{font-size:17px;line-height:1.6;color:#E6DCCB}
+.hv6__b{aspect-ratio:4/3;border-radius:var(--r1)}
+.hv6__h .h-fotos{height:auto}
+.hv8__mitte{margin-top:clamp(40px,4vw,60px);text-align:center}
+.hv8__mitte .titel{margin-inline:auto}
+.hv8 .h-name2{text-align:center}
+.hv9__karten{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;margin:clamp(40px,4vw,60px) 0;padding:0;list-style:none}
+.hv9__karten li{padding:18px 16px 20px;display:grid;gap:8px;align-content:start}
+.hv9__karten b{font:400 32px/1 var(--titel);color:var(--holz)}
+.hv9__karten span{font-size:14.5px;line-height:1.45;color:var(--tinte)}
+.hv10__brief{max-width:900px;padding:clamp(30px,4vw,60px);color:var(--tinte)}
+.hv10__titel{font:400 clamp(34px,3.4vw,54px)/1.06 var(--titel);color:var(--tinte)}
+.hv10__titel em{color:var(--holz)}
+.hv10__brief .gross{margin-top:22px;color:var(--tinte)}
+.hv10__gruss{margin-top:26px;font:400 12.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--leise)}
+.hv10{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(28px,4vw,64px);align-items:start}
+.hv10>.hz,.hv10>.h-praxis{grid-column:1/-1}
+.hv12__band{position:relative;height:min(78vh,700px)}
+.hv12__b{position:absolute;inset:0}
+.hv12 .hv__innen:first-child{padding-bottom:clamp(40px,4vw,60px)}
+.hv12 .hv__innen:last-child{padding-top:clamp(50px,5vw,80px)}
+.hv12 .hv1__mitte{margin-top:0;align-items:center}
+.hv13 .titel.mittig{max-width:24ch}
+.hv13 .h-name2{text-align:center}
+.hv13__text{margin-inline:auto;text-align:center}
+.hv14__paar{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(28px,5vw,84px);align-items:start}
+.hv14__paar .h-fotos{margin-top:34px}
+.hv15__praxis{position:relative;height:min(92vh,860px)}
+.hv15__b{position:absolute;inset:0}
+.hv15__blatt{position:absolute;right:max(var(--rand),calc((100% - var(--breit))/2));top:50%;translate:0 -50%;width:min(560px,calc(100% - 2 * var(--rand)));padding:clamp(26px,3vw,44px);color:var(--tinte)}
+.hv15__blatt p{margin-top:18px}
+
+/* ========== 4 FUSS OBEN ========== */
+.fv .fuss__satz{max-width:24ch}
+.fuss__satz--klein{font-size:clamp(32px,3vw,48px)!important}
+.fv-adr{font-size:17px;line-height:1.7}
+.fv-adr a{text-decoration:none}
+.fv .fuss__wege{margin-top:0}
+.fv1,.fv6,.fv8,.fv14,.fv15{width:auto!important}
+.fv1__bild{position:relative;height:min(76vh,700px)}
+.fv1__b{position:absolute;inset:0}
+.fv1__gruss{position:absolute;left:var(--rand);bottom:clamp(30px,5vw,70px);text-shadow:0 0 30px rgba(255,255,255,.8),0 0 4px rgba(255,255,255,.7)}
+.fv1__gruss .fuss__satz{color:var(--tinte)}.fv1__gruss .fuss__satz em{color:var(--holz)}
+.fv1 .fuss__spalten,.fv6 .fuss__spalten,.fv8 .fuss__spalten,.fv15 .fv15__drei{width:min(var(--breit),calc(100% - 2 * var(--rand)));margin-inline:auto}
+.fv1,.fv6,.fv8,.fv15{margin-top:calc(-1 * clamp(80px,8vw,120px))}
+.fv2,.fv9,.fv12{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,4vw,64px);align-items:center}
+.fv2 .fv-adr,.fv9 .fv-adr,.fv12 .fv-adr{margin:30px 0 24px}
+.fv2__b,.fv9__b{aspect-ratio:4/3;border-radius:var(--r1)}
+.fv3{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(28px,4vw,64px);align-items:center}
+.fv3__brief{padding:clamp(30px,4vw,60px)}
+.fv3__an{font:400 12.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--leise)}
+.fv3__gruss{margin-top:16px;font:400 clamp(36px,3.6vw,58px)/1.05 var(--titel);color:var(--tinte)}
+.fv3__gruss em{color:var(--holz)}
+.fv3__namen{margin-top:30px;padding-top:16px;border-top:1px solid var(--linie);font:400 22px/1.3 var(--titel);color:var(--holz)}
+.fv3 .fv-adr{margin-bottom:24px}
+.fv4__band{display:grid;grid-template-columns:.8fr 1.1fr 1.33fr;gap:8px;height:clamp(240px,26vw,380px);margin-bottom:clamp(40px,4vw,60px)}
+.fv4__band .hb{border-radius:6px}.fv4__band .hb:first-child{border-radius:var(--r1) 6px 6px var(--r1)}.fv4__band .hb:last-child{border-radius:6px var(--r1) var(--r1) 6px}
+.fv5__name{font:500 clamp(140px,22vw,360px)/.8 var(--marke);color:#F1DDB4;letter-spacing:-.01em}
+.fv5__unten{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(24px,3vw,48px);align-items:start;margin-top:clamp(30px,3vw,48px);padding-top:28px;border-top:1px solid rgba(217,191,143,.25)}
+.fv6__b{aspect-ratio:3/1;margin-bottom:clamp(50px,5vw,80px)}
+.fv6 .fuss__satz{max-width:none;text-align:center}
+.fv6 .fuss__satz.geteilt{align-items:center}
+.fv7{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(28px,4vw,64px);align-items:center}
+.fv7 .fuss__wege{margin-top:34px}
+.fv7__tafel{padding:clamp(28px,3vw,44px)}
+.fv7__tafel .fv-adr{font-size:19px}
+.fv8__bild{position:relative;height:min(80vh,720px);margin-bottom:clamp(40px,4vw,60px)}
+.fv8__b{position:absolute;inset:0}
+.fv8__tafel{position:absolute;left:var(--rand);top:50%;translate:0 -50%;max-width:620px;padding:clamp(28px,3.4vw,52px)}
+.fv9{padding:clamp(40px,4vw,60px);border-radius:var(--r1);color:var(--tinte);background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.fv9 .fuss__satz{color:var(--tinte)}.fv9 .fuss__satz em{color:var(--holz)}
+.fv9 .fuss__wege a{border-color:var(--linie)}
+.fv10{display:grid;grid-template-columns:1fr 1.3fr 1fr;grid-template-rows:auto auto auto;gap:8px}
+.fv10 .hb{aspect-ratio:4/3;border-radius:var(--r2)}
+.fv10__a{grid-column:1;grid-row:1}.fv10__b2{grid-column:3;grid-row:1}.fv10__c{grid-column:1;grid-row:2}.fv10__d{grid-column:3;grid-row:2}
+.fv10__mitte{grid-column:2;grid-row:1/3;display:grid;place-content:center;gap:24px;padding:0 clamp(16px,2vw,32px);text-align:center}
+.fv10__mitte .fuss__satz{font-size:clamp(34px,3.2vw,52px)}
+.fv10__wege{grid-column:1/-1;margin-top:30px}
+.fv11 .fuss__satz{max-width:none;font-size:clamp(48px,5.6vw,96px)}
+.fv11__unten{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr) minmax(0,1.3fr);gap:clamp(24px,3vw,48px);align-items:start;margin-top:clamp(30px,3vw,48px);padding-top:28px;border-top:1px solid rgba(217,191,143,.25)}
+.fv11__namen{font:400 clamp(24px,2vw,30px)/1.25 var(--titel);color:var(--stroh)}
+.fv12{grid-template-columns:minmax(0,30fr) minmax(0,70fr)}
+.fv12__b{aspect-ratio:3/4;border-radius:var(--r1)}
+.fv13{text-align:center}
+.fv13 .fuss__satz{margin-inline:auto;max-width:22ch}
+.fv13__k{justify-content:center;margin-top:30px}
+.fv13 .fuss__spalten{text-align:left}
+.fv14{position:relative;min-height:min(90vh,820px);display:grid;place-items:center;margin-top:calc(-1 * clamp(80px,8vw,120px))}
+.fv14__b{position:absolute;inset:0}
+.fv14__tafel{position:relative;width:min(1040px,calc(100% - 2 * var(--rand)));padding:clamp(30px,3.6vw,56px)}
+.fv15__b{aspect-ratio:5/1}
+.fv15__drei{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3vw,48px);align-items:start;padding-top:clamp(40px,4vw,60px)}
+
+/* ========== Handy ========== */
+@media (max-width:980px){
+  .ha3,.ha4,.ha8,.ha13,.ha15,.ha7__band,.ha11__t,.ha6__kopf,.hv5,.hv6__paar,.hv14__paar,.hv10,.hv1__mitte,.hv2__mitte,.hv3__mitte,.hv4__mitte,.fv2,.fv3,.fv7,.fv9,.fv12,.fv5__unten,.fv11__unten,.fv15__drei,
+  .wv1,.wv2,.wv3__w,.wv5__w,.wv7,.wv8__t,.wv9__unten,.wv10__w,.wv10__w:nth-child(2),.wv11__t,.wv12__w,.wv13__grid,.wv14__w{grid-template-columns:1fr}
+  .wv5__w--r .wv5__mos{order:0}
+  .wv10__tafel,.wv10__w:nth-child(2) .wv10__tafel{margin:0 0 -40px;order:0}
+  .wv7__tabs{position:static;grid-template-columns:repeat(3,1fr)}
+  .wv6__tafel{overflow-x:auto}
+  .hv9__karten{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .h-praxis{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .ha{min-height:auto}
+  .ha .h-name{font-size:clamp(84px,26vw,130px)!important}
+  .ha__bg{position:relative;height:62svh}
+  .ha1__oben{top:96px}
+  .ha1__blatt,.ha10__blatt{position:relative;left:auto;bottom:auto;margin:-40px 16px 16px}
+  .ha2__t,.ha8__t{position:relative;left:auto;bottom:auto;padding:24px var(--rand) 30px;text-shadow:none;max-width:none}
+  .ha8 .h-name,.ha8__t{color:var(--hell)}
+  .ha8{grid-template-columns:1fr}
+  .ha8 .hb{min-height:46svh}
+  .ha3__b,.ha4__b,.ha5__b,.ha9__b,.ha15__b{min-height:52svh}
+  .ha3__t,.ha4__t,.ha15__r{padding:28px var(--rand) 34px}
+  .ha3 .ha3__b{order:-1}
+  .ha5,.ha9{grid-template-columns:1fr 1fr}
+  .ha9 .ha9__b:last-of-type{display:none}
+  .ha5__blatt,.ha9__band,.ha12__blatt{position:relative;left:auto;top:auto;bottom:auto;transform:none;width:auto;margin:-60px 16px 16px;grid-column:1/-1;display:block}
+  .ha9__band{margin:0;padding:24px var(--rand)}
+  .ha6__fenster{grid-template-columns:1fr 1fr;height:auto}
+  .ha6__fenster .hb{aspect-ratio:3/4}.ha6__fenster .hb:nth-child(2){display:none}
+  .ha7{height:auto}
+  .ha7__b{min-height:52svh}
+  .ha11__b{height:34svh}
+  .ha12{height:auto;grid-template-rows:auto}
+  .ha12 .hb{aspect-ratio:1}
+  .ha13{padding-top:90px}
+  .ha13__b{height:56svh;order:-1}
+  .ha14__b{min-height:44svh}
+  .ha15__paar{height:200px}
+  .wv4__w{height:auto;display:flex;flex-direction:column}
+  .wv4__b{position:relative;aspect-ratio:4/3}
+  .wv4__blatt,.wv4__w:nth-child(2) .wv4__blatt{position:relative;right:auto;left:auto;top:auto;translate:none;width:auto;margin:-40px 12px 12px}
+  .wv3__reihe{height:auto;flex-wrap:wrap}.wv3__f{flex:1 1 30%;aspect-ratio:1;border-radius:6px!important}
+  .wv5__mos{height:auto;grid-template-columns:1fr 1fr;grid-template-rows:auto}.wv5__gross{grid-column:1/-1;grid-row:auto;aspect-ratio:4/3}.wv5__klein{aspect-ratio:1}
+  .wv6__tafel{grid-template-columns:110px repeat(3,minmax(150px,1fr))}
+  .wv8__paar{grid-template-columns:1fr}
+  .wv9__band>.wv9__f{flex-basis:84%}
+  .wv11__bilder{grid-template-columns:1fr;height:auto}.wv11__gross{aspect-ratio:4/3}.wv11__neben{grid-template-rows:none;grid-template-columns:1fr 1fr}.wv11__neben .hb{aspect-ratio:4/3}
+  .wv13__tabs{grid-template-columns:1fr}.wv13__wand{grid-template-columns:repeat(3,1fr)}
+  .wv14__b{min-height:240px}
+  .wv15__raster{grid-template-columns:70px repeat(3,minmax(0,1fr));gap:5px}.wv15__z{font-size:15px}.wv15__k .knopf{height:44px;padding-left:14px;font-size:12px;white-space:normal}
+  .hz,.hz--tafeln{grid-template-columns:1fr}.hz>div+div{border-left:0;border-top:1px solid var(--linie);padding-top:18px;margin-top:18px}
+  .h-fotos .hb:first-child{width:52vw}.h-fotos .hb:last-child{width:40vw}
+  .hz--auf-bild{position:relative;left:auto;bottom:auto;transform:none;margin:-60px auto 0;width:calc(100% - 32px)}
+  .hv12__band{height:auto}.hv12__b{position:relative;height:52svh}
+  .hv15__praxis{height:auto}.hv15__b{position:relative;height:56svh}.hv15__blatt{position:relative;right:auto;top:auto;translate:none;width:auto;margin:-60px 16px 0}
+  .fv8__bild{height:auto}.fv8__b{position:relative;height:50svh}.fv8__tafel{position:relative;left:auto;top:auto;translate:none;margin:-60px 16px 0}
+  .fv10{grid-template-columns:1fr 1fr}.fv10__mitte{grid-column:1/-1;grid-row:auto;order:-1;padding:0 0 20px}.fv10__a,.fv10__b2,.fv10__c,.fv10__d{grid-column:auto;grid-row:auto}
+  .fv4__band{grid-template-columns:1fr 1fr;height:auto}.fv4__band .hb{aspect-ratio:3/4}.fv4__band .hb:last-child{display:none}
+  .fv14__tafel{margin:60px 0}
+  .fv15__b{aspect-ratio:3/1}
+}
+.wv11 .w-titel,.wv14 .w-titel{white-space:nowrap;font-size:clamp(30px,2.6vw,42px)}
+.wv11__t{grid-template-columns:auto auto minmax(0,1.4fr) auto}
+
+/* Lesbarkeit: Satz und Gruss auf ruhigem Grund statt auf Schnee oder Bergen */
+.hv1__zitat{left:max(var(--rand),calc((100% - var(--breit))/2));right:auto;bottom:clamp(24px,4vw,56px);max-width:min(980px,calc(100% - 2 * var(--rand)));padding:clamp(26px,3vw,46px);text-shadow:none}
+.hv7__bild{margin-bottom:clamp(60px,6vw,100px)}
+.hv7__zitat{top:auto;bottom:calc(-1 * clamp(40px,4vw,70px));left:max(var(--rand),calc((100% - var(--breit))/2));right:auto;max-width:min(980px,calc(100% - 2 * var(--rand)));padding:clamp(26px,3vw,46px);text-shadow:none}
+.hv7__zitat .titel{color:var(--tinte)}.hv7__zitat .titel em{color:var(--holz)}.hv7__zitat .h-name2{color:var(--leise)}
+.fv1__gruss{text-shadow:none;padding:clamp(24px,2.8vw,40px);max-width:min(860px,calc(100% - 2 * var(--rand)))}
+@media (max-width:760px){
+  .hv1__bild,.hv7__bild,.fv1__bild{height:auto}.hv1__b,.hv7__b,.fv1__b{position:relative;height:46svh}
+  .hv1__zitat,.hv7__zitat,.fv1__gruss{position:relative;left:auto;right:auto;bottom:auto;top:auto;margin:-50px 16px 0;max-width:none}
+}
+@media (max-width:980px){ .wv11__t{grid-template-columns:auto minmax(0,1fr)} .wv11__t .liste,.wv11__t .knoepfe{grid-column:1/-1} }
+@media (max-width:760px){
+  .ha6 .h-name{font-size:clamp(60px,17vw,92px)!important;letter-spacing:.02em}
+  .wv6__tafel{overflow:visible;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:8px;padding:12px}
+  .wv6__ecke,.wv6__z{display:none}
+  .wv6__c{font-size:13px;padding:10px 0}
+  .wv6__kopf b{font-size:24px}
+  .wv6__c--k .knopf{height:44px;padding-left:12px;font-size:11.5px;white-space:normal;gap:6px}
+  .wv6__c--k .knopf i{width:30px;height:30px}
+}
+@media (max-width:980px){ .ha6__kopf>*,.ha5__blatt>*{grid-column:1!important;grid-row:auto!important} }
+@media (max-width:760px){ .wv6__tafel>div:empty{display:none} }
+
+/* Fuss 7 (Robert 08.11.2026 gewählt): die vier Wege als Holzplatten mit kleinem Bild, Name, Unterzeile und Knauf */
+.wege{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:clamp(30px,3vw,44px)}
+.wege__w{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:16px;padding:10px 12px 10px 10px;border-radius:18px;text-decoration:none;color:#F4EEE3;
+  background:linear-gradient(180deg,#4A3A2B,#3B2D21);box-shadow:inset 0 1px 0 rgba(255,255,255,.1),inset 0 -2px 0 rgba(0,0,0,.25),0 0 0 1px rgba(217,191,143,.16),0 18px 30px -22px rgba(0,0,0,.7);transition:transform .9s var(--e1)}
+.wege__w:hover{transform:translateY(-2px)}
+.wege__b{display:block;width:84px;height:64px;border-radius:12px;overflow:hidden}
+.wege__b img{width:100%;height:100%;object-fit:cover;transition:transform 2.6s var(--e1)}
+.wege__w:hover .wege__b img{transform:scale(1.04)}
+.wege__t{display:grid;gap:3px;min-width:0}
+.wege__t b{font:400 clamp(21px,1.7vw,26px)/1.1 var(--titel)}
+.wege__t small{font:400 11.5px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--stroh);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wege__w i{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:linear-gradient(180deg,#FBF7EF,#EDE3D2);box-shadow:inset 0 1px 0 #fff,0 4px 10px -4px rgba(0,0,0,.5)}
+.wege__w svg{width:13px;height:13px;fill:none;stroke:var(--holz);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform .9s var(--e1)}
+.wege__w:hover svg{transform:translate(2px,-2px)}
+@media (max-width:760px){.wege{grid-template-columns:1fr}.wege__b{width:72px;height:56px}}
+.wege__t b{white-space:nowrap}
+.wege__t small{white-space:normal;overflow:visible}
+.wege__t b{font-size:clamp(19px,1.45vw,23px)}
+.wege__w{gap:14px}
+
+/* ========== 2 WOHNUNGEN, Runde 2 (20 Fassungen, Namen statt Nummern) ========== */
+[data-abschnitt][data-v="16"]>.f16,[data-abschnitt][data-v="17"]>.f17,[data-abschnitt][data-v="18"]>.f18,[data-abschnitt][data-v="19"]>.f19,[data-abschnitt][data-v="20"]>.f20{display:block}
+.wn-name{font:400 clamp(36px,3.4vw,56px)/1.02 var(--titel);color:var(--tinte);letter-spacing:-.01em}
+.wn-name--gross{font-size:clamp(46px,4.6vw,76px)}
+.wn-name--riesig{font-size:clamp(56px,7vw,118px);line-height:.96}
+.wn-lage{margin-top:8px;font:400 12.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--leise)}
+.wn-kurz{margin-top:12px;font-size:16.5px;line-height:1.5;color:var(--leise)}
+.liste--klein li{font-size:15.5px;padding:9px 0}
+.wn-zahlen{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px;padding:16px 0;border-block:1px solid var(--linie)}
+.wn-zahlen>div{text-align:center;padding:0 8px}.wn-zahlen>div+div{border-left:1px solid var(--linie)}
+.wn-zahlen b{display:block;font:400 clamp(44px,3.6vw,60px)/1 var(--titel);color:var(--holz)}
+.wn-zahlen span{display:block;margin-top:6px;font-size:13.5px;line-height:1.35;color:var(--leise)}
+.wv .hb{border-radius:6px}
+/* Bildwechsel (Galerie) */
+.gal__gross{position:relative;overflow:hidden;border-radius:var(--r1);background:var(--creme)}
+.gal__gross>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.gal__gross>img.neu{transform:translate3d(0,100%,0);transition:transform .95s var(--e1)}
+.gal__gross>img.neu.da{transform:none}
+.gal__reihe{display:flex;gap:6px;margin-top:6px}
+.gal__mini{flex:1 1 0;min-width:0;aspect-ratio:4/3;padding:0;border:0;border-radius:8px;overflow:hidden;cursor:pointer;opacity:.5;transition:opacity .6s;background:var(--creme)}
+.gal__mini[aria-pressed="true"],.gal__mini:hover{opacity:1}
+.gal__mini img{width:100%;height:100%;object-fit:cover}
+.gal__leiste{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:12px}
+.gal__text{font:400 clamp(20px,1.6vw,26px)/1.2 var(--titel);color:var(--tinte)}
+.gal__pf{display:flex;gap:8px}
+.gal__pf button{width:50px;height:50px;border:0;border-radius:50%;cursor:pointer;font-size:26px;line-height:1;color:var(--hell);background:linear-gradient(180deg,#6B5440,#45352A);box-shadow:inset 0 1px 0 rgba(255,255,255,.2),0 10px 18px -10px rgba(39,29,22,.7)}
+/* 1 Drei Gipfel */
+.wn1{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;max-width:none;margin-inline:calc(var(--rand2) - var(--rand))}
+.wn1__k{display:flex;flex-direction:column}
+.wn1__b{height:min(78vh,760px)}
+.wn1__k:first-child .wn1__b{border-radius:var(--r1) 6px 6px var(--r1)}.wn1__k:last-child .wn1__b{border-radius:6px var(--r1) var(--r1) 6px}
+.wn1__blatt{position:relative;z-index:1;margin:-120px 18px 0;padding:24px 26px 26px}
+/* 2 Breitbild */
+.wn2{max-width:none;margin-inline:calc(var(--rand2) - var(--rand))}
+.wn2__w+.wn2__w{margin-top:clamp(50px,5vw,80px)}
+.wn2__b{aspect-ratio:21/9;border-radius:var(--r1)!important}
+.wn2__zeile{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1.2fr) auto;gap:clamp(24px,3vw,48px);align-items:start;max-width:var(--breit);margin:26px auto 0;padding:0 calc(var(--rand) - var(--rand2))}
+.wn2__zeile .liste{margin-top:0}.wn2__zeile .knoepfe{margin-top:0}
+/* 3 Doppelseite */
+.wn3__w{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,3vw,48px);padding:clamp(16px,1.6vw,24px);align-items:center}
+.wn3__w+.wn3__w{margin-top:clamp(34px,3.4vw,52px)}
+.wn3__w--r .wn3__b{order:2}
+.wn3__b{aspect-ratio:4/5;border-radius:calc(var(--r1) - 6px)!important}
+.wn3__t{padding:clamp(10px,2vw,30px)}
+.wn3__paar{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:20px}
+.wn3__paar .hb{aspect-ratio:4/3;border-radius:10px}
+/* 4 Treppe */
+.wn4{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,2vw,30px);align-items:start;padding-top:20px}
+.wn4__k{margin-top:clamp(120px,12vw,200px)}
+.wn4__k--oben{margin-top:0}
+.wn4__stock{font:400 12px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--holz);margin-bottom:12px}
+.wn4__b{aspect-ratio:4/5;border-radius:var(--r1)!important;margin-bottom:22px;box-shadow:0 40px 60px -40px rgba(39,29,22,.6)}
+.wn4__linie{position:absolute;left:0;right:0;border-top:1px solid var(--linie)}
+.wn4__linie span{display:none}
+.wn4__linie--og{top:8px}.wn4__linie--eg{top:calc(clamp(120px,12vw,200px) + 8px)}
+/* 5 Haus im Schnitt */
+.wn5__haus{padding:clamp(18px,2vw,30px);display:grid;gap:clamp(18px,2vw,30px)}
+.wn5__stock{display:grid;grid-template-columns:auto 1fr;gap:clamp(14px,2vw,28px)}
+.wn5__stock>span{writing-mode:vertical-rl;transform:rotate(180deg);font:400 12px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--holz);text-align:center;border-left:1px solid var(--linie);padding-left:12px}
+.wn5__stock--eg{border-top:1px solid var(--linie);padding-top:clamp(18px,2vw,30px)}
+.wn5__z{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(18px,2.4vw,36px);align-items:center}
+.wn5__zwei{display:grid;grid-template-columns:1fr 1fr;gap:clamp(18px,2.4vw,36px)}
+.wn5__zwei .wn5__z{grid-template-columns:1fr}
+.wn5__b{aspect-ratio:16/10;border-radius:var(--r2)!important}
+/* 6 Name wählen */
+.wn6{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:clamp(24px,4vw,64px);align-items:start}
+.wn6__namen{display:grid;gap:4px;position:sticky;top:110px}
+.wn6__n{display:grid;gap:4px;padding:16px 0;border:0;border-bottom:1px solid var(--linie);background:none;text-align:left;cursor:pointer}
+.wn6__n b{font:400 clamp(40px,4vw,68px)/1 var(--titel);color:rgba(58,46,34,.32);transition:color .6s}
+.wn6__n small{font:400 12px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+.wn6__n[aria-pressed="true"] b,.wn6__n:hover b{color:var(--holz)}
+.wn6__b{aspect-ratio:4/3;border-radius:var(--r1)!important;box-shadow:0 46px 70px -46px rgba(39,29,22,.6)}
+.wn6__unten{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(20px,3vw,40px);align-items:end;margin-top:22px}
+.wn6__unten .liste{margin-top:0}
+/* 7 Aufmacher */
+.wn7__auf{position:relative;display:grid;align-items:center}
+.wn7__b{grid-area:1/1;height:min(84vh,780px);border-radius:var(--r1)!important}
+.wn7__blatt{grid-area:1/1;justify-self:end;width:min(520px,calc(100% - 40px));margin-right:clamp(20px,3vw,48px);padding:clamp(24px,2.6vw,38px)}
+.wn7__zwei{display:grid;grid-template-columns:1fr 1fr;gap:clamp(16px,2vw,30px);margin-top:clamp(16px,2vw,30px)}
+.wn7__klein{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px;align-items:center}
+.wn7__kb{aspect-ratio:4/3;border-radius:var(--r1)!important}
+/* 8 Halb und halb */
+.wn8{max-width:none;margin-inline:calc(-1 * var(--rand))}
+.wn8__w{display:grid;grid-template-columns:1fr 1fr;min-height:min(92vh,880px);background:var(--tief) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px;color:var(--hell)}
+.wn8__w--r .wn8__b{order:2}
+.wn8__b{border-radius:0!important}
+.wn8__t{align-self:center;padding:clamp(40px,5vw,90px)}
+.wn8__t .wn-name{color:#F1DDB4}.wn8__t .wn-lage{color:var(--stroh)}
+.wn8__t .liste,.wn8__t .liste li{border-color:rgba(217,191,143,.25)}
+/* 9 Zimmerreise */
+.wn9__tabs,.wn19__tabs{display:flex;gap:clamp(18px,3vw,48px);flex-wrap:wrap;border-bottom:1px solid var(--linie)}
+.wn9__tab{padding:0 0 14px;border:0;background:none;cursor:pointer;font:400 clamp(30px,3vw,48px)/1 var(--titel);color:rgba(58,46,34,.32);border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .5s,border-color .5s}
+.wn9__tab[aria-pressed="true"]{color:var(--holz);border-bottom-color:var(--holz)}
+.wn9__p{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:clamp(24px,3vw,48px);margin-top:26px;align-items:start}
+.wn9__gal .gal__gross{aspect-ratio:4/3}
+/* 10 Gestapelte Blätter */
+.wn10__k{position:sticky;top:calc(100px + var(--i) * 26px);display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(24px,3vw,48px);align-items:center;padding:clamp(16px,1.6vw,24px);margin-bottom:clamp(40px,8vh,90px);box-shadow:0 0 0 1px rgba(90,70,50,.12),inset 0 0 0 6px var(--papier),inset 0 0 0 7px rgba(90,70,50,.2),0 -20px 40px -30px rgba(39,29,22,.5),0 40px 60px -40px rgba(39,29,22,.6)}
+.wn10__b{aspect-ratio:4/3;border-radius:calc(var(--r1) - 6px)!important}
+.wn10__t{padding-right:clamp(10px,2vw,30px)}
+/* 11 Feste Spalte */
+.wn11__w{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.3fr);gap:clamp(24px,4vw,64px);align-items:start;padding:clamp(30px,3vw,46px) 0;border-top:1px solid var(--linie)}
+.wn11__t{position:sticky;top:110px}
+.wn11__bilder{display:grid;gap:clamp(24px,3vw,40px)}
+.wn11__f{aspect-ratio:4/3;border-radius:var(--r1)!important;overflow:visible}
+.wn11__f>img{border-radius:var(--r1)}
+.wn11__f figcaption{margin-top:10px;font:400 18px/1.3 var(--titel);color:var(--leise)}
+/* 12 Steckbrief */
+.wn12{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,1.6vw,24px);align-items:stretch}
+.wn12__k{display:flex;flex-direction:column;padding:clamp(24px,2.4vw,34px)}
+.wn12__streifen{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-top:18px}
+.wn12__streifen .hb{aspect-ratio:1;border-radius:8px}
+.wn12__k .knoepfe{margin-top:auto;padding-top:22px}
+/* 13 Triptychon */
+.wn13__w{display:grid;grid-template-columns:1fr 2.2fr 1fr;gap:8px;align-items:start}
+.wn13__w+.wn13__w{margin-top:clamp(40px,4vw,64px)}
+.wn13__s{aspect-ratio:3/4;border-radius:var(--r1)!important}
+.wn13__b{aspect-ratio:4/3;border-radius:var(--r1)!important}
+.wn13__t{text-align:center;padding:22px 10px 0}
+.wn13__t .knoepfe{justify-content:center}
+/* 14 Gestaffelt */
+.wn14__w+.wn14__w{margin-top:clamp(50px,5vw,80px)}
+.wn14__name{font:400 clamp(64px,9vw,150px)/.92 var(--titel);color:var(--holz);letter-spacing:-.02em}
+.wn14__reihe{display:grid;grid-template-columns:2.4fr 1.5fr 1fr;gap:8px;align-items:end;margin-top:18px}
+.wn14__a{aspect-ratio:4/3;border-radius:var(--r1) 6px 6px var(--r1)!important}.wn14__b2{aspect-ratio:4/3}.wn14__c{aspect-ratio:3/4;border-radius:6px var(--r1) var(--r1) 6px!important}
+.wn14__unten{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:clamp(20px,3vw,48px);align-items:start;margin-top:22px}
+.wn14__unten .liste,.wn14__unten .knoepfe{margin-top:0}
+/* 15 Mittig */
+.wn15__w{text-align:center}
+.wn15__w+.wn15__w{margin-top:clamp(60px,6vw,100px)}
+.wn15__n.geteilt{align-items:center}
+.wn15__b{width:min(1080px,100%);margin:24px auto 0;aspect-ratio:16/9;border-radius:var(--r1)!important}
+.wn15__l{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;max-width:900px;margin:24px auto 0;text-align:left}
+.wn15__k{justify-content:center}
+/* 16 Dunkle Bühne */
+.wn16{max-width:none;margin-inline:calc(-1 * var(--rand));padding:clamp(50px,5vw,80px) var(--rand);background:var(--tief) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px;border-radius:var(--r1)}
+.wn16__namen{display:flex;flex-wrap:wrap;gap:clamp(18px,3vw,48px);max-width:var(--breit);margin:0 auto}
+.wn16__n{border:0;background:none;padding:0;cursor:pointer;font:400 clamp(40px,4.6vw,76px)/1 var(--titel);color:rgba(241,221,180,.3);transition:color .6s}
+.wn16__n[aria-pressed="true"],.wn16__n:hover{color:#F1DDB4}
+.wn16__buehne{max-width:var(--breit);margin:clamp(24px,3vw,40px) auto 0}
+.wn16__p{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);align-items:center}
+.wn16__b{aspect-ratio:4/3;border-radius:var(--r1)!important;box-shadow:0 50px 80px -40px rgba(0,0,0,.7)}
+.wn16__blatt{margin-left:-60px;position:relative;padding:clamp(24px,2.6vw,38px)}
+/* 17 Drei Spalten mit allen Bildern */
+.wn17{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,2vw,30px);align-items:start}
+.wn17__bilder{display:grid;gap:6px;margin-top:18px}
+.wn17__f{aspect-ratio:4/3;border-radius:10px!important}
+.wn17__f:first-child{aspect-ratio:4/5;border-radius:var(--r1) var(--r1) 10px 10px!important}
+/* 18 Drei Kapitel */
+.wn18__w+.wn18__w{margin-top:clamp(60px,6vw,100px)}
+.wn18__band{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1.4fr) auto;gap:clamp(20px,3vw,48px);align-items:end;padding-bottom:24px;border-bottom:1px solid var(--linie)}
+.wn18__band .wn-lage{grid-column:1}
+.wn18__l{margin-top:0;grid-column:2;grid-row:1/3}
+.wn18__band .knoepfe{grid-column:3;grid-row:1/3;margin-top:0;align-self:end}
+.wn18__wand{display:grid;grid-template-columns:1.7fr 1fr 1fr;gap:6px;margin-top:20px;height:clamp(300px,30vw,460px)}
+.wn18__wand .hb:first-child{border-radius:var(--r1) 6px 6px var(--r1)}.wn18__wand .hb:last-child{border-radius:6px var(--r1) var(--r1) 6px}
+/* 19 Grosse Bühne */
+.wn19__tab{display:grid;gap:4px;padding:0 0 14px;border:0;background:none;cursor:pointer;text-align:left;border-bottom:2px solid transparent;margin-bottom:-1px}
+.wn19__tab b{font:400 clamp(28px,2.6vw,42px)/1 var(--titel);color:rgba(58,46,34,.32);transition:color .5s}
+.wn19__tab small{font:400 11.5px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+.wn19__tab[aria-pressed="true"]{border-bottom-color:var(--holz)}.wn19__tab[aria-pressed="true"] b{color:var(--holz)}
+.wn19__p{margin-top:24px}
+.wn19__gal{margin-inline:calc(var(--rand2) - var(--rand))}
+.wn19__gal .gal__gross{aspect-ratio:21/9}
+.wn19__gal .gal__reihe{max-width:var(--breit);margin:8px auto 0;padding:0 calc(var(--rand) - var(--rand2))}
+.wn19__t{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(20px,3vw,48px);align-items:end;margin-top:20px}
+.wn19__t .liste{margin-top:0;columns:2;column-gap:28px}
+/* 20 Am Haus */
+.wn20__haus{position:relative;margin-inline:calc(var(--rand2) - var(--rand))}
+.wn20__hb{height:min(80vh,760px);border-radius:var(--r1)!important}
+.wn20__plates{position:absolute;left:0;right:0;bottom:clamp(20px,3vw,44px);display:flex;justify-content:center;gap:12px;flex-wrap:wrap;padding:0 16px}
+.wn20__plate{display:grid;gap:4px;padding:18px 26px;text-decoration:none;text-align:center;transition:transform .9s var(--e1)}
+.wn20__plate:hover{transform:translateY(-3px)}
+.wn20__plate b{font:400 clamp(26px,2.4vw,38px)/1 var(--titel);color:var(--holz)}
+.wn20__plate small{font:400 11.5px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+.wn20__drei{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,2vw,30px);margin-top:clamp(40px,4vw,64px)}
+.wn20__w{scroll-margin-top:100px}
+.wn20__b{aspect-ratio:4/3;border-radius:var(--r1)!important;margin-bottom:18px}
+
+@media (max-width:980px){
+  .wn1,.wn4,.wn12,.wn17,.wn20__drei,.wn7__zwei,.wn5__zwei{grid-template-columns:1fr}
+  .wn2__zeile,.wn3__w,.wn6,.wn7__klein,.wn9__p,.wn10__k,.wn11__w,.wn14__unten,.wn16__p,.wn18__band,.wn19__t,.wn5__z{grid-template-columns:1fr}
+  .wn3__w--r .wn3__b{order:0}
+  .wn4__k{margin-top:0}.wn4__linie{display:none}
+  .wn6__namen,.wn11__t{position:static}
+  .wn10__k{position:relative;top:auto}
+  .wn16__blatt{margin:-40px 16px 0}
+  .wn18__l,.wn18__band .knoepfe{grid-column:auto;grid-row:auto}
+}
+@media (max-width:760px){
+  .wn1{margin-inline:0}.wn1__b{height:56svh}.wn1__b{border-radius:var(--r1)!important}
+  .wn2{margin-inline:0}.wn2__b{aspect-ratio:4/3}.wn2__zeile{padding:0}
+  .wn5__stock{grid-template-columns:1fr}.wn5__stock>span{writing-mode:horizontal-tb;transform:none;border:0;padding:0;text-align:left}
+  .wn7__b{height:56svh}.wn7__auf{display:block}.wn7__blatt{width:auto;margin:-50px 12px 0;position:relative}
+  .wn8{margin-inline:calc(-1 * var(--rand))}.wn8__w{grid-template-columns:1fr;min-height:0}.wn8__w--r .wn8__b{order:0}.wn8__b{height:52svh}
+  .wn13__w{grid-template-columns:1fr 1fr}.wn13__mitte{grid-column:1/-1;order:-1}
+  .wn14__reihe{grid-template-columns:1fr 1fr}.wn14__a{grid-column:1/-1}
+  .wn15__l{grid-template-columns:1fr}
+  .wn16{margin-inline:calc(-1 * var(--rand));border-radius:0}
+  .wn18__wand{grid-template-columns:1fr 1fr;height:auto}.wn18__wand .hb{aspect-ratio:4/3}.wn18__wand .hb:first-child{grid-column:1/-1}
+  .wn19__gal{margin-inline:0}.wn19__gal .gal__gross{aspect-ratio:4/3}.wn19__gal .gal__reihe{padding:0}.wn19__t .liste{columns:1}
+  .wn20__haus{margin-inline:0}.wn20__hb{height:auto;aspect-ratio:4/5}
+  .wn20__plates{position:static;margin-top:-40px;flex-direction:column;align-items:stretch}
+  .wn9__tab{font-size:26px}
+}
+.wv [hidden]{display:none!important}
+.wn2__zeile{grid-template-columns:minmax(0,1fr) auto}
+.wn2__zeile>div:first-child{grid-column:1/-1}
+.wn18__band{grid-template-columns:minmax(0,1fr) auto}
+.wn18__band .wn-name{grid-column:1/-1}
+.wn18__band .wn-lage{grid-column:1/-1;margin-bottom:6px}
+.wn18__l{grid-column:1;grid-row:auto}
+.wn18__band .knoepfe{grid-column:2;grid-row:auto}
+@media (max-width:980px){.wn2__zeile,.wn18__band{grid-template-columns:1fr}.wn18__band .knoepfe{grid-column:1}}
+@media (max-width:980px){.wn6__unten{grid-template-columns:1fr}}
+@media (max-width:760px){
+  .wn-name--riesig,.wn14__name{font-size:clamp(38px,11.6vw,56px)!important}
+  .wn-name--gross{font-size:clamp(36px,10.6vw,52px)}
+  .wn-name{font-size:clamp(32px,9.6vw,44px)}
+}
+@media (min-width:981px){.wn7__kt .wn-name{font-size:clamp(28px,2.3vw,38px)}.wn7__klein{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+
+/* Wohnungen: Fassung 12 «Steckbrief» fest (Robert 08.11.2026). Bildstreifen wie gewählt; jedes Bild in seinem eigenen Format (Quer 4:3, Hoch 3:4),
+   nichts abgeschnitten, Streifen in allen drei Karten gleich hoch und auf einer Höhe */
+.wn12 .wn-zahlen span{min-height:4.1em}
+
+/* Auftakt 12 «Bildwand» (Robert 08.11.2026): Bilder laufen wie vorher hinter dem Schild in der Mitte zusammen. Das Schild wächst mit der Fensterbreite
+   (sonst deckt es auf kleineren Bildschirmen drei Viertel der Bilder), und jedes Motiv ist so gerückt, dass es neben dem Schild zu sehen ist */
+@media (min-width:761px){
+  .ha12__blatt{width:min(680px,46vw);padding:clamp(22px,2.4vw,36px) clamp(22px,2.6vw,44px)}
+  .ha12 .h-name{font-size:clamp(76px,7.4vw,140px)}
+}
+@media (min-width:981px) and (max-width:1240px){
+  .wn12 .knopf{height:50px;padding-left:18px;font-size:14px;gap:10px}.wn12 .knopf i{width:34px;height:34px}
+  .wn12 .wn-zahlen>div{padding:0 5px}.wn12 .wn-zahlen span{font-size:12.5px;hyphens:auto;-webkit-hyphens:auto}
+  .wn12__k{padding:22px}
+}
+/* Die Wohnungen, Fassung 1 fest (Robert 08.11.2026): bei mittleren Breiten passen Name und Knopf in das Blatt */
+@media (min-width:761px) and (max-width:1240px){
+  .wn1__blatt{margin-inline:12px;padding:20px 18px 22px}
+  .wn1 .wn-name{font-size:clamp(26px,2.75vw,40px)}
+  .wn1 .knopf{height:46px;padding-left:16px;font-size:13.5px;gap:8px}.wn1 .knopf i{width:32px;height:32px}
+}
+/* Fuss 7, Schild rechts (Robert 08.11.2026): schliesst oben und unten mit dem Gruss und den vier Wegen links ab; oben der Name wie im Auftakt, unten die Knöpfe */
+.fv7__name{margin:0 0 18px;line-height:.9;color:var(--tinte)}
+.fv7__name span{display:block;font:400 clamp(24px,2.2vw,34px)/1.1 var(--titel)}
+.fv7__name b{display:block;font:500 clamp(58px,5.4vw,92px)/.95 var(--marke);color:var(--holz)}
+@media (min-width:981px){
+  .fv7{align-items:stretch}
+  .fv7__tafel{display:flex;flex-direction:column}
+  .fv7__tafel .knoepfe{margin-top:auto;padding-top:24px}
+}
+/* Vier Wege bei mittleren Breiten: Titel läuft nie unter den Pfeil */
+@media (min-width:981px) and (max-width:1240px){
+  .fv7 .wege__w{gap:11px}
+  .fv7 .wege__b{width:62px;height:52px}
+  .fv7 .wege__t b{white-space:normal;font-size:clamp(17px,1.6vw,20px)}
+  .fv7 .wege__t small{font-size:10.5px;letter-spacing:.1em}
+}
+/* Die Wohnungen, Fassung 1: Bild und Name führen auf die Seite der Wohnung (Unterseiten 08.11.2026) */
+.wn1__zu{display:block;color:inherit}
+.wn1 .wn-name a{text-decoration:none;color:inherit}
+.wn1__mehr{display:inline-block;margin-top:10px;font:400 12.5px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--holz);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px}
+.wn1__mehr:hover{color:var(--tinte)}
+.tal__mehr{justify-content:center;margin-top:clamp(36px,4vw,56px)}
+@media (max-width:980px){.wn1{grid-template-columns:minmax(0,1fr)}}

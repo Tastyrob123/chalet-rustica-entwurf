@@ -1,0 +1,96 @@
+{
+ "ziel": "portjengrat",
+ "art": "satz",
+ "key": "portjengrat",
+ "name": "Portjengrat",
+ "unter": "Erdgeschoss",
+ "gruppe": "Die Wohnungen",
+ "ab": "",
+ "plakat": "",
+ "foto": "n2-bett",
+ "titel": "Portjengrat",
+ "datum": "Wohnung · Erdgeschoss",
+ "mit": "1 Schlafzimmer · zwei Klappbetten · Südbalkon",
+ "rubriken": [
+  {
+   "titel": "Auf einen Blick",
+   "form": "zahlen",
+   "eintraege": [
+    {
+     "name": "1",
+     "zeit": "",
+     "text": "Schlafzimmer",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "5",
+     "zeit": "",
+     "text": "Schlafplätze, davon zwei Klappbetten",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "2",
+     "zeit": "",
+     "text": "Duschen / WC",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Ausstattung",
+   "form": "",
+   "eintraege": [
+    {
+     "name": "1 Schlafzimmer mit einem Doppelbett und einem Einzelbett",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Aufenthaltsraum mit zwei Klappbetten, TV und Radio",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Essraum und Küche mit Geschirrspüler, Kaffeemaschine und Toaster",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "2 Duschen / WC mit Haartrockner",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Südbalkon mit Liegewiese",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  }
+ ],
+ "hinweis": "",
+ "quelle": "_werkzeuge/_web/inhalt/daten.py WOHNUNGEN («Portjengrat»: name, lage, kurz, zahlen, liste, bilder), gebaut auf wohnung-portjengrat.html",
+ "seite": "wohnung-portjengrat.html",
+ "bild": {
+  "schluessel": "n2-balkon",
+  "alt": "Wohnung Portjengrat: Sitzecke mit Tür zum Südbalkon"
+ },
+ "foto_gross": "n2-wohn",
+ "fotos": [
+  "n2-kueche",
+  "n2-bad"
+ ]
+}

@@ -1,0 +1,562 @@
+{
+ "stand": 1794207741.4807873,
+ "bereiche": [
+  {
+   "bereich": "Das Haus",
+   "gruppen": [
+    {
+     "gruppe": "Auf einen Blick",
+     "zeilen": [
+      {
+       "fid": "30b02e0d06",
+       "was": "Was es ist",
+       "angabe": "drei Ferienwohnungen in einem rustikalen Neubau mit drei Sternen, zentral und trotzdem ruhig, direkt am Bach",
+       "beleg": "Drei Ferienwohnungen von Heidi und Damian Andenmatten-Zurbriggen, zentral und trotzdem ruhig, direkt am Bach.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Der rustikale Neubau mit drei Sternen liegt sehr zentral und trotzdem in ruhiger Lage."
+       ]
+      },
+      {
+       "fid": "973f3bf8f7",
+       "was": "Gastgeber",
+       "angabe": "Heidi und Damian Andenmatten-Zurbriggen",
+       "beleg": "Heidi und Damian Andenmatten-Zurbriggen führen das Chalet Rustica",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "e80a4d0dab",
+       "was": "Lage im Dorf",
+       "angabe": "auf der Westseite des Dorfes, am Bach, mit freier Sicht aufs Bergpanorama",
+       "beleg": "Ein rustikaler Neubau mit drei Sternen auf der Westseite des Dorfes.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Direkt daneben fliesst ein Bach vorbei, und Sie haben freie Sicht auf das wunderschöne Bergpanorama."
+       ]
+      },
+      {
+       "fid": "68e40832e4",
+       "was": "Schlafplätze",
+       "angabe": "13 im ganzen Haus, in drei Wohnungen",
+       "beleg": "13 Schlafplätze im ganzen Haus",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "0794f329d2",
+       "was": "Höhe",
+       "angabe": "1600 Meter über Meer",
+       "beleg": "1600 Meter über Meer",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Die Wohnungen",
+   "gruppen": [
+    {
+     "gruppe": "Die drei Wohnungen",
+     "zeilen": [
+      {
+       "fid": "aa5b7fb6ce",
+       "was": "Almagellerhorn",
+       "angabe": "Erdgeschoss, 2 Schlafzimmer mit je einem Doppelbett, 4 Betten, Südbalkon mit Liegewiese",
+       "beleg": "-- Wohnung Almagellerhorn (Erdgeschoss) --",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "2 Schlafzimmer mit je einem Doppelbett"
+       ]
+      },
+      {
+       "fid": "a5519f2588",
+       "was": "Portjengrat",
+       "angabe": "Erdgeschoss, 1 Schlafzimmer, zwei Klappbetten im Aufenthaltsraum, 5 Schlafplätze, 2 Duschen / WC",
+       "beleg": "-- Wohnung Portjengrat (Erdgeschoss) --",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "5 Schlafplätze, davon zwei Klappbetten",
+        "2 Duschen / WC mit Haartrockner"
+       ]
+      },
+      {
+       "fid": "970a949c26",
+       "was": "Weissmies",
+       "angabe": "1. Stock, neu renoviert, 2 Schlafzimmer mit je 2 Betten, Bad / Dusche / WC, Südbalkon",
+       "beleg": "-- Wohnung Weissmies (1. Stock, neu renoviert) --",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "2 Schlafzimmer mit je 2 Betten"
+       ]
+      }
+     ]
+    },
+    {
+     "gruppe": "In jeder Wohnung",
+     "zeilen": [
+      {
+       "fid": "ef9cb3cf06",
+       "was": "Küche",
+       "angabe": "Essraum und Küche mit Geschirrspüler, Kaffeemaschine und Toaster",
+       "beleg": "Essraum und Küche mit Geschirrspüler, Kaffeemaschine und Toaster",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "85c111bb6c",
+       "was": "Aufenthaltsraum",
+       "angabe": "mit TV und Radio",
+       "beleg": "Aufenthaltsraum mit TV und Radio",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "7551fefd86",
+       "was": "Bad",
+       "angabe": "mit Haartrockner",
+       "beleg": "Dusche / WC mit Haartrockner",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "470584b0dd",
+       "was": "Balkon",
+       "angabe": "jede Wohnung mit Südbalkon",
+       "beleg": "Drei Wohnungen, jede mit Südbalkon.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Welche passt",
+     "zeilen": [
+      {
+       "fid": "82f1cd3fec",
+       "was": "Für 4 Personen",
+       "angabe": "Almagellerhorn (zwei Doppelbetten) oder Weissmies (zwei Zimmer mit je 2 Betten)",
+       "beleg": "4 Betten in zwei Doppelbetten",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "2 Schlafzimmer mit je 2 Betten"
+       ]
+      },
+      {
+       "fid": "7e9a5cc45e",
+       "was": "Für 5 Personen",
+       "angabe": "Portjengrat, 5 Schlafplätze, davon zwei Klappbetten",
+       "beleg": "5 Schlafplätze, davon zwei Klappbetten",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "c201bdecfc",
+       "was": "Grössere Gruppe",
+       "angabe": "13 Schlafplätze im ganzen Haus, in drei Wohnungen",
+       "beleg": "13 Schlafplätze im ganzen Haus",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Inbegriffen & Hausregeln",
+   "gruppen": [
+    {
+     "gruppe": "Im Preis inbegriffen",
+     "zeilen": [
+      {
+       "fid": "8eeb87d02b",
+       "was": "Wäsche",
+       "angabe": "Bettwäsche, Dusch- und Handtücher, Küchentücher",
+       "beleg": "Bei allen Wohnungen im Preis inbegriffen: Bettwäsche, Dusch- und Handtücher, Küchentücher",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "60f609a0bb",
+       "was": "Nebenkosten",
+       "angabe": "Heizung, Warmwasser und Strom",
+       "beleg": "Heizung, Warmwasser und Strom sind im Preis inbegriffen.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "6207088d9f",
+       "was": "Endreinigung und Kurtaxe",
+       "angabe": "im Preis inbegriffen",
+       "beleg": "Warmwasser und Strom, Endreinigung und Kurtaxe.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "a8344f3ab5",
+       "was": "Preise",
+       "angabe": "auf Anfrage bei Heidi und Damian; die Website nennt keine Preise",
+       "beleg": "Preise: Die Website nennt keine Preise.",
+       "datei": "gast_umgebung.txt",
+       "mehr": [
+        "Preise auf Anfrage bei Heidi und Damian."
+       ]
+      }
+     ]
+    },
+    {
+     "gruppe": "Hausregeln",
+     "zeilen": [
+      {
+       "fid": "3a5d8169f7",
+       "was": "Rauchen",
+       "angabe": "Nichtraucherhaus: in den Wohnungen wird nicht geraucht",
+       "beleg": "Das ganze Haus ist Nichtraucherhaus.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Damit Ihr Aufenthalt noch angenehmer ist, wird in den Wohnungen nicht geraucht."
+       ]
+      },
+      {
+       "fid": "cf417bf8e0",
+       "was": "Haustiere",
+       "angabe": "in allen Wohnungen nicht gestattet",
+       "beleg": "Haustiere sind in allen Wohnungen nicht gestattet.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "4c1a644414",
+       "was": "Waschküche",
+       "angabe": "die hauseigene Waschküche steht allen Gästen zur Verfügung",
+       "beleg": "Die hauseigene Waschküche steht Ihnen zur Verfügung.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Dazu die Waschküche im Haus für alle Gäste."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Massage bei Heidi",
+   "gruppen": [
+    {
+     "gruppe": "Heidis Praxis",
+     "zeilen": [
+      {
+       "fid": "640aefbb75",
+       "was": "Die Praxis",
+       "angabe": "Heidis eigene Massagepraxis im Hotel Pirmin Zurbriggen, auch für die Gäste des Chalet Rustica",
+       "beleg": "Seither führt Heidi ihre eigene Massagepraxis im Hotel Pirmin Zurbriggen.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "auch für die Gäste des Chalet Rustica."
+       ]
+      },
+      {
+       "fid": "fd19d43908",
+       "was": "Ausbildung",
+       "angabe": "medizinische Masseurin, VDMS Aarau, 1998 bis 2001",
+       "beleg": "Von 1998 bis 2001 machte sie in der VDMS Aarau die Ausbildung zur medizinischen Masseurin.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "b48c7db356",
+       "was": "Die Methode",
+       "angabe": "nach Verletzungen und Krankheit halfen ihr die Methoden von Benno Poli",
+       "beleg": "Nach Verletzungen und Krankheit halfen ihr die Methoden von Benno Poli.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "ee974200ee",
+       "was": "Termin",
+       "angabe": "mit «Massage anfragen» auf der Seite Heidi, per Telefon oder E-Mail",
+       "beleg": "Massage bei Heidi: mit «Massage anfragen» auf der Seite Heidi, per Telefon oder E-Mail.",
+       "datei": "gast_umgebung.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Heidis Skikarriere",
+     "zeilen": [
+      {
+       "fid": "aee3d3fe18",
+       "was": "Skikarriere",
+       "angabe": "14 Jahre, bis zum Weltcup-Final 1998 in Crans-Montana",
+       "beleg": "14 Jahre Skikarriere, bis zum Weltcup-Final 1998",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "1998: Abschied am Weltcup-Final in Crans-Montana."
+       ]
+      },
+      {
+       "fid": "390ffa48c8",
+       "was": "Podestplätze",
+       "angabe": "20 im Weltcup, in Super-G und Abfahrt",
+       "beleg": "20 Podestplätze im Weltcup, in Super-G und Abfahrt",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "428400dfaf",
+       "was": "WM-Silber",
+       "angabe": "zweimal: 1996 im Super-G, 1997 in der Abfahrt",
+       "beleg": "2 Mal WM-Silber: 1996 im Super-G, 1997 in der Abfahrt",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "985434e027",
+       "was": "Ihr Satz",
+       "angabe": "«Ihre Beharrlichkeit zahlt sich aus.»",
+       "beleg": "Ihre Beharrlichkeit zahlt sich aus.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Anreise",
+   "gruppen": [
+    {
+     "gruppe": "Mit Bahn und Bus",
+     "zeilen": [
+      {
+       "fid": "6e21434a5c",
+       "was": "Zug und Bus",
+       "angabe": "mit dem Zug bis Visp, von dort mit dem Bus über Saas-Grund nach Saas-Almagell",
+       "beleg": "Mit dem Zug bis Visp, von dort mit dem Bus über Saas-Grund nach Saas-Almagell.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "759d4eb1f9",
+       "was": "Fahrzeit",
+       "angabe": "55 Min. ab Bern, 2 Std. ab Basel und Zürich, dann mit dem Bus ins Tal",
+       "beleg": "55 Min. ab Bern",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "2 Std. ab Basel und Zürich"
+       ]
+      },
+      {
+       "fid": "2ca5156193",
+       "was": "Bushaltestelle",
+       "angabe": "100 Meter vom Haus",
+       "beleg": "Bushaltestelle, 100 Meter",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Mit dem Auto",
+     "zeilen": [
+      {
+       "fid": "3afdd1cdb8",
+       "was": "Durch das Rhonetal",
+       "angabe": "über Sion, Sierre und Visp",
+       "beleg": "Durch das Rhonetal über Sion, Sierre und Visp",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "d1c8416906",
+       "was": "Durch den Lötschberg",
+       "angabe": "mit dem Autoverlad Kandersteg–Goppenstein",
+       "beleg": "Durch den Lötschberg mit dem Autoverlad Kandersteg–Goppenstein",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "e324de7d40",
+       "was": "Ost- und Zentralschweiz",
+       "angabe": "mit dem Autoverlad an der Furka, im Sommer über den Pass",
+       "beleg": "Aus der Ost- und Zentralschweiz mit dem Autoverlad an der Furka, im Sommer über den Pass",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "976544b858",
+       "was": "Parkplatz",
+       "angabe": "innerhalb von 5 Minuten zu Fuss",
+       "beleg": "Innerhalb 5 Minuten erreichen Sie zu Fuss die Skilifte, Sportanlagen, die Bushaltestelle, Parkplatz und Einkaufsläden.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Mit dem Flugzeug",
+     "zeilen": [
+      {
+       "fid": "b132ee29d5",
+       "was": "Flughäfen",
+       "angabe": "2 Stunden ab Zürich, 2½ Stunden ab Mailand, 3 Stunden ab Genf",
+       "beleg": "2 Stunden ab Zürich, 2½ Stunden ab Mailand, 3 Stunden ab Genf",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Saas-Almagell & Tal",
+   "gruppen": [
+    {
+     "gruppe": "Im Winter",
+     "zeilen": [
+      {
+       "fid": "4215cc2c79",
+       "was": "Skilifte",
+       "angabe": "fünf Minuten zu Fuss; die Sesselbahn führt nach Furggstalden und Heidbodme auf 2400 Meter",
+       "beleg": "Die Skilifte erreichen Sie in fünf Minuten zu Fuss",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Die Sesselbahn führt nach Furggstalden auf 1900 Meter und weiter nach Heidbodme auf 2400 Meter"
+       ]
+      },
+      {
+       "fid": "212c5114c7",
+       "was": "Pisten",
+       "angabe": "gut 145 Kilometer im ganzen Saastal, bis auf 3600 Meter",
+       "beleg": "Im ganzen Saastal liegen gut 145 Kilometer präparierte Pisten, bis auf 3600 Meter und über den Gletscher.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "ccb325d882",
+       "was": "Langlauf",
+       "angabe": "die Loipe liegt ganz in der Nähe; die Saastal-Loipe ist 26 Kilometer lang",
+       "beleg": "die Langlaufloipe liegt ganz in der Nähe.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Die 26 Kilometer lange Saastal-Loipe führt von Saas-Balen über Saas-Almagell bis zur Eyenalp"
+       ]
+      },
+      {
+       "fid": "fe63650106",
+       "was": "Schlitteln und Eislaufen",
+       "angabe": "ein drei Kilometer langer Schlittelweg, die Eisbahn im Dorf",
+       "beleg": "Ein drei Kilometer langer Schlittelweg führt ins Tal",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "04fbb99014",
+       "was": "Winterwandern",
+       "angabe": "gepfadete Wege und geführte Schneeschuhwanderungen",
+       "beleg": "Gepfadete Wege und geführte Schneeschuhwanderungen",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Im Sommer",
+     "zeilen": [
+      {
+       "fid": "6aaff97bd8",
+       "was": "Wandern",
+       "angabe": "350 Kilometer Wanderwege im ganzen Saastal",
+       "beleg": "350 Kilometer Wanderwege",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "18e8140ab5",
+       "was": "Mattmark",
+       "angabe": "ein fast flacher Rundweg um den Stausee",
+       "beleg": "Der Stausee Mattmark lädt zu einem fast flachen Rundweg ein",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "c76839d7a1",
+       "was": "Klettersteig",
+       "angabe": "Via Ferrata del Lago, vom Almagellertal ins italienische Antronatal",
+       "beleg": "Der Klettersteig führt vom Almagellertal ins italienische Antronatal.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "7ad11a2763",
+       "was": "Für Kinder",
+       "angabe": "Klettergarten Furggstalden, Kinderspielplätze, Minigolf",
+       "beleg": "Ein Klettergarten für Kinder und Anfänger",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Für Kinder: Kinderspielplätze, Minigolf"
+       ]
+      }
+     ]
+    },
+    {
+     "gruppe": "Im Dorf",
+     "zeilen": [
+      {
+       "fid": "16c91b64c7",
+       "was": "Einkaufen",
+       "angabe": "Einkaufsläden und Lebensmittel, Post, Tourismusbüro",
+       "beleg": "Im Dorf: Bushaltestelle, 100 Meter, Einkaufsläden und Lebensmittel, Post, Tourismusbüro",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Kontakt",
+   "gruppen": [
+    {
+     "gruppe": "So erreichen Sie das Haus",
+     "zeilen": [
+      {
+       "fid": "3bd9d70082",
+       "was": "Telefon",
+       "angabe": "+41 27 957 10 55",
+       "beleg": "Telefon: +41 27 957 10 55.",
+       "datei": "gast_umgebung.txt",
+       "mehr": []
+      },
+      {
+       "fid": "2879f0035d",
+       "was": "E-Mail",
+       "angabe": "info@chalet-rustica.ch",
+       "beleg": "E-Mail: info@chalet-rustica.ch.",
+       "datei": "gast_umgebung.txt",
+       "mehr": []
+      },
+      {
+       "fid": "987cb7f94a",
+       "was": "Adresse",
+       "angabe": "Chalet Rustica, CH-3905 Saas-Almagell",
+       "beleg": "Adresse: Chalet Rustica, CH-3905 Saas-Almagell",
+       "datei": "gast_umgebung.txt",
+       "mehr": []
+      },
+      {
+       "fid": "a0be54c8b5",
+       "was": "Anfrage senden",
+       "angabe": "telefonisch, per E-Mail oder über das Formular",
+       "beleg": "Sie können telefonisch, per E-Mail oder über das Formular anfragen.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

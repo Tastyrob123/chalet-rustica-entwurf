@@ -1,0 +1,450 @@
+[
+ {
+  "k": "willkommen-almagellerhorn",
+  "n": "Willkommen · Almagellerhorn",
+  "was": "Willkommenskarte A5 in der Wohnung Almagellerhorn",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "willkommen-almagellerhorn.pdf",
+  "vorschau": [
+   "willkommen-almagellerhorn.jpg"
+  ]
+ },
+ {
+  "k": "willkommen-portjengrat",
+  "n": "Willkommen · Portjengrat",
+  "was": "Willkommenskarte A5 in der Wohnung Portjengrat",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "willkommen-portjengrat.pdf",
+  "vorschau": [
+   "willkommen-portjengrat.jpg"
+  ]
+ },
+ {
+  "k": "willkommen-weissmies",
+  "n": "Willkommen · Weissmies",
+  "was": "Willkommenskarte A5 in der Wohnung Weissmies",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "willkommen-weissmies.pdf",
+  "vorschau": [
+   "willkommen-weissmies.jpg"
+  ]
+ },
+ {
+  "k": "gruss-der-gastgeber",
+  "n": "Gruss der Gastgeber",
+  "was": "Aufsteller A6: Heidi und Damian",
+  "format": "A6 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "gruss-der-gastgeber.pdf",
+  "vorschau": [
+   "gruss-der-gastgeber.jpg"
+  ]
+ },
+ {
+  "k": "im-preis-inbegriffen",
+  "n": "Im Preis inbegriffen",
+  "was": "Karte A5: Bettwäsche, Tücher, Heizung, Warmwasser und Strom, Endreinigung, Kurtaxe",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "im-preis-inbegriffen.pdf",
+  "vorschau": [
+   "im-preis-inbegriffen.jpg"
+  ]
+ },
+ {
+  "k": "wohnung-almagellerhorn",
+  "n": "Ihre Wohnung · Almagellerhorn",
+  "was": "Blatt A5 für die Mappe: Raum für Raum, Wortlaut der Website",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "wohnung-almagellerhorn.pdf",
+  "vorschau": [
+   "wohnung-almagellerhorn.jpg"
+  ]
+ },
+ {
+  "k": "wohnung-portjengrat",
+  "n": "Ihre Wohnung · Portjengrat",
+  "was": "Blatt A5 für die Mappe: Raum für Raum, Wortlaut der Website",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "wohnung-portjengrat.pdf",
+  "vorschau": [
+   "wohnung-portjengrat.jpg"
+  ]
+ },
+ {
+  "k": "wohnung-weissmies",
+  "n": "Ihre Wohnung · Weissmies",
+  "was": "Blatt A5 für die Mappe: Raum für Raum, Wortlaut der Website",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "wohnung-weissmies.pdf",
+  "vorschau": [
+   "wohnung-weissmies.jpg"
+  ]
+ },
+ {
+  "k": "wohnungen-im-vergleich",
+  "n": "Welche Wohnung passt zu Ihnen?",
+  "was": "Karte A4: die drei Wohnungen mit Lage und Zahlen",
+  "format": "A4 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "wohnungen-im-vergleich.pdf",
+  "vorschau": [
+   "wohnungen-im-vergleich.jpg"
+  ]
+ },
+ {
+  "k": "hausregeln",
+  "n": "Hausregeln",
+  "was": "Aushang A4: Nichtraucherhaus, ohne Haustiere, Waschküche",
+  "format": "A4 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "hausregeln.pdf",
+  "vorschau": [
+   "hausregeln.jpg"
+  ]
+ },
+ {
+  "k": "nichtraucherhaus",
+  "n": "Nichtraucherhaus",
+  "was": "Aushang A5 beim Hauseingang",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "nichtraucherhaus.pdf",
+  "vorschau": [
+   "nichtraucherhaus.jpg"
+  ]
+ },
+ {
+  "k": "ohne-haustiere",
+  "n": "Ohne Haustiere",
+  "was": "Aushang A5 beim Hauseingang",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "ohne-haustiere.pdf",
+  "vorschau": [
+   "ohne-haustiere.jpg"
+  ]
+ },
+ {
+  "k": "waschkueche",
+  "n": "Die Waschküche",
+  "was": "Aushang A4 an der Tür der Waschküche",
+  "format": "A4 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "waschkueche.pdf",
+  "vorschau": [
+   "waschkueche.jpg"
+  ]
+ },
+ {
+  "k": "haus-am-bach",
+  "n": "Drei Wohnungen, ein Haus am Bach",
+  "was": "Aushang A4 mit Foto beim Hauseingang",
+  "format": "A4 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "haus-am-bach.pdf",
+  "vorschau": [
+   "haus-am-bach.jpg"
+  ]
+ },
+ {
+  "k": "tief-verschneit",
+  "n": "Tief verschneit, warm drinnen",
+  "was": "Aushang A5 mit Foto: Heizung, Warmwasser und Strom inbegriffen",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "tief-verschneit.pdf",
+  "vorschau": [
+   "tief-verschneit.jpg"
+  ]
+ },
+ {
+  "k": "rund-ums-haus",
+  "n": "Rund ums Haus",
+  "was": "Karte A4: im Dorf, zum Sport, für Kinder, alles zu Fuss",
+  "format": "A4 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "rund-ums-haus.pdf",
+  "vorschau": [
+   "rund-ums-haus.jpg"
+  ]
+ },
+ {
+  "k": "saastal-vier-doerfer",
+  "n": "Das Saastal, vier Dörfer",
+  "was": "Karte A4: Saas-Fee, Saas-Grund, Saas-Almagell, Saas-Balen",
+  "format": "A4 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "saastal-vier-doerfer.pdf",
+  "vorschau": [
+   "saastal-vier-doerfer.jpg"
+  ]
+ },
+ {
+  "k": "wege-in-die-seitentaeler",
+  "n": "Wege in die Seitentäler",
+  "was": "Blatt A5 mit Foto: Saas-Almagell im Sommer",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "wege-in-die-seitentaeler.pdf",
+  "vorschau": [
+   "wege-in-die-seitentaeler.jpg"
+  ]
+ },
+ {
+  "k": "anreise",
+  "n": "Anreise",
+  "was": "Karte A5 zum Verschicken: Zug, Auto, Flugzeug",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "anreise.pdf",
+  "vorschau": [
+   "anreise.jpg"
+  ]
+ },
+ {
+  "k": "unterwegs-ins-tal",
+  "n": "Unterwegs ins Tal",
+  "was": "Übersicht A5: Zeiten mit Zug und Flugzeug",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "unterwegs-ins-tal.pdf",
+  "vorschau": [
+   "unterwegs-ins-tal.jpg"
+  ]
+ },
+ {
+  "k": "vor-ihrer-anreise",
+  "n": "Vor Ihrer Anreise",
+  "was": "Blatt A5 zum Verschicken: mit dem Zug bis Visp",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "vor-ihrer-anreise.pdf",
+  "vorschau": [
+   "vor-ihrer-anreise.jpg"
+  ]
+ },
+ {
+  "k": "massage-bei-heidi",
+  "n": "Massage bei Heidi",
+  "was": "Flyer A5 mit Foto: Heidis Praxis",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "massage-bei-heidi.pdf",
+  "vorschau": [
+   "massage-bei-heidi.jpg"
+  ]
+ },
+ {
+  "k": "massage-aushang",
+  "n": "Massage · Aushang",
+  "was": "Aushang A4 beim Hauseingang",
+  "format": "A4 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "massage-aushang.pdf",
+  "vorschau": [
+   "massage-aushang.jpg"
+  ]
+ },
+ {
+  "k": "heidis-jahre",
+  "n": "Heidis Jahre",
+  "was": "Übersicht A4: von den ersten Weltcupeinsätzen bis zur medizinischen Masseurin",
+  "format": "A4 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "heidis-jahre.pdf",
+  "vorschau": [
+   "heidis-jahre.jpg"
+  ]
+ },
+ {
+  "k": "visitenkarte",
+  "n": "Visitenkarte",
+  "was": "Visitenkarte 90 × 55 mm, vorne und hinten",
+  "format": "Visitenkarte",
+  "seiten": 2,
+  "rot": [],
+  "pdf": "visitenkarte.pdf",
+  "vorschau": [
+   "visitenkarte.jpg",
+   "visitenkarte-2.jpg"
+  ]
+ },
+ {
+  "k": "briefpapier",
+  "n": "Briefpapier",
+  "was": "Briefbogen A4: Zeichen und Name oben, Gastgeber und Kontakt unten",
+  "format": "A4 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "briefpapier.pdf",
+  "vorschau": [
+   "briefpapier.jpg"
+  ]
+ },
+ {
+  "k": "grusskarte",
+  "n": "Grusskarte",
+  "was": "Grusskarte quadratisch 148 mm",
+  "format": "Quadrat",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "grusskarte.pdf",
+  "vorschau": [
+   "grusskarte.jpg"
+  ]
+ },
+ {
+  "k": "ansichtskarte-chalet-im-winter",
+  "n": "Ansichtskarte · Chalet im Winter",
+  "was": "Ansichtskarte A6 quer, vorne Foto, hinten Platz für den Gruss",
+  "format": "A6 quer",
+  "seiten": 2,
+  "rot": [],
+  "pdf": "ansichtskarte-chalet-im-winter.pdf",
+  "vorschau": [
+   "ansichtskarte-chalet-im-winter.jpg",
+   "ansichtskarte-chalet-im-winter-2.jpg"
+  ]
+ },
+ {
+  "k": "ansichtskarte-saas-almagell",
+  "n": "Ansichtskarte · Saas-Almagell",
+  "was": "Ansichtskarte A6 quer, vorne Foto, hinten Platz für den Gruss",
+  "format": "A6 quer",
+  "seiten": 2,
+  "rot": [],
+  "pdf": "ansichtskarte-saas-almagell.pdf",
+  "vorschau": [
+   "ansichtskarte-saas-almagell.jpg",
+   "ansichtskarte-saas-almagell-2.jpg"
+  ]
+ },
+ {
+  "k": "flyer-chalet-rustica",
+  "n": "Chalet Rustica · Flyer",
+  "was": "Flyer A5, vorne Foto, hinten die Angaben",
+  "format": "A5 hoch",
+  "seiten": 2,
+  "rot": [],
+  "pdf": "flyer-chalet-rustica.pdf",
+  "vorschau": [
+   "flyer-chalet-rustica.jpg",
+   "flyer-chalet-rustica-2.jpg"
+  ]
+ },
+ {
+  "k": "flyer-weissmies",
+  "n": "Flyer · Weissmies",
+  "was": "Blatt A5 mit Foto der Wohnung Weissmies",
+  "format": "A5 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "flyer-weissmies.pdf",
+  "vorschau": [
+   "flyer-weissmies.jpg"
+  ]
+ },
+ {
+  "k": "instagram-mitten-im-dorf",
+  "n": "Beitrag · Mitten im Dorf",
+  "was": "Instagram-Beitrag 4:5",
+  "format": "Instagram 4:5",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "instagram-mitten-im-dorf.pdf",
+  "vorschau": [
+   "instagram-mitten-im-dorf.jpg"
+  ]
+ },
+ {
+  "k": "instagram-tief-verschneit",
+  "n": "Beitrag · Tief verschneit",
+  "was": "Instagram-Beitrag 4:5",
+  "format": "Instagram 4:5",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "instagram-tief-verschneit.pdf",
+  "vorschau": [
+   "instagram-tief-verschneit.jpg"
+  ]
+ },
+ {
+  "k": "instagram-mattmark",
+  "n": "Beitrag · Mattmark",
+  "was": "Instagram-Beitrag 4:5",
+  "format": "Instagram 4:5",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "instagram-mattmark.pdf",
+  "vorschau": [
+   "instagram-mattmark.jpg"
+  ]
+ },
+ {
+  "k": "instagram-heidi",
+  "n": "Beitrag · Heidi",
+  "was": "Instagram-Beitrag 4:5",
+  "format": "Instagram 4:5",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "instagram-heidi.pdf",
+  "vorschau": [
+   "instagram-heidi.jpg"
+  ]
+ },
+ {
+  "k": "story-langlauf",
+  "n": "Story: Langlauf",
+  "was": "Instagram-Story 9:16",
+  "format": "Story 9:16",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "story-langlauf.pdf",
+  "vorschau": [
+   "story-langlauf.jpg"
+  ]
+ },
+ {
+  "k": "hinweis-bitte-nicht-rauchen",
+  "n": "Nichtraucherhaus",
+  "was": "Hinweiskarte A6 in der Wohnung",
+  "format": "A6 hoch",
+  "seiten": 1,
+  "rot": [],
+  "pdf": "hinweis-bitte-nicht-rauchen.pdf",
+  "vorschau": [
+   "hinweis-bitte-nicht-rauchen.jpg"
+  ]
+ }
+]

@@ -1,0 +1,40 @@
+{
+ "zeit": "2026-11-06T14:20:00+01:00",
+ "art": "nachricht",
+ "name": "Heinz Ruppen",
+ "kontakt": "heinz.ruppen@example.com",
+ "datum": "",
+ "personen": null,
+ "anliegen": "Fragt, ob man auf dem Balkon rauchen darf und ob es eine Waschmaschine gibt.",
+ "sprache": "de",
+ "gespraech": "beispiel-5",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Darf man auf dem Balkon rauchen? Und gibt es eine Waschmaschine im Haus?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Das ganze Haus ist Nichtraucherhaus, und die hauseigene Waschküche steht allen Gästen zur Verfügung. Möchten Sie, dass Heidi und Damian Ihnen persönlich antworten? Dann nennen Sie mir Ihren Namen und eine E-Mail-Adresse."
+  },
+  {
+   "rolle": "user",
+   "text": "Heinz Ruppen, heinz.ruppen@example.com"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht im Gästebuch."
+  }
+ ],
+ "status": "erledigt",
+ "beispiel": true,
+ "abteilung": "Nachrichten",
+ "entwurf": {
+  "betreff": "Ihre Fragen zum Chalet Rustica",
+  "text": "Grüezi Herr Ruppen,\n\nherzlichen Dank für Ihre Nachricht. Gerne beantworten wir Ihre beiden Fragen.\n\nDas ganze Haus ist Nichtraucherhaus. Damit Ihr Aufenthalt noch angenehmer ist, wird in den Wohnungen nicht geraucht [Balkon bestätigen].\n\nDie hauseigene Waschküche steht Ihnen zur Verfügung, für alle Gäste im Haus. Bettwäsche, Dusch- und Handtücher und Küchentücher sind im Preis inbegriffen.\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Das Haus, Die Wohnungen, Startseite (Hausregeln, Waschküche).\nOffen: ob der Balkon zum Nichtraucherhaus zählt (die Website sagt «Das ganze Haus ist Nichtraucherhaus»).",
+  "vorlage": "nachricht",
+  "absender": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+  "zeit": "2026-11-06T14:20:00+01:00"
+ }
+}

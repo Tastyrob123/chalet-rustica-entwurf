@@ -1,0 +1,36 @@
+{
+ "zeit": "2026-11-04T09:50:00+01:00",
+ "art": "wohnung",
+ "name": "Bruno Kalbermatten",
+ "kontakt": "bruno.kalbermatten@example.com",
+ "datum": "24.07.2027 bis 31.07.2027",
+ "personen": 8,
+ "anliegen": "Zwei befreundete Familien zu acht im Sommer, Anreise mit dem Auto, fragen nach dem Preis.",
+ "sprache": "de",
+ "gespraech": "beispiel-7",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Kontakt): Ihr Anliegen: Eine freie Wohnung\nAnkunft: 24.07.2027\nAbreise: 31.07.2027\nErwachsene: 4\nKinder (bis 10 J.): 4\nWünsche: Wir sind zwei befreundete Familien und kommen mit dem Auto. Was kostet eine Woche für uns alle?"
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+ "abteilung": "Wohnungen",
+ "seite": "/kontakt.html",
+ "seite_name": "Kontakt",
+ "web": true,
+ "nachricht": "Ihr Anliegen: Eine freie Wohnung\nAnkunft: 24.07.2027\nAbreise: 31.07.2027\nErwachsene: 4\nKinder (bis 10 J.): 4\nWünsche: Wir sind zwei befreundete Familien und kommen mit dem Auto. Was kostet eine Woche für uns alle?",
+ "formular": "allgemein",
+ "platz": "Eine freie Wohnung",
+ "entwurf": {
+  "betreff": "Ihre Ferienwohnung in Saas-Almagell",
+  "text": "Grüezi Bruno Kalbermatten,\n\nherzlichen Dank für Ihre Anfrage. Gerne schauen wir, welche unserer drei Wohnungen für Ihre Tage frei ist [Verfügbarkeit prüfen].\n\nBei allen Wohnungen sind Bettwäsche, Dusch- und Handtücher, Küchentücher, Heizung, Warmwasser und Strom, Endreinigung und Kurtaxe im Preis inbegriffen. Für Ihre Tage beträgt der Preis [Preis für die Tage].\n\nDamit wir die passende Wohnung für Sie bereitmachen können:\n- Ankunft und Abreise\n- wie viele Erwachsene und Kinder\n- Ihre Wunschwohnung\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Die Wohnungen, Startseite (Website)\nOffen: Verfügbarkeit, Wohnung, Preis für die Tage",
+  "vorlage": "wohnung",
+  "absender": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+  "zeit": "2026-11-10T16:36:37+08:00",
+  "fassung": 1
+ }
+}

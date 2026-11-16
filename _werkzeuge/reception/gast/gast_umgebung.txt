@@ -1,0 +1,15 @@
+=== Kontakt (Website: kontakt.html, Fuss jeder Seite; _web/inhalt/daten.py HAUS) ===
+Telefon: +41 27 957 10 55. E-Mail: info@chalet-rustica.ch. Gastgeber: Heidi und Damian Andenmatten-Zurbriggen.
+Adresse: Chalet Rustica, CH-3905 Saas-Almagell (die Website nennt keine Strasse; nenne keine).
+Sie können telefonisch, per E-Mail oder über das Formular anfragen. Wir freuen uns über Ihre Anfrage.
+Anfragen: mit «Anfrage senden» auf jeder Seite (Formular: Ihr Anliegen, Ankunft, Abreise, Erwachsene, Kinder bis 10 Jahre, Name, Vorname, E-Mail, Telefon, Wünsche), bei jeder Wohnung mit «anfragen», oder per Telefon und E-Mail.
+Preise: Die Website nennt keine Preise. Bei jeder Wohnung steht «Preise anfragen»: Preise auf Anfrage bei Heidi und Damian.
+Massage bei Heidi: mit «Massage anfragen» auf der Seite Heidi, per Telefon oder E-Mail.
+
+=== Lage (Website: index.html, saas-almagell.html, kontakt.html) ===
+Der rustikale Neubau mit drei Sternen liegt sehr zentral und trotzdem in ruhiger Lage. Direkt daneben fliesst ein Bach vorbei, und Sie haben freie Sicht auf das wunderschöne Bergpanorama.
+Innerhalb 5 Minuten erreichen Sie zu Fuss die Skilifte, Sportanlagen, die Bushaltestelle, Parkplatz und Einkaufsläden.
+Saas-Almagell liegt auf 1600 Metern über Meer, die südlichste Gemeinde des Saastales.
+
+=== Nicht veröffentlicht (_web/inhalt/daten.py OFFEN) ===
+Preise der Wohnungen, Belegungskalender und freie Daten, Mindestaufenthalt, An- und Abreisetag, Uhrzeiten für Ankunft und Abreise und die Strasse stehen in keiner Quelle des Hauses. Dazu verweist der Chat an Heidi und Damian.

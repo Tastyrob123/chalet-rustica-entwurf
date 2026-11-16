@@ -1,0 +1,242 @@
+{
+ "dorf": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/213.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-13.jpg"
+ },
+ "gastgeber": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "gletscher": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "haus-berg": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/001.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-01.jpg"
+ },
+ "haus-sommer": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/004.png",
+  "ausschnitt": [
+   0.03987,
+   0,
+   0.96013,
+   1
+  ],
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-04.jpg"
+ },
+ "haus-winter": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/002.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-02.jpg"
+ },
+ "heidi-helm": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "heidi-jubel": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "heidi-praxis": {
+  "druck": "Familie Zurbriggen/_quelle/saas-almagell/online-2026-10-18/bilder/2692-60445.jpg",
+  "ausschnitt": null,
+  "original": null
+ },
+ "heidi-telefon": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "hoehenweg": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "klettergarten": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "klettersteig": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "laerchen": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/232.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-32.jpg"
+ },
+ "langlauf": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "mattmark": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "mattmark-see": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "n1-bad": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/105.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr1badduschegross.JPG"
+ },
+ "n1-kueche": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/104.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr1kuecheesstischgross.JPG"
+ },
+ "n1-nord": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/103.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr1zimmernordgross.JPG"
+ },
+ "n1-sued": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/102.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr1zimmersuedgross.JPG"
+ },
+ "n1-wohnraum": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/101.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr1wohnraumgross.JPG"
+ },
+ "n2-bad": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/110.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr2badgross.jpg"
+ },
+ "n2-balkon": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/108.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr2balkongross.jpg"
+ },
+ "n2-bett": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/106.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr2bettgross.jpg"
+ },
+ "n2-kueche": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/109.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr2kuchegross.jpg"
+ },
+ "n2-wohn": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/107.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr2wohngross.jpg"
+ },
+ "n5-bad": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/116.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr5badgross.jpg"
+ },
+ "n5-bett": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/114.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr5bettgross.jpg"
+ },
+ "n5-kueche": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/113.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr5kuchegross.jpg"
+ },
+ "n5-wohn": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/111.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr5wohngross.jpg"
+ },
+ "n5-wohn2": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/112.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr5wohn2gross.jpg"
+ },
+ "n5-zimmer2": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/115.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/spiegel/rustica/bilder/nr5balkongross.jpg"
+ },
+ "panorama": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-11.jpg"
+ },
+ "piste": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/203.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-03.jpg"
+ },
+ "schlitteln": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "schneeschuh": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "skifahren": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "sommer-hoch": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/004.png",
+  "ausschnitt": [
+   0.13674,
+   0,
+   0.58326,
+   1
+  ],
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-04.jpg"
+ },
+ "tal-klar": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/024.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-24.jpg"
+ },
+ "wald": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/228.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-28.jpg"
+ },
+ "weiler": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/222.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-22.jpg"
+ },
+ "winterweg": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/216.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-16.jpg"
+ },
+ "zeitung-glaube": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "zeitung-junior": {
+  "druck": null,
+  "ausschnitt": null,
+  "original": null
+ },
+ "ziegen": {
+  "druck": "Zurbriggen Chalet Rustica Saas-Almagell/_ki/roh/227.png",
+  "ausschnitt": null,
+  "original": "Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-27.jpg"
+ }
+}

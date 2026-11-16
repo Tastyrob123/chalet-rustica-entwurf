@@ -1,0 +1,259 @@
+[
+ {
+  "vor": [
+   0,
+   8,
+   40
+  ],
+  "art": "wohnung",
+  "status": "neu",
+  "abteilung": "Wohnungen",
+  "name": "Ursula Bänziger",
+  "kontakt": "ursula.baenziger@example.com",
+  "datum": "26.12.2026 bis 02.01.2027",
+  "personen": 4,
+  "sprache": "de",
+  "anliegen": "Wohnung Almagellerhorn über Neujahr, zwei Erwachsene und zwei Kinder (6 und 9 Jahre alt).",
+  "betreff": "",
+  "text": "",
+  "team": "",
+  "platz": "Wohnung Almagellerhorn",
+  "web": true,
+  "an": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+  "seite": "/wohnung-almagellerhorn.html",
+  "seite_name": "Wohnung Almagellerhorn",
+  "nachricht": "Ihr Anliegen: Wohnung Almagellerhorn\nAnkunft: 26.12.2026\nAbreise: 02.01.2027\nErwachsene: 2\nKinder (bis 10 J.): 2\nWünsche: Unsere Kinder sind 6 und 9 Jahre alt und freuen sich auf den Schnee. Gibt es in der Nähe etwas für Kinder?",
+  "formular": "wohnung",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Wohnung Almagellerhorn): Ihr Anliegen: Wohnung Almagellerhorn\nAnkunft: 26.12.2026\nAbreise: 02.01.2027\nErwachsene: 2\nKinder (bis 10 J.): 2\nWünsche: Unsere Kinder sind 6 und 9 Jahre alt und freuen sich auf den Schnee. Gibt es in der Nähe etwas für Kinder?"
+   ]
+  ]
+ },
+ {
+  "vor": [
+   1,
+   20,
+   15
+  ],
+  "art": "wohnung",
+  "status": "gelesen",
+  "abteilung": "Wohnungen",
+  "name": "Daniel Gerber",
+  "kontakt": "daniel.gerber@example.com",
+  "datum": "13.02.2027 bis 20.02.2027",
+  "personen": 5,
+  "sprache": "de",
+  "anliegen": "Eine Woche im Februar zu fünft, Anreise mit Zug und Bus, ohne Auto.",
+  "platz": "Wohnung Portjengrat",
+  "betreff": "Ihre Woche im Februar im Chalet Rustica",
+  "text": "Grüezi Herr Gerber,\n\nherzlichen Dank für Ihre Anfrage. Für Sie zu fünft passt die Wohnung Portjengrat im Erdgeschoss: ein Schlafzimmer mit einem Doppelbett und einem Einzelbett, dazu zwei Klappbetten im Aufenthaltsraum, 2 Duschen / WC und der Südbalkon mit Liegewiese. Gerne schauen wir, ob sie vom 13. bis 20. Februar für Sie frei ist [Verfügbarkeit prüfen].\n\nBei allen Wohnungen sind Bettwäsche, Dusch- und Handtücher, Küchentücher, Heizung, Warmwasser und Strom, Endreinigung und Kurtaxe im Preis inbegriffen. Für Ihre Woche beträgt der Preis [Preis für die Tage].\n\nOhne Auto reisen Sie bequem: mit dem Zug bis Visp, von dort mit dem Bus über Saas-Grund nach Saas-Almagell. Die Bushaltestelle liegt 100 Meter vom Haus, die Skilifte erreichen Sie in fünf Minuten zu Fuss.\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Die Wohnungen (Portjengrat), Startseite (im Preis inbegriffen), Kontakt (Anreise), Das Haus (Rund ums Haus).\nOffen: ob Portjengrat frei ist, Preis für die Woche.",
+  "verlauf": [
+   [
+    "user",
+    "Guten Tag, wir sind zu fünft und möchten im Februar eine Woche kommen, vom 13. bis 20. Februar. Wir reisen mit dem Zug an. Welche Wohnung passt?"
+   ],
+   [
+    "assistant",
+    "Für fünf Personen passt die Wohnung Portjengrat mit 5 Schlafplätzen, davon zwei Klappbetten. Ob sie frei ist, kann ich hier nicht prüfen. Gerne gebe ich Ihre Anfrage an Heidi und Damian weiter: Wie heissen Sie, und wie erreicht man Sie?"
+   ],
+   [
+    "user",
+    "Daniel Gerber, daniel.gerber@example.com"
+   ],
+   [
+    "assistant",
+    "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht im Gästebuch."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   1,
+   11,
+   30
+  ],
+  "art": "wohnung",
+  "status": "gelesen",
+  "abteilung": "Wohnungen",
+  "name": "Claudia Moser",
+  "kontakt": "claudia.moser@example.com",
+  "datum": "10.07.2027 bis 17.07.2027",
+  "personen": 2,
+  "sprache": "de",
+  "anliegen": "Die Wohnung Weissmies im Juli zu zweit, möchte ihren kleinen Hund mitbringen.",
+  "platz": "Wohnung Weissmies",
+  "betreff": "Ihre Sommerwoche in der Wohnung Weissmies",
+  "text": "Grüezi Frau Moser,\n\nherzlichen Dank für Ihre Nachricht und Ihr Interesse an der Wohnung Weissmies. Sie liegt im ersten Stock, neu renoviert, mit zwei Schlafzimmern und dem Südbalkon. Gerne schauen wir, ob sie vom 10. bis 17. Juli für Sie frei ist [Verfügbarkeit prüfen].\n\nZu Ihrem Hund müssen wir Ihnen ehrlich sagen: Haustiere sind in allen unseren Wohnungen nicht gestattet. Wir hoffen auf Ihr Verständnis.\n\nDen Preis für Ihre Tage nennen wir Ihnen gerne [Preis für die Tage].\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Wohnung Weissmies (Website), Startseite und Die Wohnungen (Hausregeln).\nOffen: Verfügbarkeit, Preis für die Tage.",
+  "verlauf": [
+   [
+    "user",
+    "Grüezi, wir möchten im Juli eine Woche in die Wohnung Weissmies, vom 10. bis 17. Juli. Dürfen wir unseren kleinen Hund mitbringen?"
+   ],
+   [
+    "assistant",
+    "Haustiere sind in allen Wohnungen nicht gestattet. Gerne gebe ich Ihre Anfrage für die Wohnung Weissmies trotzdem an Heidi und Damian weiter: Wie heissen Sie, und wie erreicht man Sie?"
+   ],
+   [
+    "user",
+    "Claudia Moser, claudia.moser@example.com"
+   ],
+   [
+    "assistant",
+    "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht im Gästebuch."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   2,
+   17,
+   5
+  ],
+  "art": "massage",
+  "status": "neu",
+  "abteilung": "Massage bei Heidi",
+  "name": "Monika Imboden",
+  "kontakt": "monika.imboden@example.com",
+  "datum": "19.02.2027",
+  "personen": 1,
+  "sprache": "de",
+  "anliegen": "Eine Massage bei Heidi während ihrer Skiferien, nach einem Tag auf der Piste.",
+  "platz": "Massage bei Heidi",
+  "betreff": "Ihre Massage bei Heidi",
+  "text": "Grüezi Frau Imboden,\n\nherzlichen Dank für Ihre Nachricht. Heidi nimmt sich gerne Zeit für Sie [Termin bei Heidi].\n\nIhre eigene Massagepraxis führt sie im Hotel Pirmin Zurbriggen, auch für die Gäste des Chalet Rustica. Von 1998 bis 2001 machte sie in der VDMS Aarau die Ausbildung zur medizinischen Masseurin; nach ihren eigenen Verletzungen hatten ihr die Methoden von Benno Poli geholfen, und das gibt sie heute weiter.\n\nDamit Heidi alles für Sie vorbereiten kann:\n- die Uhrzeit, die Ihnen am 19. Februar passt\n- was Ihnen guttun soll\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Heidi (Website), Startseite (Heidis zweite Karriere).\nOffen: Termin, Dauer und Preis der Massage (stehen in keiner Quelle).",
+  "web": true,
+  "an": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+  "seite": "/heidi.html",
+  "seite_name": "Heidi",
+  "nachricht": "Ihr Anliegen: Massage bei Heidi\nAnkunft: 19.02.2027\nAbreise: 20.02.2027\nErwachsene: 1\nKinder (bis 10 J.): 0\nWünsche: Nach einem Skitag hätte ich gerne eine Massage, am liebsten am späten Nachmittag.",
+  "formular": "massage",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Heidi): Ihr Anliegen: Massage bei Heidi\nAnkunft: 19.02.2027\nAbreise: 20.02.2027\nErwachsene: 1\nKinder (bis 10 J.): 0\nWünsche: Nach einem Skitag hätte ich gerne eine Massage, am liebsten am späten Nachmittag."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   3,
+   14,
+   20
+  ],
+  "art": "nachricht",
+  "status": "erledigt",
+  "abteilung": "Nachrichten",
+  "name": "Heinz Ruppen",
+  "kontakt": "heinz.ruppen@example.com",
+  "datum": "",
+  "personen": null,
+  "sprache": "de",
+  "anliegen": "Fragt, ob man auf dem Balkon rauchen darf und ob es eine Waschmaschine gibt.",
+  "betreff": "Ihre Fragen zum Chalet Rustica",
+  "text": "Grüezi Herr Ruppen,\n\nherzlichen Dank für Ihre Nachricht. Gerne beantworten wir Ihre beiden Fragen.\n\nDas ganze Haus ist Nichtraucherhaus. Damit Ihr Aufenthalt noch angenehmer ist, wird in den Wohnungen nicht geraucht [Balkon bestätigen].\n\nDie hauseigene Waschküche steht Ihnen zur Verfügung, für alle Gäste im Haus. Bettwäsche, Dusch- und Handtücher und Küchentücher sind im Preis inbegriffen.\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Das Haus, Die Wohnungen, Startseite (Hausregeln, Waschküche).\nOffen: ob der Balkon zum Nichtraucherhaus zählt (die Website sagt «Das ganze Haus ist Nichtraucherhaus»).",
+  "verlauf": [
+   [
+    "user",
+    "Darf man auf dem Balkon rauchen? Und gibt es eine Waschmaschine im Haus?"
+   ],
+   [
+    "assistant",
+    "Das ganze Haus ist Nichtraucherhaus, und die hauseigene Waschküche steht allen Gästen zur Verfügung. Möchten Sie, dass Heidi und Damian Ihnen persönlich antworten? Dann nennen Sie mir Ihren Namen und eine E-Mail-Adresse."
+   ],
+   [
+    "user",
+    "Heinz Ruppen, heinz.ruppen@example.com"
+   ],
+   [
+    "assistant",
+    "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht im Gästebuch."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   4,
+   21,
+   10
+  ],
+  "art": "wohnung",
+  "status": "gelesen",
+  "abteilung": "Wohnungen",
+  "name": "Sarah Whitfield",
+  "kontakt": "sarah.whitfield@example.com",
+  "datum": "06.03.2027 bis 13.03.2027",
+  "personen": 4,
+  "sprache": "en",
+  "anliegen": "Eine Woche im März zu viert, zum Skifahren und Langlaufen; fragt nach dem Weg zu den Skiliften und zur Loipe.",
+  "platz": "Wohnung Weissmies",
+  "betreff": "Your week at Chalet Rustica in March",
+  "text": "Dear Ms Whitfield,\n\nthank you very much for your enquiry. For the four of you, the Weissmies apartment on the first floor, newly renovated, has two bedrooms with two beds each and a south-facing balcony. We will gladly check whether it is free from 6 to 13 March [check availability].\n\nThe ski lifts are five minutes away on foot, and the cross-country trail is close by. The 26-kilometre Saastal trail runs from Saas-Balen through Saas-Almagell to the Eyenalp.\n\nWe will send you the price for your dates [price for your dates].\n\nWith warm regards from the Andenmatten-Zurbriggen family\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica",
+  "team": "Grundlage: Wohnung Weissmies, Das Haus (Im Winter), Das Tal (Langlauf).\nOffen: Verfügbarkeit, Preis für die Tage.",
+  "deutsch": {
+   "betreff": "Ihre Woche im Chalet Rustica im März",
+   "text": "Sehr geehrte Frau Whitfield,\n\nherzlichen Dank für Ihre Anfrage. Für Sie zu viert hat die Wohnung Weissmies im ersten Stock, neu renoviert, zwei Schlafzimmer mit je zwei Betten und einen Südbalkon. Gerne schauen wir, ob sie vom 6. bis 13. März frei ist [Verfügbarkeit prüfen].\n\nDie Skilifte erreichen Sie in fünf Minuten zu Fuss, die Langlaufloipe liegt ganz in der Nähe. Die 26 Kilometer lange Saastal-Loipe führt von Saas-Balen über Saas-Almagell bis zur Eyenalp.\n\nDen Preis für Ihre Tage schicken wir Ihnen [Preis für die Tage].\n\nEs grüsst Sie herzlich die Familie Andenmatten-Zurbriggen\n\nHeidi und Damian Andenmatten-Zurbriggen\nChalet Rustica"
+  },
+  "verlauf_de": [
+   "Guten Tag, wir möchten im März eine Woche zu viert kommen, zum Skifahren und Langlaufen. Wie weit ist es zu den Skiliften und zur Loipe?",
+   "Die Skilifte erreichen Sie in fünf Minuten zu Fuss, die Langlaufloipe liegt ganz in der Nähe. Möchten Sie mir Ihren Namen und eine E-Mail-Adresse geben, damit Heidi und Damian Ihnen antworten?",
+   "Sarah Whitfield, sarah.whitfield@example.com, 6. bis 13. März, zu viert",
+   "Danke. Dies ist ein Entwurf von Tasty Studios: Die Anfrage geht nicht an das Haus, sie liegt nur zur Ansicht im Gästebuch."
+  ],
+  "verlauf": [
+   [
+    "user",
+    "Hello, we would like to stay a week in March, four of us, for skiing and cross-country skiing. How far is it to the ski lifts and the trail?"
+   ],
+   [
+    "assistant",
+    "The ski lifts are five minutes away on foot, and the cross-country trail is close by. Could you give me your name and an email address, so that Heidi and Damian can reply?"
+   ],
+   [
+    "user",
+    "Sarah Whitfield, sarah.whitfield@example.com, 6 to 13 March, four of us"
+   ],
+   [
+    "assistant",
+    "Thank you. This is a draft by Tasty Studios: your request does not go to the chalet, it is only kept for viewing in the host tool."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   5,
+   9,
+   50
+  ],
+  "art": "wohnung",
+  "status": "neu",
+  "abteilung": "Wohnungen",
+  "name": "Bruno Kalbermatten",
+  "kontakt": "bruno.kalbermatten@example.com",
+  "datum": "24.07.2027 bis 31.07.2027",
+  "personen": 8,
+  "sprache": "de",
+  "anliegen": "Zwei befreundete Familien zu acht im Sommer, Anreise mit dem Auto, fragen nach dem Preis.",
+  "betreff": "",
+  "text": "",
+  "team": "",
+  "platz": "Eine freie Wohnung",
+  "web": true,
+  "an": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+  "seite": "/kontakt.html",
+  "seite_name": "Kontakt",
+  "nachricht": "Ihr Anliegen: Eine freie Wohnung\nAnkunft: 24.07.2027\nAbreise: 31.07.2027\nErwachsene: 4\nKinder (bis 10 J.): 4\nWünsche: Wir sind zwei befreundete Familien und kommen mit dem Auto. Was kostet eine Woche für uns alle?",
+  "formular": "allgemein",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Kontakt): Ihr Anliegen: Eine freie Wohnung\nAnkunft: 24.07.2027\nAbreise: 31.07.2027\nErwachsene: 4\nKinder (bis 10 J.): 4\nWünsche: Wir sind zwei befreundete Familien und kommen mit dem Auto. Was kostet eine Woche für uns alle?"
+   ]
+  ]
+ }
+]

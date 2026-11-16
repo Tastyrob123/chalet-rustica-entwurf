@@ -1,0 +1,14 @@
+/* Chalet Rustica, Saas-Almagell · Farben der Marke (09.11.2026), Werte der Website (rustica.css) */
+:root{
+  --putz:#F4EEE3; /* Putz: Grund der hellen Seiten, warm, nie reines Weiss */
+  --papier:#FBF7EF; /* Papier: helle Fläche auf Putz: Blätter, Tafeln, Formulare */
+  --creme:#EFE6D6; /* Creme: ruhige Fläche und Schrift auf dunklem Holz */
+  --holz:#5A4632; /* Holz: das Balkonholz: Name, Betonung im Titel, Linie auf Hell */
+  --holz2:#4A3926; /* Holz 2: zweite dunkle Fläche, Platte auf Holz */
+  --tief:#33261C; /* Tief: dunkle Fläche: Fuss, Anfrage, Kopf der Werkzeuge */
+  --nacht:#271D16; /* Nacht: das Dunkelste, für Winterabschnitte und unter Fotos */
+  --tinte:#3A2E22; /* Tinte: Titel und Lesetext auf Hell, nie reines Schwarz */
+  --leise:#76654F; /* Leise: kleine Zeilen, Pfade und Nebentext */
+  --stroh:#D9BF8F; /* Stroh: Akzent auf Dunkel: Linie, kleine Zeile, das Zeichen */
+  --gold:#A9865A; /* Gold: Akzent auf Hell: Linie und kleine Auszeichnung */
+}

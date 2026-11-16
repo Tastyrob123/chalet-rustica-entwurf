@@ -1,0 +1,96 @@
+{
+ "ziel": "almagellerhorn",
+ "art": "satz",
+ "key": "almagellerhorn",
+ "name": "Almagellerhorn",
+ "unter": "Erdgeschoss",
+ "gruppe": "Die Wohnungen",
+ "ab": "",
+ "plakat": "",
+ "foto": "n1-sued",
+ "titel": "Almagellerhorn",
+ "datum": "Wohnung · Erdgeschoss",
+ "mit": "2 Schlafzimmer · Südbalkon mit Liegewiese",
+ "rubriken": [
+  {
+   "titel": "Auf einen Blick",
+   "form": "zahlen",
+   "eintraege": [
+    {
+     "name": "2",
+     "zeit": "",
+     "text": "Schlafzimmer",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "4",
+     "zeit": "",
+     "text": "Betten in zwei Doppelbetten",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "1",
+     "zeit": "",
+     "text": "Dusche / WC",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  },
+  {
+   "titel": "Ausstattung",
+   "form": "",
+   "eintraege": [
+    {
+     "name": "2 Schlafzimmer mit je einem Doppelbett",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Aufenthaltsraum mit TV und Radio",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Essraum und Küche mit Geschirrspüler, Kaffeemaschine und Toaster",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Dusche / WC mit Haartrockner",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    },
+    {
+     "name": "Südbalkon mit Liegewiese",
+     "zeit": "",
+     "text": "",
+     "preis": "",
+     "bild": ""
+    }
+   ]
+  }
+ ],
+ "hinweis": "",
+ "quelle": "_werkzeuge/_web/inhalt/daten.py WOHNUNGEN («Almagellerhorn»: name, lage, kurz, zahlen, liste, bilder), gebaut auf wohnung-almagellerhorn.html",
+ "seite": "wohnung-almagellerhorn.html",
+ "bild": {
+  "schluessel": "n1-wohnraum",
+  "alt": "Wohnung Almagellerhorn: Aufenthaltsraum mit Polstergruppe und Fernseher"
+ },
+ "foto_gross": "n1-kueche",
+ "fotos": [
+  "n1-nord",
+  "n1-bad"
+ ]
+}

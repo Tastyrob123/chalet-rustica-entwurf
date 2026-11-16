@@ -1,0 +1,28 @@
+{
+ "zeit": "2026-11-04T09:50:00+01:00",
+ "art": "wohnung",
+ "name": "Bruno Kalbermatten",
+ "kontakt": "bruno.kalbermatten@example.com",
+ "datum": "24.07.2027 bis 31.07.2027",
+ "personen": 8,
+ "anliegen": "Zwei befreundete Familien zu acht im Sommer, Anreise mit dem Auto, fragen nach dem Preis.",
+ "sprache": "de",
+ "gespraech": "beispiel-7",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Kontakt): Ihr Anliegen: Eine freie Wohnung\nAnkunft: 24.07.2027\nAbreise: 31.07.2027\nErwachsene: 4\nKinder (bis 10 J.): 4\nWünsche: Wir sind zwei befreundete Familien und kommen mit dem Auto. Was kostet eine Woche für uns alle?"
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "Telefon +41 27 957 10 55 · info@chalet-rustica.ch",
+ "abteilung": "Wohnungen",
+ "seite": "/kontakt.html",
+ "seite_name": "Kontakt",
+ "web": true,
+ "nachricht": "Ihr Anliegen: Eine freie Wohnung\nAnkunft: 24.07.2027\nAbreise: 31.07.2027\nErwachsene: 4\nKinder (bis 10 J.): 4\nWünsche: Wir sind zwei befreundete Familien und kommen mit dem Auto. Was kostet eine Woche für uns alle?",
+ "formular": "allgemein",
+ "platz": "Eine freie Wohnung",
+ "entwurf": null
+}

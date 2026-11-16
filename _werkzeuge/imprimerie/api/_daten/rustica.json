@@ -1,0 +1,218 @@
+{
+ "key": "rustica",
+ "name": "Chalet Rustica",
+ "voll": "Chalet Rustica Saas-Almagell",
+ "ort": "Saas-Almagell",
+ "artikel": "das",
+ "zeile": "Ferienwohnungen · Saas-Almagell",
+ "satz": "Mitten im Dorf. Und doch am Bach.",
+ "adr": "CH-3905 Saas-Almagell",
+ "tel": "+41 27 957 10 55",
+ "mail": "info@chalet-rustica.ch",
+ "web": "chalet-rustica.ch",
+ "gastgeber": "Heidi und Damian Andenmatten-Zurbriggen",
+ "gruss": "Es grüsst Sie herzlich die Familie Andenmatten-Zurbriggen",
+ "farben": {
+  "navy": "#33261C",
+  "nacht": "#271D16",
+  "blau": "#4A3926",
+  "tinte": "#3A2E22",
+  "papier": "#F4EEE3",
+  "creme": "#EFE6D6",
+  "weiss": "#FBF7EF",
+  "gold": "#D9BF8F",
+  "taupe": "#8A7458",
+  "messing": "#D9BF8F",
+  "tanne": "#5A4632",
+  "kander": "#A9865A",
+  "laden": "#4A3926",
+  "schoko": "#5A4632",
+  "logo": "#D9BF8F",
+  "leise": "#76654F"
+ },
+ "farbnamen": {
+  "navy": "Tief",
+  "nacht": "Nacht",
+  "blau": "Holz zwei",
+  "tinte": "Tinte",
+  "papier": "Putz",
+  "creme": "Creme",
+  "weiss": "Papier",
+  "gold": "Stroh",
+  "taupe": "Taupe",
+  "messing": "Stroh",
+  "tanne": "Holz",
+  "kander": "Gold",
+  "laden": "Holz zwei",
+  "schoko": "Holz",
+  "logo": "Stroh",
+  "leise": "Leise"
+ },
+ "toene": {
+  "dunkel": {
+   "grund": "navy",
+   "tapete": "dunkel",
+   "titel": "weiss",
+   "text": "papier",
+   "mono": "gold",
+   "linie": "gold",
+   "zeichen": "logo",
+   "schild": "papier",
+   "schild_text": "navy"
+  },
+  "hell": {
+   "grund": "weiss",
+   "tapete": null,
+   "titel": "tanne",
+   "text": "tinte",
+   "mono": "taupe",
+   "linie": "kander",
+   "zeichen": "tanne",
+   "schild": "navy",
+   "schild_text": "weiss"
+  },
+  "creme": {
+   "grund": "papier",
+   "tapete": "hell",
+   "titel": "tanne",
+   "text": "tinte",
+   "mono": "taupe",
+   "linie": "kander",
+   "zeichen": "tanne",
+   "schild": "navy",
+   "schild_text": "weiss"
+  },
+  "schoko": {
+   "grund": "schoko",
+   "tapete": "dunkel",
+   "titel": "weiss",
+   "text": "papier",
+   "mono": "gold",
+   "linie": "gold",
+   "zeichen": "logo",
+   "schild": "papier",
+   "schild_text": "schoko"
+  }
+ },
+ "schriften": {
+  "titel": {
+   "familie": "Fraunces 400",
+   "datei": "Fraunces-400.ttf",
+   "wofuer": "Titel, Fraunces Regular wie die Website: Betonung über die Farbe, nie fett, nie kursiv"
+  },
+  "kapitale": {
+   "familie": "Fraunces 400",
+   "datei": "Fraunces-400.ttf",
+   "wofuer": "Fraunces Regular für kurze Zeilen, nie fett"
+  },
+  "text": {
+   "familie": "Instrument Sans",
+   "datei": "InstrumentSans-400.ttf",
+   "wofuer": "Lesetext wie die Website"
+  },
+  "kursiv": {
+   "familie": "Instrument Sans 500",
+   "datei": "InstrumentSans-500.ttf",
+   "wofuer": "Betont (das Haus setzt nie kursiv, Betonung über die Stärke)"
+  },
+  "mono": {
+   "familie": "DM Mono",
+   "datei": "DMMono-400.ttf",
+   "wofuer": "Kleine Zeilen, Etiketten, Zahlen: DM Mono gesperrt, Ziffern gleich breit"
+  },
+  "plakat": {
+   "familie": "Fraunces 400",
+   "datei": "Fraunces-400.ttf",
+   "wofuer": "Grosse Zeilen auf Plakaten und Aushängen, Fraunces Regular"
+  },
+  "plakatfett": {
+   "familie": "Fraunces 500",
+   "datei": "Fraunces-500.ttf",
+   "wofuer": "Grosse Zahlen auf Plakaten, Fraunces 500 (nie fetter)"
+  },
+  "kopf": {
+   "familie": "Fraunces 400",
+   "datei": "Fraunces-400.ttf",
+   "wofuer": "Kopfzeile, Fraunces Regular"
+  },
+  "marke": {
+   "familie": "Grenze Gotisch",
+   "datei": "GrenzeGotisch-400.ttf",
+   "wofuer": "Nur der Name «Chalet Rustica», wie im Kopf der Website; nie für andere Zeilen"
+  }
+ },
+ "tapete": {
+  "dunkel": "tapete-dunkel.webp",
+  "hell": "tapete-hell.webp",
+  "rapport_mm": 24
+ },
+ "abende": [],
+ "betriebe": [
+  [
+   "Chalet Rustica Saas-Almagell",
+   "Drei Ferienwohnungen mit Südbalkon, 13 Schlafplätze, 1600 Meter über Meer; Gastgeber Heidi und Damian Andenmatten-Zurbriggen"
+  ]
+ ],
+ "regeln": [
+  "Anrede «Sie», bescheiden und warm, im Ton von Heidi und Damian. Schweizer Schreibung (ss, «Guillemets»). Nie Werbesprache, nie Ausrufezeichen im Titel.",
+  "Wertigkeit, Sorgfalt, der einzelne Gast. Nie Masse, Abfertigung oder Stückzahlen als Pointe.",
+  "Titel in Fraunces Regular, Betonung über die Farbe, nie fett, nie kursiv. Lauf in Instrument Sans. Kleine Zeilen in DM Mono gesperrt. Grenze Gotisch nur im Namen.",
+  "Holztöne (Tief, Holz) als dunkle Fläche, Putz, Papier und Creme als Raum, Stroh und Gold nur als Linie, Etikett und Zeichen. Kein Pink, nie Weiss auf Weiss.",
+  "Das Zeichen ist das gotische R der Website, nie als Schrift nachgebaut.",
+  "Es sind Ferienwohnungen: kein Restaurant, kein Spa, keine Zimmer, kein Empfang. Keine Preise (das Haus veröffentlicht keine), keine erfundenen Zeiten. Die Strasse nennt die Website nicht: Adresse «CH-3905 Saas-Almagell».",
+  "Fotos einer Wohnung nur mit ihrem Namen (Almagellerhorn, Portjengrat, Weissmies). Porträts von Heidi und den Gastgebern nie als Titelbild."
+ ],
+ "bilder": [
+  "auftakt | quer | Das Chalet Rustica an einem Sommertag, Blumen an den Balkonen",
+  "haus-berg | quer | Das Chalet Rustica an einem Sommertag, dahinter der Berg",
+  "haus-sommer | quer | Das Chalet Rustica im Sommer mit Geranien an jedem Balkon und der Liegewiese davor",
+  "haus-winter | hoch | Das Chalet Rustica im tiefen Schnee, an der Fassade der Schriftzug «Rustica»",
+  "sommer-hoch | hoch | Die Balkone des Chalet Rustica voller Geranien",
+  "winter-quer | quer | Das Chalet Rustica im tiefen Schnee, an der Fassade der Schriftzug «Rustica»",
+  "n1-bad | hoch | Wohnung Almagellerhorn: Dusche und WC",
+  "n1-kueche | hoch | Wohnung Almagellerhorn: Essplatz und Küche",
+  "n1-nord | quer | Wohnung Almagellerhorn: zweites Schlafzimmer mit Doppelbett",
+  "n1-sued | quer | Wohnung Almagellerhorn: Schlafzimmer mit Doppelbett",
+  "n1-wohnraum | quer | Wohnung Almagellerhorn: Aufenthaltsraum mit Polstergruppe und Fernseher",
+  "n2-bad | hoch | Wohnung Portjengrat: Lavabo mit Spiegel",
+  "n2-balkon | hoch | Wohnung Portjengrat: Sitzecke mit Tür zum Südbalkon",
+  "n2-bett | quer | Wohnung Portjengrat: Schlafzimmer mit Doppelbett und Nachttischlampen",
+  "n2-kueche | hoch | Wohnung Portjengrat: Küche mit Herd und Geschirrspüler",
+  "n2-wohn | hoch | Wohnung Portjengrat: Aufenthaltsraum mit Essplatz und Küche",
+  "n5-bad | hoch | Wohnung Weissmies: Bad mit Lavabo",
+  "n5-bett | quer | Wohnung Weissmies: Schlafzimmer mit zwei Betten",
+  "n5-kueche | quer | Wohnung Weissmies: Küche mit Kochinsel",
+  "n5-wohn | quer | Wohnung Weissmies: Aufenthaltsraum mit rotem Sofa und Holzboden",
+  "n5-wohn2 | hoch | Wohnung Weissmies: Essraum mit langem Tisch",
+  "n5-zimmer2 | quer | Wohnung Weissmies: zweites Schlafzimmer mit zwei Betten",
+  "gastgeber | quer | Heidi und Damian Andenmatten-Zurbriggen vor einem Wasserfall",
+  "heidi-helm | quer | Heidi Zurbriggen mit Helm und Rennski",
+  "heidi-jubel | hoch | Heidi Zurbriggen im Zielraum, auf Schultern getragen",
+  "heidi-praxis | quadrat | Heidi bei einer Massage in ihrer Praxis",
+  "heidi-telefon | quadrat | Heidi Andenmatten-Zurbriggen am Telefon",
+  "zeitung-glaube | quadrat | Heidi Zurbriggen mit gefalteten Händen, Zeitungsbild",
+  "zeitung-junior | hoch | Heidi Zurbriggen als junge Rennfahrerin, Zeitungsbild",
+  "langlauf | quer | Langläufer auf der Loipe im Lärchenwald",
+  "piste | quer | Skipiste vor verschneiten Gipfeln",
+  "schlitteln | quer | Schlitteln im Schnee",
+  "schneeschuh | quer | Mit Schneeschuhen unterwegs im Schnee",
+  "skifahren | quer | Skifahrerin auf der Piste vor verschneiten Gipfeln",
+  "winterweg | quer | Alte Häuser aus Holz und Stein im Schnee, dahinter die verschneiten Berge",
+  "dorf | quer | Blick von oben ins Tal auf das Dorf",
+  "gletscher | quer | Unterwegs auf dem Gletscher, rundum Viertausender",
+  "hoehenweg | quer | Wandernde auf einem Höhenweg über dem Tal",
+  "klettergarten | quer | Am Seil im Klettergarten",
+  "klettersteig | quer | Am Klettersteig mit Leitern und Seilen",
+  "laerchen | quer | Goldene Lärchen im Herbst",
+  "mattmark | quer | Der Stausee Mattmark zwischen den Bergen",
+  "mattmark-see | quer | Der Mattmark-Stausee hinten im Tal",
+  "panorama | quer | Bergpanorama mit verschneiten Gipfeln über dem Tal",
+  "tal | quer | Blick von oben ins Tal auf das Dorf, darüber der Berg",
+  "wald | quer | Lärchenwald mit Weg im Sommer",
+  "weiler | quer | Alte Hütten aus Holz und Stein in einem grünen Seitental",
+  "ziegen | quer | Schwarzhalsziegen auf der Alpweide"
+ ],
+ "raus": [],
+ "ersatz": "haus-winter",
+ "doppelt": {}
+}
