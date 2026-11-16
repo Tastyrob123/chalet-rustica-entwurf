@@ -1,0 +1,63 @@
+{
+ "port": 9528,
+ "base": "/",
+ "kurz": "rustica",
+ "seiten": [
+  [
+   "index.html",
+   "Startseite",
+   7
+  ],
+  [
+   "haus.html",
+   "Das Haus",
+   4
+  ],
+  [
+   "wohnungen.html",
+   "Die Wohnungen",
+   4
+  ],
+  [
+   "wohnung-almagellerhorn.html",
+   "Almagellerhorn",
+   3
+  ],
+  [
+   "wohnung-portjengrat.html",
+   "Portjengrat",
+   3
+  ],
+  [
+   "wohnung-weissmies.html",
+   "Weissmies",
+   3
+  ],
+  [
+   "saas-almagell.html",
+   "Das Tal",
+   5
+  ],
+  [
+   "heidi.html",
+   "Heidi",
+   5
+  ],
+  [
+   "kontakt.html",
+   "Kontakt",
+   2
+  ]
+ ],
+ "wahl": "main > section, main > header",
+ "start_ms": 4200,
+ "heute": "https://www.chalet-rustica.ch/",
+ "etiketten_ordner": "untersetzer",
+ "name": "Chalet Rustica",
+ "gold": "#D9BF8F",
+ "punkt": "#D9BF8F",
+ "tinte": "#3A2E22",
+ "chat_frage": "Ist die Bettwäsche inbegriffen?",
+ "chat_frage_h": "Kann ich meinen Hund mitbringen?",
+ "mappe": false
+}

@@ -1,0 +1,46 @@
+[
+ {
+  "ziel": "almagellerhorn",
+  "quelle": "_werkbank/heute/almagellerhorn.pdf",
+  "name": "Wohnung Almagellerhorn",
+  "gruppe": "Die Wohnungen",
+  "seiten": 0,
+  "b": 210,
+  "h": 297,
+  "dazu": "",
+  "fehlt": ""
+ },
+ {
+  "ziel": "portjengrat",
+  "quelle": "_werkbank/heute/portjengrat.pdf",
+  "name": "Wohnung Portjengrat",
+  "gruppe": "Die Wohnungen",
+  "seiten": 0,
+  "b": 210,
+  "h": 297,
+  "dazu": "",
+  "fehlt": ""
+ },
+ {
+  "ziel": "weissmies",
+  "quelle": "_werkbank/heute/weissmies.pdf",
+  "name": "Wohnung Weissmies",
+  "gruppe": "Die Wohnungen",
+  "seiten": 0,
+  "b": 210,
+  "h": 297,
+  "dazu": "",
+  "fehlt": ""
+ },
+ {
+  "ziel": "inbegriffen",
+  "quelle": "_werkbank/heute/inbegriffen.pdf",
+  "name": "Im Preis inbegriffen",
+  "gruppe": "Für alle Wohnungen",
+  "seiten": 0,
+  "b": 210,
+  "h": 297,
+  "dazu": "",
+  "fehlt": ""
+ }
+]

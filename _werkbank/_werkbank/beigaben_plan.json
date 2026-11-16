@@ -1,0 +1,178 @@
+{
+ "druck": [
+  {
+   "id": "schluessel",
+   "name": "Schlüsselanhänger je Wohnung",
+   "format": "45 × 95 mm, gestanzt, drei Stück",
+   "vorschau": [
+    [
+     "schluessel-1",
+     1
+    ],
+    [
+     "schluessel-2",
+     2
+    ],
+    [
+     "schluessel-3",
+     3
+    ]
+   ],
+   "satz": "Am Schlüssel jeder Wohnung: das R in Stroh, darunter der Name der Wohnung und ihre Lage im Haus. Auf starkem Karton gedruckt und gestanzt, mit Öse für den Ring.",
+   "karton": [
+    [
+     "schluessel-1",
+     22,
+     ""
+    ],
+    [
+     "schluessel-2",
+     22,
+     ""
+    ],
+    [
+     "schluessel-3",
+     22,
+     ""
+    ]
+   ],
+   "titel": [
+    "Ein Anhänger",
+    "für den Schlüssel."
+   ],
+   "seiten": 3
+  },
+  {
+   "id": "tuerschild",
+   "name": "Türschild je Wohnung",
+   "format": "120 × 60 mm, drei Stück",
+   "vorschau": [
+    [
+     "tuer-1",
+     1
+    ],
+    [
+     "tuer-2",
+     2
+    ],
+    [
+     "tuer-3",
+     3
+    ]
+   ],
+   "satz": "Für die Wohnungstür: das R in Gold, daneben der Name der Wohnung und ihr Stockwerk. Auf Holz oder Karton gedruckt, damit jeder Gast seine Tür gleich findet.",
+   "karton": [
+    [
+     "tuer-1",
+     70,
+     "Almagellerhorn"
+    ],
+    [
+     "tuer-2",
+     70,
+     "Portjengrat"
+    ],
+    [
+     "tuer-3",
+     70,
+     "Weissmies"
+    ]
+   ],
+   "titel": [
+    "Ein Schild",
+    "für die Tür."
+   ],
+   "seiten": 3
+  },
+  {
+   "id": "gruss",
+   "name": "Ein Gruss zur Ankunft",
+   "format": "60 × 100 mm, zwei Seiten, gestanzt",
+   "vorschau": [
+    [
+     "gruss",
+     1
+    ],
+    [
+     "gruss-r",
+     2
+    ]
+   ],
+   "satz": "Ein Anhänger für das, was bei der Ankunft auf dem Tisch steht: vorne «Herzlich willkommen.» unter dem R, hinten für wen, die Wohnung und der Gruss der Familie Andenmatten-Zurbriggen.",
+   "karton": [
+    [
+     "gruss",
+     34,
+     "Vorderseite"
+    ],
+    [
+     "gruss-r",
+     34,
+     "Rückseite"
+    ]
+   ],
+   "titel": [
+    "Ein Gruss",
+    "zur Ankunft."
+   ],
+   "seiten": 2
+  },
+  {
+   "id": "notizblock",
+   "name": "Notizblock für die Wohnung",
+   "format": "A6 hoch, als Block zu 50 Blatt",
+   "vorschau": [
+    [
+     "notiz",
+     1
+    ]
+   ],
+   "satz": "Liegt neben dem Telefon oder auf dem Esstisch: ein Block mit dem R auf Holz, einem Feld für die Wohnung und Linien für Einkaufszettel, Wanderpläne und Grüsse.",
+   "karton": [
+    [
+     "notiz",
+     46,
+     ""
+    ]
+   ],
+   "titel": [
+    "Ein Block",
+    "für Notizen."
+   ],
+   "seiten": 1
+  },
+  {
+   "id": "massagetermin",
+   "name": "Terminkärtchen für die Massage",
+   "format": "85 × 55 mm, zwei Seiten",
+   "vorschau": [
+    [
+     "termin",
+     1
+    ],
+    [
+     "termin-r",
+     2
+    ]
+   ],
+   "satz": "Wer bei Heidi eine Massage anfragt, bekommt sein Kärtchen: vorne Heidi in ihrer Praxis, hinten Name, Tag und Uhrzeit zum Eintragen und wie man sie erreicht.",
+   "karton": [
+    [
+     "termin",
+     60,
+     "Vorderseite"
+    ],
+    [
+     "termin-r",
+     60,
+     "Rückseite"
+    ]
+   ],
+   "titel": [
+    "Ein Kärtchen",
+    "für den Termin."
+   ],
+   "seiten": 2
+  }
+ ]
+}

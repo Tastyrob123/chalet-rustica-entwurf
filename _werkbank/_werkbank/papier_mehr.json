@@ -1,0 +1,760 @@
+{
+ "druck": [
+  {
+   "id": "pw-willkommen-almagellerhorn",
+   "name": "Willkommen · Almagellerhorn",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Willkommenskarte A5 in der Wohnung Almagellerhorn",
+   "titel": [
+    "Willkommen",
+    "Almagellerhorn."
+   ],
+   "pdf": "rustica-pw-willkommen-almagellerhorn.pdf",
+   "karton": [
+    [
+     "pw-willkommen-almagellerhorn",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-willkommen-almagellerhorn": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-willkommen-portjengrat",
+   "name": "Willkommen · Portjengrat",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Willkommenskarte A5 in der Wohnung Portjengrat",
+   "titel": [
+    "Willkommen",
+    "Portjengrat."
+   ],
+   "pdf": "rustica-pw-willkommen-portjengrat.pdf",
+   "karton": [
+    [
+     "pw-willkommen-portjengrat",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-willkommen-portjengrat": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-willkommen-weissmies",
+   "name": "Willkommen · Weissmies",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Willkommenskarte A5 in der Wohnung Weissmies",
+   "titel": [
+    "Willkommen",
+    "Weissmies."
+   ],
+   "pdf": "rustica-pw-willkommen-weissmies.pdf",
+   "karton": [
+    [
+     "pw-willkommen-weissmies",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-willkommen-weissmies": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-gruss-der-gastgeber",
+   "name": "Gruss der Gastgeber",
+   "format": "A6 hoch · aus «Drucksachen & Feed»",
+   "satz": "Aufsteller A6: Heidi und Damian",
+   "titel": [
+    "Gruss",
+    "der Gastgeber."
+   ],
+   "pdf": "rustica-pw-gruss-der-gastgeber.pdf",
+   "karton": [
+    [
+     "pw-gruss-der-gastgeber",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-gruss-der-gastgeber": [
+     1000,
+     1409
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-im-preis-inbegriffen",
+   "name": "Im Preis inbegriffen",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Karte A5: Bettwäsche, Tücher, Heizung, Warmwasser und Strom, Endreinigung, Kurtaxe",
+   "titel": [
+    "Im",
+    "Preis inbegriffen."
+   ],
+   "pdf": "rustica-pw-im-preis-inbegriffen.pdf",
+   "karton": [
+    [
+     "pw-im-preis-inbegriffen",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-im-preis-inbegriffen": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-wohnung-almagellerhorn",
+   "name": "Ihre Wohnung · Almagellerhorn",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Blatt A5 für die Mappe: Raum für Raum, Wortlaut der Website",
+   "titel": [
+    "Ihre Wohnung",
+    "Almagellerhorn."
+   ],
+   "pdf": "rustica-pw-wohnung-almagellerhorn.pdf",
+   "karton": [
+    [
+     "pw-wohnung-almagellerhorn",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-wohnung-almagellerhorn": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-wohnung-portjengrat",
+   "name": "Ihre Wohnung · Portjengrat",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Blatt A5 für die Mappe: Raum für Raum, Wortlaut der Website",
+   "titel": [
+    "Ihre Wohnung",
+    "Portjengrat."
+   ],
+   "pdf": "rustica-pw-wohnung-portjengrat.pdf",
+   "karton": [
+    [
+     "pw-wohnung-portjengrat",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-wohnung-portjengrat": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-wohnung-weissmies",
+   "name": "Ihre Wohnung · Weissmies",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Blatt A5 für die Mappe: Raum für Raum, Wortlaut der Website",
+   "titel": [
+    "Ihre Wohnung",
+    "Weissmies."
+   ],
+   "pdf": "rustica-pw-wohnung-weissmies.pdf",
+   "karton": [
+    [
+     "pw-wohnung-weissmies",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-wohnung-weissmies": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-wohnungen-im-vergleich",
+   "name": "Welche Wohnung passt zu Ihnen?",
+   "format": "A4 hoch · aus «Drucksachen & Feed»",
+   "satz": "Karte A4: die drei Wohnungen mit Lage und Zahlen",
+   "titel": [
+    "Welche Wohnung",
+    "passt zu Ihnen?"
+   ],
+   "pdf": "rustica-pw-wohnungen-im-vergleich.pdf",
+   "karton": [
+    [
+     "pw-wohnungen-im-vergleich",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-wohnungen-im-vergleich": [
+     1000,
+     1414
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-hausregeln",
+   "name": "Hausregeln",
+   "format": "A4 hoch · aus «Drucksachen & Feed»",
+   "satz": "Aushang A4: Nichtraucherhaus, ohne Haustiere, Waschküche",
+   "titel": [
+    "Hausregeln.",
+    ""
+   ],
+   "pdf": "rustica-pw-hausregeln.pdf",
+   "karton": [
+    [
+     "pw-hausregeln",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-hausregeln": [
+     1000,
+     1414
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-nichtraucherhaus",
+   "name": "Nichtraucherhaus",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Aushang A5 beim Hauseingang",
+   "titel": [
+    "Nichtraucherhaus.",
+    ""
+   ],
+   "pdf": "rustica-pw-nichtraucherhaus.pdf",
+   "karton": [
+    [
+     "pw-nichtraucherhaus",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-nichtraucherhaus": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-ohne-haustiere",
+   "name": "Ohne Haustiere",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Aushang A5 beim Hauseingang",
+   "titel": [
+    "Ohne",
+    "Haustiere."
+   ],
+   "pdf": "rustica-pw-ohne-haustiere.pdf",
+   "karton": [
+    [
+     "pw-ohne-haustiere",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-ohne-haustiere": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-waschkueche",
+   "name": "Die Waschküche",
+   "format": "A4 hoch · aus «Drucksachen & Feed»",
+   "satz": "Aushang A4 an der Tür der Waschküche",
+   "titel": [
+    "Die",
+    "Waschküche."
+   ],
+   "pdf": "rustica-pw-waschkueche.pdf",
+   "karton": [
+    [
+     "pw-waschkueche",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-waschkueche": [
+     1000,
+     1414
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-haus-am-bach",
+   "name": "Drei Wohnungen, ein Haus am Bach",
+   "format": "A4 hoch · aus «Drucksachen & Feed»",
+   "satz": "Aushang A4 mit Foto beim Hauseingang",
+   "titel": [
+    "Drei Wohnungen,",
+    "ein Haus am Bach."
+   ],
+   "pdf": "rustica-pw-haus-am-bach.pdf",
+   "karton": [
+    [
+     "pw-haus-am-bach",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-haus-am-bach": [
+     1000,
+     1414
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-tief-verschneit",
+   "name": "Tief verschneit, warm drinnen",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Aushang A5 mit Foto: Heizung, Warmwasser und Strom inbegriffen",
+   "titel": [
+    "Tief verschneit,",
+    "warm drinnen."
+   ],
+   "pdf": "rustica-pw-tief-verschneit.pdf",
+   "karton": [
+    [
+     "pw-tief-verschneit",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-tief-verschneit": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-saastal-vier-doerfer",
+   "name": "Das Saastal, vier Dörfer",
+   "format": "A4 hoch · aus «Drucksachen & Feed»",
+   "satz": "Karte A4: Saas-Fee, Saas-Grund, Saas-Almagell, Saas-Balen",
+   "titel": [
+    "Das Saastal,",
+    "vier Dörfer."
+   ],
+   "pdf": "rustica-pw-saastal-vier-doerfer.pdf",
+   "karton": [
+    [
+     "pw-saastal-vier-doerfer",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-saastal-vier-doerfer": [
+     1000,
+     1414
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-wege-in-die-seitentaeler",
+   "name": "Wege in die Seitentäler",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Blatt A5 mit Foto: Saas-Almagell im Sommer",
+   "titel": [
+    "Wege in",
+    "die Seitentäler."
+   ],
+   "pdf": "rustica-pw-wege-in-die-seitentaeler.pdf",
+   "karton": [
+    [
+     "pw-wege-in-die-seitentaeler",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-wege-in-die-seitentaeler": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-anreise",
+   "name": "Anreise",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Karte A5 zum Verschicken: Zug, Auto, Flugzeug",
+   "titel": [
+    "Anreise.",
+    ""
+   ],
+   "pdf": "rustica-pw-anreise.pdf",
+   "karton": [
+    [
+     "pw-anreise",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-anreise": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-unterwegs-ins-tal",
+   "name": "Unterwegs ins Tal",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Übersicht A5: Zeiten mit Zug und Flugzeug",
+   "titel": [
+    "Unterwegs",
+    "ins Tal."
+   ],
+   "pdf": "rustica-pw-unterwegs-ins-tal.pdf",
+   "karton": [
+    [
+     "pw-unterwegs-ins-tal",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-unterwegs-ins-tal": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-vor-ihrer-anreise",
+   "name": "Vor Ihrer Anreise",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Blatt A5 zum Verschicken: mit dem Zug bis Visp",
+   "titel": [
+    "Vor",
+    "Ihrer Anreise."
+   ],
+   "pdf": "rustica-pw-vor-ihrer-anreise.pdf",
+   "karton": [
+    [
+     "pw-vor-ihrer-anreise",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-vor-ihrer-anreise": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-massage-aushang",
+   "name": "Massage · Aushang",
+   "format": "A4 hoch · aus «Drucksachen & Feed»",
+   "satz": "Aushang A4 beim Hauseingang",
+   "titel": [
+    "Massage",
+    "Aushang."
+   ],
+   "pdf": "rustica-pw-massage-aushang.pdf",
+   "karton": [
+    [
+     "pw-massage-aushang",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-massage-aushang": [
+     1000,
+     1414
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-heidis-jahre",
+   "name": "Heidis Jahre",
+   "format": "A4 hoch · aus «Drucksachen & Feed»",
+   "satz": "Übersicht A4: von den ersten Weltcupeinsätzen bis zur medizinischen Masseurin",
+   "titel": [
+    "Heidis",
+    "Jahre."
+   ],
+   "pdf": "rustica-pw-heidis-jahre.pdf",
+   "karton": [
+    [
+     "pw-heidis-jahre",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-heidis-jahre": [
+     1000,
+     1414
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-grusskarte",
+   "name": "Grusskarte",
+   "format": "Quadrat · aus «Drucksachen & Feed»",
+   "satz": "Grusskarte quadratisch 148 mm",
+   "titel": [
+    "Grusskarte.",
+    ""
+   ],
+   "pdf": "rustica-pw-grusskarte.pdf",
+   "karton": [
+    [
+     "pw-grusskarte",
+     86,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-grusskarte": [
+     1000,
+     1000
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  },
+  {
+   "id": "pw-ansichtskarte-chalet-im-winter",
+   "name": "Ansichtskarte · Chalet im Winter",
+   "format": "A6 quer · 2 Seiten · aus «Drucksachen & Feed»",
+   "satz": "Ansichtskarte A6 quer, vorne Foto, hinten Platz für den Gruss",
+   "titel": [
+    "Ansichtskarte",
+    "Chalet im Winter."
+   ],
+   "pdf": "rustica-pw-ansichtskarte-chalet-im-winter.pdf",
+   "karton": [
+    [
+     "pw-ansichtskarte-chalet-im-winter",
+     84,
+     "Vorderseite"
+    ],
+    [
+     "pw-ansichtskarte-chalet-im-winter-r",
+     84,
+     "Rückseite"
+    ]
+   ],
+   "masse": {
+    "pw-ansichtskarte-chalet-im-winter": [
+     1000,
+     709
+    ],
+    "pw-ansichtskarte-chalet-im-winter-r": [
+     1000,
+     709
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 2
+  },
+  {
+   "id": "pw-ansichtskarte-saas-almagell",
+   "name": "Ansichtskarte · Saas-Almagell",
+   "format": "A6 quer · 2 Seiten · aus «Drucksachen & Feed»",
+   "satz": "Ansichtskarte A6 quer, vorne Foto, hinten Platz für den Gruss",
+   "titel": [
+    "Ansichtskarte",
+    "Saas-Almagell."
+   ],
+   "pdf": "rustica-pw-ansichtskarte-saas-almagell.pdf",
+   "karton": [
+    [
+     "pw-ansichtskarte-saas-almagell",
+     84,
+     "Vorderseite"
+    ],
+    [
+     "pw-ansichtskarte-saas-almagell-r",
+     84,
+     "Rückseite"
+    ]
+   ],
+   "masse": {
+    "pw-ansichtskarte-saas-almagell": [
+     1000,
+     709
+    ],
+    "pw-ansichtskarte-saas-almagell-r": [
+     1000,
+     709
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 2
+  },
+  {
+   "id": "pw-flyer-chalet-rustica",
+   "name": "Chalet Rustica · Flyer",
+   "format": "A5 hoch · 2 Seiten · aus «Drucksachen & Feed»",
+   "satz": "Flyer A5, vorne Foto, hinten die Angaben",
+   "titel": [
+    "Chalet Rustica",
+    "Flyer."
+   ],
+   "pdf": "rustica-pw-flyer-chalet-rustica.pdf",
+   "karton": [
+    [
+     "pw-flyer-chalet-rustica",
+     44,
+     "Vorderseite"
+    ],
+    [
+     "pw-flyer-chalet-rustica-r",
+     44,
+     "Rückseite"
+    ]
+   ],
+   "masse": {
+    "pw-flyer-chalet-rustica": [
+     1000,
+     1419
+    ],
+    "pw-flyer-chalet-rustica-r": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 2
+  },
+  {
+   "id": "pw-flyer-weissmies",
+   "name": "Flyer · Weissmies",
+   "format": "A5 hoch · aus «Drucksachen & Feed»",
+   "satz": "Blatt A5 mit Foto der Wohnung Weissmies",
+   "titel": [
+    "Flyer",
+    "Weissmies."
+   ],
+   "pdf": "rustica-pw-flyer-weissmies.pdf",
+   "karton": [
+    [
+     "pw-flyer-weissmies",
+     54,
+     ""
+    ]
+   ],
+   "masse": {
+    "pw-flyer-weissmies": [
+     1000,
+     1419
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "seiten": 1
+  }
+ ]
+}

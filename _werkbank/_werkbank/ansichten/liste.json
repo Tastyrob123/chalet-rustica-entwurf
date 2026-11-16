@@ -1,0 +1,173 @@
+{
+ "index.html": {
+  "name": "Startseite",
+  "rechner": 7,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    3,
+    0.5
+   ],
+   [
+    6,
+    0.5
+   ],
+   [
+    7,
+    0
+   ]
+  ],
+  "handy": 7
+ },
+ "haus.html": {
+  "name": "Das Haus",
+  "rechner": 4,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    4,
+    0
+   ]
+  ],
+  "handy": 4
+ },
+ "wohnungen.html": {
+  "name": "Die Wohnungen",
+  "rechner": 4,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    0.3333333333333333
+   ],
+   [
+    3,
+    0
+   ]
+  ],
+  "handy": 4
+ },
+ "wohnung-almagellerhorn.html": {
+  "name": "Almagellerhorn",
+  "rechner": 3,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ]
+  ],
+  "handy": 3
+ },
+ "wohnung-portjengrat.html": {
+  "name": "Portjengrat",
+  "rechner": 3,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ]
+  ],
+  "handy": 3
+ },
+ "wohnung-weissmies.html": {
+  "name": "Weissmies",
+  "rechner": 3,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ]
+  ],
+  "handy": 3
+ },
+ "saas-almagell.html": {
+  "name": "Das Tal",
+  "rechner": 5,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    2,
+    0.5
+   ],
+   [
+    5,
+    0
+   ]
+  ],
+  "handy": 5
+ },
+ "heidi.html": {
+  "name": "Heidi",
+  "rechner": 5,
+  "stellen": [
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    4,
+    0
+   ]
+  ],
+  "handy": 5
+ },
+ "kontakt.html": {
+  "name": "Kontakt",
+  "rechner": 2,
+  "stellen": [
+   [
+    1,
+    0
+   ]
+  ],
+  "handy": 2
+ }
+}

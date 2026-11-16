@@ -1,0 +1,545 @@
+{
+ "reihen": 20,
+ "stuecke": [
+  {
+   "id": "011-winterweg",
+   "r": 1,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/winterweg-x.webp"
+  },
+  {
+   "id": "012-AnreiseDerWegi",
+   "r": 1,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "013-skifahren",
+   "r": 1,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/skifahren-x.webp"
+  },
+  {
+   "id": "021-n5-zimmer2",
+   "r": 2,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n5-zimmer2-x.webp"
+  },
+  {
+   "id": "022-schlitteln",
+   "r": 2,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/schlitteln-x.webp"
+  },
+  {
+   "id": "023-Heidi20Podestp",
+   "r": 2,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "031-schneeschuh",
+   "r": 3,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/schneeschuh-x.webp"
+  },
+  {
+   "id": "032-n2-wohn",
+   "r": 3,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n2-wohn-x.webp"
+  },
+  {
+   "id": "033-langlauf",
+   "r": 3,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/langlauf-x.webp"
+  },
+  {
+   "id": "041-haus-winter",
+   "r": 4,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/haus-winter-x.webp"
+  },
+  {
+   "id": "042-piste",
+   "r": 4,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/piste-x.webp"
+  },
+  {
+   "id": "043-n1-sued",
+   "r": 4,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n1-sued-x.webp"
+  },
+  {
+   "id": "051-Tiefverschneit",
+   "r": 5,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "052-klettersteig",
+   "r": 5,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/klettersteig-x.webp"
+  },
+  {
+   "id": "053-DasTalgleichvo",
+   "r": 5,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "061-n5-kueche",
+   "r": 6,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n5-kueche-x.webp"
+  },
+  {
+   "id": "062-IhreBeharrlich",
+   "r": 6,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "063-ziegen",
+   "r": 6,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/ziegen-x.webp"
+  },
+  {
+   "id": "071-mattmark-see",
+   "r": 7,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/mattmark-see-x.webp"
+  },
+  {
+   "id": "072-sommer-hoch",
+   "r": 7,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/sommer-hoch-x.webp"
+  },
+  {
+   "id": "073-MeterüberMeer1",
+   "r": 7,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "081-n2-balkon",
+   "r": 8,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n2-balkon-x.webp"
+  },
+  {
+   "id": "082-hoehenweg",
+   "r": 8,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/hoehenweg-x.webp"
+  },
+  {
+   "id": "083-n1-kueche",
+   "r": 8,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n1-kueche-x.webp"
+  },
+  {
+   "id": "091-zuFuss5Minuten",
+   "r": 9,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "092-2Schlafzimmer1",
+   "r": 9,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "093-laerchen",
+   "r": 9,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/laerchen-x.webp"
+  },
+  {
+   "id": "101-1SchlafzimmerE",
+   "r": 10,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "102-InbegriffenBet",
+   "r": 10,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "103-heidi-praxis",
+   "r": 10,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/heidi-praxis-x.webp"
+  },
+  {
+   "id": "111-haus-sommer",
+   "r": 11,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/haus-sommer-x.webp"
+  },
+  {
+   "id": "112-2SchlafzimmerE",
+   "r": 11,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "113-DreiWohnungenA",
+   "r": 11,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "121-dorf",
+   "r": 12,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/dorf-x.webp"
+  },
+  {
+   "id": "122-MittenimDorfUn",
+   "r": 12,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "123-SaasAlmagellCh",
+   "r": 12,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "131-DankeHeidiChal",
+   "r": 13,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "132-holidu-21",
+   "r": 13,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-21.jpg"
+  },
+  {
+   "id": "133-n5-bad",
+   "r": 13,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n5-bad-x.webp"
+  },
+  {
+   "id": "141-holidu-31",
+   "r": 14,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-31.jpg"
+  },
+  {
+   "id": "142-MitsiebzehnimW",
+   "r": 14,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "143-holidu-30",
+   "r": 14,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-30.jpg"
+  },
+  {
+   "id": "151-SaasGrundHohsa",
+   "r": 15,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "152-SaastalDasSaas",
+   "r": 15,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "153-DasSaastalvier",
+   "r": 15,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "161-holidu-23",
+   "r": 16,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-23.jpg"
+  },
+  {
+   "id": "162-KilometerWande",
+   "r": 16,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "163-klettergarten",
+   "r": 16,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/klettergarten-x.webp"
+  },
+  {
+   "id": "171-RundumsHausall",
+   "r": 17,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "172-holidu-14",
+   "r": 17,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Familie Zurbriggen/_quelle/chalet-rustica/extern/holidu/rustica4-holidu-14.jpg"
+  },
+  {
+   "id": "173-imganzenHaus13",
+   "r": 17,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "181-wald",
+   "r": 18,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/wald-x.webp"
+  },
+  {
+   "id": "182-n1-bad",
+   "r": 18,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n1-bad-x.webp"
+  },
+  {
+   "id": "183-ImSommerSaasAl",
+   "r": 18,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "191-n5-wohn2",
+   "r": 19,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n5-wohn2-x.webp"
+  },
+  {
+   "id": "192-WelcheWohnungp",
+   "r": 19,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "193-n2-kueche",
+   "r": 19,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n2-kueche-x.webp"
+  },
+  {
+   "id": "201-MeteraufHeidbo",
+   "r": 20,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "202-n1-nord",
+   "r": 20,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/Users/robertreff/Desktop/Website-Projekte/Zurbriggen Chalet Rustica Saas-Almagell/_werkzeuge/_web/assets/img/n1-nord-x.webp"
+  },
+  {
+   "id": "203-WerfenSieeinen",
+   "r": 20,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  }
+ ]
+}

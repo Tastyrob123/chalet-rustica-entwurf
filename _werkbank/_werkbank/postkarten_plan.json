@@ -1,0 +1,89 @@
+{
+ "karten": [
+  {
+   "id": "pk01",
+   "key": "dorf",
+   "name": "Mitten im Dorf. Und doch am Bach.",
+   "abend": "Blick von oben ins Tal auf das Dorf",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk02",
+   "key": "sommer-hoch",
+   "name": "Jede mit Südbalkon.",
+   "abend": "Die Balkone des Chalet Rustica voller Geranien",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk03",
+   "key": "n5-wohn",
+   "name": "Werfen Sie einen Blick hinein.",
+   "abend": "Wohnung Weissmies: Aufenthaltsraum mit rotem Sofa und Holzboden",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk04",
+   "key": "haus-berg",
+   "name": "Zentral, und trotzdem ruhig.",
+   "abend": "Das Chalet Rustica an einem Sommertag, dahinter der Berg",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk05",
+   "key": "tal-klar",
+   "name": "Das Tal, gleich vor der Tür.",
+   "abend": "Blick von oben ins Tal auf das Dorf, darüber der Berg",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk06",
+   "key": "haus-winter",
+   "name": "Tief verschneit, warm drinnen.",
+   "abend": "Das Chalet Rustica im tiefen Schnee, an der Fassade der Schriftzug «Rustica»",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk07",
+   "key": "mattmark-see",
+   "name": "Der Mattmark-Stausee hinten im Tal",
+   "abend": "Der Mattmark-Stausee hinten im Tal",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk08",
+   "key": "laerchen",
+   "name": "Goldene Lärchen im Herbst",
+   "abend": "Goldene Lärchen im Herbst",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk09",
+   "key": "ziegen",
+   "name": "Schwarzhalsziegen auf der Alpweide",
+   "abend": "Schwarzhalsziegen auf der Alpweide",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk10",
+   "key": "hoehenweg",
+   "name": "Wandernde auf einem Höhenweg über dem Tal",
+   "abend": "Wandernde auf einem Höhenweg über dem Tal",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk11",
+   "key": "langlauf",
+   "name": "Langläufer auf der Loipe im Lärchenwald",
+   "abend": "Langläufer auf der Loipe im Lärchenwald",
+   "farbe": "#33261C"
+  },
+  {
+   "id": "pk12",
+   "key": "winterweg",
+   "name": "Alte Häuser aus Holz und Stein im Schnee, dahinter die verschneiten Berge",
+   "abend": "Alte Häuser aus Holz und Stein im Schnee, dahinter die verschneiten Berge",
+   "farbe": "#33261C"
+  }
+ ],
+ "boegen": 2
+}

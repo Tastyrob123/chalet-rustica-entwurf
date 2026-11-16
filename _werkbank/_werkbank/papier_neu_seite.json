@@ -1,0 +1,159 @@
+{
+ "aufsteller": {
+  "karton": [
+   "",
+   [
+    [
+     "aufsteller",
+     40,
+     "Vorderseite"
+    ],
+    [
+     "aufsteller-r",
+     40,
+     "Rückseite"
+    ]
+   ]
+  ],
+  "titel": [
+   "Gut zu wissen:",
+   "die Hausregeln."
+  ],
+  "breit": []
+ },
+ "wohnungen": {
+  "karton": [
+   "",
+   [
+    [
+     "wohnung-1",
+     28,
+     ""
+    ],
+    [
+     "wohnung-2",
+     28,
+     ""
+    ],
+    [
+     "wohnung-3",
+     28,
+     ""
+    ]
+   ]
+  ],
+  "titel": [
+   "Ein Blatt",
+   "je Wohnung."
+  ],
+  "breit": []
+ },
+ "waschkueche": {
+  "karton": [
+   "",
+   [
+    [
+     "waschkueche",
+     52,
+     ""
+    ]
+   ]
+  ],
+  "titel": [
+   "Ein Aushang",
+   "für die Waschküche."
+  ],
+  "breit": []
+ },
+ "empfang": {
+  "karton": [
+   "",
+   [
+    [
+     "empfang",
+     40,
+     "Vorderseite"
+    ],
+    [
+     "empfang-r",
+     40,
+     "Rückseite"
+    ]
+   ]
+  ],
+  "titel": [
+   "Der Weg",
+   "ins Tal."
+  ],
+  "breit": []
+ },
+ "umgebung": {
+  "karton": [
+   "",
+   [
+    [
+     "umgebung",
+     44,
+     "Vorderseite"
+    ],
+    [
+     "umgebung-r",
+     44,
+     "Rückseite"
+    ]
+   ]
+  ],
+  "titel": [
+   "Rund ums Haus,",
+   "alles zu Fuss."
+  ],
+  "breit": []
+ },
+ "massage": {
+  "karton": [
+   "",
+   [
+    [
+     "massage",
+     40,
+     "Vorderseite"
+    ],
+    [
+     "massage-r",
+     40,
+     "Rückseite"
+    ]
+   ]
+  ],
+  "titel": [
+   "Massage",
+   "bei Heidi."
+  ],
+  "breit": []
+ },
+ "visitenkarte": {
+  "karton": [
+   "",
+   [
+    [
+     "visitenkarte",
+     60,
+     "Vorderseite"
+    ],
+    [
+     "visitenkarte-r",
+     60,
+     "Rückseite"
+    ]
+   ]
+  ],
+  "titel": [
+   "Die",
+   "Visitenkarte."
+  ],
+  "breit": [
+   "visitenkarte",
+   "visitenkarte-r"
+  ]
+ }
+}

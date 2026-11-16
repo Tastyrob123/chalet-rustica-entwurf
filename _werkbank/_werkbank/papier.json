@@ -1,0 +1,234 @@
+{
+ "druck": [
+  {
+   "id": "karte",
+   "name": "Willkommen in der Wohnung",
+   "seiten": 2
+  },
+  {
+   "id": "aufsteller",
+   "name": "Gut zu wissen",
+   "seiten": 2
+  },
+  {
+   "id": "wohnungen",
+   "name": "Ein Blatt je Wohnung",
+   "seiten": 3
+  },
+  {
+   "id": "waschkueche",
+   "name": "Aushang für die Waschküche",
+   "seiten": 1
+  },
+  {
+   "id": "empfang",
+   "name": "Der Weg ins Tal",
+   "seiten": 2
+  },
+  {
+   "id": "umgebung",
+   "name": "Rund ums Haus",
+   "seiten": 2
+  },
+  {
+   "id": "massage",
+   "name": "Massage bei Heidi",
+   "seiten": 2
+  },
+  {
+   "id": "visitenkarte",
+   "name": "Visitenkarte",
+   "seiten": 2
+  },
+  {
+   "id": "briefpapier",
+   "name": "Briefbogen und Umschlag",
+   "seiten": 2
+  },
+  {
+   "id": "pw-willkommen-almagellerhorn",
+   "name": "Willkommen · Almagellerhorn",
+   "seiten": 1
+  },
+  {
+   "id": "pw-willkommen-portjengrat",
+   "name": "Willkommen · Portjengrat",
+   "seiten": 1
+  },
+  {
+   "id": "pw-willkommen-weissmies",
+   "name": "Willkommen · Weissmies",
+   "seiten": 1
+  },
+  {
+   "id": "pw-gruss-der-gastgeber",
+   "name": "Gruss der Gastgeber",
+   "seiten": 1
+  },
+  {
+   "id": "pw-im-preis-inbegriffen",
+   "name": "Im Preis inbegriffen",
+   "seiten": 1
+  },
+  {
+   "id": "pw-wohnung-almagellerhorn",
+   "name": "Ihre Wohnung · Almagellerhorn",
+   "seiten": 1
+  },
+  {
+   "id": "pw-wohnung-portjengrat",
+   "name": "Ihre Wohnung · Portjengrat",
+   "seiten": 1
+  },
+  {
+   "id": "pw-wohnung-weissmies",
+   "name": "Ihre Wohnung · Weissmies",
+   "seiten": 1
+  },
+  {
+   "id": "pw-wohnungen-im-vergleich",
+   "name": "Welche Wohnung passt zu Ihnen?",
+   "seiten": 1
+  },
+  {
+   "id": "pw-hausregeln",
+   "name": "Hausregeln",
+   "seiten": 1
+  },
+  {
+   "id": "pw-nichtraucherhaus",
+   "name": "Nichtraucherhaus",
+   "seiten": 1
+  },
+  {
+   "id": "pw-ohne-haustiere",
+   "name": "Ohne Haustiere",
+   "seiten": 1
+  },
+  {
+   "id": "pw-waschkueche",
+   "name": "Die Waschküche",
+   "seiten": 1
+  },
+  {
+   "id": "pw-haus-am-bach",
+   "name": "Drei Wohnungen, ein Haus am Bach",
+   "seiten": 1
+  },
+  {
+   "id": "pw-tief-verschneit",
+   "name": "Tief verschneit, warm drinnen",
+   "seiten": 1
+  },
+  {
+   "id": "pw-saastal-vier-doerfer",
+   "name": "Das Saastal, vier Dörfer",
+   "seiten": 1
+  },
+  {
+   "id": "pw-wege-in-die-seitentaeler",
+   "name": "Wege in die Seitentäler",
+   "seiten": 1
+  },
+  {
+   "id": "pw-anreise",
+   "name": "Anreise",
+   "seiten": 1
+  },
+  {
+   "id": "pw-unterwegs-ins-tal",
+   "name": "Unterwegs ins Tal",
+   "seiten": 1
+  },
+  {
+   "id": "pw-vor-ihrer-anreise",
+   "name": "Vor Ihrer Anreise",
+   "seiten": 1
+  },
+  {
+   "id": "pw-massage-aushang",
+   "name": "Massage · Aushang",
+   "seiten": 1
+  },
+  {
+   "id": "pw-heidis-jahre",
+   "name": "Heidis Jahre",
+   "seiten": 1
+  },
+  {
+   "id": "pw-grusskarte",
+   "name": "Grusskarte",
+   "seiten": 1
+  },
+  {
+   "id": "pw-ansichtskarte-chalet-im-winter",
+   "name": "Ansichtskarte · Chalet im Winter",
+   "seiten": 2
+  },
+  {
+   "id": "pw-ansichtskarte-saas-almagell",
+   "name": "Ansichtskarte · Saas-Almagell",
+   "seiten": 2
+  },
+  {
+   "id": "pw-flyer-chalet-rustica",
+   "name": "Chalet Rustica · Flyer",
+   "seiten": 2
+  },
+  {
+   "id": "pw-flyer-weissmies",
+   "name": "Flyer · Weissmies",
+   "seiten": 1
+  }
+ ],
+ "etiketten": [
+  {
+   "id": "u01",
+   "name": "Das R"
+  },
+  {
+   "id": "u02",
+   "name": "Saas-Almagell"
+  },
+  {
+   "id": "u03",
+   "name": "Almagellerhorn"
+  },
+  {
+   "id": "u04",
+   "name": "Portjengrat"
+  },
+  {
+   "id": "u05",
+   "name": "Weissmies"
+  },
+  {
+   "id": "u06",
+   "name": "Seit 1967"
+  },
+  {
+   "id": "u07",
+   "name": "Mitten im Dorf."
+  },
+  {
+   "id": "u08",
+   "name": "Werfen Sie einen Blick hinein."
+  },
+  {
+   "id": "u09",
+   "name": "Jede mit Südbalkon."
+  },
+  {
+   "id": "u10",
+   "name": "Ihre Beharrlichkeit zahlt sich aus."
+  },
+  {
+   "id": "u11",
+   "name": "Tief verschneit, warm drinnen."
+  },
+  {
+   "id": "u12",
+   "name": "Das Tal, gleich vor der Tür."
+  }
+ ]
+}

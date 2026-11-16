@@ -1,0 +1,15 @@
+{
+ "bureau": "/_werkzeuge/bureau/",
+ "bureau:anleitung": "/_werkzeuge/bureau/anleitung.html",
+ "carte": "/_werkzeuge/carte/",
+ "carte:anleitung": "/_werkzeuge/carte/anleitung.html",
+ "reception": "/_werkzeuge/reception/",
+ "reception:anleitung": "/_werkzeuge/reception/anleitung.html",
+ "maison": "/_werkzeuge/maison/",
+ "registre": "/_werkzeuge/registre/",
+ "registre:anleitung": "/_werkzeuge/registre/anleitung.html",
+ "livre": "/_werkzeuge/livre/",
+ "imprimerie": "/_werkzeuge/imprimerie/",
+ "livre:anleitung": "/_werkzeuge/livre/anleitung.html",
+ "imprimerie:anleitung": "/_werkzeuge/imprimerie/hilfe/"
+}
