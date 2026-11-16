@@ -1,0 +1,467 @@
+/* Chalet Rustica · Unterseiten (Wohnungen, Saas-Almagell), gebaut von unterseiten.py. Baut auf rustica.css und fassungen.css auf
+   (Knöpfe, Blätter, Holztafeln, Listen, Zahlen, Fuss). Bewegt wird nur über transform und opacity; nativer Scroll. */
+
+.unterseite main>:where(section[class^=se-]){padding:clamp(80px,9vw,140px) var(--rand)}
+/* unten zusätzlich so viel Luft, wie die runde Ecke des nächsten Abschnitts überdeckt (Robert 09.11.2026: nichts darf darunter verschwinden) */
+.unterseite main>:where(section[class^=se-]){padding-bottom:calc(clamp(80px,9vw,140px) + clamp(22px,2.6vw,40px))}
+.se-pfad{font:400 12.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--leise)}
+.se-pfad a{text-decoration:none}
+.se-pfad a:hover{color:var(--holz)}
+.se-pfad--hell{color:var(--stroh)}
+.se-name{font:400 clamp(38px,10.4vw,176px)/.92 var(--titel);letter-spacing:-.022em;color:var(--tinte);margin-top:14px}
+.se-name--hell{color:var(--hell);text-shadow:var(--hof)}
+
+/* ---------- Kopf der Wohnung ---------- */
+.unterseite main>.se-kopf{padding-top:clamp(118px,11vw,160px);padding-bottom:clamp(60px,6vw,96px);background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.se-kopf>*{max-width:var(--breit);margin-inline:auto}
+.se-kopf__reihe{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:clamp(12px,1.4vw,20px);margin-top:clamp(22px,2.4vw,36px)}
+.se-kopf__bild{height:min(64vh,640px);min-height:360px;border-radius:var(--r1);overflow:hidden}
+.se-kopf__bild img{width:100%;height:100%;object-fit:cover}
+.se-kopf__blatt{display:flex;flex-direction:column;padding:clamp(24px,2.6vw,40px)}
+.se-kurz{margin:14px 0 22px;font:400 clamp(24px,2.1vw,32px)/1.18 var(--titel);color:var(--tinte)}
+.se-kopf__blatt .wn-zahlen{margin-top:auto}
+.se-kopf__blatt .wn-zahlen span{min-height:2.7em}
+.se-kopf__blatt .knoepfe{margin-top:24px}
+/* Auftritt beim ersten Blick: Bild setzt sich, Blatt steigt */
+.js .se-kopf__bild img{scale:1.08;transition:scale 2.4s var(--e1)}
+.js .se-kopf__blatt{transform:translate3d(0,60px,0);opacity:0;transition:transform 1.5s var(--e1) .25s,opacity 1s ease .25s}
+.js body.los .se-kopf__bild img{scale:1}
+.js body.los .se-kopf__blatt{transform:none;opacity:1}
+
+/* ---------- Ausstattung ---------- */
+.unterseite main>.se-aus{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:clamp(30px,5vw,90px);align-items:center;background:var(--papier)}
+.se-aus>*{min-width:0}
+.se-aus{max-width:none}
+.se-aus__text{max-width:640px;justify-self:end;width:100%}
+.se-aus__liste{margin-top:clamp(26px,2.6vw,38px)}
+.se-aus__inbegriffen{margin-top:24px;font-size:15.5px;line-height:1.6;color:var(--leise)}
+.se-aus__inbegriffen b{font-weight:500;color:var(--tinte)}
+.se-aus__bild{border-radius:var(--r1);overflow:hidden;max-width:640px}
+.se-aus__bild img{width:100%;height:auto}
+
+/* ---------- Alle Ansichten: jedes Bild im eigenen Format ---------- */
+.unterseite main>.se-ans{background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.se-ans__wand{display:flex;flex-direction:column;gap:clamp(18px,2vw,28px);max-width:var(--breit);margin:clamp(40px,4vw,60px) auto 0}
+.se-ans__reihe{display:flex;gap:clamp(10px,1.2vw,16px)}
+.se-ans__f{min-width:0;margin:0}
+.se-ans__knopf{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:var(--r2);overflow:hidden}
+.se-ans__knopf img{width:100%;height:100%;object-fit:cover;transition:transform 1.6s var(--e1)}
+.se-ans__knopf:hover img{transform:scale(1.03)}
+.se-ans__f figcaption{margin-top:10px;font:400 12px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--leise)}
+
+/* ---------- Anfrage ---------- */
+.unterseite main>.se-anfrage{color:#EFE6D6;background:var(--tief) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px}
+.se-anfrage__innen{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:end;max-width:var(--breit);margin:0 auto}
+.se-anfrage__titel{color:#F4EEE3}.se-anfrage__titel em{color:var(--stroh)}
+.se-anfrage__seite p{max-width:36ch}
+
+/* ---------- Die anderen Wohnungen ---------- */
+.unterseite main>.se-weiter{background:var(--putz)}
+.se-weiter>h2{max-width:var(--breit);margin:0 auto}
+.se-weiter__reihe{display:grid;grid-template-columns:1fr 1fr;gap:clamp(14px,1.6vw,24px);max-width:var(--breit);margin:clamp(36px,4vw,56px) auto 0}
+.se-weiter__k{display:block;text-decoration:none;color:inherit}
+.se-weiter__b{aspect-ratio:16/10;border-radius:var(--r1);overflow:hidden}
+.se-weiter__b img{width:100%;height:100%;object-fit:cover;transition:transform 2.4s var(--e1)}
+.se-weiter__k:hover .se-weiter__b img{transform:scale(1.04)}
+.se-weiter__t{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:18px;margin:-70px 18px 0;padding:22px 24px;border-radius:var(--r1);background:var(--papier);box-shadow:0 30px 50px -30px rgba(40,28,18,.45)}
+.se-weiter__t>span{display:block;min-width:0}
+.se-weiter__t .wn-name,.se-weiter__t .wn-lage,.se-weiter__t .wn-kurz{display:block}
+.se-weiter__t .wn-name{font-size:clamp(30px,2.8vw,44px)}
+.se-weiter__t i{flex:none;display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:linear-gradient(180deg,#735C44,#4A3926);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 10px 18px -8px rgba(20,14,10,.6)}
+.se-weiter__t svg{width:15px;height:15px;fill:none;stroke:#FBF7EF;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform .9s var(--e1)}
+.se-weiter__k:hover svg{transform:translate(2px,-2px)}
+
+/* ---------- Saas-Almagell: Kopf über den ganzen Bildschirm ---------- */
+.unterseite main>.se-tal{position:relative;display:flex;align-items:flex-end;height:100svh;min-height:640px;padding:0 var(--rand) clamp(48px,6vw,90px);color:var(--hell);overflow:hidden;background:var(--nacht)}
+.se-tal__bild{position:absolute;inset:0}
+.se-tal__bild img{width:100%;height:100%;object-fit:cover;object-position:50% 60%}
+.se-tal::after{content:'';position:absolute;inset:auto 0 0;height:58%;background:linear-gradient(180deg,transparent,rgba(30,22,16,.62));pointer-events:none}
+.se-tal__text{position:relative;z-index:1;width:100%;max-width:var(--breit);margin:0 auto}
+.se-tal__satz{margin-top:22px;max-width:40ch;font-size:clamp(18px,1.45vw,21px);line-height:1.55;text-shadow:var(--hof)}
+
+/* Vor der Haustür: vier Zahlen auf Holztafeln */
+.unterseite main>.se-tuer{background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.se-zahlen{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(10px,1.2vw,16px);max-width:var(--breit);margin:clamp(40px,4vw,60px) auto 0}
+.se-zahl{padding:clamp(22px,2.2vw,32px);border-radius:var(--r1);color:#F4EEE3;background:linear-gradient(180deg,#5E4936,#45352A);box-shadow:inset 0 1px 0 rgba(255,255,255,.14),inset 0 -2px 0 rgba(0,0,0,.25),0 34px 50px -30px rgba(20,14,10,.7)}
+.se-zahl b{display:block;font:400 clamp(58px,5.4vw,92px)/.9 var(--titel);color:var(--stroh)}
+.se-zahl p{margin-top:16px;font-size:15.5px;line-height:1.45;color:rgba(239,230,214,.82)}
+.se-zahl span{display:block;font:400 clamp(21px,1.7vw,26px)/1.15 var(--titel);color:#F4EEE3;margin-bottom:4px}
+
+/* Sommer und Winter: Bild gross, Blatt darauf; darunter drei Ziele */
+.unterseite main>.se-zeit{background:var(--papier)}
+.unterseite main>.se-zeit--winter{color:#EFE6D6;background:var(--nacht) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px}
+.se-zeit__oben{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));align-items:center;max-width:var(--breit);margin:0 auto}
+.se-zeit__bild{grid-column:1/9;grid-row:1;height:min(76vh,720px);min-height:420px;border-radius:var(--r1);overflow:hidden}
+.se-zeit__bild img{width:100%;height:100%;object-fit:cover}
+.se-zeit__blatt{grid-column:8/13;grid-row:1;z-index:1;padding:clamp(28px,3vw,48px)}
+.se-zeit__oben--r .se-zeit__bild{grid-column:5/13}
+.se-zeit__oben--r .se-zeit__blatt{grid-column:1/6}
+.se-zeit__titel{font-size:clamp(40px,4vw,68px);margin-top:14px}
+.se-zeit__blatt>p:last-child{margin-top:20px;font-size:17px;line-height:1.62}
+.se-ziele{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,2vw,30px);max-width:var(--breit);margin:clamp(50px,5vw,80px) auto 0}
+.se-ziel .hb{aspect-ratio:4/3;border-radius:var(--r2);overflow:hidden}
+.se-ziel .hb img{width:100%;height:100%;object-fit:cover}
+.se-ziel h3{margin-top:18px;font:400 clamp(24px,2vw,30px)/1.15 var(--titel)}
+.se-ziel p{margin-top:8px;font-size:16.5px;line-height:1.55;color:var(--leise)}
+.se-zeit--winter .se-ziel h3{color:#F4EEE3}
+.se-zeit--winter .se-ziel p{color:rgba(239,230,214,.78)}
+
+/* Das Saastal */
+.unterseite main>.se-saastal{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(30px,5vw,90px);align-items:center;background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.se-saastal__bild{border-radius:var(--r1);overflow:hidden;aspect-ratio:3/4;max-height:86vh;justify-self:end;width:100%;max-width:560px}
+.se-saastal__bild img{width:100%;height:100%;object-fit:cover}
+.se-saastal__text{max-width:720px}
+.se-saastal__text .gross{margin-top:22px;max-width:46ch}
+.se-doerfer{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;margin:30px 0 0}
+.se-doerfer>div{padding:18px 0;border-top:1px solid var(--linie)}
+.se-doerfer dt{font:400 clamp(24px,2vw,30px)/1.15 var(--titel);color:var(--holz)}
+.se-doerfer dd{margin:6px 0 0;font-size:16px;line-height:1.5;color:var(--leise)}
+
+/* Anreise */
+.unterseite main>.se-weg{background:var(--papier)}
+.se-weg__reihe{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.4vw,20px);max-width:var(--breit);margin:clamp(40px,4vw,60px) auto 0}
+.se-weg__k{padding:clamp(24px,2.4vw,34px)}
+.se-weg__k .liste{margin-top:16px}
+.se-weg__k li{display:flex;justify-content:space-between;gap:16px}
+.se-weg__k li b{flex:none;font-weight:500;color:var(--holz)}
+
+/* ---------- Bild gross ansehen ---------- */
+.se-lupe{width:min(1240px,calc(100vw - 32px));max-width:none;max-height:calc(100svh - 32px);padding:0;border:0;background:transparent;overflow:visible}
+.se-lupe::backdrop{background:rgba(24,17,12,.86)}
+.se-lupe__bild{display:block;max-width:100%;max-height:calc(100svh - 150px);width:auto;height:auto;margin:0 auto;border-radius:var(--r2)}
+.se-lupe__leiste{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:14px;color:#EFE6D6}
+.se-lupe__text{font:400 12.5px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.se-lupe__knoepfe{display:flex;gap:10px}
+.se-lupe__knoepfe button{display:grid;place-items:center;width:46px;height:46px;border:0;border-radius:50%;cursor:pointer;color:var(--holz);font-size:22px;line-height:1;background:linear-gradient(180deg,#FBF7EF,#EDE3D2);box-shadow:inset 0 1px 0 #fff,0 6px 14px -6px rgba(0,0,0,.6)}
+
+/* ---------- Schmalere Fenster ---------- */
+@media (max-width:1100px){
+  .se-zahlen{grid-template-columns:1fr 1fr}
+}
+@media (max-width:980px){
+  .se-kopf__reihe{grid-template-columns:1fr}
+  .se-kopf__bild{height:56svh}
+  .unterseite main>.se-aus,.unterseite main>.se-saastal{grid-template-columns:1fr}
+  .se-aus__text{justify-self:start}
+  .se-saastal__bild{justify-self:start;max-height:70svh}
+  .se-anfrage__innen{grid-template-columns:1fr;align-items:start}
+  .se-zeit__oben,.se-zeit__oben--r{grid-template-columns:1fr}
+  .se-zeit__bild,.se-zeit__oben--r .se-zeit__bild{grid-column:1;grid-row:1;height:60svh;min-height:0}
+  .se-zeit__blatt,.se-zeit__oben--r .se-zeit__blatt{grid-column:1;grid-row:2;margin:-70px 16px 0}
+  .se-weg__reihe{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .se-ans__reihe{flex-wrap:wrap}
+  .se-ans__f{flex-basis:100%!important}
+  .se-ziele,.se-weiter__reihe{grid-template-columns:1fr}
+  .se-doerfer{grid-template-columns:1fr}
+  .se-zahlen{gap:8px}
+  .se-zahl{padding:18px}
+  .se-zahl b{font-size:52px}
+  .se-zahl p{font-size:14px}
+  .se-zahl span{font-size:19px}
+  .se-weiter__t{margin:-50px 12px 0;padding:18px}
+  .se-kopf__bild{height:48svh;min-height:280px}
+  .se-lupe__bild{max-height:calc(100svh - 130px)}
+}
+
+/* ---------- Drei Wohnungen nebeneinander (Seite Das Haus) ---------- */
+.se-weiter__reihe--drei{grid-template-columns:repeat(3,minmax(0,1fr))}
+.se-weiter__reihe--drei .se-weiter__b{aspect-ratio:4/3}
+.se-weiter__reihe--drei .se-weiter__t{margin:-60px 14px 0;padding:18px 20px}
+.se-weiter__reihe--drei .se-weiter__t .wn-name{font-size:clamp(26px,2.2vw,36px)}
+
+@media (max-width:1100px){.se-weiter__reihe--drei{grid-template-columns:1fr 1fr}}
+@media (max-width:760px){.se-weiter__reihe--drei{grid-template-columns:1fr}}
+
+/* ---------- Das Haus: die Gastgeber (zwei Bilder rahmen den Text) ---------- */
+.unterseite main>.se-familie{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.1fr) minmax(0,.62fr);gap:clamp(24px,3.6vw,64px);align-items:center;background:var(--papier)}
+.se-familie__bild{aspect-ratio:4/5;border-radius:var(--r1);overflow:hidden}
+.se-familie__bild img,.se-familie__bild2 img{width:100%;height:100%;object-fit:cover}
+.se-familie__bild2{aspect-ratio:3/4;border-radius:var(--r1);overflow:hidden;align-self:end}
+.se-familie__text .titel{margin-top:14px}
+.se-familie__text .gross{margin-top:22px;max-width:40ch}
+
+/* ---------- Das Haus: die Lage, fünf Minuten zu Fuss ---------- */
+.unterseite main>.se-lage{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(30px,5vw,90px);align-items:center;background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.se-lage__text{max-width:600px;justify-self:end;width:100%}
+.se-lage__text .gross{margin-top:22px}
+.se-lage__tafel{display:grid;grid-template-columns:auto 1fr;gap:6px 26px;align-items:center;margin-top:34px;padding:clamp(24px,2.6vw,36px)}
+.se-lage__tafel b{grid-row:span 2;font:400 clamp(110px,10vw,160px)/.8 var(--titel);color:var(--stroh)}
+.se-lage__tafel ul{display:flex;flex-wrap:wrap;gap:4px 16px;font:400 clamp(22px,1.9vw,28px)/1.25 var(--titel);color:#F4EEE3}
+.se-lage__tafel li:not(:last-child)::after{content:'·';margin-left:16px;color:var(--stroh)}
+.se-lage__tafel p{font:400 12.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--stroh)}
+.se-lage__bild{aspect-ratio:4/3;border-radius:var(--r1);overflow:hidden}
+.se-lage__bild img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- Die Wohnungen: Vergleich ---------- */
+.unterseite main>.se-vgl{background:var(--papier)}
+.se-vgl__tafel{max-width:var(--breit);margin:clamp(40px,4vw,60px) auto 0;padding:clamp(18px,2vw,30px) clamp(20px,2.4vw,40px)}
+.se-vgl__reihe{display:grid;grid-template-columns:minmax(120px,.7fr) repeat(3,minmax(0,1fr));gap:clamp(12px,1.6vw,26px);align-items:center;padding:16px 0;border-bottom:1px solid var(--linie)}
+.se-vgl__reihe--fuss{border-bottom:0;padding-top:22px}
+.se-vgl__reihe>p:not(.wn-lage){font:400 clamp(18px,1.5vw,22px)/1.3 var(--titel);color:var(--tinte)}
+.se-vgl__kopf{display:block;text-decoration:none;color:inherit}
+.se-vgl__kopf img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r2)}
+.se-vgl__kopf b{display:block;margin-top:12px;font:400 clamp(24px,2.2vw,34px)/1.1 var(--titel);color:var(--holz)}
+
+/* ---------- Die Wohnungen: im Preis inbegriffen, als Wortreihe auf Holz ---------- */
+.unterseite main>.se-inkl{color:#EFE6D6;background:var(--tief) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px;text-align:center}
+.se-inkl__innen{max-width:1100px;margin:0 auto}
+.se-inkl .wn-lage{color:var(--stroh)}
+.se-inkl__titel{margin-top:14px;color:#F4EEE3}.se-inkl__titel em{color:var(--stroh)}
+.se-inkl__worte{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 0;margin-top:clamp(34px,3.6vw,52px);font:400 clamp(26px,2.9vw,46px)/1.25 var(--titel);color:#F4EEE3}
+.se-inkl__worte span:not(:last-child)::after{content:'·';margin:0 .45em;color:var(--stroh)}
+.se-inkl__satz{max-width:62ch;margin:clamp(30px,3vw,44px) auto 0;font-size:16.5px;line-height:1.6;color:rgba(239,230,214,.78)}
+
+/* ---------- Heidis Erfolge: neun Karten, die Siege und Medaillen auf Holz ---------- */
+.unterseite main>.se-erfolge{background:var(--papier)}
+.se-erfolge__wand{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.4vw,20px);max-width:var(--breit);margin:clamp(40px,4vw,60px) auto 0}
+.se-erfolg{display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto auto;gap:2px 22px;align-items:baseline;padding:clamp(22px,2.2vw,32px)}
+.se-erfolg b{grid-row:1/4;align-self:center;font:400 clamp(44px,3.8vw,62px)/1 var(--titel);color:var(--holz)}
+.se-erfolg h3{font:400 clamp(22px,1.8vw,28px)/1.15 var(--titel);color:var(--tinte)}
+.se-erfolg p{font-size:15.5px;color:var(--leise)}
+.se-erfolg span{font:400 12px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--holz)}
+.se-erfolg--gross b,.se-erfolg--gross span{color:var(--stroh)}
+.se-erfolg--gross h3{color:#F4EEE3}
+.se-erfolg--gross p{color:rgba(239,230,214,.78)}
+.se-erfolge__schluss{max-width:var(--breit);margin:clamp(40px,4vw,64px) auto 0;font:400 clamp(28px,2.8vw,44px)/1.2 var(--titel);color:var(--tinte);text-align:center;text-wrap:balance}
+.se-erfolge__schluss em{color:var(--holz)}
+
+/* ---------- Der Weg ins Tal: die Strecke als Linie, darunter Auto und Flugzeug ---------- */
+.unterseite main>.se-weg{color:#EFE6D6;background:var(--nacht) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px}
+.se-weg .titel{color:#F4EEE3}.se-weg .titel em{color:var(--stroh)}
+.se-weg .kopf{border-bottom-color:rgba(217,191,143,.25)}
+.se-weg .kopf__satz{color:rgba(239,230,214,.85)}
+.se-strecke{position:relative;max-width:var(--breit);margin:clamp(50px,5vw,80px) auto 0;padding-top:12px}
+.se-strecke__bahn{position:absolute;top:22px;left:12px;right:12px;height:3px;border-radius:3px;background:rgba(217,191,143,.22)}
+.se-strecke__bahn i{position:absolute;inset:0;border-radius:3px;background:var(--stroh);transform-origin:0 50%;transform:scaleX(0);transition:transform 2.4s cubic-bezier(.16,1,.3,1) .2s}
+.se-strecke__halte{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));list-style:none;margin:0;padding:0}
+.se-strecke__halte li{position:relative;padding-top:42px}
+.se-strecke__halte li::before{content:'';position:absolute;top:0;left:0;width:23px;height:23px;border-radius:50%;background:var(--nacht);box-shadow:inset 0 0 0 3px var(--stroh);transform:scale(.4);opacity:.4;transition:transform .9s cubic-bezier(.16,1,.3,1),opacity .6s ease}
+.se-strecke__halte li:nth-child(2)::before{transition-delay:.7s}.se-strecke__halte li:nth-child(3)::before{transition-delay:1.2s}.se-strecke__halte li:nth-child(4)::before{transition-delay:1.7s}
+.se-strecke__halte li:last-child{text-align:right}
+.se-strecke__halte li:last-child::before{left:auto;right:0;width:31px;height:31px;top:-4px;background:var(--stroh);box-shadow:0 0 0 6px rgba(217,191,143,.22)}
+.se-strecke__halte b{display:block;font:400 clamp(24px,2.3vw,38px)/1.1 var(--titel);color:#F4EEE3}
+.se-strecke__ziel b{color:var(--stroh)}
+.se-strecke__halte span{display:block;margin-top:8px;font:400 12px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:rgba(217,191,143,.85)}
+.se-strecke__zeiten{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:34px;padding-top:22px;border-top:1px solid rgba(217,191,143,.2);font-size:16.5px;color:rgba(239,230,214,.82)}
+.se-strecke__zeiten b{font:400 22px/1 var(--titel);color:#F4EEE3;margin-right:4px}
+.se-strecke__bus{margin-left:auto}
+.js .se-strecke.rv-da .se-strecke__bahn i,html:not(.schwebt) .se-strecke__bahn i{transform:scaleX(1)}
+.js .se-strecke.rv-da .se-strecke__halte li::before,html:not(.schwebt) .se-strecke__halte li::before{transform:none;opacity:1}
+.se-weg__unten{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(14px,1.6vw,24px);max-width:var(--breit);margin:clamp(50px,5vw,80px) auto 0}
+.se-weg__auto{padding:clamp(24px,2.6vw,38px)}
+.se-weg__routen{margin-top:14px}
+.se-weg__routen li{padding:14px 0;border-bottom:1px solid var(--linie);font-size:16px;line-height:1.5;color:var(--leise)}
+.se-weg__routen li:last-child{border-bottom:0}
+.se-weg__routen b{display:block;font:400 clamp(21px,1.7vw,26px)/1.2 var(--titel);color:var(--tinte)}
+.se-weg__flug{padding:clamp(24px,2.6vw,38px)}
+.se-weg__flug .wn-lage{color:var(--stroh)}
+.se-weg__zahlen{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:22px}
+.se-weg__zahlen>div+div{border-left:1px solid rgba(217,191,143,.25);padding-left:18px}
+.se-weg__zahlen b{display:block;font:400 clamp(64px,6vw,104px)/.9 var(--titel);color:var(--stroh)}
+.se-weg__zahlen span{display:block;margin-top:10px;font-size:15.5px;line-height:1.4;color:rgba(239,230,214,.82)}
+
+@media (max-width:1100px){
+  .unterseite main>.se-familie{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)}
+  .se-familie__bild2{display:none}
+  .se-erfolge__wand{grid-template-columns:1fr 1fr}
+}
+@media (max-width:980px){
+  .unterseite main>.se-lage{grid-template-columns:1fr}
+  .se-lage__text{justify-self:start}
+  .se-weg__unten{grid-template-columns:1fr}
+  .se-vgl__reihe{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .se-vgl__reihe>.wn-lage{grid-column:1/-1;margin-bottom:-4px}
+  .se-vgl__reihe>span:first-child{display:none}
+}
+@media (max-width:760px){
+  .unterseite main>.se-familie{grid-template-columns:1fr}
+  .se-familie__bild{aspect-ratio:4/3}
+  .se-erfolge__wand{grid-template-columns:1fr}
+  .se-strecke__bahn{top:12px;bottom:12px;left:10px;right:auto;width:3px;height:auto}
+  .se-strecke__bahn i{transform-origin:50% 0;transform:scaleY(0)}
+  .js .se-strecke.rv-da .se-strecke__bahn i,html:not(.schwebt) .se-strecke__bahn i{transform:scaleY(1)}
+  .se-strecke__halte{grid-template-columns:1fr;gap:26px}
+  .se-strecke__halte li{padding:0 0 0 44px}
+  .se-strecke__halte li:last-child{text-align:left}
+  .se-strecke__halte li:last-child::before{left:-4px;right:auto}
+  .se-strecke__bus{margin-left:0}
+  .se-vgl__tafel{padding:16px}
+  .se-vgl__reihe>p:not(.wn-lage){font-size:15.5px}
+  .se-vgl__kopf b{font-size:19px}
+  .se-vgl__reihe--fuss .knopf{height:44px;padding-left:14px;font-size:13px;gap:8px}.se-vgl__reihe--fuss .knopf i{width:30px;height:30px}
+  .se-weg__zahlen b{font-size:54px}
+}
+/* Feinschliff 09.11.2026 */
+@media (min-width:761px){.unterseite main>.se-familie{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.se-familie__bild{aspect-ratio:4/3}
+.se-familie__text{max-width:600px}
+.se-strecke__halte{grid-template-columns:1.35fr 1fr 1fr 1fr}
+.se-weg__flug{display:flex;flex-direction:column}
+.se-weg__zahlen{margin-block:auto}
+@media (max-width:760px){.se-strecke__halte{grid-template-columns:1fr}}
+
+/* ======== Eigene Inhalte der Unterseiten (09.11.2026) ======== */
+/* Das Haus: Steckbrief mit Tafel und Hochbild */
+.unterseite main>.se-steck{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr) minmax(0,.75fr);gap:clamp(20px,3vw,50px);align-items:center;background:var(--papier)}
+.se-steck__text .titel{margin-top:14px}
+.se-steck__text .gross{margin-top:22px;max-width:44ch}
+.se-steck__tafel{display:grid;gap:0;padding:clamp(10px,1.2vw,16px) clamp(22px,2.4vw,34px)}
+.se-steck__tafel>div{padding:18px 0;border-bottom:1px solid rgba(217,191,143,.22)}
+.se-steck__tafel>div:last-child{border-bottom:0}
+.se-steck__tafel b{display:block;font:400 clamp(56px,5vw,84px)/.9 var(--titel);color:var(--stroh)}
+.se-steck__tafel span{display:block;margin-top:8px;font-size:15.5px;color:rgba(239,230,214,.85)}
+.se-steck__bild{aspect-ratio:3/4;border-radius:var(--r1);overflow:hidden}
+.se-steck__bild img{width:100%;height:100%;object-fit:cover}
+
+/* Das Haus: Gastgeber */
+.unterseite main>.se-gast{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(30px,5vw,90px);align-items:center;color:#EFE6D6;background:var(--tief) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px}
+.se-gast__bild{max-width:658px;justify-self:end;width:100%;border-radius:var(--r1);overflow:hidden;aspect-ratio:658/360}
+.se-gast__bild img{width:100%;height:100%;object-fit:cover}
+.se-gast .wn-lage{color:var(--stroh)}
+.se-gast .titel{margin-top:14px;color:#F4EEE3}.se-gast .titel em{color:var(--stroh)}
+.se-gast__text .gross{margin-top:22px;max-width:44ch;color:rgba(239,230,214,.9)}
+.se-gast__heidi{margin-top:16px;font:400 clamp(22px,1.8vw,27px)/1.3 var(--titel);color:var(--stroh);max-width:30ch}
+
+/* Das Haus: rund ums Haus */
+.unterseite main>.se-rund{background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.se-rund__tafel{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:var(--breit);margin:clamp(40px,4vw,60px) auto 0;padding:clamp(10px,1.4vw,20px) 0}
+.se-rund__spalte{padding:clamp(18px,2vw,30px) clamp(22px,2.6vw,40px)}
+.se-rund__spalte+.se-rund__spalte{border-left:1px solid var(--linie)}
+.se-rund__spalte ul{margin-top:14px}
+.se-rund__spalte li{padding:11px 0;border-bottom:1px solid var(--linie);font:400 clamp(20px,1.7vw,25px)/1.25 var(--titel);color:var(--tinte)}
+.se-rund__spalte li:last-child{border-bottom:0}
+
+/* Das Haus: im Winter (Bild gross, Blatt darauf) */
+.unterseite main>.se-winter{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));align-items:center;background:var(--papier)}
+.se-winter__bild{grid-column:1/9;grid-row:1;height:min(76vh,700px);min-height:420px;border-radius:var(--r1);overflow:hidden}
+.se-winter__bild img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.se-winter__blatt{grid-column:8/13;grid-row:1;z-index:1;padding:clamp(28px,3vw,48px)}
+.se-winter__blatt>p:not(.wn-lage){margin-top:18px;font-size:17px;line-height:1.6}
+
+/* Die Wohnungen: Kopf aus drei Räumen */
+.unterseite main>.se-drei{position:relative;height:100svh;min-height:640px;padding:0;overflow:hidden;background:var(--nacht);color:var(--hell)}
+.se-drei__bilder{position:absolute;inset:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.se-drei__f{height:100%;overflow:hidden}
+.se-drei__f img{width:100%;height:100%;object-fit:cover}
+.unterseite main>.se-drei::after{content:'';position:absolute;inset:auto 0 0;height:60%;background:linear-gradient(180deg,transparent,rgba(30,22,16,.66));pointer-events:none}
+.se-drei__text{position:absolute;left:var(--rand);right:var(--rand);bottom:clamp(48px,6vw,90px);z-index:1;margin:0 auto}
+
+/* Die Wohnungen: jede ausführlich */
+.unterseite main>.se-wos{background:var(--papier)}
+.se-wos>h2{max-width:var(--breit);margin:0 auto}
+.se-wo{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(28px,4vw,70px);align-items:center;max-width:var(--breit);margin:clamp(50px,5vw,90px) auto 0}
+.se-wo--r .se-wo__bilder{order:2}
+.se-wo__bilder{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:8px}
+.se-wo__f{border-radius:var(--r2);overflow:hidden;aspect-ratio:4/3}
+.se-wo__f:first-child{grid-column:1/-1;aspect-ratio:16/10}
+.se-wo__f img{width:100%;height:100%;object-fit:cover}
+.se-wo__name{margin-top:10px;font:400 clamp(44px,4.4vw,72px)/1 var(--titel);letter-spacing:-.01em}
+.se-wo__name a{text-decoration:none;color:var(--tinte)}
+.se-wo__text .wn-zahlen{margin-top:22px}
+
+/* Heidi: Kopf mit Bildern aus der Rennzeit */
+.unterseite main>.se-heidikopf{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(30px,5vw,90px);align-items:end;min-height:100svh;padding-top:clamp(130px,13vw,180px);color:var(--hell);background:var(--nacht) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px}
+.se-heidikopf__text .se-tal__satz{max-width:42ch}
+.se-heidikopf__bilder{display:flex;align-items:flex-end;justify-content:center;gap:clamp(10px,1.2vw,18px)}
+.se-heidikopf__f{border-radius:var(--r2);overflow:hidden;box-shadow:0 30px 50px -30px rgba(0,0,0,.8);background:#e9e2d4}
+.se-heidikopf__f img{display:block;width:100%;height:auto}
+.se-heidikopf__f:nth-child(1){width:clamp(100px,9vw,140px)}
+.se-heidikopf__f--gross{width:clamp(180px,17vw,270px)}
+.se-heidikopf__f:nth-child(3){width:clamp(150px,14vw,223px)}
+.js .se-heidikopf__f{translate:0 40px;opacity:0;transition:translate 1.6s cubic-bezier(.16,1,.3,1),opacity 1s ease}
+.js body.los .se-heidikopf__f{translate:none;opacity:1}
+.js body.los .se-heidikopf__f:nth-child(2){transition-delay:.12s}.js body.los .se-heidikopf__f:nth-child(3){transition-delay:.24s}
+
+/* Heidi: die Anfänge */
+.unterseite main>.se-anfang{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(30px,5vw,90px);align-items:center;background:var(--papier)}
+.se-anfang__text{max-width:600px;justify-self:end;width:100%}
+.se-anfang__text .titel{margin-top:14px}
+.se-anfang__text .gross{margin-top:22px}
+.se-anfang__liste{list-style:none;margin:0;padding:clamp(10px,1.4vw,18px) clamp(24px,2.6vw,40px)}
+.se-anfang__liste li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 20px;padding:16px 0;border-bottom:1px solid var(--linie)}
+.se-anfang__liste li:last-child{border-bottom:0}
+.se-anfang__liste span{font:400 12px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+.se-anfang__liste b{grid-column:1;font:400 clamp(22px,1.9vw,28px)/1.15 var(--titel);color:var(--tinte)}
+.se-anfang__liste em{grid-column:1;font-size:15px;color:var(--leise)}
+.se-anfang__liste strong{grid-column:2;grid-row:1/4;align-self:center;font:400 clamp(30px,2.6vw,42px)/1 var(--titel);color:var(--holz)}
+
+/* Heidi: Rückschläge als Weg */
+.unterseite main>.se-rueck{background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.se-rueck__weg{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(12px,1.4vw,20px);list-style:none;max-width:var(--breit);margin:clamp(44px,4.4vw,70px) auto 0;padding:0;position:relative}
+.se-rueck__weg::before{content:'';position:absolute;top:14px;left:0;right:0;height:2px;background:var(--linie)}
+.se-rueck__weg li{position:relative;padding-top:44px}
+.se-rueck__weg li::before{content:'';position:absolute;top:6px;left:0;width:18px;height:18px;border-radius:50%;background:var(--putz);box-shadow:inset 0 0 0 3px var(--holz)}
+.se-rueck__weg li:last-child::before{background:var(--holz)}
+.se-rueck__weg b{display:block;font:400 clamp(28px,2.4vw,38px)/1 var(--titel);color:var(--holz)}
+.se-rueck__weg span{display:block;margin-top:10px;font:400 clamp(19px,1.5vw,22px)/1.25 var(--titel);color:var(--tinte)}
+.se-rueck__weg em{display:block;margin-top:8px;font-size:15px;line-height:1.45;color:var(--leise)}
+
+/* Heidi: Abschied */
+.unterseite main>.se-abschied{text-align:center;color:#EFE6D6;background:var(--tief) url(../zeichen/tapete-dunkel-leise.svg?v=1) 0 0/240px 240px}
+.se-abschied .wn-lage{color:var(--stroh)}
+.se-abschied__titel{margin-top:16px;font-size:clamp(64px,8vw,130px);color:#F4EEE3}.se-abschied__titel em{color:var(--stroh)}
+.se-abschied__titel.geteilt{align-items:center}
+.se-abschied__satz{max-width:60ch;margin:28px auto 0;font-size:clamp(18px,1.45vw,21px);line-height:1.62;color:rgba(239,230,214,.88)}
+
+/* Heidi: die zweite Karriere */
+.unterseite main>.se-zweite{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,90px);align-items:center;background:var(--papier)}
+.se-zweite__bild{border-radius:var(--r1);overflow:hidden;aspect-ratio:4/3}
+.se-zweite__bild img{width:100%;height:100%;object-fit:cover}
+.se-zweite__text .titel{margin-top:14px}
+.se-zweite__schritte{list-style:none;margin:26px 0 0;padding:0}
+.se-zweite__schritte li{padding:14px 0;border-bottom:1px solid var(--linie);font-size:16.5px;line-height:1.55;color:var(--leise)}
+.se-zweite__schritte b{display:block;font:400 clamp(21px,1.7vw,26px)/1.2 var(--titel);color:var(--tinte)}
+
+/* Kontakt: Formular auf der Seite */
+.unterseite main>.se-kontakt{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(30px,5vw,80px);align-items:start;background:var(--putz) url(../zeichen/tapete-hell-leise.svg?v=1) 0 0/240px 240px}
+.se-kontakt__seite{max-width:440px;justify-self:end;width:100%}
+.se-kontakt__bild{width:min(270px,100%);border-radius:var(--r1);overflow:hidden}
+.se-kontakt__bild img{width:100%;height:auto}
+.se-kontakt__adresse{display:grid;gap:4px;margin-top:26px;font-size:17px;line-height:1.5}
+.se-kontakt__adresse b{font:400 clamp(24px,2vw,30px)/1.2 var(--titel);color:var(--tinte);margin-bottom:6px}
+.se-kontakt__adresse a{text-decoration:none}
+.se-kontakt__gross{margin-top:10px;font:400 clamp(24px,2.2vw,32px)/1.2 var(--titel);color:var(--holz)}
+.se-kontakt__gross+.se-kontakt__gross{margin-top:2px}
+.se-kontakt__formular{padding:clamp(26px,3vw,48px)}
+.se-kontakt__titel{font-size:clamp(40px,4vw,64px)}
+.anf--inline .anf__felder{margin-top:20px}
+.anf--inline .knoepfe{margin-top:22px}
+
+@media (max-width:1100px){
+  .unterseite main>.se-steck{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr)}
+  .se-steck__bild{display:none}
+  .se-rueck__weg{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:34px}
+  .se-rueck__weg::before{display:none}
+}
+@media (max-width:980px){
+  .unterseite main>.se-gast,.unterseite main>.se-anfang,.unterseite main>.se-zweite,.unterseite main>.se-kontakt,.unterseite main>.se-heidikopf{grid-template-columns:1fr}
+  .se-gast__bild,.se-anfang__text,.se-kontakt__seite{justify-self:start}
+  .se-wo{grid-template-columns:1fr}
+  .se-wo--r .se-wo__bilder{order:0}
+  .unterseite main>.se-winter{grid-template-columns:1fr}
+  .se-winter__bild{grid-column:1;grid-row:1;height:56svh;min-height:0}
+  .se-winter__blatt{grid-column:1;grid-row:2;margin:-70px 16px 0}
+  .se-heidikopf__bilder{justify-content:flex-start}
+}
+@media (max-width:760px){
+  .unterseite main>.se-steck{grid-template-columns:1fr}
+  .se-rund__tafel{grid-template-columns:1fr}
+  .se-rund__spalte+.se-rund__spalte{border-left:0;border-top:1px solid var(--linie)}
+  .se-drei__bilder{grid-template-columns:1fr 1fr}
+  .se-drei__f:nth-child(3){display:none}
+  .se-rueck__weg{grid-template-columns:1fr;row-gap:22px}
+  .se-rueck__weg li{padding:0 0 0 34px}
+  .se-rueck__weg li::before{top:8px}
+  .se-heidikopf__f:nth-child(1){width:84px}.se-heidikopf__f--gross{width:150px}.se-heidikopf__f:nth-child(3){width:110px}
+  .se-anfang__liste li{grid-template-columns:minmax(0,1fr) auto}
+}
+.se-saastal__bild{aspect-ratio:4/3}
+.se-drei__text{width:auto}
+@media (max-width:980px){.unterseite main>.se-heidikopf{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:760px){.se-heidikopf__f:nth-child(1){width:70px}.se-heidikopf__f--gross{width:132px}.se-heidikopf__f:nth-child(3){width:96px}}
+/* Rückschläge: die Jahre stehen in der Tafel (Prüfpunkt 4) */
+.se-rueck__weg.blatt{padding:clamp(26px,2.8vw,40px) clamp(24px,2.6vw,40px)}
+.se-rueck__weg.blatt::before{top:calc(clamp(26px,2.8vw,40px) + 14px);left:clamp(24px,2.6vw,40px);right:clamp(24px,2.6vw,40px)}
+.se-rueck__weg li::before{background:var(--papier)}
