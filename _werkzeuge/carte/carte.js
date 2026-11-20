@@ -39,7 +39,7 @@ const klein = n => n.replace(/^(Das|Die|Der) /, a => a.toLowerCase());   // Name
    wie online auf derselben Adresse: so ist «Website ansehen» auch erreichbar, wenn der Website-Server nicht läuft (Vorlage Wild Side). */
 const PORTE = (window.WO_HAUS && WO_HAUS.ports) || { zentrale: 9521, website: 9522, karten: 9523, gaeste: 9524, marke: 9525, besuche: 9526, druck: 9527, werkbank: 9528, website_lokal: 9529 };
 const HAUS = '/';
-const WERKBANK = location.port ? location.protocol + '//127.0.0.1:' + PORTE.werkbank + '/werkbank/' : '/werkbank/';
+const WERKBANK = location.port ? location.protocol + '//127.0.0.1:' + PORTE.werkbank + '/werkbank/' : '/_werkbank/werkbank/';
 const PORT_WERKZEUG = PORTE;
 const API = '/_werkzeuge/carte/api/';   // lokal (serve.py) und online derselbe Weg
 /* Wo das Blatt auf der Website steht: jede Wohnung auf ihrer Seite (Ausstattung), das Inbegriffene auf wohnungen.html, «Rund ums Haus» auf haus.html,
