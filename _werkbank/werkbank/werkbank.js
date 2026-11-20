@@ -34,7 +34,7 @@
     var zt = $$('.zt'); zt.forEach(function (t) { t.style.fontSize = ''; });
     if (innerWidth < 640) return;
     var mass = zt.map(function (t) { var b = t.clientWidth, w = 0; $$('.z>span', t).forEach(function (s) { w = Math.max(w, s.offsetWidth); }); return [b, w, parseFloat(getComputedStyle(t).fontSize)]; });
-    zt.forEach(function (t, i) { var m = mass[i]; if (m[0] > 0 && m[1] > m[0]) t.style.fontSize = (m[2] * m[0] / m[1] * 0.985).toFixed(1) + 'px'; });
+    zt.forEach(function (t, i) { var m = mass[i]; if (m[0] > 0 && m[1] > m[0]) t.style.fontSize = (m[2] * m[0] / m[1] * 0.95).toFixed(1) + 'px'; });
   }
   passe(); if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(passe);
   var pt = 0; addEventListener('resize', function () { clearTimeout(pt); pt = setTimeout(passe, 120); });
