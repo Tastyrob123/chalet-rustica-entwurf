@@ -469,3 +469,7 @@ html:has(body.re){scroll-padding-bottom:96px}
 
 /* Prüfung 20.11.2026, Prüfpunkt 37: Art der Anfrage in der Liste am Handy umbrechen statt über den Rand */
 @media (max-width:600px){.re-a__k,.re-a__k .re-gl{white-space:normal}}
+
+/* Prüfung 20.11.2026, Prüfpunkt 21: Zwischentitel schweben nur kurz herein (nicht über die Bilder darunter) */
+.wo-zw.re-auf{animation-name:re-auf-kurz}
+@keyframes re-auf-kurz{from{transform:translate3d(0,6px,0)}}
