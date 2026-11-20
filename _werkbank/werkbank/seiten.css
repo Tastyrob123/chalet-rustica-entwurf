@@ -170,3 +170,4 @@
 /* Prüfung 20.11.2026, Prüfpunkte 18/37: Drucksachen-Abstände und Wohnungsnamen in den Titeln auf breiten Bildschirmen */
 :root{--abschnitt:clamp(92px,10.6vw,140px)}
 .stueck .t2{font-size:clamp(1.9rem,3.2vw,3rem)}
+.sk .t1 em{font-size:.95em}
