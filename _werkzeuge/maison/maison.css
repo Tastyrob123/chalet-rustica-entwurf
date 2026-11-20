@@ -530,3 +530,6 @@ body.ma{margin:0;background:var(--raum);color:var(--tinte);font:400 17px/1.62 va
 
 /* Prüfung 20.11.2026, Prüfpunkt 35: Bildschirme und Text der Säle enden auf einer Linie */
 .m-saal__feld{align-items:end!important}
+
+/* Prüfung 20.11.2026, Prüfpunkt 21: Auftakt des Kontrollpanels, Zeilen schweben nur kurz herein und kreuzen sich nicht */
+@keyframes m5auf{from{transform:translate3d(0,8px,0)}}
