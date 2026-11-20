@@ -154,3 +154,6 @@
 .ublatt--alt .ublatt__b img{width:100%;height:100%;object-fit:cover}
 /* Nachzug 14.11.2026 (Prüfpunkt 20): am schmalen Handy eine Spalte, die Sätze unter den Stücken laufen über die ganze Breite */
 @media(max-width:440px){.etk{grid-template-columns:minmax(0,1fr)}.etk p{max-width:32ch}}
+
+/* Prüfung 20.11.2026, Prüfpunkt 35: Auftakt der Beigaben-Seiten, Text und Blätter enden auf einer Linie */
+.in:has(>.auslage--pdf){align-items:end}
