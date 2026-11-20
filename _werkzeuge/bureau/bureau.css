@@ -300,3 +300,6 @@ textarea.ws-langfeld{display:block;width:100%;box-sizing:border-box;resize:none;
 }
 /* Handy (Blatt 88 px breit): der Name der Wohnung passte nicht ins Blatt («ALMAGELLERHORN» schnitt ab); er steht ohnehin im Feld «Wohnung» daneben. Tage etwas kleiner. */
 @media (max-width:860px){.cu-jw .cu-jw__mit,.cu-jw .cu-jw__ro{display:none}.cu-jw__tage{font-size:24px}.cu-jw__monat{font-size:13px}}
+
+/* Prüfung 20.11.2026, Prüfpunkte 13/34: neun Bereiche immer 3+3+3, nie 4+4+1 auf breiten Bildschirmen */
+@media (min-width:1000px){.ws-bereiche:has(>.wo-bk:nth-child(9):last-child){grid-template-columns:repeat(3,minmax(0,1fr))}}
