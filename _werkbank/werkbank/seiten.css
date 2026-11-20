@@ -160,3 +160,9 @@
 
 /* Prüfung 20.11.2026, Prüfpunkt 35: Fläche der Blätter so hoch wie die Blätter, damit sie mit dem Text auf einer Linie enden */
 .auslage--pdf{aspect-ratio:1/.62}
+
+/* Prüfung 20.11.2026, Prüfpunkt 37: lange Wohnungsnamen in den Titeln der Drucksachen bleiben in ihrer Spalte */
+.stueck .t2{font-size:clamp(1.9rem,3.2vw,3.4rem)}
+
+/* Prüfung 20.11.2026, Prüfpunkt 37: lange zweite Titelzeile im Auftakt der Beigaben (Untersetzer, Sticker) bleibt in ihrer Spalte */
+.sk .t1 em{letter-spacing:-.02em}

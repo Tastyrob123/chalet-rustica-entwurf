@@ -1432,3 +1432,7 @@ html.cv-alle main>section.fl:not(#brief){content-visibility:visible}   /* das Ge
 .vh-feld{align-items:end}
 @media (max-width:1360px){.hs2-chip b{font-size:15px}}
 .fuss .r.mono,.fuss .r.mono span,.fuss .r.mono a{font-size:14px!important;letter-spacing:.12em!important}
+
+/* Prüfung 20.11.2026, Prüfpunkt 36: Etiketten im Befund und Knöpfe ohne eigene Beschriftung lesbar */
+.bfs-wo b,.bfs-f dl dt{font-size:14px!important;letter-spacing:.12em!important}
+.kn{font-size:15px;letter-spacing:.12em}
