@@ -459,3 +459,10 @@ html:has(body.re){scroll-padding-bottom:96px}
 /* beide Spalten gleich hoch: die Anfragen links verteilen sich über die Höhe der Fläche rechts, keine Leerfläche darunter */
 @media (min-width:1181px){.re-start{align-items:stretch}.re-start > .re-start__sp:first-child{display:flex;flex-direction:column}.re-start > .re-start__sp:first-child > .re-liste{flex:1;justify-content:space-between}}
 @media (max-width:1180px){.re-start > .re-start__sp:first-child{padding:0}}   /* untereinander braucht nur die Fläche ihren Innenabstand; die Anfragen behalten ihre volle Breite */
+
+/* Prüfung 20.11.2026: volle Reihen und nichts abgeschnitten (Filter 2+2 statt 3+1, Abteilungen in zwei festen Spalten, Hinweis im Brief bricht um) */
+.re-filter{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.re-abt{grid-template-columns:repeat(2,minmax(0,1fr))}
+.re-abt button span{white-space:normal;line-height:1.3}
+.gs-hinweis{flex-wrap:wrap;white-space:normal}
+.gs-hinweis>#gs-name{white-space:normal;min-width:0;flex:1 1 320px;overflow:visible;text-overflow:clip}
