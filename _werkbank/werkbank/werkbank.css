@@ -1436,3 +1436,7 @@ html.cv-alle main>section.fl:not(#brief){content-visibility:visible}   /* das Ge
 /* Prüfung 20.11.2026, Prüfpunkt 36: Etiketten im Befund und Knöpfe ohne eigene Beschriftung lesbar */
 .bfs-wo b,.bfs-f dl dt{font-size:14px!important;letter-spacing:.12em!important}
 .kn{font-size:15px;letter-spacing:.12em}
+
+/* Prüfung 20.11.2026, Prüfpunkt 37: Beschriftung der Karten-Blätter bricht um statt abgeschnitten, Kartentitel auf breiten Bildschirmen in seiner Spalte */
+.blattk span{white-space:normal;flex-wrap:wrap;row-gap:2px}
+.karten-kopf .t2{font-size:clamp(2.1rem,3.9vw,3.7rem)}
