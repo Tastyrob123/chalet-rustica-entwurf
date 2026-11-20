@@ -157,3 +157,6 @@
 
 /* Prüfung 20.11.2026, Prüfpunkt 35: Auftakt der Beigaben-Seiten, Text und Blätter enden auf einer Linie */
 .in:has(>.auslage--pdf){align-items:end}
+
+/* Prüfung 20.11.2026, Prüfpunkt 35: Fläche der Blätter so hoch wie die Blätter, damit sie mit dem Text auf einer Linie enden */
+.auslage--pdf{aspect-ratio:1/.62}

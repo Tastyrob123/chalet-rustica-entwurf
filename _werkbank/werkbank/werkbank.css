@@ -1427,3 +1427,8 @@ html.cv-alle main>section.fl:not(#brief){content-visibility:visible}   /* das Ge
 
 /* Prüfung 20.11.2026, Prüfpunkt 18: Abstand zwischen Abschnitten auf breiten Bildschirmen (1728/1920) höchstens 150 px je Seite, bei 1440 unverändert */
 :root{--abschnitt:clamp(92px,10.6vw,150px)}
+
+/* Prüfung 20.11.2026: Vergleich heute/neu endet auf einer Linie (Prüfpunkt 35), Farbname «Schokolade» bleibt in seinem Feld (37), Kontakt im Fuss der Beigaben 14 px (36) */
+.vh-feld{align-items:end}
+@media (max-width:1360px){.hs2-chip b{font-size:15px}}
+.fuss .r.mono,.fuss .r.mono span,.fuss .r.mono a{font-size:14px!important;letter-spacing:.12em!important}
